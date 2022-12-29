@@ -1,0 +1,46 @@
+﻿###### These are all commented out examples. See the vanilla version of this file for more.
+
+### State geography triggers
+
+#state_is_in_examplia = {
+#	region = sr:region_example_strategic_region
+#}
+
+### Country geography triggers
+# exists = capital checks are necessary only because we may test these triggers and scope switch to capitals before states are initialized properly
+
+#country_is_in_examplia = {
+#	exists = capital
+#	capital = {
+#		state_is_in_examplia = yes
+#	}
+#}
+###########
+
+### Climate triggers
+
+# Rather than replacing these with renamed example versions, I'll just leave the vanilla versions in but commented out.
+
+#is_arabic_farmland = {
+#	OR = {
+#		region = sr:region_anatolia
+#	}
+#}
+
+#is_asian_farmland = {
+#	OR = {
+#		region = sr:region_indochina
+#	}
+#}
+
+#is_subtropic_farmland = {
+#	OR = {
+#		region = sr:region_mexico
+#	}
+#}
+
+#is_arid_region = {
+#	OR = {
+#		region = sr:region_oceania
+#	}
+#}

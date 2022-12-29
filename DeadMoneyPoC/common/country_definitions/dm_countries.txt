@@ -1,0 +1,37 @@
+
+# Shady Sands
+SHD = {
+	color = { 147 130 110 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { yankee }
+	capital = STATE_CALIFORNIA
+	is_named_from_capital = yes
+}
+
+# Debugia
+DBG = {
+	color = hsv{ 0.99  0.7  0.9 }
+
+	country_type = recognized
+
+	tier = principality	
+	
+	cultures = { mexican }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
+# Emptyia
+EMP = {
+	color = { 142 80 55 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { oodham }
+	capital = STATE_NEVADA
+}

@@ -1,0 +1,38 @@
+﻿POPS = {
+	s:STATE_CALIFORNIA = {
+		region_state:SHD = {
+			create_pop = {
+				culture = oodham
+				size = 300
+			}
+			create_pop = {
+				culture = mexican
+				size = 150
+			}
+			create_pop = {
+				culture = yankee
+				size = 1500
+			}
+		}
+	}
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:DBG = {
+			create_pop = {
+				culture = mexican
+				size = 1500
+			}
+			create_pop = {
+				culture = oodham
+				size = 1040
+			}
+		}
+	}
+	s:STATE_NEVADA = {
+		region_state:EMP = {
+			create_pop = {
+				culture = oodham
+				size = 550
+			}
+		}
+	}
+}

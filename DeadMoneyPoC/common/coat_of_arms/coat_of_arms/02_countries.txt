@@ -1,0 +1,33 @@
+@semy = 0.25
+@third = @[1/3]
+@fifth = @[1/5]
+@sixth = @[1/6]
+
+@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+
+@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
+@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
+
+@uru_canton_height = 0.556
+@NZL_coa_offset = @[3/16] 
+0.3 = 0.16
+
+###### EXAMPLE ######
+
+#EXA = {
+#	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
+#	color1 = "white" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
+#	textured_emblem = { #Adds a textured emblem.
+#		texture = "te_coa_bahamas.dds" #From gfx\coat_of_arms\textured_emblems
+#		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+#	}
+#	colored_emblem = { #Adds a colored emblem.
+#		texture = "ce_coa_frame_costa_rica.dds" #From gfx\coat_of_arms\textured_emblems
+#		color1 = "red"
+#		color2 = color1 #You can tell it to just use the same base color1 (in this case "white").
+#		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+#	}
+#}
+
+#####################
