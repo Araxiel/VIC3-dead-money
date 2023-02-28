@@ -1,0 +1,52 @@
+
+NGame = {
+	START_DATE = "2186.1.1" 
+	END_DATE = "2286.1.1" 
+}
+
+# Essentially, vanilla pop standards divided by 20, or only 5% of vanilla
+
+NPolitics = {
+	MIN_POP_SIZE_TO_SECEDE = 2500		# Num pops (including dependents) needed for a secession movement to start	- Default: 100000
+}
+
+NEconomy = {
+	SLAVE_TRADE_MIN_VACANCIES_NEEDED_TO_IMPORT = 10 	# There needs to be at least this many (non-subsistence) vacancies in buildings that can be filled by slaves in order for slave import to happen 	- Default: 500
+	SLAVE_TRADE_MIN_POPULATION_TO_EXPORT = 500	 	# There needs to be at least this many people in the state in order for it to be selected, or remain valid, as a slave import target 	- Default: 100000
+
+}
+
+NMilitary = {
+	MANPOWER_DIVISOR = 500 		# the strategic goods needed by soldiers are counted in sets of	- Default: 10000
+	MIN_MANPOWER_CASUALTY_PER_ROUND = 1		# Minimum manpower losses per round	- Default: 5
+}
+
+NDiplomacy = {
+	SWAY_OFFER_WARGOAL_MANEUVERS_COST_POPULATION_SCALING_FACTOR = 500 # The amount of population by which the factor below is multiplied	- Default: 10000
+	WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR = 500 # The amount of population by which the factor below is multiplied	- Default: 10000
+}
+
+NPops = {
+	POP_SIZE_PACKAGE = 500					# "Normal" pop size used as a divisor on population when determining e.g. Needs to buy, wages to pay, etc	- Default: 10000
+	MIN_POPS_FOR_NEW_OBSESSION = 1000			# At least this many pops of a culture must live in a market to get an obsession from its goods	- Default: 50000
+	LOW_POP_THRESHOLD = 250					# If a state has less than this amount of pops per arable land, apply the low pop modifier	- Default: 5000
+	HIGH_POP_THRESHOLD = 5000					# If a state has more than this amount of pops per arable land, apply the high pop modifier	- Default: 100000
+
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 5000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation	- Default: 100000
+	MIGRATION_MIN_STATE_POPS = 1000							# A state with less pops than this will not get emigration	- Default: 20000
+	MIGRATION_MIN_POP_AMOUNT = 1								# No less than this amount of a pop can migrate each week (if any migration at all should happen)	- Default: 1
+	MIGRATION_MAX_POP_AMOUNT = 500							# No more than this amount of a pop can migrate each week	- Default: 10000
+	MIGRATION_MAX_PER_STATE_BASE = 25							# No more than this amount of people can move from or to a state in a single week (base)		- Default: 500
+	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 1					# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)	- Default: 2
+	MASS_MIGRATION_ORIGIN_MIN_EMIGRANTS = 5000		# A country must have at least this many possible migrants to trigger a mass migration	- Default: 100000
+	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 5000			# Multiply state_infrastructure_from_population_add by this to determine infra from population	- Default: 100000
+	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 500			# How many pops can be taxed efficiently for each tax capacity	- Default: 10000
+
+	POP_MERGE_MAX_WORKFORCE = 3						# Pops with workforce smaller than this may get merged with other pops of the same type in their building / unemployment pool; if zero, no small pop merging will occur, which may have an adverse effect on late-game performance	- Default: 30
+}
+
+NBattle = {
+	#CASUALTY_MAJORITY_CULTURE_WEIGHT = 1.5			# Majority culture pops will be weighted to take 1.5x more casualties	- Default: 1.5
+	CASUALTY_ROLL_MIN = 4							# min ...	- Default: 50
+	CASUALTY_ROLL_MAX = 15							# max amount of casualties a unit can take each roll when applying casualties to units	- Default: 200
+}
