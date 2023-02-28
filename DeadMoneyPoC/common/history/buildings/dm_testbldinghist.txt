@@ -1,5 +1,5 @@
 BUILDINGS={
-		s:STATE_CALIFORNIA={
+		s:STATE_NORTHWESTCALI={
 		region_state:SHD={
 			create_building={
 				building="building_livestock_ranch"

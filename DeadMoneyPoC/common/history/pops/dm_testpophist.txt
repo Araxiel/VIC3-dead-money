@@ -1,5 +1,5 @@
 ﻿POPS = {
-	s:STATE_CALIFORNIA = {
+	s:STATE_NORTHWESTCALI = {
 		region_state:SHD = {
 			create_pop = {
 				culture = oodham
@@ -15,7 +15,7 @@
 			}
 		}
 	}
-	s:STATE_BAJA_CALIFORNIA = {
+	s:STATE_NORTHMIDDLECALI = {
 		region_state:DBG = {
 			create_pop = {
 				culture = mexican
@@ -27,7 +27,7 @@
 			}
 		}
 	}
-	s:STATE_NEVADA = {
+	s:STATE_NORTHSOUTHCALI = {
 		region_state:EMP = {
 			create_pop = {
 				culture = oodham

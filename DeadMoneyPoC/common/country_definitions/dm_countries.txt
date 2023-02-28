@@ -8,7 +8,7 @@ SHD = {
 	tier = principality
 	
 	cultures = { yankee }
-	capital = STATE_CALIFORNIA
+	capital = STATE_NORTHWESTCALI
 	is_named_from_capital = yes
 }
 
@@ -21,7 +21,7 @@ DBG = {
 	tier = principality	
 	
 	cultures = { mexican }
-	capital = STATE_BAJA_CALIFORNIA
+	capital = STATE_NORTHWESTCALI
 }
 
 # Emptyia
@@ -33,5 +33,5 @@ EMP = {
 	tier = principality
 	
 	cultures = { oodham }
-	capital = STATE_NEVADA
+	capital = STATE_NORTHWESTCALI
 }

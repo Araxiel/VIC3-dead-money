@@ -1,0 +1,77 @@
+# Vaanilla entries to get rid of some error spam
+
+chinese_manchu_queue_hairstyle_character_trigger = { # hairsyle for Manchu characters not living living under discriminatory Han rule, and Han characters living under discriminatory Manchu rule
+	exists = scope:character
+	scope:character = {
+		OR = {
+			AND = {
+				owner = { 
+					ruler = { 
+						has_culture = cu:manchu 
+					}
+					NOT = { 
+						has_law = law_type:law_multicultural
+					}
+				}
+				culture = { 
+					has_discrimination_trait = han_chinese 
+				}
+			}
+			AND = {
+				NOT = {
+					owner = { 
+						ruler = { 
+							culture = { 
+								has_discrimination_trait = han_chinese 
+							}
+						}
+						cu:manchu = {
+							NOT = { 
+								culture_is_discriminated_in = scope:character.owner 
+							}
+						}
+					}
+				}
+				culture = cu:manchu
+			}
+		}
+	}
+}
+
+chinese_manchu_queue_hairstyle_pops_trigger = { # hairsyle for Manchu pops not living living under discriminatory Han rule, and Han pops living under discriminatory Manchu rule
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			AND = {
+				owner = { 
+					ruler = { 
+						has_culture = cu:manchu 
+					}
+					NOT = { 
+						has_law = law_type:law_multicultural
+					}
+				}
+				culture = { 
+					has_discrimination_trait = han_chinese 
+				}
+			}
+			AND = {
+				NOT = {
+					owner = { 
+						ruler = { 
+							culture = { 
+								has_discrimination_trait = han_chinese 
+							}
+						}
+						cu:manchu = {
+							NOT = { 
+								culture_is_discriminated_in = scope:pop.owner 
+							}
+						}
+					}
+				}
+				culture = cu:manchu
+			}
+		}
+	}
+}

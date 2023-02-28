@@ -1,0 +1,4 @@
+﻿STATE_CALIFORNIASEA = {
+    id = 3000
+    provinces = { "x000000" "x0023B8" }
+}

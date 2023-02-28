@@ -1,0 +1,7 @@
+﻿# Strategic Regions in North America
+
+region_cali = {
+	capital_province = x7774E1
+	map_color = { 0.21 0.81 0.82 }
+	states = { STATE_NORTHWESTCALI STATE_NORTHMIDDLECALI STATE_NORTHSOUTHCALI }
+}

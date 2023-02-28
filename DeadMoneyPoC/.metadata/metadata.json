@@ -29,7 +29,8 @@
       "common/history/states",
       "common/history/trade_routes",
       "events",
-      "events/american_civil_war"
+      "events/american_civil_war",
+	  "map_data"
     ]
   }
 }
