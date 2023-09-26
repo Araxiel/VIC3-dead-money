@@ -2,6 +2,12 @@
 
 # prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum.
 
+# material
+# consumer_goods
+# water_good
+# security_good
+# meals
+
 ###
 #	Staple
 ###

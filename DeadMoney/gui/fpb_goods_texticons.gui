@@ -1,0 +1,49 @@
+texticon = {
+	icon = material
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/wood.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = consumer_goods
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/clothes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = water_good
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/oil.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = security_good
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = meals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/groceries.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
