@@ -1,0 +1,26 @@
+building_input_capsGoood_add = {
+	good = yes
+	percent = no
+}
+building_output_capsGoood_add = {
+	good = yes
+	percent = no
+}
+
+
+building_input_raiderTribute_add = {
+	good = no
+	percent = no
+}
+
+building_output_raiderTribute_add = {
+	good = no
+	percent = no
+}
+
+
+# Not present in vanilla
+building_input_luxury_clothes_add = {
+	good = no
+	percent = no
+}

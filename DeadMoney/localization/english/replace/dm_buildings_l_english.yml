@@ -1,0 +1,16 @@
+﻿l_english: 
+
+  raiderTribute: "Raider Tributes"
+  raiderTribute_desc: "Raider Tributes the locals are forced to pay."
+  capsGoood: "Caps"
+  capsGoood_desc: "Bottle caps found through scavenging."
+
+  modifier_building_output_raiderTribute_add: "@raiderTribute! $raiderTribute$ output per level"
+  modifier_building_output_raiderTribute_add_desc: "The amount of @raiderTribute! $raiderTribute$ produced by buildings"
+
+  modifier_building_output_capsGoood_add: "@capsGoood! $capsGoood$ output per level"
+  modifier_building_output_capsGoood_add_desc: "The amount of @capsGoood! $capsGoood$ produced by buildings"
+
+  # Doesn't exist in vanilla
+  modifier_building_input_luxury_clothes_add: "@luxury_clothes! Luxury Clothes input per level"
+  modifier_building_input_luxury_clothes_add_desc: "The amount of @luxury_clothes! Luxury Clothes consumed by buildings"
