@@ -2,18 +2,15 @@
     id = 100
     subsistence_building = "building_subsistence_farms"
     provinces = { "x669ABF" "x6DDAD0" "x71DC82" "x7A8272" "x7A96AA" "x84EDF8" "x85F59C" "x968FDB" "x96AFBF" "x9EE9EB" "x9FA595" "xA7848A" "xA8D46D" "xBAE6C9" "xC08084" "xD6E7BC" "xD76FF1" "xE1A1B5" "xE8C4DC" "xEF6FAD" "xFDBED2" "xFDE66C" }
-    traits = { "state_trait_ural_mountains" }
     city = "xa8d46d"
     farm = "x9ee9eb"
     mine = "xa7848a"
     wood = "x6ddad0"
-    arable_land = 40
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    arable_land = 41
+    arable_resources = { "bg_wheat_farms" }
     capped_resources = {
-        bg_coal_mining = 5
-        bg_iron_mining = 5
-        bg_lead_mining = 5
-        bg_logging = 5
+        bg_salvage_buildings = 5
+        bg_water_facilities = 5
     }
 }
 
@@ -26,13 +23,11 @@ STATE_NORTHMIDDLECALI = {
     farm = "xfde66c"
     mine = "x669abf"
     wood = "x71dc82"
-    arable_land = 40
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
     capped_resources = {
-        bg_coal_mining = 5
-        bg_iron_mining = 5
-        bg_lead_mining = 5
-        bg_logging = 5
+        bg_salvage_buildings = 5
+        bg_water_facilities = 5
     }
 }
 
@@ -40,17 +35,14 @@ STATE_NORTHSOUTHCALI = {
     id = 102
     subsistence_building = "building_subsistence_farms"
     provinces = { "x71B575" "x79EA9F" "x7AB39C" "x7F7873" "x8C86B6" "x989C82" "xA9A0C4" "xB5EEE0" "xD1749D" "xDDAFEB" "xF1E5D2" }
-    traits = { "state_trait_ural_mountains" }
     city = "xe8c4dc"
     farm = "X6ddad0"
     mine = "X96afbf"
     wood = "xe1a1b5"
-    arable_land = 40
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    arable_land = 39
+    arable_resources = { "bg_wheat_farms" }
     capped_resources = {
-        bg_coal_mining = 5
-        bg_iron_mining = 5
-        bg_lead_mining = 5
-        bg_logging = 5
+        bg_salvage_buildings = 5
+        bg_water_facilities = 5
     }
 }

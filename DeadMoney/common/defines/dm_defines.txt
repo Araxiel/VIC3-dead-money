@@ -50,3 +50,14 @@ NBattle = {
 	CASUALTY_ROLL_MIN = 4							# min ...	- Default: 50
 	CASUALTY_ROLL_MAX = 15							# max amount of casualties a unit can take each roll when applying casualties to units	- Default: 200
 }
+
+NCountry = {
+	DEFAULT_SUBSISTENCE_BUILDING = "building_subsistence_farms"
+	CONSTRUCTION_CAMP_BUILDING = "building_construction_sector"
+	BARRACKS_BUILDING = "building_barracks"
+	NAVAL_BASE_BUILDING = "building_naval_base"
+	URBAN_CENTER_BUILDING = "building_urban_center"
+	CONSCRIPTION_CENTER_BUILDING = "building_conscription_center"
+	TRADE_CENTER_BUILDING = "building_trade_center"
+	RAILWAY_BUILDING = "building_railway"
+}
