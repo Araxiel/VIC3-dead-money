@@ -1,0 +1,241 @@
+﻿## Vanilla overrides
+## Numbers all over the place and untested
+
+default_building_subsistence_farms = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	
+	building_modifiers = {
+		workforce_scaled = { # 85
+			building_subsistence_output_add = 4
+			goods_output_grain_add = 1.5
+			goods_output_water_add = 0.25
+			goods_output_material_add = 0.25
+			goods_output_consumer_goods_add = 0.5
+			goods_output_services_add = 0.5
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 250
+		}
+	}
+}
+
+pm_privately_owned_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		# law_unorganized
+		law_collectivized_agriculture
+		law_command_economy
+		law_homesteading
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_aristocrats_add = 10
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 10
+		}
+	}
+}
+
+pm_homesteading_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/homesteading.dds" 
+	
+	unlocking_laws = {
+		law_homesteading
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_soldiers_add = 10
+			building_employment_aristocrats_add = 5
+			building_employment_farmers_add = 5
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 10
+			building_soldiers_shares_add = 2
+			building_farmers_shares_add = 3
+		}
+	}
+}
+
+pm_self_run_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_collectivized_agriculture
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_peasants_add = 20
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}
+
+pm_government_run_building_subsistence = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+
+	unlocking_laws = {
+		law_collectivized_agriculture
+	}
+
+	#disallowing_laws = {
+	#	# law_unorganized
+	#}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 150
+			building_employment_bureaucrats_add = 100
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_basic_farming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_grain_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_farmers_add = 30
+		}
+	}
+}
+
+pm_improved_farming = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 15
+			
+			# output goods
+			goods_output_grain_add = 45
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 180
+			building_employment_farmers_add = 50
+		}
+	}
+}
+
+
+pm_privately_owned_farms = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		# law_unorganized
+		law_homesteading
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_soldiers_add = 10
+			building_employment_aristocrats_add = 10
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 10
+		}
+	}
+}
+
+pm_homesteading_owned_farms = {
+	texture = "gfx/interface/icons/production_method_icons/homesteading.dds" 
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_soldiers_add = 10
+			building_employment_farmers_add = 10
+		}
+		unscaled = {
+			building_soldiers_shares_add = 2
+			building_farmers_shares_add = 8
+		}
+	}
+}
+
+pm_basic_water_wells = {
+	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_water_good_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 50
+		}
+	}
+}
+
+pm_improved_water_wells = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 10
+			
+			# output goods
+			goods_output_water_good_add = 50
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 90
+			building_employment_engineers_add = 10
+		}
+	}
+}
+
+pm_basic_salvaging = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_material_add = 30
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 200
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_improved_salvaging = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_security_good_add = 10
+			
+			# output goods
+			goods_output_material_add = 50
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 50
+			building_employment_laborers_add = 250
+		}
+	}
+}
