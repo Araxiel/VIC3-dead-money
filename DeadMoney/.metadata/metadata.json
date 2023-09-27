@@ -32,7 +32,7 @@
       "common/history/trade_routes",
       "events",
       "events/american_civil_war",
-	  "map_data"
+	    "map_data"
     ]
   }
 }
