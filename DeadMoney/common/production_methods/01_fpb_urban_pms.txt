@@ -1,4 +1,4 @@
-## Construction
+﻿## Construction
 pm_basic_buildings = {
 	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
 	
@@ -321,7 +321,6 @@ pm_simple_organization = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_bureaucracy_add = 35
-
 		}
 	}	
 	
@@ -333,7 +332,7 @@ pm_simple_organization = {
 
 	building_modifiers = {	
 		level_scaled = {
-			building_employment_clerks_add = 4000
+			building_employment_clerks_add = 20
 		}
 	}		
 }		
@@ -363,7 +362,7 @@ pm_horizontal_drawer_cabinets = {
 		}			
 	
 		level_scaled = {
-			building_employment_clerks_add = 4000
+			building_employment_clerks_add = 20
 		}
 	}		
 }

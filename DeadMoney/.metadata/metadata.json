@@ -11,6 +11,8 @@
     "replace_paths": [
       "common/buildings",
       "common/pop_needs",
+      "common/production_method_groups",
+      "common/production_methods",
       "common/character_templates",
       "common/coat_of_arms/coat_of_arms",
       "common/country_creation",

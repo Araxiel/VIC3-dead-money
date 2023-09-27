@@ -1,51 +1,51 @@
-building_input_material_add = {
+﻿goods_input_material_add = {
 	good = no
 	percent = no
 }
-building_output_material_add = {
+goods_output_material_add = {
 	good = yes
 	percent = no
 }
 
-building_input_consumer_goods_add = {
+goods_input_consumer_goods_add = {
 	good = no
 	percent = no
 }
-building_output_consumer_goods_add = {
+goods_output_consumer_goods_add = {
 	good = yes
 	percent = no
 }
 
-building_input_water_good_add = {
+goods_input_water_good_add = {
 	good = no
 	percent = no
 }
-building_output_water_good_add = {
+goods_output_water_good_add = {
 	good = yes
 	percent = no
 }
 
-building_input_security_good_add = {
+goods_input_security_good_add = {
 	good = no
 	percent = no
 }
-building_output_security_good_add = {
+goods_output_security_good_add = {
 	good = yes
 	percent = no
 }
 
-building_input_meals_add = {
+goods_input_meals_add = {
 	good = no
 	percent = no
 }
-building_output_meals_add = {
+goods_output_meals_add = {
 	good = yes
 	percent = no
 }
 
 
 # Not present in vanilla
-building_input_luxury_clothes_add = {
+goods_input_luxury_clothes_add = {
 	good = no
 	percent = no
 }

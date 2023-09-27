@@ -1,7 +1,7 @@
-bg_wheat_farms = {
+﻿bg_wheat_farms = {
 	parent_group = bg_agriculture
 	
-	default_building = building_wheat_farm
+	default_building = building_farm
 	
 	cash_reserves_max = 25000
 }

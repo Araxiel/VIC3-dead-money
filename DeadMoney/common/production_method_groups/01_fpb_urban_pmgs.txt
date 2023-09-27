@@ -1,19 +1,11 @@
-﻿## Vanilla overrides
-# pmg_base_building_construction_sector
+﻿### Vanilla overrides
 # pmg_amenities
-# pmg_base_building_trade_center
 # pmg_ownership_building_trade_center
-##
-
-pmg_base_building_construction_sector = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_basic_buildings
-		pm_improved_buildings
-	}
-}
+###
+## Other files
+# pmg_base_building_construction_sector
+# pmg_base_building_trade_center
+###
 
 pmg_amenities = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -23,16 +15,6 @@ pmg_amenities = {
 	}
 }
 
-pmg_base_building_trade_center = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_trade_center
-	}
-}
-
-
 pmg_ownership_building_trade_center = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
@@ -41,7 +23,6 @@ pmg_ownership_building_trade_center = {
 		pm_trade_center_merchant_guilds
 	}
 }
-
 
 ## New FPB
 # pmg_base_food_industry

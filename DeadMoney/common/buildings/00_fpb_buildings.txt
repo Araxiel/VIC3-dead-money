@@ -1,4 +1,4 @@
-## Subsistance
+﻿## Subsistance
 
 building_subsistence_farms = {
 	building_group = bg_subsistence_agriculture

@@ -1,4 +1,4 @@
-### Vanilla Overrides
+﻿### Vanilla Overrides
 # pmg_base_building_subsistence_farms
 # pmg_ownership_building_subsistence
 ###
