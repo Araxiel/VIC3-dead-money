@@ -11,7 +11,7 @@
 			}
 			create_pop = {
 				culture = yankee
-				size = 1500
+				size = 2000
 			}
 		}
 	}

@@ -1,0 +1,22 @@
+POPULATION = {
+	c:SHD = {
+		
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+		
+	}
+
+	c:DBG = {
+		
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_low = yes
+		
+	}
+
+	c:EMP = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+}
