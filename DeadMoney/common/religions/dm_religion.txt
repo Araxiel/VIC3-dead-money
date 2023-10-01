@@ -1,0 +1,79 @@
+﻿# Old World Blues and New World Hope are big umbrella terms for the general "agnosticism" or "atheism" that most characters in the games have. The 
+
+religion_oldworldblues = {
+	traits = {
+		postwar
+	}
+	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_newworldhope = {
+	traits = {
+		postwar
+	}
+	texture = "gfx/interface/icons/religion_icons/coptic.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_brotherhoodofsteel = {
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_dharma = {
+	traits = {
+		postwar
+		eastern
+	}
+	texture = "gfx/interface/icons/religion_icons/hindu.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_childrenoftheatom = {
+	traits = {
+		postwar
+	}
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_enclave = {
+	traits = {
+		prewaramerican
+	}
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_communistchina = {
+	traits = {
+		prewarchina
+	}
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_ugqualtoth = {
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_hubology = {
+	traits = {
+		prewaramerican
+		postwar
+	}
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_raider = {
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}
+
+religion_roman = {
+	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
+	color = { 1.0 1.0 1.0 }
+}

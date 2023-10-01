@@ -1,0 +1,25 @@
+﻿l_english: 
+
+  #buildings
+  building_food_industry: "Food Industries"
+  building_food_industry_lens_option: "Expand $building_food_industry$"
+
+  # religion
+  concept_religion: "Ideoligion"
+  concept_religions: "Ideoligions"
+  concept_religion_desc: "All [Concept('concept_pop', '$concept_pops$')] have a $concept_religion$, which can only change through [concept_conversion]. Their $concept_religion$ determines whether they are [Concept('concept_discrimination','$concept_discriminated_against$')] in their [concept_country] or not."
+
+  concept_accepted_religion: "Accepted $concept_religion$"
+  concept_accepted_religions: "Accepted $concept_religions$"
+  concept_accepted_religion_short: "Accepted"
+  concept_accepted_religion_desc: "A [Concept('concept_country','$concept_country_possessive$')] $concept_accepted_religions$ consists of its [concept_state_religion], plus any other [Concept('concept_religion','$concept_religions$')] considered $concept_accepted_religion_short$ due to the $concept_country$'s current [SelectLocalization(GetPlayer.IsValid,'concept_accepted_religion_desc_added','Church and State')] [concept_law]."
+  concept_accepted_religion_desc_added: "[GetLawType('law_state_religion').GetGroup.GetName]"
+
+  concept_state_religion: "State $concept_religion$"
+  concept_state_religion_desc: "The [concept_religion] most associated with a [concept_country]. It is typically the dominant [concept_religion] adhered to by most of its [Concept('concept_pop', '$concept_pops$')], but can sometimes be legally declared or simply the $concept_religion$ preferred by its [concept_ruler]. It does not typically change.[AddLocalizationIf(GetPlayer.IsValid, 'concept_state_religion_ingame_added')]"
+  concept_state_religion_ingame_added: "\n\nThe $concept_state_religion$ in [GetPlayer.GetName] is [GetPlayer.GetStateReligion.GetName]."
+
+  concept_religious_trait: "Ideoligious Trait"
+  concept_religious_traits: "Ideoligious Traits"
+  concept_religious_trait_desc: "Aspects of a [concept_religion], such as its major Ideoligious group. The similarity between the $concept_religious_traits$ of a [Concept('concept_country','$concept_country_possessive$')] [concept_state_religion] and the $concept_religion$ adhered to by a [concept_pop], combined with the $concept_country$'s current [SelectLocalization(GetPlayer.IsValid,'concept_religious_trait_desc_added','Church and State')] [concept_law], determines whether the $concept_pop$ is [Concept('concept_discrimination','$concept_discriminated_against$')] or not."
+  concept_religious_trait_desc_added: "[GetLawType('law_state_religion').GetGroup.GetName]"
