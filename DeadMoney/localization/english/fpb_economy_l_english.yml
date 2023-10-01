@@ -51,8 +51,6 @@
   modifier_goods_input_meals_add_desc: "The amount of @meals! $meals$ consumed by buildings"
 
   #buildings
-  building_food_industry: "Food Industries"
-  building_food_industry_lens_option: "Expand $building_food_industry$"
   building_farm: "Farm"
   building_farm_lens_option: "Expand $building_farm$"
   building_water_well: "Water Well"
