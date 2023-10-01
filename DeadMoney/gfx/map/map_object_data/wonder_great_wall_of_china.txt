@@ -1,0 +1,108 @@
+﻿object={
+	name="wonder_wallofchina_01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_01_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_02"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_02_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_03"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_03_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_04"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_04_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_05"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_05_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_06"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_06_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_07"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_07_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_08"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_08_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchina_09"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchina_09_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchinaend_01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchinaend_01_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchinaend_02"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchinaend_02_mesh"
+	count=0
+}
+object={
+	name="wonder_wallofchinatower_01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="wonder_wallofchinatower_01_mesh"
+	count=0
+}

@@ -1,0 +1,31 @@
+﻿STATE_THEDEN = {
+    id = 301
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x80CEF0" "x83EE9D" "x85F5D9" "x89879C" "x9A9AB0" "xB0717A" "xB29DD3" "xB38ACB" "xB3F29A" "xBC91E4" "xC975DF" "xCA689A" "xD0D2D9" "xDD7BA4" "xDEE9F0" "xE8E390" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
+STATE_ARROYO = {
+    id = 302
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x64BBA2" "x70ADF3" "x728893" "x73AFC0" "x7E798B" "x81B99E" "x8D7EB5" "x91D688" "xADF9F6" "xB98DF3" "xBC8C9C" "xC3BD92" "xDBAEA5" "xDF75BA" "xDF7BF0" "xE4B1A7" "xE79BCF" "xFE98A8" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}

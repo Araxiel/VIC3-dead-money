@@ -1,0 +1,36 @@
+﻿object={
+	name="baobab_generator_2_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_baobab_01_mesh"
+	count=0
+}
+object={
+	name="baobab_generator_2_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_baobab_02_mesh"
+	count=0
+}
+object={
+	name="baobab_generator_2_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_baobab_03_mesh"
+	count=0
+}
+object={
+	name="baobab_generator_2_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_baobab_04_mesh"
+	count=0
+}

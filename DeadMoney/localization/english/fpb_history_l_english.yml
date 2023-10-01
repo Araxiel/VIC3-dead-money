@@ -1,9 +1,10 @@
 ﻿l_english: 
 
-  STATE_NORTHWESTCALI: "North West California"
-  STATE_NORTHMIDDLECALI: "North Middle California"
-  STATE_NORTHSOUTHCALI: "North South California"
-
   SHD: "Shady Sands"
-  DBG: "Debugistan"
-  EMP: "Emptinion"
+  NRN: "New Reno"
+  JNT: "Junktown"
+
+  STATE_SHADYSANDS_city: "Shady Sands"
+  STATE_SHADYSANDS_farm: "Brown Earth"  ## fanfiction
+  STATE_SHADYSANDS_mine: "Mountain"
+  STATE_SHADYSANDS_wood: "Onepine"

@@ -1,0 +1,24 @@
+﻿object={
+	name="cypress_mediterranean_sparse_generator_2_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_cypress_mediterranean_02_mesh"
+	count=3
+	transform="4962.735840 0.000000 2355.512451 0.000000 0.259928 0.000000 0.965628 0.191092 0.191092 0.191092
+4961.128418 0.000000 2356.622559 0.000000 0.257813 0.000000 0.966195 0.215934 0.215934 0.215934
+5009.267090 0.000000 2346.493164 0.000000 0.999058 0.000000 -0.043388 0.258520 0.258520 0.258520
+"}
+object={
+	name="cypress_mediterranean_sparse_generator_2_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_cypress_mediterranean_01_mesh"
+	count=3
+	transform="4946.230469 0.000000 2353.895020 0.000000 0.582649 0.000000 -0.812724 0.206946 0.206946 0.206946
+4960.607910 0.000000 2354.949951 0.000000 0.651817 0.000000 -0.758376 0.236411 0.236411 0.236411
+4945.862305 0.000000 2352.186768 0.000000 0.131334 0.000000 -0.991338 0.264840 0.264840 0.264840
+"}

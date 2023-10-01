@@ -1,0 +1,19 @@
+﻿object={
+	name="cypress_mediterranean_dense_generator_2_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_cypress_mediterranean_02_mesh"
+	count=1
+	transform="2694.215332 0.000000 1291.593872 0.000000 0.918555 0.000000 0.395294 0.197342 0.197342 0.197342
+"}
+object={
+	name="cypress_mediterranean_dense_generator_2_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_medium"
+	pdxmesh="tree_cypress_mediterranean_01_mesh"
+	count=0
+}
