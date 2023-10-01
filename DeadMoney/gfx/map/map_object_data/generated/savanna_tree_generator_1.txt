@@ -1,0 +1,36 @@
+﻿object={
+	name="savanna_tree_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic"
+	pdxmesh="tree_savanna_001_mesh"
+	count=0
+}
+object={
+	name="savanna_tree_generator_1_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic"
+	pdxmesh="tree_savanna_002_mesh"
+	count=0
+}
+object={
+	name="savanna_tree_generator_1_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic"
+	pdxmesh="tree_savanna_003_mesh"
+	count=0
+}
+object={
+	name="savanna_tree_generator_1_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic"
+	pdxmesh="tree_savanna_004_mesh"
+	count=0
+}

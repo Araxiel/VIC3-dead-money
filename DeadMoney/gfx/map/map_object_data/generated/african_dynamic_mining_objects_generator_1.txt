@@ -1,0 +1,65 @@
+﻿object={
+	name="african_dynamic_mining_objects_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="african_mining_coaldepo_01_mesh"
+	count=4
+	transform="2679.062500 0.000000 1293.673706 0.000000 0.207465 0.000000 0.978242 0.000000 0.000000 0.000000
+2685.612061 0.000000 1281.415894 0.000000 0.541903 0.000000 0.840441 0.000000 0.000000 0.000000
+2672.918701 0.000000 1257.642456 0.000000 0.114376 0.000000 0.993437 0.000000 0.000000 0.000000
+2699.406250 0.000000 1275.727051 0.000000 0.179088 0.000000 0.983833 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_mining_objects_generator_1_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="generic_rural_mining_coaldepo_02_mesh"
+	count=4
+	transform="2683.981689 0.000000 1241.391113 0.000000 0.836592 0.000000 0.547826 0.000000 0.000000 0.000000
+2670.042969 0.000000 1248.510864 0.000000 0.879293 0.000000 0.476282 0.000000 0.000000 0.000000
+2676.003906 0.000000 1245.983765 0.000000 0.918720 0.000000 0.394910 0.000000 0.000000 0.000000
+2706.230469 0.000000 1280.691772 0.000000 0.936074 0.000000 0.351804 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_mining_objects_generator_1_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="generic_rural_mining_pile_01_mesh"
+	count=1
+	transform="2675.759033 0.000000 1274.021118 0.000000 0.707307 0.000000 -0.706906 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_mining_objects_generator_1_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="generic_rural_mining_pile_02_mesh"
+	count=0
+}
+object={
+	name="african_dynamic_mining_objects_generator_1_4"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="generic_rural_mining_entrance_01_mesh"
+	count=2
+	transform="2676.463867 0.000000 1257.738037 0.000000 0.384730 0.000000 -0.923029 0.000000 0.000000 0.000000
+2688.009766 0.000000 1284.848755 0.000000 0.431216 0.000000 -0.902249 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_mining_objects_generator_1_5"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="mines_dynamic"
+	pdxmesh="generic_rural_mining_entrance_02_mesh"
+	count=0
+}

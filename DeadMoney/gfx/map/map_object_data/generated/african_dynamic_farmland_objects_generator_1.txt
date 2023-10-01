@@ -1,0 +1,60 @@
+﻿object={
+	name="african_dynamic_farmland_objects_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="african_farm_farmstead_01_mesh"
+	count=2
+	transform="2685.292725 0.000000 1424.668335 0.000000 0.436530 0.000000 0.899690 0.000000 0.000000 0.000000
+2709.705078 0.000000 1438.977051 0.000000 0.572708 0.000000 0.819760 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_farmland_objects_generator_1_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="african_farm_farmstead_01_mesh"
+	count=4
+	transform="2662.231201 0.000000 1394.154053 0.000000 0.933832 0.000000 0.357712 0.000000 0.000000 0.000000
+2679.107910 0.000000 1400.826294 0.000000 0.927286 0.000000 0.374355 0.000000 0.000000 0.000000
+2687.957764 0.000000 1433.008423 0.000000 0.692181 0.000000 0.721724 0.000000 0.000000 0.000000
+2703.273193 0.000000 1434.027954 0.000000 0.973909 0.000000 0.226938 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_farmland_objects_generator_1_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="african_farm_scatter_01_mesh"
+	count=4
+	transform="2680.065674 0.000000 1380.987549 0.000000 0.998237 0.000000 0.059360 0.000000 0.000000 0.000000
+2678.816650 0.000000 1413.360107 0.000000 0.994018 0.000000 0.109212 0.000000 0.000000 0.000000
+2695.671631 0.000000 1380.481567 0.000000 0.993371 0.000000 -0.114954 0.000000 0.000000 0.000000
+2702.007324 0.000000 1386.515259 0.000000 0.915858 0.000000 -0.401502 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_farmland_objects_generator_1_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="african_farm_scatter_02_mesh"
+	count=3
+	transform="2687.487305 0.000000 1385.852661 0.000000 0.405798 0.000000 -0.913963 0.000000 0.000000 0.000000
+2685.248291 0.000000 1401.627075 0.000000 0.691346 0.000000 -0.722524 0.000000 0.000000 0.000000
+2702.953369 0.000000 1409.596680 0.000000 0.434382 0.000000 -0.900729 0.000000 0.000000 0.000000
+"}
+object={
+	name="african_dynamic_farmland_objects_generator_1_4"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="windmill_01_mesh"
+	count=2
+	transform="2692.032471 0.000000 1387.236572 0.000000 0.128737 0.000000 -0.991679 0.000000 0.000000 0.000000
+2719.453613 0.000000 1428.839478 0.000000 0.017206 0.000000 -0.999852 0.000000 0.000000 0.000000
+"}

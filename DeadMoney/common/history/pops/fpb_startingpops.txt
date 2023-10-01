@@ -1,5 +1,5 @@
 ﻿POPS = {
-	s:STATE_NORTHWESTCALI = {
+	s:STATE_SHADYSANDS = {
 		region_state:SHD = {
 			create_pop = {
 				culture = oodham
@@ -11,12 +11,16 @@
 			}
 			create_pop = {
 				culture = yankee
-				size = 2000
+				size = 3000
 			}
 		}
 	}
-	s:STATE_NORTHMIDDLECALI = {
-		region_state:DBG = {
+	s:STATE_NEWRENO = {
+		region_state:NRN = {
+			create_pop = {
+				culture = yankee
+				size = 2000
+			}
 			create_pop = {
 				culture = mexican
 				size = 1500
@@ -27,11 +31,11 @@
 			}
 		}
 	}
-	s:STATE_NORTHSOUTHCALI = {
-		region_state:EMP = {
+	s:STATE_JUNKTOWN = {
+		region_state:JNT = {
 			create_pop = {
 				culture = oodham
-				size = 550
+				size = 600
 			}
 		}
 	}

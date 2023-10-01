@@ -1,5 +1,156 @@
-﻿STATE_NORTHWESTCALI = {
-    id = 100
+﻿# 00 - city
+# 01 - farm
+# 02 - mine
+# 03 - port
+# 04 - wood
+
+STATE_SHADYSANDS = {
+    id = 101
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x7392B3" "x76B2A7" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
+    city = "b67c74"
+    farm = "96f995"
+    mine = "a1cbe3"
+    wood = "93718A"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_NEWRENO = {
+    id = 102
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x69D4CD" "x7DBEA8" "x8F699F" "x98B97D" "xAE9A85" "xAEE6E4" "xB1DBB6" "xB8FB78" "xCFC9B9" "xD0BDE6" "xD397F5" "xF5DBD9" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_SIERRA = {
+    id = 103
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x6AA79E" "x74906A" "x78A27D" "x88F2A3" "xA572F5" "xA5BAC4" "xB3A9A8" "xB4D07A" "xB594ED" "xC9BA6F" "xCFA9CD" "xCFB777" "xFD7F71" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_MARIPOSA = {
+    id = 104
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x79817C" "x87AEFA" "x8EA6DE" "x9967FD" "xA098A9" "xAC76AB" "xB1D6A3" "xB3A696" "xB4E5B1" "xC1DEF3" "xD2996D" "xD6757E" "xD896CA" "xE965AA" "xE9B8D5" "xF4D3C2" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_SANFRAN = {
+    id = 105
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x27AC26" "xAED9F3" "xAEF7D8" "xD29A9E" "xD466F5" "xDA7487" "xDDCEC7" "xF269B3" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_NAVARO = {
+    id = 106
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x71B575" "x79EA9F" "x7AB39C" "x7F7873" "x8C86B6" "x989C82" "xA9A0C4" "xB5EEE0" "xD1749D" "xDDAFEB" "xF1E5D2" }
+    city = "xe8c4dc"
+    farm = "X6ddad0"
+    mine = "X96afbf"
+    wood = "xe1a1b5"
+    arable_land = 39
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 5
+        bg_water_facilities = 5
+    }
+}
+
+STATE_JEFFERSON = {
+    id = 108
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x67B1A4" "x76E185" "x93D4FD" "x9BCE97" "x9CC2B1" "xA2BDF7" "xA7D26D" "xAE99B9" "xB67596" "xB7F08D" "xBB9574" "xBEBEE3" "xBEE489" "xCDA4BD" "xF4697F" "xF6BCD2" "xFEC073" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_BAJA = {
+    id = 109
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x72ACB6" "x7C648A" "x81C7BF" "x82CDF2" "x8CA9CA" "x8FCFEB" "x9D9F92" "x9DF1B7" "xA5B28D" "xA76DAF" "xAC8E8A" "xB57D77" "xBC6DF5" "xC5A585" "xCE8CA1" "xD2E9D3" "xD7D0A0" "xE5AB98" "xFDEDCA" }
+    city = "d0bde6"
+    farm = "95e5c0"
+    mine = "b67c74"
+    wood = "c79fe3"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_facilities = 7
+    }
+}
+
+STATE_MODOC = {
+    id = 110
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x68EC80" "x6CD9EA" "x7774E1" "x7AF8C9" "x96897A" "xA0ADF5" "xA8A167" "xA97767" "xB9AFF3" "xBFCA64" "xC48272" "xCDD299" "xCF81DA" "xD69484" "xD6F9C2" "xDBFCB6" "xED7DF6" "xF9C891" "xFAA8A2" }
+    traits = { "state_trait_ural_mountains" }
+    city = "Xd6e7bc"
+    farm = "xfde66c"
+    mine = "x669abf"
+    wood = "x71dc82"
+    arable_land = 35
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 5
+        bg_water_facilities = 5
+    }
+}
+
+STATE_EUREKA = {
+    id = 111
     subsistence_building = "building_subsistence_farms"
     provinces = { "x669ABF" "x6DDAD0" "x71DC82" "x7A8272" "x7A96AA" "x84EDF8" "x85F59C" "x968FDB" "x96AFBF" "x9EE9EB" "x9FA595" "xA7848A" "xA8D46D" "xBAE6C9" "xC08084" "xD6E7BC" "xD76FF1" "xE1A1B5" "xE8C4DC" "xEF6FAD" "xFDBED2" "xFDE66C" }
     city = "xa8d46d"
@@ -14,35 +165,99 @@
     }
 }
 
-STATE_NORTHMIDDLECALI = {
-    id = 101
+STATE_THEHUB = {
+    id = 105
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x68EC80" "x6CD9EA" "x7774E1" "x7AF8C9" "x96897A" "xA0ADF5" "xA8A167" "xA97767" "xB9AFF3" "xBFCA64" "xC48272" "xCF81DA" "xD69484" "xD6F9C2" "xDBFCB6" "xED7DF6" "xF9C891" "xFAA8A2" }
-    traits = { "state_trait_ural_mountains" }
-    city = "Xd6e7bc"
-    farm = "xfde66c"
-    mine = "x669abf"
-    wood = "x71dc82"
-    arable_land = 35
+    provinces = { "x64707C" "x7280E2" "x746E8D" "x7688BA" "x7698BC" "x7FCBE0" "x8D6C87" "x8DAC8B" "x8FCEC4" "x9A8DBB" "x9EC9B2" "x9ECA6E" "xB0AA6D" "xC3A0FA" "xD08972" "xD299A8" "xE18D79" "xFD6B99" }
+    city = "9ec9b2"
+    farm = "b0aa6d"
+    mine = "7fcbe0"
+    wood = "8dac8b"
+    arable_land = 20
     arable_resources = { "bg_wheat_farms" }
     capped_resources = {
-        bg_salvage_buildings = 5
-        bg_water_facilities = 5
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
     }
 }
 
-STATE_NORTHSOUTHCALI = {
-    id = 102
+STATE_BONEYARD = {
+    id = 113
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x71B575" "x79EA9F" "x7AB39C" "x7F7873" "x8C86B6" "x989C82" "xA9A0C4" "xB5EEE0" "xD1749D" "xDDAFEB" "xF1E5D2" }
-    city = "xe8c4dc"
-    farm = "X6ddad0"
-    mine = "X96afbf"
-    wood = "xe1a1b5"
-    arable_land = 39
+    provinces = { "x27AC27" "x6BB0EC" "x868997" "xA1C98E" "xAC80BC" "xB39E72" "xBAA4DD" "xBDFC79" "xC5EF7B" "xD03087" "xF0A088" "xF0EFE0" }
+    city = "C5EF7B"
+    farm = "27AC27"
+    mine = "F0A088"
+    port = "F0EFE0"
+    wood = "BAA4DD"
+    arable_land = 3
     arable_resources = { "bg_wheat_farms" }
     capped_resources = {
-        bg_salvage_buildings = 5
-        bg_water_facilities = 5
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
+STATE_NECROPOLIS = {
+    id = 114
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x87E6E5" "x956DED" "x9AABB0" "x9C7688" "xA5C5CE" "xA9D095" "xAC70A4" "xB09BEA" "xD0F5C7" "xD5E6CF" "xDDA7E3" "xF6D878" "xF8C19F" "xFDBCEE" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
+STATE_MAXSON = {
+    id = 115
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x68CF75" "x6B9193" "x8076DA" "x89759D" "x978ED8" "xA6D6C1" "xAB82BC" "xC3E4BD" "xCE6BA9" "xDED7BC" "xEDB5D8" "xF2FA7C" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
+STATE_DAYGLOW = {
+    id = 116
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x6A92EE" "x74CFFA" "x767DE7" "x987BE7" "x9A67BF" "xA0E29E" "xB7FCE8" "xBED39C" "xC1E9C9" "xD975A0" "xE0C468" "xE0C9CB" "xE6DCDC" "xE8BFEB" "xFDB3AD" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
+STATE_ANZABOREGO = {
+    id = 117
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x65DBA8" "x6BDCDC" "x6CB366" "x6F7262" "x7DEAF2" "x9CA7FE" "x9FBCE1" "xA375F2" "xADD8C8" "xB86DC3" "xB87AD4" "xBEB0A9" "xCC6BAC" "xCCB1AF" "xD2E471" "xD4E5AE" "xD89FAF" "xDD7CB3" "xDF6AF7" }
+    city = "a8b665"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
     }
 }

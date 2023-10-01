@@ -1,37 +1,68 @@
-﻿
+﻿##### Tiers, still hard coded
+## city_state: "City-State"
+## principality: "Principality"
+## grand_principality: "Grand Principality"
+## kingdom: "Kingdom"
+## empire: "Empire"
+## hegemony: "Hegemony"
+
 # Shady Sands
 SHD = {
-	color = { 147 130 110 }
+	color = { 31 201 22 }
 	
 	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
-	cultures = { yankee }
-	capital = STATE_NORTHWESTCALI
+	cultures = { westcoaster }
+	capital = STATE_SHADYSANDS
 	is_named_from_capital = yes
 }
 
-# Debugia
-DBG = {
-	color = hsv{ 0.99  0.7  0.9 }
+# New Reno
+NRN = {
+	color = hsv{ 168 136 179 }
 
 	country_type = recognized
 
-	tier = principality	
+	tier = kingdom	
 	
-	cultures = { mexican }
-	capital = STATE_NORTHWESTCALI
+	cultures = { westcoaster }
+	capital = STATE_NEWRENO
 }
 
-# Emptyia
-EMP = {
-	color = { 142 80 55 }
+# Squatterland
+SQT = {
+	color = { 107 106 37 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { oodham }
-	capital = STATE_NORTHWESTCALI
+	cultures = { westcoaster }
+	capital = STATE_SQUATTERLAND
+}
+
+# Junktown
+JKT = {
+	color = { 102 83 47 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_THEHUB
+}
+
+# The Hub
+THB = {
+	color = { 29 71 209 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { westcoaster }
+	capital = STATE_THEHUB
 }

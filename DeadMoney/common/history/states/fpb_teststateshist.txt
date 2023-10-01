@@ -18,27 +18,28 @@
 
 #####################
 STATES = {
-	s:STATE_NORTHWESTCALI = {
+	s:STATE_SHADYSANDS = {
 		create_state = {
 			country = c:SHD
-			owned_provinces = { "x669ABF" "x6DDAD0" "x71DC82" "x7A8272" "x7A96AA" "x84EDF8" "x85F59C" "x968FDB" "x96AFBF" "x9EE9EB" "x9FA595" "xA7848A" "xA8D46D" "xBAE6C9" "xC08084" "xD6E7BC" "xD76FF1" "xE1A1B5" "xE8C4DC" "xEF6FAD" "xFDBED2" "xFDE66C" }
+			owned_provinces = { "x7392B3" "x76B2A7" "x79817C" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB1D6A3" "xB3A696" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD896CA" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
 		}
 		
 		add_homeland = yankee
 	}
 
-	s:STATE_NORTHMIDDLECALI = {
+	s:STATE_NEWRENO = {
 		create_state = {
-			country = c:DBG
-			owned_provinces = { "x68EC80" "x6CD9EA" "x7774E1" "x7AF8C9" "x96897A" "xA0ADF5" "xA8A167" "xA97767" "xB9AFF3" "xBFCA64" "xC48272" "xCF81DA" "xD69484" "xD6F9C2" "xDBFCB6" "xED7DF6" "xF9C891" "xFAA8A2" }
+			country = c:NRN
+			owned_provinces = { "x69D4CD" "x8F699F" "x98B97D" "xAE9A85" "xB1DBB6" "xB8FB78" "xCFC9B9" "xD0BDE6" "xD397F5" "xF5DBD9" }
 		}
 		
 		add_homeland = mexican
+		add_homeland = yankee
 	}
-    s:STATE_NORTHSOUTHCALI = {
+    s:STATE_JUNKTOWN = {
 		create_state = {
-			country = c:EMP
-			owned_provinces = { "x71B575" "x79EA9F" "x7AB39C" "x7F7873" "x8C86B6" "x989C82" "xA9A0C4" "xB5EEE0" "xD1749D" "xDDAFEB" "xF1E5D2" }
+			country = c:JNT
+			owned_provinces = { "x7280E2" "x746E8D" "x7698BC" "x7FCBE0" "x8D6C87" "x8DAC8B" "x8FCEC4" "x9A8DBB" "x9AABB0" "x9C7688" "xC3A0FA" "xD5E6CF" "xE18D79" "xF8C19F" "xFD6B99" }
 		}
 		
 		add_homeland = hokan
