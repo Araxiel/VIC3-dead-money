@@ -1,7 +1,7 @@
 ﻿californian ={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = religion_oldworldblues
-	traits = { anglophone settled wastelander_heritage }
+	traits = { anglophone settled_trait wastelander_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -125,8 +125,8 @@
 
 oldworldamerican ={
 	color= rgb{ 135 206 235 } # Sky Blue
-	religion = religion_unitedstates
-	traits = { anglophone oldworld_heritage }
+	religion = religion_enclave
+	traits = { anglophone oldworldamerican_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -250,8 +250,8 @@ oldworldamerican ={
 
 vaultdweller ={
 	color= rgb{ 135 206 235 } # Sky Blue
-	religion = religion_unitedstates
-	traits = { anglophone oldworldamerican_heritage wastelander_heritage }
+	religion = religion_oldworldblues
+	traits = { anglophone settled_trait oldworldamerican_heritage wastelander_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -375,8 +375,8 @@ vaultdweller ={
 
 tribal ={
 	color= rgb{ 135 206 235 } # Sky Blue
-	religion = religion_unitedstates
-	traits = { anglophone oldworldamerican_heritage wastelander_heritage }
+	religion = animist
+	traits = { anglophone nomadic_trait wastelander_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad

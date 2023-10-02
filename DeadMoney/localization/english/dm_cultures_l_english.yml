@@ -10,7 +10,11 @@
 
   religion_trait_prewar: "Pre-War"
   religion_trait_prewarnationalism: "Pre-War Nationalism"
-  religion_unitedstates: "Old United States"
+  religion_enclave: "Old United States"
   religion_communistchina: "Old People's Republic of China"
 
-  westcoaster: "Westcoaster"
+  californian: "californian"
+  wastelander_heritage: "Wasteland Heritage"
+  oldworldamerican_heritage: "Old World American Heritage"
+  settled_trait: "Settled"
+  nomadic_trait: "Nomadic"
