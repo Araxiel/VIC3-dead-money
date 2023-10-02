@@ -83,7 +83,7 @@ STATE_THEHUB = {
         bg_water_facilities = 2
     }
 }
-# Navaro 107
+# Navaro 106
 STATE_NAVARO = {
     id = 106
     subsistence_building = "building_subsistence_farms"
@@ -149,7 +149,7 @@ STATE_MODOC = {
     }
 }
 # Redding 111
-STATE_EUREKA = {
+STATE_REDDING = {
     id = 111
     subsistence_building = "building_subsistence_farms"
     provinces = { "x669ABF" "x6DDAD0" "x71DC82" "x7A8272" "x7A96AA" "x84EDF8" "x85F59C" "x968FDB" "x96AFBF" "x9EE9EB" "x9FA595" "xA7848A" "xA8D46D" "xBAE6C9" "xC08084" "xD6E7BC" "xD76FF1" "xE1A1B5" "xE8C4DC" "xFDBED2" "xFDE66C" }

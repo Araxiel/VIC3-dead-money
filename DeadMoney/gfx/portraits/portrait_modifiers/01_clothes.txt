@@ -2247,7 +2247,7 @@
                 add = 10000
                 OR = {
                     AND = {
-                        c:SHD ?= {
+                        c:NCR ?= {
                             NOT = { has_technology_researched = bolt_action_rifles }
                         }
                         american_clothes_pop_trigger = yes
@@ -2299,7 +2299,7 @@
             base = 0
             modifier = {
                 add = 10000
-                c:SHD ?= {
+                c:NCR ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 american_clothes_pop_trigger = yes

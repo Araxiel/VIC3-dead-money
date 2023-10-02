@@ -493,7 +493,7 @@
             base = 0
             modifier = {
                 add = 150
-                c:SHD ?= {
+                c:NCR ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {

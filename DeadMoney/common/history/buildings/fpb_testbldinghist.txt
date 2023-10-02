@@ -1,6 +1,6 @@
-BUILDINGS={
+﻿BUILDINGS={
 	s:STATE_SHADYSANDS={
-		region_state:SHD={
+		region_state:NCR ={
 			create_building={
 				building="building_farm"
 				level=5

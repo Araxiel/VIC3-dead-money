@@ -1,16 +1,8 @@
 ﻿POPS = {
 	s:STATE_SHADYSANDS = {
-		region_state:SHD = {
+		region_state:NCR = {
 			create_pop = {
-				culture = oodham
-				size = 300
-			}
-			create_pop = {
-				culture = mexican
-				size = 150
-			}
-			create_pop = {
-				culture = yankee
+				culture = californian
 				size = 3000
 			}
 		}
@@ -18,24 +10,30 @@
 	s:STATE_NEWRENO = {
 		region_state:NRN = {
 			create_pop = {
-				culture = yankee
-				size = 2000
-			}
-			create_pop = {
-				culture = mexican
-				size = 1500
-			}
-			create_pop = {
-				culture = oodham
-				size = 1040
+				culture = californian
+				size = 3000
 			}
 		}
 	}
-	s:STATE_JUNKTOWN = {
-		region_state:JNT = {
+	s:STATE_THEHUB = {
+		region_state:JKT = {
 			create_pop = {
-				culture = oodham
-				size = 600
+				culture = californian
+				size = 1850
+			}
+		}
+		region_state:THB = {
+			create_pop = {
+				culture = californian
+				size = 3300
+			}
+		}
+	}
+	s:STATE_SQUATTERLAND = {
+		region_state:SQT = {
+			create_pop = {
+				culture = vaultdweller
+				size = 860
 			}
 		}
 	}
