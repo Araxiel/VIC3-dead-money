@@ -1,4 +1,5 @@
-﻿STATE_THEDEN = {
+﻿# The Den 301
+STATE_THEDEN = {
     id = 301
     subsistence_building = "building_subsistence_farms"
     provinces = { "x80CEF0" "x83EE9D" "x85F5D9" "x89879C" "x9A9AB0" "xB0717A" "xB29DD3" "xB38ACB" "xB3F29A" "xBC91E4" "xC975DF" "xCA689A" "xD0D2D9" "xDD7BA4" "xDEE9F0" "xE8E390" }
@@ -13,7 +14,7 @@
         bg_water_facilities = 2
     }
 }
-
+# Arroyo 302
 STATE_ARROYO = {
     id = 302
     subsistence_building = "building_subsistence_farms"
@@ -29,3 +30,20 @@ STATE_ARROYO = {
         bg_water_facilities = 2
     }
 }
+# Klamath 303
+STATE_KLAMATH = {
+    id = 303
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x6883F6" "x698BF7" "x6C759E" "x6FA88E" "x9EA887" "xA5FD82" "xB9AFF3" "xBFCA64" "xC5D0AF" "xC9D27A" "xCDD299" "xCDE77A" "xCF81DA" "xD2F3EF" "xEED68B" "xEF6FAD" "xF0BCF6" "xFDC5A3" }
+    city = "698bf7"
+    farm = "fab1d5"
+    mine = "c4fa72"
+    wood = "a7eb76"
+    arable_land = 3
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 3
+        bg_water_facilities = 2
+    }
+}
+
