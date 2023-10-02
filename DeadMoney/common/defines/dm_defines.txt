@@ -57,11 +57,11 @@ NPops = {
 	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 2000			# Multiply state_infrastructure_from_population_add by this to determine infra from population	- Default: 100000
 	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 200			# How many pops can be taxed efficiently for each tax capacity	- Default: 10000
 
-	POP_MERGE_MAX_WORKFORCE = 3						# Pops with workforce smaller than this may get merged with other pops of the same type in their building / unemployment pool; if zero, no small pop merging will occur, which may have an adverse effect on late-game performance	- Default: 30
 	
 	MIN_ASSIMILATION = 2						# If there is any assmiliation at least this many people will assimilate	- Default: 10
 	MIN_CONVERSION = 2							# If there is any conversion at least this many people will convert	- Default: 10
-
+	
+	# POP_MERGE_MAX_WORKFORCE = 3						# Pops with workforce smaller than this may get merged with other pops of the same type in their building / unemployment pool; if zero, no small pop merging will occur, which may have an adverse effect on late-game performance	- Default: 30
 	### Pop Consolidation defines
 	# Pop Consolidation identifies pops so small their impact on the economy and politics is insignificant, and merges them into other pops in the same building or state.
 	# 
@@ -103,7 +103,7 @@ NPops = {
 
 NBattle = {
 	#CASUALTY_MAJORITY_CULTURE_WEIGHT = 1.5			# Majority culture pops will be weighted to take 1.5x more casualties	- Default: 1.5
-	CASUALTY_ROLL_MIN = 4							# min ...	- Default: 50
+	CASUALTY_ROLL_MIN = 10							# min ...	- Default: 50
 	CASUALTY_ROLL_MAX = 15							# max amount of casualties a unit can take each roll when applying casualties to units	- Default: 200
 }
 
