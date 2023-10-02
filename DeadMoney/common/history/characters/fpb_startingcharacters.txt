@@ -1,5 +1,5 @@
-CHARACTERS = {
-	c:SHD = {
+﻿CHARACTERS = {
+	c:NCR = {
 		create_character = {
 			first_name = "Aradesh"
 			last_name = "Sands"

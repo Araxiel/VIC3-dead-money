@@ -1,0 +1,9 @@
+﻿DIPLOMACY = {
+	c:NCR = {
+		create_diplomatic_pact = {
+			country = c:JKT
+			type = customs_union
+		}
+		set_relations = { country = c:JKT value = 30 }
+	}
+}

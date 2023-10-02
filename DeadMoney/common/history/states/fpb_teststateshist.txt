@@ -20,11 +20,11 @@
 STATES = {
 	s:STATE_SHADYSANDS = {
 		create_state = {
-			country = c:SHD
+			country = c:NCR
 			owned_provinces = { "x7392B3" "x76B2A7" "x79817C" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB1D6A3" "xB3A696" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD896CA" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
 		}
 		
-		add_homeland = yankee
+		add_homeland = californian
 	}
 
 	s:STATE_NEWRENO = {
@@ -33,15 +33,27 @@ STATES = {
 			owned_provinces = { "x69D4CD" "x8F699F" "x98B97D" "xAE9A85" "xB1DBB6" "xB8FB78" "xCFC9B9" "xD0BDE6" "xD397F5" "xF5DBD9" }
 		}
 		
-		add_homeland = mexican
-		add_homeland = yankee
+		add_homeland = californian
 	}
-    s:STATE_JUNKTOWN = {
+    s:STATE_THEHUB = {
 		create_state = {
-			country = c:JNT
-			owned_provinces = { "x7280E2" "x746E8D" "x7698BC" "x7FCBE0" "x8D6C87" "x8DAC8B" "x8FCEC4" "x9A8DBB" "x9AABB0" "x9C7688" "xC3A0FA" "xD5E6CF" "xE18D79" "xF8C19F" "xFD6B99" }
+			country = c:THB
+			owned_provinces = { "x64707C" "x7688BA" "x9EC9B2" "x9ECA6E" "xB0AA6D" "xD08972" "xD299A8" }
+		}
+		create_state = {
+			country = c:JKT
+			owned_provinces = { "x9A8DBB" "x8FCEC4" "x7fcbe0" "xfd6b99" "x7280e2" "x8D6C87" "xC3A0FA" "x7698bc" "x8dac8b" "xe18d79" "x746e8d"}
 		}
 		
-		add_homeland = hokan
+		add_homeland = californian
+	}
+    s:STATE_SQUATTERLAND = {
+		create_state = {
+			country = c:SQT
+			owned_provinces = { "x829764" "x87CB89" "x8A81EE" "x8C7781" "x8D7175" "x948CEB" "x94ACC5" "xA7EB76" "xA8B665" "xB36E6B" "xB68D7E" "xBBEB82" "xC4FA72" "xCFAB94" "xD1BB94" "xD48EEC" "xD8DAE5" "xFAB1D5" }
+		}
+		
+		add_homeland = vaultdweller
+		add_homeland = californian
 	}
 }
