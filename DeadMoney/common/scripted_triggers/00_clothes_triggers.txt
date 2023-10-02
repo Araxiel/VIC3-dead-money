@@ -537,8 +537,8 @@ american_clothes_trigger = {
 	scope:character = {
 		exists = home_country
 		home_country = {
-			exists = c:SHD
-			c:SHD = this
+			exists = c:NCR
+			c:NCR = this
 			is_subject = no
 		}
 	}
@@ -548,8 +548,8 @@ american_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		home_country = {
-			exists = c:SHD
-			c:SHD = this
+			exists = c:NCR
+			c:NCR = this
 			is_subject = no
 		}
 	}

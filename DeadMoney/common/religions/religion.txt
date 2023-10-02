@@ -4,8 +4,8 @@ catholic = {
 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
 	traits = {
 		christian
-		prewaramericanamerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.8 0.6 0.4 }
 }
@@ -14,8 +14,8 @@ protestant = {
 	texture = "gfx/interface/icons/religion_icons/protestant.dds"
 	traits = {
 		christian
-		prewaramericanamerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.2 0.3 0.55 }
 }
@@ -24,8 +24,8 @@ orthodox = {
 	texture = "gfx/interface/icons/religion_icons/orthodox.dds"
 	traits = {
 		christian
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.62 0.64 0.6 }
 }
@@ -34,8 +34,8 @@ oriental_orthodox = {
 	texture = "gfx/interface/icons/religion_icons/coptic.dds"
 	traits = {
 		christian
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.1 0.5 0.6 }
 }
@@ -44,8 +44,8 @@ sunni = {
 	texture = "gfx/interface/icons/religion_icons/sunni.dds"
 	traits = {
 		muslim
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.1 0.5 0.3 }
 	
@@ -58,8 +58,8 @@ shiite = {
 	texture = "gfx/interface/icons/religion_icons/shiite.dds"
 	traits = {
 		muslim
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.4 0.7 0.3 }
 	
@@ -72,8 +72,8 @@ jewish = {
 	texture = "gfx/interface/icons/religion_icons/jewish.dds"
 	traits = {
 		jewish
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.5 0.5 0.2 }
 }	
@@ -83,8 +83,8 @@ mahayana = {
 	traits = {
 		buddhist
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.7 0.35 0.1 }
 }
@@ -94,8 +94,8 @@ gelugpa = {
 	traits = {
 		buddhist
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.1 0.4 0.9 }
 }
@@ -105,8 +105,8 @@ theravada = {
 	traits = {
 		buddhist
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.7 0.4 0.6 }
 }
@@ -115,8 +115,8 @@ hindu = {
 	texture = "gfx/interface/icons/religion_icons/hindu.dds"
 	traits = {
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.7 0.4 0.3 }
 	taboos = {
@@ -128,8 +128,8 @@ shinto = {
 	texture = "gfx/interface/icons/religion_icons/shinto.dds"
 	traits = {
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 0.4 0.1 0.2 }
 }
@@ -138,8 +138,8 @@ sikh = {
 	texture = "gfx/interface/icons/religion_icons/sikh.dds"
 	traits = {
 		eastern
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 1 1 0.1 }
 }
@@ -147,8 +147,7 @@ sikh = {
 animist = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
 	traits = {
-		animist
-		postwar
+		postwar_religion
 	}
 	color = { 0.6 0.3 0.2 }
 }
@@ -156,8 +155,8 @@ animist = {
 atheist = {
 	texture = "gfx/interface/icons/religion_icons/atheist.dds"
 	traits = {
-		prewaramerican
-		postwar
+		prewaramerican_religion
+		postwar_religion
 	}
 	color = { 1.0 1.0 1.0 }
 }

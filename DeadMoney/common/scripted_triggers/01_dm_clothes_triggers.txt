@@ -1,0 +1,22 @@
+﻿wasteland_american_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		exists = home_country
+		home_country = {
+			exists = c:NCR
+			c:NCR = this
+			is_subject = no
+		}
+	}
+}
+
+wasteland_american_clothes_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		home_country = {
+			exists = c:NCR
+			c:NCR = this
+			is_subject = no
+		}
+	}
+}

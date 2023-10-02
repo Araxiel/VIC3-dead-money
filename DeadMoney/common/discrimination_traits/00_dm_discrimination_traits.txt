@@ -1,0 +1,18 @@
+﻿wastelander_heritage = {
+	heritage = yes
+}
+oldworldamerican_heritage = {
+	heritage = yes
+}
+settled_trait = {}
+nomadic_trait = {}
+
+postwar_religion = {
+	heritage = yes
+}
+prewaramerican_religion = {
+	heritage = yes
+}
+prewarchina_religion = {
+	heritage = yes
+}
