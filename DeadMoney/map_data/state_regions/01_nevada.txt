@@ -1,4 +1,5 @@
-﻿STATE_LASVEGAS = {
+﻿# New Vegas 201
+STATE_LASVEGAS = {
     id = 201
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6EF4A0" "x79BA8D" "x7BC9A8" "x7CE398" "x7DA3C5" "x84A9DD" "x919A86" "x91BEBA" "x9387BA" "x93D5F9" "x96C58A" "x9AD5B8" "x9DE16C" "xA4BCE1" "xB2ED94" "xB4ACB9" "xB7A5E8" "xC5B4D1" "xCAB0AF" "xCC93C7" "xD08CF1" "xD5FBB2" "xDBCFA6" "xDD9584" "xEFF1E2" "xF5F4E5" "xF6C8DB" }
@@ -13,7 +14,7 @@
         bg_water_facilities = 10
     }
 }
-
+# Squatterland 202
 STATE_SQUATTERLAND = {
     id = 202
     subsistence_building = "building_subsistence_farms"
@@ -29,7 +30,7 @@ STATE_SQUATTERLAND = {
         bg_water_facilities = 2
     }
 }
-
+# Vault City 203
 STATE_VAULTCITY = {
     id = 203
     subsistence_building = "building_subsistence_farms"
@@ -45,7 +46,7 @@ STATE_VAULTCITY = {
         bg_water_facilities = 2
     }
 }
-
+# The Divide 204
 STATE_DIVIDE = {
     id = 204
     subsistence_building = "building_subsistence_farms"
@@ -61,11 +62,11 @@ STATE_DIVIDE = {
         bg_water_facilities = 2
     }
 }
-
+# Broken Hills 205
 STATE_BROKENHILLS = {
     id = 205
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x68ACB0" "x6CF579" "x77E2CB" "x92A8E9" "x9670AB" "xA978D7" "xB4BC9F" "xB569F1" "xB7D3E2" "xC9DDBE" "xD189EF" "xD59587" "xE1BA85" "xE6BB85" "xE7A1E5" "xECC28B" "xEF7FCB" }
+    provinces = { "x68ACB0" "x6CF579" "x77E2CB" "x92A8E9" "x946871" "x9670AB" "xA978D7" "xB4BC9F" "xB569F1" "xB7D3E2" "xC9DDBE" "xD189EF" "xD59587" "xE1BA85" "xE6BB85" "xE7A1E5" "xECC28B" "xEF7FCB" "xFAACA8" }
     city = "68ACB0"
     farm = "A978D7"
     mine = "B7D3E2"

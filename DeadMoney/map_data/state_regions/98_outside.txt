@@ -1,5 +1,5 @@
 ﻿
-STATE_ARROYO = {
+STATE_OUTSIDE = {
     id = 4000
     subsistence_building = "building_subsistence_farms"
     provinces = { "x64BBA2" }
