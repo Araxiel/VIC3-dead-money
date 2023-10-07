@@ -93,6 +93,7 @@ pm_squad_infantry = {
 	unlocking_technologies = {
 		nco_training
 	}
+
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -118,6 +119,7 @@ pm_mechanized_infantry = {
 	unlocking_technologies = {
 		nco_training
 	}
+
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -156,6 +158,7 @@ pm_line_infantry_conscription = {
 	unlocking_technologies = {
 		line_infantry
 	}
+
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 950
@@ -216,9 +219,11 @@ pm_squad_infantry_conscription = {
 	unlocking_technologies = {
 		nco_training
 	}
+
 	disallowing_laws = {
 		law_peasant_levies
 	}
+
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 800
@@ -237,6 +242,7 @@ pm_mechanized_infantry_conscription = {
 	unlocking_technologies = {
 		nco_training
 	}
+
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -266,6 +272,7 @@ pm_no_naval_theory = {
 			building_training_rate_add = 3
 		}
 	}
+
 	country_modifiers = {
 		workforce_scaled = {
 			country_navy_power_projection_add = 1
@@ -279,6 +286,7 @@ pm_power_of_the_purse = {
 	unlocking_technologies = {
 		power_of_the_purse
 	}
+
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 875
@@ -309,6 +317,7 @@ pm_jeune_ecole = {
 	unlocking_technologies = {
 		jeune_ecole
 	}
+
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 850
@@ -321,7 +330,7 @@ pm_jeune_ecole = {
 			unit_morale_damage_mult = 0.2
 		}
 	}
-	
+
 	country_modifiers = {
 		workforce_scaled = {
 			country_navy_power_projection_add = 20
@@ -339,13 +348,12 @@ pm_sea_lane_strategies = {
 	unlocking_technologies = {
 		sea_lane_strategies
 	}
+
 	building_modifiers = {
 		level_scaled = {
-			building_employment_soldiers_add = 825
-			building_employment_officers_add = 175
-			building_training_rate_add = 4.5
 			building_employment_soldiers_add = -75
 			building_employment_officers_add = 75
+			building_training_rate_add = 4.5
 		}
 
 		unscaled = {
@@ -353,7 +361,7 @@ pm_sea_lane_strategies = {
 			unit_morale_damage_mult = 0.3
 		}
 	}
-	
+
 	country_modifiers = {
 		workforce_scaled = {
 			country_navy_power_projection_add = 30
@@ -371,6 +379,7 @@ pm_battlefleet_tactics = {
 	unlocking_technologies = {
 		battlefleet_tactics
 	}
+
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 800
