@@ -3,7 +3,7 @@
 		region_state:NCR = {
 			create_pop = {
 				culture = californian
-				size = 3000
+				size = 3500
 			}
 		}
 	}
@@ -11,7 +11,7 @@
 		region_state:NRN = {
 			create_pop = {
 				culture = californian
-				size = 3000
+				size = 4200
 			}
 		}
 	}

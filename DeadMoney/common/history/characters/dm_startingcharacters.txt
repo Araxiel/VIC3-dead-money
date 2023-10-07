@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:NCR = {
+		create_character = {
+			template = ncr_aradesh_template		
+		}
+		create_character = {
+			template = ncr_tandi_template		
+		}
+	}
+}

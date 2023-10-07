@@ -1,0 +1,31 @@
+ncr_aradesh_template = {
+    first_name = "Aradesh"
+    last_name = "Sands"
+    historical = yes
+    ruler = yes
+    # birth_date = 2123.9.6
+	age = 63
+    dna = dna_king_frederik_william_03
+    interest_group = ig_armed_forces
+    ideology= ideology_moderate
+    traits = {
+        persistent
+    }
+}
+
+ncr_tandi_template = {
+	first_name = "Tandi"
+    last_name = "Sands"
+    historical = yes
+    is_general = yes
+	# birth_date = 2145.3.21
+	age = 41
+    dna = dna_king_frederik_william_03
+    hq = region_california
+    interest_group = ig_intelligentsia
+    ideology= ideology_moderate
+    traits = {
+        persistent
+		ambitious
+    }
+}
