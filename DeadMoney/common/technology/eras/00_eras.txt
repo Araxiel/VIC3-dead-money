@@ -1,0 +1,32 @@
+﻿# Double check if era_1 should not end on start date since it's kinda before 2186
+# Dates seem to be completely pointless
+
+era_1 = {
+	start_date = 2186.01.01 		#Start of this era
+	end_date = 2205.12.30 		#End of this era
+	technology_cost = 7500 # for progress bonuses, use an approximate third: 2500
+}
+
+era_2 = {
+	start_date = 2206.01.01 		#Start of this era
+	end_date = 2225.12.30 		#End of this era
+	technology_cost = 10000 # for progress bonuses, use an approximate third: 3500
+}
+
+era_3 = {
+	start_date = 2226.01.01 		#Start of this era
+	end_date = 2245.12.30 		#End of this era
+	technology_cost = 13000 # for progress bonuses, use an approximate third: 4500
+}
+
+era_4 = {
+	start_date = 2246.01.01 		#Start of this era
+	end_date = 2265.12.30 		#End of this era
+	technology_cost = 16500 # for progress bonuses, use an approximate third: 5500
+}
+
+era_5 = {
+	start_date = 2266.01.01 		#Start of this era
+	end_date = 2286.12.30 		#End of this era
+	technology_cost = 20000 # for progress bonuses, use an approximate third: 6500
+}
