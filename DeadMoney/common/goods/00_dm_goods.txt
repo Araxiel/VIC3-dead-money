@@ -73,7 +73,7 @@ combat_armor = {
 }
 
 ## added
-combat_armor = {
+power_armor = {
 	texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
 	cost = 120
 	category = military
@@ -251,6 +251,17 @@ water = {
 	convoy_cost_multiplier = 0.5
 	
 	consumption_tax_cost = 500
+}
+
+# added
+security = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 3
+	
+	local = yes
 }
 
 ##############

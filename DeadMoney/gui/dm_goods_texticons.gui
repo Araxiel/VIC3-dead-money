@@ -1,0 +1,209 @@
+texticon = {
+	icon = firearms
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = vertibirds
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = laser_rifles
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = combat_armor
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/clothes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = luxury_clothes
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/luxury_clothes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = salvage
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/wood.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = water
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/oil.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = security
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = combustion_ships
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/clippers.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = nuclear_ships
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/steamers.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = nylon
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/silk.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = machines
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/locomotives.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = chemicals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = robots
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/radios.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = energy_cells
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/electricity.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = fusion_cells
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/electricity.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = electrical_components
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = vehicles
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = computers
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/radios.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = caps
+	iconsize = {
+		texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = nuka_cola
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/liquor.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

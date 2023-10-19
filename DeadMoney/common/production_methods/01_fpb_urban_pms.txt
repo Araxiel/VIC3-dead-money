@@ -12,7 +12,7 @@ pm_basic_buildings = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_material_add = 50
+			goods_input_salvage_add = 50
 		}
 
 		level_scaled = {
@@ -47,8 +47,8 @@ pm_improved_buildings = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_material_add = 100
-			goods_input_security_good_add = 20
+			goods_input_salvage_add = 100
+			goods_input_security_add = 20
 		}
 
 		level_scaled = {
@@ -98,8 +98,8 @@ pm_improved_amenities = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_material_add = 2
-			goods_input_water_good_add = 2
+			goods_input_salvage_add = 2
+			goods_input_water_add = 2
 			goods_output_services_add = 30
 		}
 
@@ -126,7 +126,7 @@ pm_basic_meal = {
 			goods_input_grain_add = 40		# x20 =  800
 
 			# output goods
-			goods_output_meals_add = 45	# x30 = 1350
+			goods_output_groceries_add = 45	# x30 = 1350
 		}
 
 		level_scaled = {
@@ -143,10 +143,10 @@ pm_improved_meal = {
 		workforce_scaled = {
 			# input goods
 			goods_input_grain_add = 50
-			goods_input_water_good_add = 20
+			goods_input_water_add = 20
 
 			# output goods
-			goods_output_meals_add = 65
+			goods_output_groceries_add = 65
 		}
 
 		level_scaled = {
@@ -165,10 +165,10 @@ pm_basic_workshop = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 40		# x20 =  800
+			goods_input_salvage_add = 40		# x20 =  800
 
 			# output goods
-			goods_output_consumer_goods_add = 45	# x30 = 1350
+			goods_output_furniture_add = 45	# x30 = 1350
 		}
 
 		level_scaled = {
@@ -184,10 +184,10 @@ pm_improved_workshop = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 60
+			goods_input_salvage_add = 60
 
 			# output goods
-			goods_output_consumer_goods_add = 65
+			goods_output_furniture_add = 65
 		}
 
 		level_scaled = {
@@ -282,10 +282,10 @@ pm_basic_security_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 30
+			goods_input_salvage_add = 30
 
 			# output goods
-			goods_output_security_good_add = 20
+			goods_output_security_add = 20
 		}
 
 		level_scaled = {
@@ -300,10 +300,10 @@ pm_improved_security_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 50
+			goods_input_salvage_add = 50
 
 			# output goods
-			goods_output_security_good_add = 40
+			goods_output_security_add = 40
 		}
 
 		level_scaled = {
@@ -383,7 +383,7 @@ pm_basic_education = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_material_add = 5
+			goods_input_salvage_add = 5
 		}	
 	
 		level_scaled = {
@@ -410,7 +410,7 @@ pm_improved_education = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_material_add = 10
+			goods_input_salvage_add = 10
 		}
 		
 		level_scaled = {

@@ -178,11 +178,11 @@ goods_output_nuka_cola_add = {
 	percent = no
 }
 
-goods_input_security_good_add = {
+goods_input_security_add = {
 	good = no
 	percent = no
 }
-goods_output_security_good_add = {
+goods_output_security_add = {
 	good = yes
 	percent = no
 }

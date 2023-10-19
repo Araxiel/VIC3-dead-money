@@ -8,9 +8,9 @@ default_building_subsistence_farms = {
 		workforce_scaled = { # 85
 			building_subsistence_output_add = 4
 			goods_output_grain_add = 1.5
-			goods_output_water_good_add = 0.25
-			goods_output_material_add = 0.25
-			goods_output_consumer_goods_add = 0.5
+			goods_output_water_add = 0.25
+			goods_output_salvage_add = 0.25
+			goods_output_furniture_add = 0.5
 			goods_output_services_add = 0.5
 		}
 
@@ -121,7 +121,7 @@ pm_improved_farming = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 15
+			goods_input_salvage_add = 15
 			
 			# output goods
 			goods_output_grain_add = 45
@@ -175,7 +175,7 @@ pm_basic_water_wells = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			goods_output_water_good_add = 30
+			goods_output_water_add = 30
 		}
 
 		level_scaled = {
@@ -191,10 +191,10 @@ pm_improved_water_wells = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_material_add = 10
+			goods_input_salvage_add = 10
 			
 			# output goods
-			goods_output_water_good_add = 50
+			goods_output_water_add = 50
 		}
 
 		level_scaled = {
@@ -211,7 +211,7 @@ pm_basic_salvaging = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			goods_output_material_add = 30
+			goods_output_salvage_add = 30
 		}
 
 		level_scaled = {
@@ -227,10 +227,10 @@ pm_improved_salvaging = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_security_good_add = 10
+			goods_input_security_add = 10
 			
 			# output goods
-			goods_output_material_add = 50
+			goods_output_salvage_add = 50
 		}
 
 		level_scaled = {
