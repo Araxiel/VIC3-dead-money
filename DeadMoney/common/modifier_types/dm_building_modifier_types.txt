@@ -7,11 +7,11 @@ goods_output_firearms_add = {
 	percent = no
 }
 
-goods_input_vertibirds_add = {
+goods_input_air_vehicles_add = {
 	good = no
 	percent = no
 }
-goods_output_vertibirds_add = {
+goods_output_air_vehicles_add = {
 	good = yes
 	percent = no
 }

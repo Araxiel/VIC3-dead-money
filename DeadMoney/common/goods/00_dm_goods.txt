@@ -23,7 +23,7 @@ firearms = {
 	prestige_factor = 5
 }
 
-artillery = {
+heavy_weapons = {
 	texture = "gfx/interface/icons/goods_icons/artillery.dds"
 	cost = 80
 	category = military
@@ -44,7 +44,7 @@ tanks = {
 }
 
 ## replaces aeroplanes
-vertibirds = {
+air_vehicles = {
 	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 	cost = 140
 	category = military

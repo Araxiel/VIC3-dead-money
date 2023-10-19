@@ -46,19 +46,19 @@
 # 				NOT = { has_law = law_type:law_peasant_levies }
 # 				any_scope_building = { 
 # 					is_building_type = building_barracks
-# 					has_active_production_method = pm_mobile_artillery
+# 					has_active_production_method = pm_mobile_heavy_weapons
 # 				}
 # 				NOT = {
 # 					any_scope_building = { 
 # 						is_building_type = building_conscription_center
-# 						has_active_production_method = pm_mobile_artillery_conscription
+# 						has_active_production_method = pm_mobile_heavy_weapons_conscription
 # 					}				
 # 				}					
 # 			}
 					
 # 			activate_production_method = {
 # 				building_type = building_conscription_center
-# 				production_method = pm_mobile_artillery_conscription
+# 				production_method = pm_mobile_heavy_weapons_conscription
 # 			}
 # 		}
 # 		else_if = {
@@ -66,19 +66,19 @@
 # 				NOT = { has_law = law_type:law_peasant_levies }
 # 				any_scope_building = { 
 # 					is_building_type = building_barracks
-# 					has_active_production_method = pm_cannon_artillery
+# 					has_active_production_method = pm_cannon_heavy_weapons
 # 				}
 # 				NOT = {
 # 					any_scope_building = { 
 # 						is_building_type = building_conscription_center
-# 						has_active_production_method = pm_cannon_artillery_conscription
+# 						has_active_production_method = pm_cannon_heavy_weapons_conscription
 # 					}				
 # 				}					
 # 			}
 					
 # 			activate_production_method = {
 # 				building_type = building_conscription_center
-# 				production_method = pm_cannon_artillery_conscription
+# 				production_method = pm_cannon_heavy_weapons_conscription
 # 			}
 # 		}			
 # 	}

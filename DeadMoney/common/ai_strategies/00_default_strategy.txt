@@ -253,10 +253,10 @@ ai_strategy_default = {
 				has_technology_researched = napoleonic_warfare
 			}
 		}
-		artillery = {
+		heavy_weapons = {
 			stance = wants_high_supply
 			trigger = {
-				has_technology_researched = artillery
+				has_technology_researched = heavy_weapons
 			}
 		}
 		ammunition = {

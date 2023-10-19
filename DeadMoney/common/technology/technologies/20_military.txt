@@ -88,11 +88,11 @@ gunsmithing = {
 	}
 }
 
-artillery = {
-	# Unlocks Artillery Production PM in Arms Industries
-	# Unlocks Cannon Artillery PM in Barracks
+heavy_weapons = {
+	# Unlocks heavy_weapons Production PM in Arms Industries
+	# Unlocks Cannon heavy_weapons PM in Barracks
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	texture = "gfx/interface/icons/invention_icons/heavy_weapons.dds"
 	category = military
 	
 	unlocking_technologies = {
@@ -123,14 +123,14 @@ military_drill = {
 }
 
 napoleonic_warfare = {
-	# Unlocks Mobile Artillery PM in Barracks
+	# Unlocks Mobile heavy_weapons PM in Barracks
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/napoleonic_warfare.dds"
 	category = military
 	
 	unlocking_technologies = {
 		line_infantry
-		artillery
+		heavy_weapons
 	}
 	
 	ai_weight = {
@@ -280,13 +280,13 @@ triage = {
 }
 
 shell_gun = {
-	# Unlocks Explosive Shell Artillery Production PM in Arms Industries
+	# Unlocks Explosive Shell heavy_weapons Production PM in Arms Industries
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/shell_gun.dds"
 	category = military
 	
 	unlocking_technologies = {	
-		artillery
+		heavy_weapons
 	}
 	
 	ai_weight = {
@@ -498,12 +498,12 @@ repeaters = {
 	}
 }
 
-breech_loading_artillery = {
-	# Unlocks Breech Loading Artillery Production PM in Arms Industries
-	# Unlocks Breech Loading Artillery PM in Barracks
+breech_loading_heavy_weapons = {
+	# Unlocks Breech Loading heavy_weapons Production PM in Arms Industries
+	# Unlocks Breech Loading heavy_weapons PM in Barracks
 	# Unlocks Railway Guns PM in Railways
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
+	texture = "gfx/interface/icons/invention_icons/breech_loading_heavy_weapons.dds"
 	category = military
 	
 	unlocking_technologies = {	
@@ -528,7 +528,7 @@ handcranked_machine_gun = {
 	
 	unlocking_technologies = {	
 		repeaters
-		breech_loading_artillery
+		breech_loading_heavy_weapons
 	}
 	
 	ai_weight = {
@@ -710,7 +710,7 @@ war_propaganda = {
 }
 
 wargaming = {
-	# Unlocks Siege Artillery PM in Barracks
+	# Unlocks Siege heavy_weapons PM in Barracks
 	# Reduces Morale loss
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/wargaming.dds"
@@ -937,7 +937,7 @@ nco_training = {
 }
 
 chemical_warfare = {
-	# Unlocks Chemical Artillery PM in Barracks
+	# Unlocks Chemical heavy_weapons PM in Barracks
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/chemical_warfare.dds"
 	category = military

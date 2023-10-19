@@ -9,7 +9,17 @@ texticon = {
 }
 
 texticon = {
-	icon = vertibirds
+	icon = heavy_weapons
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/artillery.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = air_vehicles
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
 		size = { 25 25 }
