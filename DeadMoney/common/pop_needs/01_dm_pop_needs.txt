@@ -1,0 +1,54 @@
+﻿# goods						The good being referenced
+# weight					The base weight that is applied to this good based on market Sell Order share
+# max_supply_share			The maximum weight that can be applied to this good based on market Sell Order share, relative supply above this amount will have no further impact on base weight
+# min_supply_share			If above 0, a minimum of this multiplier of the base weight will be applied to a good regardless of its market Sell Order share
+
+popneed_water = {
+	default = material
+
+	entry = {
+		goods = water_good
+	}
+}
+
+popneed_personal_safety = {
+	default = security_good
+
+	entry = {
+		goods = services
+		
+		weight = 0.25
+		max_supply_share = 0.3
+		min_supply_share = 0.0
+	}
+
+	entry = {
+		goods = security_good
+		
+		weight = 1
+		max_supply_share = 1.0
+		min_supply_share = 0.2
+	}
+
+}
+
+popneed_security = {
+	default = security_good
+
+	entry = {
+		goods = services
+		
+		weight = 0.25
+		max_supply_share = 0.3
+		min_supply_share = 0.0
+	}
+
+	entry = {
+		goods = security_good
+		
+		weight = 1
+		max_supply_share = 1.0
+		min_supply_share = 0.2
+	}
+
+}

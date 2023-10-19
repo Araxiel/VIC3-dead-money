@@ -1,0 +1,94 @@
+﻿### Vanilla Overrides
+# pmg_base_building_subsistence_farms
+# pmg_ownership_building_subsistence
+###
+
+pmg_base_building_subsistence_farms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_subsistence_farms
+	}
+}
+
+pmg_ownership_building_subsistence = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_building_subsistence
+		pm_homesteading_building_subsistence
+		pm_self_run_subsistence
+		pm_government_run_building_subsistence
+	}
+}
+
+### New FPB
+# pmg_base_farm
+# pmg_ownership_agriculture
+# pmg_base_water_well
+# pmg_ownership_water_facilities
+# pmg_base_salvaging
+# pmg_ownership_salvaging_facilities
+###
+
+pmg_base_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_farming
+		pm_improved_farming
+	}
+}
+
+pmg_ownership_agriculture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_privately_owned_farms
+		pm_homesteading_owned_farms
+	}
+}
+
+pmg_base_water_well = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_water_wells
+		pm_improved_water_wells
+	}
+}
+
+pmg_ownership_water_facilities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_self_run
+		pm_merchant_guilds
+		pm_privately_owned
+		pm_government_run
+	}
+}
+
+pmg_base_salvaging = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	#ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_salvaging
+		pm_improved_salvaging
+	}
+}
+
+pmg_ownership_salvaging_facilities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_self_run
+		pm_merchant_guilds
+		pm_privately_owned
+		pm_government_run
+	}
+}

@@ -1,0 +1,97 @@
+﻿### Vanilla overrides
+# pmg_amenities
+# pmg_ownership_building_trade_center
+###
+## Other files
+# pmg_base_building_construction_sector
+# pmg_base_building_trade_center
+###
+
+pmg_amenities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_basic_amenities
+		pm_improved_amenities
+	}
+}
+
+pmg_ownership_building_trade_center = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_trade_center_merchant_guilds
+	}
+}
+
+## New FPB
+# pmg_base_food_industry
+# pmg_base_workshop_industry
+# pmg_ownership_urban
+# pmg_urban_security
+# pmg_base_government_administration
+# pmg_base_government_innovation
+##
+
+pmg_base_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_meal
+		pm_improved_meal
+	}
+}
+
+pmg_base_workshop_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_workshop
+		pm_improved_workshop
+	}
+}
+
+pmg_ownership_urban = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_self_run
+		pm_merchant_guilds
+		pm_privately_owned
+		pm_government_run
+	}
+}
+
+pmg_urban_security = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_security_production
+		pm_improved_security_production
+	}
+}
+
+pmg_base_government_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_simple_organization
+		pm_horizontal_drawer_cabinets
+	}
+}
+
+pmg_base_government_innovation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_education
+		pm_basic_education
+		pm_improved_education
+	}
+}

@@ -1,0 +1,21 @@
+﻿BUILDINGS={
+	s:STATE_SHADYSANDS={
+		region_state:NCR ={
+			create_building={
+				building="building_farm"
+				level=5
+				reserves=1
+			}
+			create_building={
+				building="building_water_well"
+				level=5
+				reserves=1
+			}
+			create_building={
+				building="building_salvage_post"
+				level=5
+				reserves=1
+			}
+		}
+	}
+}

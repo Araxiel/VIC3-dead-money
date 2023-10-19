@@ -1,0 +1,219 @@
+﻿## Subsistance
+
+building_subsistence_farms = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_base_building_subsistence_farms
+		pmg_ownership_building_subsistence
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	slaves_role = peasants
+}
+
+## Primary Extraction
+
+building_farm = {
+	building_group = bg_wheat_farms
+	
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_farm
+		pmg_ownership_agriculture
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_wheat
+}
+
+building_water_well = {
+	building_group = bg_water_facilities
+	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_base_water_well
+		pmg_ownership_water_facilities
+	}
+}
+
+building_salvage_post = {
+	building_group = bg_salvage_buildings
+	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_base_salvaging
+		pmg_ownership_salvaging_facilities
+	}
+}
+
+## Manufactoring
+
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_food_industry
+		pmg_ownership_urban
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+building_workshop = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_workshop_industry
+		pmg_ownership_urban
+	}
+	
+	required_construction = construction_cost_high
+}
+
+## Urban
+
+building_urban_center = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	city_type = city
+	residence_points_per_level = 0
+	
+	production_method_groups = {
+		pmg_amenities
+		pmg_urban_security
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no	
+	
+	terrain_manipulator = urban_city
+}
+
+building_trade_center = {
+	building_group = bg_trade
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_trade_center.dds"
+
+	production_method_groups = {
+		pmg_base_building_trade_center
+		pmg_ownership_building_trade_center
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no	
+}
+
+building_government_administration = {
+	building_group = bg_bureaucracy
+	city_type = city
+
+	levels_per_mesh = 10
+
+	should_auto_expand = {
+		occupancy >= 0.8
+		OR = {
+			state.tax_capacity < state.tax_capacity_usage
+			owner = {
+				bureaucracy < -10
+			}
+		}
+	}
+
+	production_method_groups = {
+		pmg_base_government_administration
+		pmg_base_government_innovation
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = construction_cost_medium
+}
+
+building_construction_sector = {
+	building_group = bg_construction
+	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	has_max_level = yes
+	
+	required_construction = construction_cost_very_low
+
+	production_method_groups = {
+		pmg_base_building_construction_sector
+	}
+	
+	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
+}
+
+## Vanilla needed
+
+building_railway = {
+	building_group = bg_private_infrastructure	
+	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	
+	unlocking_technologies = {
+		railways
+	}
+
+	production_method_groups = {
+		pmg_base_building_railway
+		pmg_passenger_trains
+		pmg_ownership_capital_building_railway
+	}
+
+	required_construction = construction_cost_very_high
+	
+	ai_value = 2000 # Railways are important
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		OR = {
+			owner = {
+				market = {
+					mg:transportation = { 
+						market_goods_pricier > 0.5 
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+}

@@ -1,0 +1,233 @@
+﻿### ERA 1
+
+sericulture = {
+	# Unlocks Mulberry Groves PM on Rice Farms
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/sericulture.dds"
+	category = production
+	can_research = no
+	
+	modifier = {
+		building_silk_plantation_throughput_add = 0.25
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+enclosure = {
+	# Unlocks construction of Farms and Plantations
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+	
+	ai_weight = {
+		value = 3 # Very important tech in general
+	}
+}
+
+manufacturies = {
+	# Unlocks Mercantilism Law
+	# Unlocks Food Industry, Textile Mills, Furniture Manufacturies, Glassworks, Tooling Workshops, Paper Mills
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	
+	ai_weight = {
+		value = 3 # Very important tech in general
+	}
+}
+
+shaft_mining = {
+	# Unlocks Coal Mine, Iron Mine, Lead Mine, Sulfur Mine
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	
+	unlocking_technologies = {
+		enclosure
+		manufacturies
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech in general
+	}
+}
+
+
+cotton_gin = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/cotton_gin.dds"
+	category = production
+
+	modifier = {
+		building_cotton_plantation_throughput_add = 0.25
+	}
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+lathe = {
+	# Unlocks Lathes PM in Furniture Manufacturies
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/lathe.dds"
+	category = production
+	
+	unlocking_technologies = {
+		cotton_gin
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 1
+		}		
+	}
+}
+
+distillation = {
+	# Unlocks Pot Stills PM in Food Industry
+	# Unlocks Sweeteners PM in Food Industry
+	# Unlocks Fish Press PM in Fishing Wharfs
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/distillation.dds"
+	category = production
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+steelworking = {
+	# Unlocks Steel Mills
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/steelworking.dds"
+	category = production
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 1
+		}		
+	}
+}
+
+prospecting = {
+	# Unlocks possibility to discover Gold Fields
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/prospecting_tech.dds"
+	category = production
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+### ERA 2
+
+crystal_glass = {
+	# Unlocks Leaded Glass PM in Glassworks
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
+	category = production
+	
+	unlocking_technologies = {
+		lathe
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+intensive_agriculture = {
+	# Unlocks Chemical Plants
+	# Unlocks Intensive Agriculture PM on Rye Farms, Wheat Farms, Rice Farms, Maize Farms, Millet Farms
+	# Unlocks Intensize Grazing Ranch PM on Livestock Ranches
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	
+	unlocking_technologies = {
+		enclosure
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech for everyone
+		
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion 
+					has_strategy = ai_strategy_plantation_economy
+				}		
+			}
+			add = 2
+		}
+	}
+}
+
+fractional_distillation = {
+	# Unlocks Patent Stills PM in Food Industries
+	# Unlocks Cod Liver Oil PM in Fishing Wharfs
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
+	category = production
+	
+	unlocking_technologies = {
+		distillation
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+canneries = {
+	# Unlocks Cannery PM in Food Industries
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/canneries.dds"
+	category = production
+	
+	unlocking_technologies = {
+		lathe
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}

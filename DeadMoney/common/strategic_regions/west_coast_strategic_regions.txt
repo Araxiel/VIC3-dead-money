@@ -1,7 +1,19 @@
 ﻿# Strategic Regions in North America
 
-region_cali = {
-	capital_province = x7774E1
+region_california = {
+	capital_province = xb67c74
 	map_color = { 0.21 0.81 0.82 }
-	states = { STATE_NORTHWESTCALI STATE_NORTHMIDDLECALI STATE_NORTHSOUTHCALI }
+	states = { STATE_SHADYSANDS STATE_NEWRENO STATE_SIERRA STATE_MARIPOSA STATE_SANFRAN STATE_NAVARO STATE_JEFFERSON STATE_BAJA STATE_MODOC STATE_REDDING STATE_THEHUB STATE_BONEYARD STATE_NECROPOLIS STATE_MAXSON STATE_DAYGLOW STATE_ANZABOREGO }
+}
+
+region_nevada = {
+	capital_province = x7ce398
+	map_color = { 0.55 0.22 0.18 }
+	states = { STATE_LASVEGAS STATE_SQUATTERLAND STATE_VAULTCITY }
+}
+
+region_oregon = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_THEDEN STATE_ARROYO STATE_KLAMATH }
 }

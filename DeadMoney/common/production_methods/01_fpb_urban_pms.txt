@@ -1,0 +1,452 @@
+﻿## Construction
+pm_basic_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	
+	is_default = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_material_add = 50
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 25
+			building_employment_clerks_add = 25
+			building_employment_laborers_add = 200
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.002
+		}	
+	}
+}
+
+pm_improved_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 5 
+		}
+	}
+
+	# disallowing_laws = {
+	# 	# law_unorganized
+	# }
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_material_add = 100
+			goods_input_security_good_add = 20
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 25
+			building_employment_clerks_add = 25
+			building_employment_machinists_add = 15
+			building_employment_laborers_add = 200
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.004
+		}	
+	}
+}
+
+## Urban Center
+
+pm_basic_amenities = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 175
+			building_employment_clerks_add = 45
+			building_employment_shopkeepers_add = 20
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}
+
+pm_improved_amenities = {
+	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
+
+	unlocking_technologies = { urban_planning }
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_material_add = 2
+			goods_input_water_good_add = 2
+			goods_output_services_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_clerks_add = 70
+			building_employment_shopkeepers_add = 20
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}
+
+## Food Factory
+
+pm_basic_meal = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 40		# x20 =  800
+
+			# output goods
+			goods_output_meals_add = 45	# x30 = 1350
+		}
+
+		level_scaled = {
+			# profit = 550
+			building_employment_laborers_add = 225
+		}
+	}
+}
+
+pm_improved_meal = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 50
+			goods_input_water_good_add = 20
+
+			# output goods
+			goods_output_meals_add = 65
+		}
+
+		level_scaled = {
+			# profit = 550
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 25
+		}
+	}
+}
+
+## Workshop
+
+pm_basic_workshop = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 40		# x20 =  800
+
+			# output goods
+			goods_output_consumer_goods_add = 45	# x30 = 1350
+		}
+
+		level_scaled = {
+			# profit = 550
+			building_employment_laborers_add = 225
+		}
+	}
+}
+
+pm_improved_workshop = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 60
+
+			# output goods
+			goods_output_consumer_goods_add = 65
+		}
+
+		level_scaled = {
+			# profit = 550
+			building_employment_laborers_add = 200
+			building_employment_machinists_add = 25
+		}
+	}
+}
+
+## Urban ownership
+
+pm_self_run = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 15
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}
+
+pm_merchant_guilds_building = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+
+	unlocking_production_methods = {
+		pm_bakery
+	}
+
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 25
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}
+
+pm_privately_owned = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 10
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_government_run = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 8
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+## Urban security
+
+pm_basic_security_production = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 30
+
+			# output goods
+			goods_output_security_good_add = 20
+		}
+
+		level_scaled = {
+			building_employment_soldiers_add = 200
+		}
+	}
+}
+
+pm_improved_security_production = {
+	texture = "gfx/interface/icons/production_method_icons/line_infantry.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_material_add = 50
+
+			# output goods
+			goods_output_security_good_add = 40
+		}
+
+		level_scaled = {
+			building_employment_soldiers_add = 200
+			building_employment_officers_add = 25
+		}
+	}
+}
+
+## Gov Admin
+
+pm_simple_organization = {
+	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 35
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 5
+		}		
+	}
+
+	building_modifiers = {	
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}		
+}		
+
+pm_horizontal_drawer_cabinets = {
+	texture = "gfx/interface/icons/production_method_icons/horizontal_drawer_cabinets.dds"
+	
+	unlocking_technologies = {
+		centralization
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 50
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 10
+		}		
+	}	
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 10
+		}			
+	
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}		
+}
+
+pm_no_education = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+}
+
+pm_basic_education = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_material_add = 5
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 75
+			building_employment_laborers_add = 75
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.1
+		}	
+	}
+}
+
+pm_improved_education = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_material_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 90
+			building_employment_laborers_add = 60
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.2
+		}	
+	}
+}
+
+## Trade
+
+pm_trade_center = {
+	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
+	
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_mult = 0.25
+		}
+	}
+}
+
+pm_trade_center_merchant_guilds = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_shopkeepers_add = 15
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}

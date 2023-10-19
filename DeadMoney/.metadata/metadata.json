@@ -9,6 +9,11 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
+      "common/buildings",
+      "common/pop_needs",
+      "common/production_method_groups",
+      "common/production_methods",
+      "common/technology",
       "common/character_templates",
       "common/coat_of_arms/coat_of_arms",
       "common/country_creation",
@@ -23,14 +28,15 @@
       "common/history/countries",
       "common/history/diplomacy",
       "common/history/diplomatic_plays",
+      "common/history/governments",
       "common/history/interests",
       "common/history/pops",
       "common/history/population",
       "common/history/states",
       "common/history/trade_routes",
       "events",
-      "events/american_civil_war",
-	  "map_data"
+	    "map_data/state_regions",
+	    "map_data"
     ]
   }
 }

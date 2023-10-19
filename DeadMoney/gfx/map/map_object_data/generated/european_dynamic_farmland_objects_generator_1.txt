@@ -1,0 +1,45 @@
+﻿object={
+	name="european_dynamic_farmland_objects_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="european_province_farm_01_mesh"
+	count=0
+}
+object={
+	name="european_dynamic_farmland_objects_generator_1_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="european_province_farm_02_mesh"
+	count=0
+}
+object={
+	name="european_dynamic_farmland_objects_generator_1_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="european_farm_farmhouse_01_mesh"
+	count=0
+}
+object={
+	name="european_dynamic_farmland_objects_generator_1_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="european_farm_farmhouse_02_mesh"
+	count=0
+}
+object={
+	name="european_dynamic_farmland_objects_generator_1_4"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="farms_dynamic"
+	pdxmesh="windmill_01_mesh"
+	count=0
+}

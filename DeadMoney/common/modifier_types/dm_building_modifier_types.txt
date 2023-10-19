@@ -1,0 +1,201 @@
+﻿goods_input_firearms_add = {
+	good = no
+	percent = no
+}
+goods_output_firearms_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_vertibirds_add = {
+	good = no
+	percent = no
+}
+goods_output_vertibirds_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_laser_rifles_add = {
+	good = no
+	percent = no
+}
+goods_output_laser_rifles_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_combat_armor_add = {
+	good = no
+	percent = no
+}
+goods_output_combat_armor_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_power_armor_add = {
+	good = no
+	percent = no
+}
+goods_output_power_armor_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_water_add = {
+	good = no
+	percent = no
+}
+goods_output_water_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_salvage_add = {
+	good = no
+	percent = no
+}
+goods_output_salvage_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_combustion_ships_add = {
+	good = no
+	percent = no
+}
+goods_output_combustion_ships_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_nuclear_ships_add = {
+	good = no
+	percent = no
+}
+goods_output_nuclear_ships_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_nylon_add = {
+	good = no
+	percent = no
+}
+goods_output_nylon_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_machines_add = {
+	good = no
+	percent = no
+}
+goods_output_machines_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_chemicals_add = {
+	good = no
+	percent = no
+}
+goods_output_chemicals_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_robots_add = {
+	good = no
+	percent = no
+}
+goods_output_robots_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_energy_cells_add = {
+	good = no
+	percent = no
+}
+goods_output_energy_cells_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_fusion_cells_add = {
+	good = no
+	percent = no
+}
+goods_output_fusion_cells_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_electrical_components_add = {
+	good = no
+	percent = no
+}
+goods_output_electrical_components_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_vehicles_add = {
+	good = no
+	percent = no
+}
+goods_output_vehicles_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_computers_add = {
+	good = no
+	percent = no
+}
+goods_output_computers_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_caps_add = {
+	good = no
+	percent = no
+}
+goods_output_caps_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_nuka_cola_add = {
+	good = no
+	percent = no
+}
+goods_output_nuka_cola_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_security_good_add = {
+	good = no
+	percent = no
+}
+goods_output_security_good_add = {
+	good = yes
+	percent = no
+}
+
+
+# Not present in vanilla
+goods_input_luxury_clothes_add = {
+	good = no
+	percent = no
+}
+
+
+
+
+
+
