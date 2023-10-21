@@ -1,0 +1,189 @@
+﻿## Ownership Rural
+## TODO Laws, icons, technology
+
+pm_ownership_rural_barons = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_soldiers_add = 10
+			building_employment_aristocrats_add = 10
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 10
+		}
+	}
+}
+
+pm_ownership_rural_private = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_shopkeepers_add = 10
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_ownership_rural_public_trading = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds" 
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_capitalists_add = 10
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_ownership_rural_government_run = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds" 
+	
+	allowing_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_bureaucrats_add = 10
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_ownership_rural_worker_cooperative_rural_industry = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds" 
+
+	unlocking_laws = {
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 10
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_ownership_rural_order_run = {
+	texture = "gfx/interface/icons/production_method_icons/state_atheism.dds" 
+
+	unlocking_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 5
+			building_employment_academics_add = 5
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_ownership_rural_church_run = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds" 
+
+	unlocking_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 10
+		}
+		unscaled = {
+			building_capitalists_shares_add = 8
+			building_government_shares_add = 1
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+# Transportation
+## TODO Icons, technology
+
+pm_transportation_rural_brahmin = {
+	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
+}
+
+pm_transportation_rural_basic = {
+	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_transportation_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -15
+		}
+	}
+}
+
+pm_transportation_rural_extensive_network = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_transportation_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -30
+		}
+	}
+}

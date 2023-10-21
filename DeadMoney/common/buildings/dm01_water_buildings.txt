@@ -1,0 +1,96 @@
+
+
+## TODO Icon, Mesh
+building_water_well = {
+	building_group = bg_water_wells
+	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_water_well_base
+		pmg_water_well_treatment
+		pmg_water_well_automation
+		pmg_ownership_common_rural
+		pmg_transport_common_rural
+	}
+
+	unlocking_technologies = {
+		tech_water_wells
+	}
+}
+
+## TODO Icon, Mesh
+building_water_collector = {
+	building_group = bg_water_collectors
+	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	required_construction = construction_cost_low
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_water_collector_base
+		pmg_water_collector_treatment
+		pmg_water_collector_automation
+		pmg_ownership_common_rural
+		pmg_transport_common_rural
+	}
+
+	unlocking_technologies = {
+		tech_water_collection
+	}
+}
+
+## TODO Icon, Mesh
+building_water_treatment = {
+	building_group = bg_water_treatment
+	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	city_type = wood
+	levels_per_mesh = 5
+	required_construction = construction_cost_high
+	terrain_manipulator = mining
+
+	production_method_groups = {
+		pmg_water_treatment_base
+		pmg_water_treatment_treatment
+		pmg_water_treatment_automation
+		pmg_ownership_common_rural
+		pmg_transport_common_rural
+	}
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+}
+
+## TODO Icon, Mesh
+building_water_desalination = {
+	building_group = bg_water_desalination
+	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	city_type = port
+	levels_per_mesh = 5
+	required_construction = construction_cost_high
+	terrain_manipulator = ports
+
+	production_method_groups = {
+		pmg_water_desalination_base
+		pmg_water_desalination_treatment
+		pmg_water_desalination_automation
+		pmg_ownership_common_rural
+		pmg_transport_common_rural
+	}
+
+	unlocking_technologies = {
+		tech_water_desalination
+	}
+
+	possible = {
+		error_check = {
+			severity = fail
+			is_sea_adjacent = yes
+		}
+	}
+}

@@ -1,0 +1,548 @@
+﻿pm_water_well_base_hand_digging = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_water_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 125
+		}
+	}
+}
+
+pm_water_well_base_picks_shovels = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_tools_add = 5
+
+			# output goods													
+			goods_output_water_add = 15
+
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_water_well_base_pumpjacks = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_machines_add = 5
+
+			# output goods													
+			goods_output_water_add = 30
+
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 60
+			building_employment_machinists_add = 40
+		}
+	}
+}
+
+pm_water_well_treatment_none = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining1.dds"
+}
+
+pm_water_well_treatment_coal_filtration = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining2.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+
+			# output goods													
+			goods_output_water_add = 15
+
+		}
+	}
+}
+
+pm_water_well_treatment_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining3.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+			goods_input_chemicals_add = 5
+
+			# output goods													
+			goods_output_water_add = 40
+		}
+	}
+}
+
+pm_water_well_automation_none = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_water_well_automation_mechanized_tools = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation1.dds"
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -15
+		}
+	}
+}
+
+pm_water_well_automation_water_tube_boiler = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation2.dds"
+
+	unlocking_production_methods = {
+		pm_water_well_base_pumpjacks
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 2
+			goods_input_coal_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -30
+			building_employment_egineers_add = 5
+		}
+	}
+}
+
+pm_water_well_automation_modern_machines = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+
+	unlocking_production_methods = {
+		pm_water_well_base_pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 5
+			goods_input_electricity_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -30
+			building_employment_machinists_add = 10
+			building_employment_egineers_add = 5
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_water_collector_basic = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_water_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_water_collector_improved = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_tools_add = 2
+
+			# output goods													
+			goods_output_water_add = 8
+
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_water_collector_treatment_none = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining1.dds"
+}
+
+pm_water_collector_treatment_coal_filtration = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining2.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+
+			# output goods													
+			goods_output_water_add = 10
+
+		}
+	}
+}
+
+pm_water_collector_treatment_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining3.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+			goods_input_chemicals_add = 5
+
+			# output goods													
+			goods_output_water_add = 25
+		}
+	}
+}
+
+pm_water_collector_automation_none = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_water_collector_automation_mechanized_tools = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation1.dds"
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -10
+		}
+	}
+}
+
+pm_water_collector_automation_water_tube_boiler = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation2.dds"
+
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 2
+			goods_input_coal_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -25
+			building_employment_egineers_add = 5
+		}
+	}
+}
+
+pm_water_collector_automation_modern_machines = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 5
+			goods_input_electricity_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -55
+			building_employment_machinists_add = 10
+			building_employment_egineers_add = 10
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_water_treatment_basic = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_water_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_water_treatment_improved = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_machines_add = -2
+
+			# output goods													
+			goods_output_water_add = 15
+
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+		}
+	}
+}
+
+pm_water_treatment_treatment_none = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining1.dds"
+}
+
+pm_water_treatment_treatment_coal_filtration = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+
+			# output goods													
+			goods_output_water_add = 15
+
+		}
+	}
+}
+
+pm_water_treatment_treatment_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining3.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+			goods_input_chemicals_add = 5
+
+			# output goods													
+			goods_output_water_add = 35
+		}
+	}
+}
+
+pm_water_treatment_automation_none = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_water_treatment_automation_mechanized_tools = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation1.dds"
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -10
+		}
+	}
+}
+
+pm_water_treatment_automation_water_tube_boiler = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation2.dds"
+
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 2
+			goods_input_coal_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -20
+			building_employment_egineers_add = 5
+		}
+	}
+}
+
+pm_water_treatment_automation_modern_machines = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 5
+			goods_input_electricity_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -30
+			building_employment_egineers_add = 15
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_water_desalination_treatment_coal_filtration = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining2.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+
+			# output goods													
+			goods_output_water_add = 25
+
+		}
+	}
+}
+
+pm_water_desalination_treatment_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/unused/refining3.dds"
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_coal_add = 5
+			goods_input_chemicals_add = 5
+
+			# output goods													
+			goods_output_water_add = 40
+		}
+	}
+}
+
+pm_water_desalination_automation_none = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_water_desalination_automation_mechanized_tools = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation1.dds"
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -10
+		}
+	}
+}
+
+pm_water_desalination_automation_water_tube_boiler = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation2.dds"
+
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+			
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 2
+			goods_input_coal_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -20
+			building_employment_egineers_add = 5
+		}
+	}
+}
+
+pm_water_desalination_automation_modern_machines = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_tools_add = 5
+			goods_input_machines_add = 5
+			goods_input_electricity_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -30
+			building_employment_egineers_add = 15
+		}
+	}
+
+	required_input_goods = electricity
+}

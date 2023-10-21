@@ -1,0 +1,135 @@
+﻿
+pmg_ownership_common_rural = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_ownership_rural_barons
+		pm_ownership_rural_private
+		pm_ownership_rural_public_trading
+		pm_ownership_rural_government_run
+		pm_ownership_rural_worker_cooperative_rural_industry
+		pm_ownership_rural_order_run
+		pm_ownership_rural_church_run
+	}
+}
+
+pmg_transport_common_rural = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_transportation_rural_brahmin
+		pm_transportation_rural_basic
+		pm_transportation_rural_extensive_network
+	}
+}
+
+pmg_water_well_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_water_well_base_hand_digging
+		pm_water_well_base_picks_shovels
+		pm_water_well_base_pumpjacks
+	}
+}
+
+pmg_water_well_treatment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_water_well_treatment_none
+		pm_water_well_treatment_coal_filtration
+		pm_water_well_treatment_chemical_treatment
+	}
+}
+
+pmg_water_well_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_water_well_automation_none
+		pm_water_well_automation_mechanized_tools
+		pm_water_well_automation_water_tube_boiler
+		pm_water_well_automation_modern_machines
+	}
+}
+
+pmg_water_collector_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_water_collector_basic
+		pm_water_collector_improved
+	}
+}
+
+pmg_water_collector_treatment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_water_collector_treatment_none
+		pm_water_collector_treatment_coal_filtration
+		pm_water_collector_treatment_chemical_treatment
+	}
+}
+
+pmg_water_collector_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_water_collector_automation_none
+		pm_water_collector_automation_mechanized_tools
+		pm_water_collector_automation_water_tube_boiler
+		pm_water_collector_automation_modern_machines
+	}
+}
+
+pmg_water_treatment_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	
+	production_methods = {
+		pm_water_treatment_basic
+		pm_water_treatment_improved
+	}
+}
+
+pmg_water_treatment_treatment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	
+	production_methods = {
+		pm_water_treatment_treatment_none
+		pm_water_treatment_treatment_coal_filtration
+		pm_water_treatment_treatment_chemical_treatment
+	}
+}
+
+pmg_water_treatment_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	
+	production_methods = {
+		pm_water_treatment_automation_none
+		pm_water_treatment_automation_mechanized_tools
+		pm_water_treatment_automation_water_tube_boiler
+		pm_water_treatment_automation_modern_machines
+	}
+}
+
+pmg_water_desalination_treatment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_water_desalination_treatment_coal_filtration
+		pm_water_desalination_treatment_chemical_treatment
+	}
+}
+
+pmg_water_desalination_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_water_desalination_automation_none
+		pm_water_desalination_automation_mechanized_tools
+		pm_water_desalination_automation_water_tube_boiler
+		pm_water_desalination_automation_modern_machines
+	}
+}

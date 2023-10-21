@@ -1,0 +1,56 @@
+bg_water_facilities = {
+	category = rural
+
+	economy_of_scale = yes
+	
+	can_use_slaves = yes
+	
+	lens = forestry	
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 1.0
+}
+
+bg_water_collectors = {
+	parent_group = bg_water_facilities
+
+	default_building = building_water_collector
+	
+	land_usage = rural
+
+}
+
+bg_water_wells = {
+	parent_group = bg_water_facilities
+	
+	default_building = building_water_well
+
+	capped_by_resources = yes
+	discoverable_resource = yes
+	depletable_resource = yes
+	
+}
+
+bg_water_treatment = {
+	parent_group = bg_water_facilities
+	
+	default_building = building_water_treatment
+
+	capped_by_resources = yes
+}
+
+bg_water_desalination = {
+	parent_group = bg_water_facilities
+	
+	default_building = building_water_desalination
+
+	capped_by_resources = yes
+}

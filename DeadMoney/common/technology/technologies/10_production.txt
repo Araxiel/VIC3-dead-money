@@ -1,5 +1,36 @@
 ﻿### ERA 1
 
+# DM
+## TODO
+tech_water_wells = {
+	# Basic water wells
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
+	category = production
+	
+	ai_weight = {
+		value = 3
+	}
+
+}
+
+# DM
+## TODO
+tech_water_collection = {
+	# Basic water collectio
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/prospecting_tech.dds"
+	category = production
+		
+	ai_weight = {
+		value = 3
+	}
+
+	unlocking_technologies = {
+		tech_water_wells
+	}
+}
+
 sericulture = {
 	# Unlocks Mulberry Groves PM on Rice Farms
 	era = era_1
@@ -158,6 +189,40 @@ prospecting = {
 
 
 ### ERA 2
+
+# DM
+## TODO
+tech_water_treatment = {
+	# Surface water treatment and coal filtration PM
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/quinine.dds"
+	category = production
+		
+	ai_weight = {
+		value = 1
+	}
+
+	unlocking_technologies = {
+		tech_water_wells
+	}
+}
+
+# DM
+## TODO
+tech_water_desalination = {
+	# Surface water treatment and chemical filtration PM
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/watertube_boiler.dds"
+	category = production
+		
+	ai_weight = {
+		value = 1
+	}
+
+	unlocking_technologies = {
+		tech_water_treatment
+	}
+}
 
 crystal_glass = {
 	# Unlocks Leaded Glass PM in Glassworks

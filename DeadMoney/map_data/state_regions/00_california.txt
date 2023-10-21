@@ -8,15 +8,21 @@ STATE_SHADYSANDS = {
     id = 101
     subsistence_building = "building_subsistence_farms"
     provinces = { "x7392B3" "x76B2A7" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
-    city = "b67c74"
-    farm = "96f995"
-    mine = "a1cbe3"
-    wood = "93718A"
-    arable_land = 35
-    arable_resources = { "bg_wheat_farms" }
+    city = "xb67c74"
+    farm = "x96f995"
+    mine = "xa1cbe3"
+    wood = "x93718A"
+    arable_land = 60
+    arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_treatment = 4
+    }
+    resource = {
+        type = "bg_water_wells"
+        depleted_type = "bg_water_collectors"
+        undiscovered_amount = 5
+        discovered_amount = 6
     }
 }
 # New Reno 102

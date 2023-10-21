@@ -36,20 +36,6 @@ building_farm = {
 	terrain_manipulator = farmland_wheat
 }
 
-building_water_well = {
-	building_group = bg_water_facilities
-	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
-	city_type = mine
-	levels_per_mesh = 5
-	required_construction = construction_cost_medium
-	terrain_manipulator = mining
-
-	production_method_groups = {
-		pmg_base_water_well
-		pmg_ownership_water_facilities
-	}
-}
-
 building_salvage_post = {
 	building_group = bg_salvage_buildings
 	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
