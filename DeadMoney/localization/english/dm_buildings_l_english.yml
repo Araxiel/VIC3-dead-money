@@ -1,5 +1,7 @@
 ﻿l_english: 
 
+  bg_rural: "Rural"
+
   ## Common PMs
   pmg_ownership_common_rural: "Ownership"
 
@@ -17,9 +19,15 @@
   pm_transportation_rural_basic: "Basic Transport"
   pm_transportation_rural_extensive_network: "Extensive Network"
 
-  ## Water Buildings
+  ## Water
 
-  #buildings
+  bg_water_facilities: "Water Facilities"
+  bg_water_collectors: "Water Collectors"
+  bg_water_wells: "Water Wells"
+  bg_water_treatment: "Water Treatment Plants"
+  bg_water_desalination: "Water Desalination Plants"
+
+  # Water buildings
   building_water_well: "Water Well"
   building_water_well_lens_option: "Expand $building_water_well$"
   building_water_collector: "Water Collectors"
@@ -29,7 +37,7 @@
   building_water_desalination: "Water Desalination Plant"
   building_water_desalination_lens_option: "Expand $building_water_desalination$"
 
-  ## PMs
+  ## Water PMs
   pmg_water_well_base: "Wells"
   pmg_water_well_treatment: "Water Treatment"
   pmg_water_well_automation: "Automation"
@@ -77,3 +85,7 @@
   pm_water_desalination_automation_mechanized_tools: "$pm_water_well_automation_mechanized_tools$"
   pm_water_desalination_automation_water_tube_boiler: "$pm_water_well_automation_water_tube_boiler$"
   pm_water_desalination_automation_modern_machines: "$pm_water_well_automation_modern_machines$"
+
+  # Trade Center
+  pm_trade_center_trading_barons: "Trading Barons"
+  pm_trade_center_independent_traders: "Independent Traders"

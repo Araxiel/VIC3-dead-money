@@ -16,9 +16,9 @@ pm_basic_buildings = {
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 25
-			building_employment_clerks_add = 25
-			building_employment_laborers_add = 200
+			building_employment_bureaucrats_add = 10
+			building_employment_clerks_add = 20
+			building_employment_laborers_add = 70
 		}
 		unscaled = {
 			building_laborers_mortality_mult = 0.1
@@ -52,10 +52,10 @@ pm_improved_buildings = {
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 25
-			building_employment_clerks_add = 25
-			building_employment_machinists_add = 15
-			building_employment_laborers_add = 200
+			building_employment_bureaucrats_add = 10
+			building_employment_clerks_add = 20
+			building_employment_machinists_add = 20
+			building_employment_laborers_add = 50
 		}
 		unscaled = {
 			building_laborers_mortality_mult = 0.1
@@ -80,9 +80,9 @@ pm_basic_amenities = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 175
-			building_employment_clerks_add = 45
-			building_employment_shopkeepers_add = 20
+			building_employment_laborers_add = 60
+			building_employment_clerks_add = 40
+			building_employment_shopkeepers_add = 10
 		}
 
 		unscaled = {
@@ -104,9 +104,9 @@ pm_improved_amenities = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_clerks_add = 70
-			building_employment_shopkeepers_add = 20
+			building_employment_laborers_add = 50
+			building_employment_clerks_add = 50
+			building_employment_shopkeepers_add = 10
 		}
 
 		unscaled = {
@@ -131,7 +131,7 @@ pm_basic_meal = {
 
 		level_scaled = {
 			# profit = 550
-			building_employment_laborers_add = 225
+			building_employment_laborers_add = 100
 		}
 	}
 }
@@ -151,8 +151,8 @@ pm_improved_meal = {
 
 		level_scaled = {
 			# profit = 550
-			building_employment_laborers_add = 200
-			building_employment_machinists_add = 25
+			building_employment_laborers_add = 80
+			building_employment_machinists_add = 20
 		}
 	}
 }
@@ -173,7 +173,7 @@ pm_basic_workshop = {
 
 		level_scaled = {
 			# profit = 550
-			building_employment_laborers_add = 225
+			building_employment_laborers_add = 100
 		}
 	}
 }
@@ -192,8 +192,8 @@ pm_improved_workshop = {
 
 		level_scaled = {
 			# profit = 550
-			building_employment_laborers_add = 200
-			building_employment_machinists_add = 25
+			building_employment_laborers_add = 80
+			building_employment_machinists_add = 20
 		}
 	}
 }
@@ -209,7 +209,7 @@ pm_self_run = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_shopkeepers_add = 15
+			building_employment_shopkeepers_add = 10
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -231,7 +231,7 @@ pm_merchant_guilds_building = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_shopkeepers_add = 25
+			building_employment_shopkeepers_add = 10
 		}
 		unscaled = {
 			building_shopkeepers_shares_add = 10
@@ -266,7 +266,7 @@ pm_government_run = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 8
+			building_employment_bureaucrats_add = 10
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -289,7 +289,7 @@ pm_basic_security_production = {
 		}
 
 		level_scaled = {
-			building_employment_soldiers_add = 200
+			building_employment_soldiers_add = 50
 		}
 	}
 }
@@ -307,8 +307,8 @@ pm_improved_security_production = {
 		}
 
 		level_scaled = {
-			building_employment_soldiers_add = 200
-			building_employment_officers_add = 25
+			building_employment_soldiers_add = 40
+			building_employment_officers_add = 10
 		}
 	}
 }
@@ -387,8 +387,8 @@ pm_basic_education = {
 		}	
 	
 		level_scaled = {
-			building_employment_clerks_add = 75
-			building_employment_laborers_add = 75
+			building_employment_clerks_add = 40
+			building_employment_laborers_add = 40
 		}
 	}
 	
@@ -414,8 +414,8 @@ pm_improved_education = {
 		}
 		
 		level_scaled = {
-			building_employment_clerks_add = 90
-			building_employment_laborers_add = 60
+			building_employment_clerks_add = 60
+			building_employment_laborers_add = 20
 		}					
 	}
 	
@@ -443,7 +443,7 @@ pm_trade_center_merchant_guilds = {
 	
 	building_modifiers = { 
 		level_scaled = {
-			building_employment_shopkeepers_add = 15
+			building_employment_shopkeepers_add = 10
 		}
 		unscaled = {
 			building_shopkeepers_shares_add = 10

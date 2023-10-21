@@ -1,4 +1,12 @@
+## Overarching group for everything "out in the wasteland" outside the safety of Urban areas
+bg_rural = {
+	category = rural
+}
+
+## Water
 bg_water_facilities = {
+	parent_group = bg_rural
+
 	category = rural
 
 	economy_of_scale = yes
@@ -36,7 +44,7 @@ bg_water_wells = {
 	capped_by_resources = yes
 	discoverable_resource = yes
 	depletable_resource = yes
-	
+
 }
 
 bg_water_treatment = {
@@ -45,6 +53,8 @@ bg_water_treatment = {
 	default_building = building_water_treatment
 
 	capped_by_resources = yes
+
+	can_use_slaves = no
 }
 
 bg_water_desalination = {
@@ -53,4 +63,6 @@ bg_water_desalination = {
 	default_building = building_water_desalination
 
 	capped_by_resources = yes
+
+	can_use_slaves = no
 }

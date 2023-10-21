@@ -65,7 +65,7 @@ pm_ownership_rural_public_trading = {
 pm_ownership_rural_government_run = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds" 
 	
-	allowing_laws = {
+	unlocking_laws = {
 		law_command_economy
 	}
 

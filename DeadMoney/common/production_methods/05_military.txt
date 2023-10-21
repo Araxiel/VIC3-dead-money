@@ -1,25 +1,18 @@
-﻿## Vanilla
-
-pm_irregular_infantry = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+﻿pm_no_organization = {
+	texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
 	is_default = yes
 	building_modifiers = {
 
 		level_scaled = {
-			building_employment_soldiers_add = 970
-			building_employment_officers_add = 30
-			building_training_rate_add = 4
-		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 1
+			building_employment_soldiers_add = 95
+			building_employment_officers_add = 5
+			building_training_rate_add = 6
 		}
 	}
 }
 
-pm_line_infantry = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_general_training = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
 	is_default = yes
 	unlocking_technologies = {
 		line_infantry
@@ -27,23 +20,15 @@ pm_line_infantry = {
 	building_modifiers = {
 
 		level_scaled = {
-			building_employment_soldiers_add = 950
-			building_employment_officers_add = 50
-			building_training_rate_add = 8
+			building_employment_soldiers_add = 85
+			building_employment_officers_add = 15
+			building_training_rate_add = 12
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 4
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_skirmish_infantry = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_advanced_tactics_training = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
 	unlocking_technologies = {
 		general_staff
 	}
@@ -52,20 +37,12 @@ pm_skirmish_infantry = {
 		level_scaled = {
 			building_employment_soldiers_add = 900
 			building_employment_officers_add = 100
-			building_training_rate_add = 12
+			building_training_rate_add = 16
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 6
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_trench_infantry = {
+pm_training_streamlining = {
 	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
 	unlocking_technologies = {
 		trench_works
@@ -75,25 +52,16 @@ pm_trench_infantry = {
 		level_scaled = {
 			building_employment_soldiers_add = 850
 			building_employment_officers_add = 150
-			building_training_rate_add = 16
+			building_training_rate_add = 20
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 10
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_squad_infantry = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_nco_incorporation = {
+	texture = "gfx/interface/icons/production_method_icons/nco_incorporation.dds"
 	unlocking_technologies = {
 		nco_training
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -101,25 +69,16 @@ pm_squad_infantry = {
 		level_scaled = {
 			building_employment_soldiers_add = 800
 			building_employment_officers_add = 200
-			building_training_rate_add = 20
+			building_training_rate_add = 22
 		}		
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 15
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_mechanized_infantry = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_mobile_warfare_tactics = {
+	texture = "gfx/interface/icons/production_method_icons/motorised_logistics.dds"
 	unlocking_technologies = {
-		nco_training
+		mobile_armor
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -127,53 +86,40 @@ pm_mechanized_infantry = {
 		level_scaled = {
 			building_employment_soldiers_add = 750
 			building_employment_officers_add = 250
-			building_training_rate_add = 20
+			building_training_rate_add = 25
 		}		
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 20
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_irregular_infantry_conscription = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_no_organization_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
 	is_default = yes
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 970
 			building_employment_officers_add = 30
-			building_training_rate_add = 4
+			building_training_rate_add = 6
 		}
 	}
 }
 
-pm_line_infantry_conscription = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_general_training_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
 	is_default = yes
 	unlocking_technologies = {
 		line_infantry
 	}
-
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 950
 			building_employment_officers_add = 50
-			building_training_rate_add = 8
+			building_training_rate_add = 12
 		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_skirmish_infantry_conscription = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_advanced_tactics_training_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
 	unlocking_technologies = {
 		general_staff
 	}
@@ -184,16 +130,12 @@ pm_skirmish_infantry_conscription = {
 		level_scaled = {
 			building_employment_soldiers_add = 900
 			building_employment_officers_add = 100
-			building_training_rate_add = 12
+			building_training_rate_add = 16
 		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_trench_infantry_conscription = {
+pm_training_streamlining_conscription = {
 	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
 	unlocking_technologies = {
 		trench_works
@@ -205,44 +147,33 @@ pm_trench_infantry_conscription = {
 		level_scaled = {
 			building_employment_soldiers_add = 850
 			building_employment_officers_add = 150
-			building_training_rate_add = 16
+			building_training_rate_add = 20
 		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_squad_infantry_conscription = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_nco_incorporation_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/nco_incorporation.dds"
 	unlocking_technologies = {
 		nco_training
 	}
-
 	disallowing_laws = {
 		law_peasant_levies
 	}
-
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 800
 			building_employment_officers_add = 200
-			building_training_rate_add = 20
+			building_training_rate_add = 22
 		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
-pm_mechanized_infantry_conscription = {
-	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+pm_mobile_warfare_tactics_conscription = {
+	texture = "gfx/interface/icons/production_method_icons/motorised_logistics.dds"
 	unlocking_technologies = {
-		nco_training
+		mobile_armor
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 		}
@@ -250,16 +181,8 @@ pm_mechanized_infantry_conscription = {
 		level_scaled = {
 			building_employment_soldiers_add = 750
 			building_employment_officers_add = 250
-			building_training_rate_add = 20
+			building_training_rate_add = 25
 		}		
-	}
-	country_modifiers = {
-		workforce_scaled = {
-			country_army_power_projection_add = 1
-		}
-	}
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
@@ -272,13 +195,6 @@ pm_no_naval_theory = {
 			building_training_rate_add = 3
 		}
 	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_navy_power_projection_add = 1
-			country_max_declared_interests_add = 0.125
-		}
-	}
 }
 
 pm_power_of_the_purse = {
@@ -286,7 +202,6 @@ pm_power_of_the_purse = {
 	unlocking_technologies = {
 		power_of_the_purse
 	}
-
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 875
@@ -299,17 +214,6 @@ pm_power_of_the_purse = {
 			unit_morale_damage_mult = 0.1
 		}
 	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_navy_power_projection_add = 10
-			country_max_declared_interests_add = 0.15
-		}
-	}
-	
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
-	}
 }
 
 pm_jeune_ecole = {
@@ -317,7 +221,6 @@ pm_jeune_ecole = {
 	unlocking_technologies = {
 		jeune_ecole
 	}
-
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 850
@@ -330,17 +233,6 @@ pm_jeune_ecole = {
 			unit_morale_damage_mult = 0.2
 		}
 	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_navy_power_projection_add = 20
-			country_max_declared_interests_add = 0.175
-		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
-	}
 }
 
 pm_sea_lane_strategies = {
@@ -348,29 +240,19 @@ pm_sea_lane_strategies = {
 	unlocking_technologies = {
 		sea_lane_strategies
 	}
-
 	building_modifiers = {
 		level_scaled = {
+			building_employment_soldiers_add = 825
+			building_employment_officers_add = 175
+			building_training_rate_add = 4.5
 			building_employment_soldiers_add = -75
 			building_employment_officers_add = 75
-			building_training_rate_add = 4.5
 		}
 
 		unscaled = {
 			unit_morale_loss_mult = -0.3
 			unit_morale_damage_mult = 0.3
 		}
-	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_navy_power_projection_add = 30
-			country_max_declared_interests_add = 0.2
-		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }
 
@@ -379,7 +261,6 @@ pm_battlefleet_tactics = {
 	unlocking_technologies = {
 		battlefleet_tactics
 	}
-
 	building_modifiers = {
 		level_scaled = {
 			building_employment_soldiers_add = 800
@@ -391,16 +272,5 @@ pm_battlefleet_tactics = {
 			unit_morale_loss_mult = -0.4
 			unit_morale_damage_mult = 0.4
 		}
-	}
-	
-	country_modifiers = {
-		workforce_scaled = {
-			country_navy_power_projection_add = 40
-			country_max_declared_interests_add = 0.25
-		}
-	}
-
-	timed_modifiers = {
-		pm_offense_defense_readjustment_minor
 	}
 }

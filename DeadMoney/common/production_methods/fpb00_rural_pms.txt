@@ -15,7 +15,7 @@ default_building_subsistence_farms = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 250
+			building_employment_peasants_add = 100
 		}
 	}
 }
@@ -91,8 +91,7 @@ pm_government_run_building_subsistence = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clergymen_add = 150
-			building_employment_bureaucrats_add = 100
+			building_employment_bureaucrats_add = 10
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -109,8 +108,8 @@ pm_basic_farming = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 200
-			building_employment_farmers_add = 30
+			building_employment_laborers_add = 60
+			building_employment_farmers_add = 40
 		}
 	}
 }
@@ -129,8 +128,8 @@ pm_improved_farming = {
 
 		level_scaled = {
 			# earnings
-			building_employment_laborers_add = 180
-			building_employment_farmers_add = 50
+			building_employment_laborers_add = 40
+			building_employment_farmers_add = 60
 		}
 	}
 }
@@ -170,42 +169,6 @@ pm_homesteading_owned_farms = {
 	}
 }
 
-pm_basic_water_wells = {
-	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			# output goods													
-			goods_output_water_add = 30
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 200
-			building_employment_machinists_add = 50
-		}
-	}
-}
-
-pm_improved_water_wells = {
-	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_salvage_add = 10
-			
-			# output goods
-			goods_output_water_add = 50
-		}
-
-		level_scaled = {
-			# earnings
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 90
-			building_employment_engineers_add = 10
-		}
-	}
-}
-
 pm_basic_salvaging = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
 	building_modifiers = {
@@ -215,7 +178,6 @@ pm_basic_salvaging = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 200
 			building_employment_laborers_add = 100
 		}
 	}
@@ -234,8 +196,7 @@ pm_improved_salvaging = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 50
-			building_employment_laborers_add = 250
+			building_employment_laborers_add = 100
 		}
 	}
 }

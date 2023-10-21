@@ -4,7 +4,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			goods_output_water_add = 5
+			goods_output_water_add = 10
 		}
 
 		level_scaled = {
@@ -22,7 +22,7 @@ pm_water_well_base_picks_shovels = {
 			goods_input_tools_add = 5
 
 			# output goods													
-			goods_output_water_add = 15
+			goods_output_water_add = 20
 
 		}
 
@@ -47,7 +47,7 @@ pm_water_well_base_pumpjacks = {
 			goods_input_machines_add = 5
 
 			# output goods													
-			goods_output_water_add = 30
+			goods_output_water_add = 40
 
 		}
 
@@ -178,7 +178,7 @@ pm_water_collector_basic = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			goods_output_water_add = 2
+			goods_output_water_add = 5
 		}
 
 		level_scaled = {
@@ -193,7 +193,7 @@ pm_water_collector_improved = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_tools_add = 2
+			goods_input_tools_add = 10
 
 			# output goods													
 			goods_output_water_add = 8

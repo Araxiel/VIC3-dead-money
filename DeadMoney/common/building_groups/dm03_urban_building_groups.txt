@@ -1,0 +1,82 @@
+## Overarching group for everything in the relative safety of Urban areas
+bg_urban = {
+	category = urban
+}
+
+bg_service = {
+	parent_group = bg_urban
+	category = urban
+	
+	land_usage = urban
+
+	always_possible = yes	
+	
+	auto_place_buildings = yes	
+	
+	economy_of_scale = yes
+	
+	default_building = building_urban_center
+	
+	cash_reserves_max = 25000
+}
+
+bg_urban_facilities = {
+	parent_group = bg_urban
+	category = urban
+	
+	lens = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+}
+
+bg_arts = {
+	parent_group = bg_urban_facilities
+	infrastructure_usage_per_level = 0.5
+}
+
+bg_trade = {
+	parent_group = bg_urban_facilities
+	
+	category = urban
+	
+	lens = trade
+
+	always_possible = yes	
+	
+	created_by_trade_routes = yes
+	
+	auto_place_buildings = yes
+	
+	hiring_rate = 1.0
+	
+	proportionality_limit = 1.0
+	
+	economy_of_scale = no
+	
+	default_building = building_trade_center
+	
+	cash_reserves_max = 5000	
+	
+	urbanization = 5
+	
+	infrastructure_usage_per_level = 0.1
+	
+	fired_pops_become_radical = no
+	
+	should_auto_expand = {
+		always = no
+	}
+}
