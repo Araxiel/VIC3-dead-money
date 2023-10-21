@@ -1515,7 +1515,7 @@ types building_panels
 								}
 							}
 							textbox = {
-								raw_text = "#bold [PopListItem.GetWorkingAdultsPopSize|K]#! / #maximum [Building.GetMaxPopSize(PopListItem.GetPopType)|K]#!"
+								raw_text = "#bold [PopListItem.GetWorkingAdultsPopSize]#! / #maximum [Building.GetMaxPopSize(PopListItem.GetPopType)]#!"
 								autoresize = yes
 								align = left|nobaseline
 								parentanchor = vcenter
