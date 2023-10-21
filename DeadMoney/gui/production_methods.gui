@@ -535,7 +535,6 @@ types production_methods
 			container = {
 				position = { 112 0 }
 				parentanchor = bottom
-				name = "tutorial_highlight_production_methods"
 				
 				fixedgridbox = {
 					datamodel = "[ProductionMethodsPanelEntry.AccessBuildingType.AccessProductionMethodGroups]"
@@ -553,7 +552,7 @@ types production_methods
 								visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessCountryProductionMethods( GetPlayer.Self ) ), '(int32)1' )]"
 								distribute_visual_state = no
 								inherit_visual_state = no
-								using = expand_button_bg_no_fade
+								using = expand_button_bg_dropdown
 								size = { 100% 100% }
 								onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenuForType(ProductionMethodsPanelEntry.AccessBuildingType, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
 							}
@@ -638,7 +637,7 @@ types production_methods
 					
 					onclick = "[BuildingType.ActivateExpansionLens]"
 					using = select_button_sound
-					visible = "[Or( BuildingType.IsBuildable, BuildingType.IsExpandable )]"
+					visible = "[And(Or( BuildingType.IsBuildable, BuildingType.IsExpandable ), Not(BuildingType.IsMilitaryBuilding))]"
 					tooltip = "EXPAND"
 				}
 
@@ -819,15 +818,44 @@ types production_methods
 							parentanchor = left|vcenter
 						}
 						
+						flowcontainer = {
+							parentanchor = right|vcenter
+							position = { -10 0 }
+							spacing = 5
+
+							icon = {
+								visible = "[And(Not(Building.IsSubsistenceBuilding), Building.HasFailedHires)]"
+								size = { 28 28 }
+								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+								parentanchor = vcenter
+								tooltip = "NOT_FULLY_EMPLOYED"
+							}
+
+							icon = {
+								visible = "[Building.ShouldShowAsNotHiring]"
+								size = { 28 28 }
+								texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+								parentanchor = vcenter
+								tooltip = "NOT_HIRING"
+							}
+
+							icon = {
+								visible = "[Building.ShouldShowAsHiring]"
+								size = { 28 28 }
+								parentanchor = vcenter
+								texture = "gfx/interface/icons/generic_icons/employment_not_full_hiring.dds"
+								tooltip = "TOOLTIP_BUILDING_HIRING"
+							}
+							
 						### PROFITABLE
 						textbox = {
 							widgetid = "[Concatenate('productivity_value', Building.GetIDString)]"
 							visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
-							position = { -10 0 }
 							raw_text = "#tooltippable #tooltip:[Building.GetTooltipTag],TOOLTIP_BUILDING_PRODUCTIVITY,GraphTooltipTypeProfitability #v @money![Building.GetAverageAnnualEarningsPerEmployeeFormatted|1+]#!#!#!"
 							autoresize = yes
 							align = nobaseline
-							parentanchor = right|vcenter
+								parentanchor = vcenter
+							}
 						}
 					}
 					
@@ -852,7 +880,7 @@ types production_methods
 								
 								button = {
 									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
-									using = expand_button_bg_no_fade
+									using = expand_button_bg_dropdown
 									size = { 100% 100% }
 									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
 								}
@@ -995,7 +1023,7 @@ types production_methods
 								tooltip = "[Building.GetDownsizeTooltip]"
 								onclick = "[Execute( Building.Downsize )]"
 								enabled = "[IsValid( Building.Downsize )]"
-								visible = "[Not( ShouldAskConfirmation( Building.Downsize ) )]"
+								visible = "[And(Not( ShouldAskConfirmation( Building.Downsize ) ), Not(BuildingType.IsMilitaryBuilding))]"
 								using = tooltip_below
 							}
 
@@ -1006,7 +1034,7 @@ types production_methods
 								tooltip = "[Building.GetDownsizeTooltip]"
 								onclick = "[PopupManager.AskConfirmation( Building.Downsize )]"
 								enabled = "[IsValid( Building.Downsize )]"
-								visible = "[ShouldAskConfirmation( Building.Downsize )]"
+								visible = "[And(ShouldAskConfirmation( Building.Downsize ), Not(BuildingType.IsMilitaryBuilding))]"
 								using = tooltip_below
 							}
 
@@ -1015,7 +1043,7 @@ types production_methods
 								size = { 35 35 }
 								parentanchor = vcenter
 								tooltip = "[Building.GetCancelConstructionTooltip]"
-								visible = "[IsValid( Building.CancelConstruction )]"
+								visible = "[And(IsValid( Building.CancelConstruction ), Not(BuildingType.IsMilitaryBuilding))]"
 								onclick = "[Execute( Building.CancelConstruction )]"
 								using = tooltip_below
 							}
@@ -1046,7 +1074,7 @@ types production_methods
 								tooltip = "[Building.GetQueueConstructionTooltip]"
 								onclick = "[Execute( Building.QueueConstruction )]"
 								enabled = "[IsValid( Building.QueueConstruction )]"
-								visible = "[And(Building.GetOwner.IsLocalPlayer, Building.IsExpandable)]"
+								visible = "[And(And(Building.GetOwner.IsLocalPlayer, Building.IsExpandable), Not(BuildingType.IsMilitaryBuilding))]"
 							}
 						}
 

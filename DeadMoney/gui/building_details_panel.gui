@@ -127,6 +127,24 @@ types building_panels
 			}
 		}
 
+		blockoverride "pin_visibility" {
+			visible = "[ObjectsEqual(Building.GetState.GetOwner, GetPlayer.Self)]"
+		}
+
+		blockoverride "pin_properties" {
+			visible = "[BuildingDetailsPanel.AccessBuilding.IsPinnedInOutliner]"
+			onclick = "[BuildingDetailsPanel.AccessBuilding.TogglePinInOutliner]"
+			datacontext = "[BuildingDetailsPanel.AccessBuilding]"
+			tooltip = "UNPIN_BUILDING"
+		}
+
+		blockoverride "unpin_properties" {
+			visible = "[Not(BuildingDetailsPanel.AccessBuilding.IsPinnedInOutliner)]"
+			onclick = "[BuildingDetailsPanel.AccessBuilding.TogglePinInOutliner]"
+			datacontext = "[BuildingDetailsPanel.AccessBuilding]"
+			tooltip = "PIN_BUILDING"
+		}
+
 		blockoverride "goto_visibility" {
 			visible = yes
 		}
@@ -134,6 +152,7 @@ types building_panels
 		blockoverride "goto_properties" {
 			onclick = "[Building.AccessState.ZoomToCapital]"
 			tooltip = "ZOOM_TO_BUILDING_STATE"
+			enabled = "[Not( Building.AccessState.IsZoomingToCapital )]"
 		}
 	}
 
@@ -236,7 +255,7 @@ types building_panels
 							size = { 35 35 }
 							parentanchor = vcenter
 							tooltip = "[Building.GetDownsizeTooltip]"
-							visible = "[And( IsValid( Building.Downsize ), Not( ShouldAskConfirmation( Building.Downsize ) ) )]"
+							visible = "[And(And( IsValid( Building.Downsize ), Not( ShouldAskConfirmation( Building.Downsize ) ) ), Not(Building.IsMilitaryBuilding))]"
 							onclick = "[Execute( Building.Downsize )]"
 							enabled = "[IsValid( Building.Downsize )]"
 							using = tooltip_below
@@ -247,7 +266,7 @@ types building_panels
 							size = { 35 35 }
 							parentanchor = vcenter
 							tooltip = "[Building.GetDownsizeTooltip]"
-							visible = "[And( IsValid( Building.Downsize ), ShouldAskConfirmation( Building.Downsize ) )]"
+							visible = "[And(And( IsValid( Building.Downsize ), ShouldAskConfirmation( Building.Downsize ) ), Not(Building.IsMilitaryBuilding))]"
 							onclick = "[PopupManager.AskConfirmation( Building.Downsize )]"
 							enabled = "[IsValid( Building.Downsize )]"
 							using = tooltip_below
@@ -258,7 +277,7 @@ types building_panels
 							size = { 35 35 }
 							parentanchor = vcenter
 							tooltip = "[Building.GetCancelConstructionTooltip]"
-							visible = "[IsValid( Building.CancelConstruction )]"
+							visible = "[And(IsValid( Building.CancelConstruction ), Not(Building.IsMilitaryBuilding))]"
 							onclick = "[Execute( Building.CancelConstruction )]"
 							using = tooltip_below
 						}
@@ -289,7 +308,7 @@ types building_panels
 							tooltip = "[Building.GetQueueConstructionTooltip]"
 							onclick = "[Execute( Building.QueueConstruction )]"
 							enabled = "[IsValid( Building.QueueConstruction )]"
-							visible = "[And(Building.GetOwner.IsLocalPlayer, Building.IsExpandable)]"
+							visible = "[And(And(Building.GetOwner.IsLocalPlayer, Building.IsExpandable), Not(Building.IsMilitaryBuilding))]"
 						}
 					}
 				}
@@ -371,6 +390,7 @@ types building_panels
 								multiline = yes
 								using = fontsize_mega
 								parentanchor = vcenter
+								fontsize_min = 14
 
 								background = {
 									using = entry_bg_simple
@@ -475,7 +495,7 @@ types building_panels
 							}
 
 							textbox = {
-								visible = "[LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)]"
+								visible = "[LessThan_int64(Building.GetNoOfEmployed, Building.GetEmployeeCap)]"
 								raw_text = "/ #maximum [Building.GetEmployeeCap|1*]#!"
 								margin_left = 7
 								align = hcenter|nobaseline
@@ -495,7 +515,7 @@ types building_panels
 						}
 
 						icon = {
-							visible = "[And(And(And(Not(Building.IsGovernmentFunded), Not(GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))) , Not(Building.IsSubsidized)), EqualTo_CFixedPoint(Building.GetCurrentCashReserves, '(CFixedPoint)0'))]"
+							visible = "[Building.ShouldShowAsNotHiring]"
 							size = { 30 30 }
 							texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
 							parentanchor = right|vcenter
@@ -504,7 +524,7 @@ types building_panels
 						}
 
 						icon = {
-							visible = "[And(And(And(And(Not(Building.IsSubsistenceBuilding), Not(Building.HasFailedHires)), Building.IsActive), LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)), GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))]"
+							visible = "[Building.ShouldShowAsHiring]"
 							size = { 30 30 }
 							parentanchor = right|vcenter
 							texture = "gfx/interface/icons/generic_icons/employment_not_full_hiring.dds"
@@ -586,7 +606,7 @@ types building_panels
 						flowcontainer = {
 							parentanchor = vcenter
 							textbox = {
-								text = BUILDING_CASH_RESERVES
+								text = "BUILDING_CASH_RESERVES"
 								margin_left = 10
 								align = hcenter|nobaseline
 								autoresize = yes
@@ -629,6 +649,27 @@ types building_panels
 					widget = {
 						size = { 11 11 }
 						visible = "[And(Not(Building.IsGovernmentFunded), Not(Building.IsSubsistenceBuilding))]"
+					}
+
+					### HQ
+					widget = {
+						visible = "[Building.GetBuildingType.IsMilitaryBuilding]"
+
+						size = { 330 25 }
+						hbox = {
+							textbox = {
+								raw_text = "[concept_hq]:"
+								align = left|nobaseline
+								layoutpolicy_horizontal = expanding
+								size = { 0 25 }
+								elide = right
+							}
+							textbox = {
+								raw_text = "[Building.GetHQ.GetName]"
+								align = nobaseline
+								autoresize = yes
+							}
+					 	}
 					}
 
 					### battalions mobilized
@@ -729,9 +770,13 @@ types building_panels
 				parentanchor = hcenter
 				minimumsize = { @panel_width -1 }
 				container = {
+
+					# Use this name in the tutorial to highlight all PMs in all building details panels
 					name = "tutorial_highlight_production_methods"
 
 					flowcontainer = {
+						# Use this widgetid in the tutorial to highlight only the PMs in the target building
+						widgetid = "[Concatenate('tutorial_highlight_production_methods_', Building.GetIDString)]"
 						datamodel = "[Building.AccessProductionMethodGroups]"
 						spacing = 4
 
@@ -748,7 +793,7 @@ types building_panels
 
 								button = {
 									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
-									using = expand_button_bg_no_fade
+									using = expand_button_bg_dropdown
 									size = { 74 75 }
 									enabled = "[Building.IsOwner( GetPlayer.Self )]"
 									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
@@ -914,7 +959,7 @@ types building_panels
 
 								button = {
 									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
-									using = expand_button_bg_no_fade
+									using = expand_button_bg_dropdown
 									enabled = "[Building.IsOwner( GetPlayer.Self )]"
 									size = { 100% 100% }
 									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.AccessSelf)]"
@@ -957,23 +1002,6 @@ types building_panels
 					}
 				}
 			}
-
-			### Building commanders list
-			flowcontainer = {
-				parentanchor = hcenter
-				direction = vertical
-				spacing = 10
-				datamodel = "[Building.GetCombatUnitCommanders]"
-
-				item = {
-					commander_entry_building = {}
-				}
-
-			}
-
-			### Reserve units list
-			buildings_reserves_hq_item = { }
-
 		}
 
 		flowcontainer = {
@@ -1441,7 +1469,7 @@ types building_panels
 		}
 		empty_state = {
 			blockoverride "visible" {
-				visible = "[And(Not(NotEqualTo_int32( Building.GetNoOfEmployed, Building.GetEmployeeCap )), Building.IsActive)]"
+				visible = "[And(Not(NotEqualTo_int64( Building.GetNoOfEmployed, Building.GetEmployeeCap )), Building.IsActive)]"
 			}
 			blockoverride "text" {
 				text = "NO_VACANCIES"
@@ -1461,16 +1489,16 @@ types building_panels
 
 			item = {
 				flowcontainer = {
-					tooltip = "[PopListItem.GetPopTypeEmploymentDesc]"
+					tooltip = "[PopListItem.GetEmploymentDesc()]"
 					spacing = 10
-					visible = "[NotEqualTo_int32( PopListItem.GetMaxPopSize, PopListItem.GetWorkingAdultsPopSize )]"
+					visible = "[NotEqualTo_int64( Building.GetMaxPopSize(PopListItem.GetPopType), PopListItem.GetWorkingAdultsPopSize )]"
 
 					default_progressbar_horizontal = {
 						size = { @panel_width_minus_10 40 }
-						visible = "[GreaterThan_int32(PopListItem.GetMaxPopSize,'(int32)0')]"
+						visible = "[GreaterThan_int64(Building.GetMaxPopSize(PopListItem.GetPopType),'(int64)0')]"
 						blockoverride "values" {
 							min = 0
-							max = "[IntToFloat(PopListItem.GetMaxPopSize)]"
+							max = "[IntToFloat(Building.GetMaxPopSize(PopListItem.GetPopType))]"
 							value = "[IntToFloat(PopListItem.GetWorkingAdultsPopSize)]"
 						}
 						parentanchor = vcenter
@@ -1487,7 +1515,7 @@ types building_panels
 								}
 							}
 							textbox = {
-								raw_text = "#bold [PopListItem.GetWorkingAdultsPopSize|K]#! / #maximum [PopListItem.GetMaxPopSize|K]#!"
+								raw_text = "#bold [PopListItem.GetWorkingAdultsPopSize|K]#! / #maximum [Building.GetMaxPopSize(PopListItem.GetPopType)|K]#!"
 								autoresize = yes
 								align = left|nobaseline
 								parentanchor = vcenter
