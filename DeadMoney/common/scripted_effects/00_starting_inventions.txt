@@ -1,0 +1,54 @@
+﻿
+# Starting techs for pre-war remnants and other high-tech factions, e.g. Enclave, Institute
+
+effect_starting_technology_tier_1_tech = {
+	add_era_researched = era_1
+	add_era_researched = era_2
+	add_era_researched = era_3
+}
+
+# Starting techs for post-war tech hoarders, e.g. Brotherhood of Steel
+
+effect_starting_technology_tier_2_tech = {
+	add_era_researched = era_1
+	add_era_researched = era_2
+}
+
+# Starting tech for post-war settled socities, e.g. NCR, Diamond City, New Reno
+
+effect_starting_technology_tier_3_tech = {
+	add_era_researched = era_1
+
+	add_technology_researched = tech_water_treatment
+}
+
+# Decentralized post-war settled types, e.g. raiders, homesteaders
+effect_starting_technology_tier_4_tech = {	
+	# Economic
+	add_technology_researched = enclosure
+	
+	# Military
+	add_technology_researched = standing_army
+	
+	# Cultural
+	add_technology_researched = urbanization
+}
+
+# Decentralized and centralized post-war tribals
+effect_starting_technology_tier_5_tech = {	
+	# Economic
+	add_technology_researched = enclosure
+}
+
+# Extremely behind post-war tribals or worse
+effect_starting_technology_tier_6_tech = {
+}
+
+## everything for debuging purposes
+effect_starting_technology_debug = {
+	add_era_researched = era_1
+	add_era_researched = era_2
+	add_era_researched = era_3
+	add_era_researched = era_4
+	add_era_researched = era_5
+}

@@ -34,7 +34,10 @@
       "common/history/population",
       "common/history/states",
       "common/history/trade_routes",
+      "common/strategic_regions",
       "events",
+      "events/agitators_events",
+      "events/american_civil_war",
 	    "map_data/state_regions",
 	    "map_data"
     ]

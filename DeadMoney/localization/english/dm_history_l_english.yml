@@ -1,5 +1,7 @@
 ﻿l_english: 
 
+
+  # Countries
   NCR: "New California Republic"
   NCR_ADJ: "New Californian"
   NRN: "New Reno"
@@ -10,3 +12,8 @@
   THB_ADJ: "Hubian"
   SQT: "The Squat"
   SQT_ADJ: "Squatter"
+
+  # Characters
+  Aradesh: "Aradesh"
+  Tandi: "Tandi"
+  Sands: "Sands"

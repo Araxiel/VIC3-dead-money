@@ -1,3 +1,5 @@
+## Goods
+
 texticon = {
 	icon = firearms
 	iconsize = {
@@ -29,7 +31,7 @@ texticon = {
 }
 
 texticon = {
-	icon = laser_rifles
+	icon = energy_weapons
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 		size = { 25 25 }

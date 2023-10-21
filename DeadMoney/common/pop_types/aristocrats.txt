@@ -1,4 +1,4 @@
-﻿barons = {
+﻿aristocrats = {
 	texture = "gfx/interface/icons/pops_icons/aristocrats.dds"
 	color = hsv{ 0.60 0.58 0.46 }
 	strata = rich
@@ -28,7 +28,7 @@
 		
 	}	
 	
-	qualifications_growth_desc = "ARISTOCRATS_QUALIFICATIONS_DESC"
+	qualifications_growth_desc = "aristocrats_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = {

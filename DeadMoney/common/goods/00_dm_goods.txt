@@ -55,7 +55,7 @@ air_vehicles = {
 }
 
 ## added
-laser_rifles = {
+energy_weapons = {
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
 	cost = 80
 	category = military

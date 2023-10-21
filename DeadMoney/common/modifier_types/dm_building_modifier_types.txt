@@ -16,11 +16,11 @@ goods_output_air_vehicles_add = {
 	percent = no
 }
 
-goods_input_laser_rifles_add = {
+goods_input_energy_weapons_add = {
 	good = no
 	percent = no
 }
-goods_output_laser_rifles_add = {
+goods_output_energy_weapons_add = {
 	good = yes
 	percent = no
 }

@@ -7,12 +7,12 @@ popneed_water = {
 	default = material
 
 	entry = {
-		goods = water_good
+		goods = water
 	}
 }
 
 popneed_personal_safety = {
-	default = security_good
+	default = security
 
 	entry = {
 		goods = services
@@ -23,7 +23,7 @@ popneed_personal_safety = {
 	}
 
 	entry = {
-		goods = security_good
+		goods = security
 		
 		weight = 1
 		max_supply_share = 1.0
@@ -33,7 +33,7 @@ popneed_personal_safety = {
 }
 
 popneed_security = {
-	default = security_good
+	default = security
 
 	entry = {
 		goods = services
@@ -44,7 +44,7 @@ popneed_security = {
 	}
 
 	entry = {
-		goods = security_good
+		goods = security
 		
 		weight = 1
 		max_supply_share = 1.0
