@@ -7,6 +7,8 @@
 	literacy_target = 0.40
 	dependent_wage = 0.0	# per year
 	unemployment = yes
+
+	working_adult_ratio = high_workforce
 	
 	# 70% - 100% politically engaged
 	political_engagement_base = 0.7

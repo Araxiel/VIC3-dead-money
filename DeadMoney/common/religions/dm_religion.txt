@@ -1,5 +1,6 @@
-﻿# Old World Blues and New World Hope are big umbrella terms for the general "agnosticism" or "atheism" that most characters in the games have. The 
+﻿# Old World Blues and New World Hope are big umbrella terms for the general "agnosticism" or "atheism" that most characters in the games have.
 
+## Old World Blues is the primary ideology which representing the attempt to rebuild in some what was before, a certain reverence to the pre-war world. Most notable here would be NCR or Diamond City
 religion_oldworldblues = {
 	traits = {
 		postwar_religion
@@ -8,6 +9,8 @@ religion_oldworldblues = {
 	color = { 1.0 1.0 1.0 }
 }
 
+## New World Hope is the primary ideology that understands that this is a new world which requires completely new thinking. Examples would be Followers of the Apocalpyse but also the Minuteman.
+##	A belief that trying to emulate what was before, will also cause all the same issues to arise that led us here in the first place. 
 religion_newworldhope = {
 	traits = {
 		postwar_religion
@@ -28,6 +31,10 @@ religion_dharma = {
 	}
 	texture = "gfx/interface/icons/religion_icons/hindu.dds"
 	color = { 1.0 1.0 1.0 }
+	taboos = {
+		meat
+		chems
+	}
 }
 
 religion_childrenoftheatom = {
@@ -44,6 +51,9 @@ religion_enclave = {
 	}
 	texture = "gfx/interface/icons/religion_icons/unused/mormonism.dds"
 	color = { 1.0 1.0 1.0 }
+	taboos = {
+		chems
+	}
 }
 
 religion_communistchina = {

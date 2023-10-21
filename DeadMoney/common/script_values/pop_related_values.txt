@@ -1,0 +1,7 @@
+## Workforce ratio
+
+ultra_high_workforce = 0.9	## Slaves
+very_high_workforce = 0.85	## Wastelanders
+high_workforce = 0.7	## Dangerous
+medium_workforce = 0.5	## Urban
+lax_workforce = 0.3		## Safe

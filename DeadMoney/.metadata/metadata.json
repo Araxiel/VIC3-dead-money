@@ -9,8 +9,10 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
+      "common/building_groups",
       "common/buildings",
       "common/pop_needs",
+      "common/pop_types",
       "common/production_method_groups",
       "common/production_methods",
       "common/technology",

@@ -11,6 +11,8 @@
 	dependent_wage = 0.25	# per year
 	unemployment = no
 
+	working_adult_ratio = very_high_workforce
+
 	# 0% - 50% politically engaged	
 	political_engagement_base = 0.0
 	political_engagement_literacy_factor = 0.5

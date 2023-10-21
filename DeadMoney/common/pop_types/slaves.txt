@@ -6,7 +6,7 @@
 	unemployment = yes
 	can_always_hire = yes
 	start_quality_of_life = 1
-	working_adult_ratio = 0.5
+	working_adult_ratio = ultra_high_workforce
 	wage_weight = 0
 	dependent_wage = 0.0	# per year
 	

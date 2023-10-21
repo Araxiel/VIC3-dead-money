@@ -9,6 +9,8 @@
 	start_quality_of_life = 5
 	wage_weight = 1
 	dependent_wage = 0.5	# per year
+
+	working_adult_ratio = high_workforce
 	
 	# 0% - 70% politically engaged	
 	political_engagement_base = 0.0
