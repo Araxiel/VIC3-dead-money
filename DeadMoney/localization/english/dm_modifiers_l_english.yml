@@ -1,0 +1,4 @@
+﻿l_english: 
+
+ modifier_building_group_bg_rural_laborers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $laborers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
+ modifier_building_group_bg_rural_laborers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_rural_laborers_mortality_mult$"

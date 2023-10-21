@@ -1,0 +1,19 @@
+﻿l_english: 
+
+  concept_wasteland_short: "Wasteland"
+  concept_wasteland: "The Wasteland"
+  concept_wasteland_desc: "The Wasteland is the general term, given to either everything in the [Concept('concept_postwar', '$concept_postwar_short$')] world, or it is more precisely the rural area outside of the safety of settlements and civilization."
+
+  concept_prewar_USA_short: "United States of America"
+  concept_prewar_USA: "The United States of America"
+  concept_prewar_USA_desc: "The United States of America (U.S.A.), also known as the United States (U.S.) or simply America, was a [Concept('concept_prewar', '$concept_prewar_short$')] federal republic primarily located in North America. Throughout the 21st century, America served as one of the world's preeminent superpowers, rivalled only by China. The nation developed advanced technology mostly centered around nuclear fusion and fission, from orbital research stations to advanced consumer robotics and intimidating power armor. Yet all this came quickly to an end with the [Concept('concept_greatwar', '$concept_greatwar_short$')]."
+
+  concept_greatwar_short: "Great War"
+  concept_greatwar: "The Great War"
+  concept_greatwar_desc: "The Great War was a global thermonuclear war that took place on Saturday, October 23, 2077, caused by the Sino-American War. It resulted in the destruction of all participating nations, the disruption of the climate and billions of casualties as a result of initial nuclear blasts, exposure to the nuclear fallout and the subsequent collapse of social and government structures. [Concept('concept_prewar_USA', '$concept_prewar_USA$')] and the rest of the world were transformed into a dangerous [Concept('concept_wasteland', '$concept_wasteland_short$')]. Even 200 years later, the consequences of the Great War can still be felt due to radiation, diseases, monsters, lawlessness and ubiquitous violence, and seen in the many [Concept('concept_prewar', '$concept_prewar_short$')] ruins dotting the landscape."
+  concept_prewar_short: "pre-War"
+  concept_prewar: "The pre-War World"
+  concept_prewar_desc: "Pre-War is an umbrella term for everything which relates to the society which lived before the [Concept('concept_greatwar', '$concept_greatwar_short$')]. This includes everything from the buildings they constructed, to their technology, to even the general ideologies and beliefs prevalent during that time.\nIt is the opposite of the [Concept('concept_postwar', '$concept_postwar_short$')] World"
+  concept_postwar_short: "post-War"
+  concept_postwar: "The post-War World"
+  concept_postwar_desc: "Post-War is an umbrella term for everything spawned from the world after the [Concept('concept_greatwar', '$concept_greatwar_short$')]. This includes anything from things build or assembled, to new societies and the many monsters inhabiting the [Concept('concept_wasteland', '$concept_wasteland_short$')]\nIt is the opposite of the [Concept('concept_prewar', '$concept_prewar_short$')] World"

@@ -4,6 +4,13 @@
   building_food_industry: "Food Industries"
   building_food_industry_lens_option: "Expand $building_food_industry$"
 
+  # Modifiers and concepts, copied vanilla entries but removed the 1000
+  modifier_state_infrastructure_from_population_add: "Infrastructure per [GetDefine('NPops','INDIVIDUALS_PER_POP_INFRASTRUCTURE')|v] Population"
+  modifier_state_infrastructure_from_population_add_desc: "The amount of [concept_state] [concept_infrastructure] added for each [GetDefine('NPops','INDIVIDUALS_PER_POP_INFRASTRUCTURE')|v] [Concept('concept_pop', '$concept_pops$')] that live there"
+
+  INCORPORATED_POPULATION_LAW_COST: "Incorporated Population of $POPULATION|v$ costs #v $COST|1+$#! per Investment\n$TAB$Base Cost: #v $BASECOST|1+$#! $MODIFIER$"
+  TAX_CAPACITY_USAGE: "#header [concept_tax_capacity] Usage#!\n[State.GetName] uses $USAGE|1v$ [concept_tax_capacity]\n$TOOLTIP_DELIMITER$\nOne point of [concept_tax_capacity] is required per $POPS_PER_CAPACITY|v$ [Concept('concept_pop', '$concept_pops$')] and [State.GetName] has a total population of $TOTAL_POPS|v$"
+
   # religion
   concept_religion: "Ideoligion"
   concept_religions: "Ideoligions"
