@@ -21,7 +21,7 @@ STATES = {
 	s:STATE_SHADYSANDS = {
 		create_state = {
 			country = c:NCR
-			owned_provinces = { "x7392B3" "x76B2A7" "x79817C" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB1D6A3" "xB3A696" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD896CA" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
+			owned_provinces = { "x7392B3" "x76B2A7" "x7A866F" "x93718A" "x95E5C0" "x96F995" "x99DAA3" "x9ADDD1" "xA1CBE3" "xB67C74" "xB6B0BF" "xB7F3B1" "xC79FE3" "xCACA7C" "xD8E3F8" "xE478C6" "xEFA4F6" "xF07DE6" "xF0928D" }
 		}
 		
 		add_homeland = californian
