@@ -1,4 +1,4 @@
-## Workforce ratio
+﻿## Workforce ratio
 
 ultra_high_workforce = 0.9	## Slaves
 very_high_workforce = 0.85	## Wastelanders

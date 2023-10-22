@@ -474,7 +474,7 @@ fusion_cells = {
 
 ## added
 electrical_components = {
-	texture = "gfx/interface/icons/goods_icons/lightbulbs.dds"
+	texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
 	cost = 60
 	category = industrial
 	

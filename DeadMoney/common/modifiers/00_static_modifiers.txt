@@ -26,10 +26,11 @@ base_values = {
 	state_tax_capacity_add = 100
 	state_infrastructure_add = 3
 	
-	state_poor_expected_sol = 5
+	state_poor_expected_sol = 1
 	state_middle_expected_sol = 10
 	state_rich_expected_sol = 15
-	state_expected_sol_from_literacy = 5
+	state_superrich_expected_sol = 30
+	state_expected_sol_from_literacy = 10
 	
 	state_farmers_investment_pool_contribution_add = 0.05
 	state_shopkeepers_investment_pool_contribution_add = 0.05
@@ -39,6 +40,7 @@ base_values = {
 	# To balance for unincorporated states not paying taxes
 	state_unincorporated_starting_wages_mult = -0.20
 	building_unincorporated_subsistence_output_mult = -0.20
+	#building_group_bg_subsistence_salvage_tax_mult = -1
 		
 	country_construction_add = 10
 	
@@ -47,7 +49,7 @@ base_values = {
 	building_economy_of_scale_level_cap_add = 20
 	
 	## price access important in DM
-	state_market_access_price_impact = 0.35
+	state_market_access_price_impact = 0.50
 	
 	country_company_throughput_bonus_add = 0.1
 	country_company_construction_efficiency_bonus_add = 0.25
@@ -58,7 +60,7 @@ base_values = {
 	
 	military_formation_organization_gain_add = 0.5 # 200 days to get max organization
 	
-	state_urbanization_per_level_add = 80
+	state_urbanization_per_level_add = 70
 	
 	unit_experience_gain_add = 2.0
 }
@@ -93,6 +95,10 @@ coastal_state = {
 working_conditions = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_group_bg_rural_laborers_mortality_mult = 0.15
+	building_group_bg_rural_soldiers_mortality_mult = 0.15
+
+	building_group_bg_salvaging_laborers_mortality_mult = 0.10
+	building_group_bg_salvaging_soldiers_mortality_mult = 0.10
 
 	building_group_bg_mining_laborers_mortality_mult = 0.1
 	building_group_bg_mining_machinists_mortality_mult = 0.05
@@ -181,7 +187,7 @@ capital_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_pop_pol_str_mult = 0.25
 	state_tax_capacity_mult = 0.25
-	state_urbanization_per_level_mult = -0.15
+	state_urbanization_per_level_mult = -0.2
 }
 
 moved_capital_recently = {

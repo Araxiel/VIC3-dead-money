@@ -24,7 +24,10 @@ NEconomy = {
 	SLAVE_TRADE_MIN_VACANCIES_NEEDED_TO_IMPORT = 5 	# There needs to be at least this many (non-subsistence) vacancies in buildings that can be filled by slaves in order for slave import to happen 	- Default: 500
 	SLAVE_TRADE_MIN_POPULATION_TO_EXPORT = 250	 	# There needs to be at least this many people in the state in order for it to be selected, or remain valid, as a slave import target 	- Default: 100000
 
+	MINIMUM_EMPLOYEES = 2						# If a building has fewer employees than this, it will always attempt to hire	- Default: 10
 	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 3 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers 	- Default: 50
+
+	SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 750   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages	- Default: 150
 }
 
 NMilitary = {
@@ -61,7 +64,7 @@ NPops = {
 	MIGRATION_MAX_PER_STATE_BASE = 10							# No more than this amount of people can move from or to a state in a single week (base)		- Default: 500
 	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 1					# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)	- Default: 2
 	MASS_MIGRATION_ORIGIN_MIN_EMIGRANTS = 2000		# A country must have at least this many possible migrants to trigger a mass migration	- Default: 100000
-	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 2000			# Multiply state_infrastructure_from_population_add by this to determine infra from population	- Default: 100000
+	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 1500			# Multiply state_infrastructure_from_population_add by this to determine infra from population	- Default: 100000
 	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 50			# How many pops can be taxed efficiently for each tax capacity	- Default: 10000
 
 	
@@ -115,7 +118,7 @@ NBattle = {
 }
 
 NCountry = {
-	DEFAULT_SUBSISTENCE_BUILDING = "building_subsistence_farms"
+	DEFAULT_SUBSISTENCE_BUILDING = "building_subsistence_salvage"
 	CONSTRUCTION_CAMP_BUILDING = "building_construction_sector"
 	BARRACKS_BUILDING = "building_barracks"
 	NAVAL_BASE_BUILDING = "building_naval_base"

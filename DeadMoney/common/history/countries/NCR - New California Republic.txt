@@ -1,7 +1,6 @@
 ﻿COUNTRIES = {
 	c:NCR = {
 		effect_starting_technology_debug = yes
-		effect_starting_politics_conservative = yes
 		
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_autocracy 
@@ -16,14 +15,5 @@
 		set_tariffs_import_priority = g:heavy_weapons
 		set_tariffs_import_priority = g:small_arms		
 
-		ig:ig_armed_forces = {
-			add_ideology = ideology_caudillismo
-			add_ruling_interest_group = yes
-		}
-
-		ig:ig_landowners = {
-			remove_ideology = ideology_paternalistic
-			add_ideology = ideology_caudillismo
-		}
 	}
 }

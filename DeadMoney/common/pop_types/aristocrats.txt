@@ -4,7 +4,9 @@
 	strata = rich
 	start_quality_of_life = 20
 	wage_weight = 6
-	literacy_target = 0.40
+	literacy_target = 0.2
+
+	consumption_mult = 1.5
 	dependent_wage = 0.0	# per year
 	unemployment = yes
 
@@ -30,7 +32,7 @@
 		
 	}	
 	
-	qualifications_growth_desc = "aristocrats_QUALIFICATIONS_DESC"
+	qualifications_growth_desc = "ARISTOCRATS_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = {

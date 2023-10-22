@@ -7,11 +7,11 @@
 	ignores_employment_proportionality = yes
 	start_quality_of_life = 3
 	wage_weight = 0.2
-	consumption_mult = 0.1 	# The portion of Peasant buy packages that are added as state region consumption
-	dependent_wage = 0.25	# per year
+	consumption_mult = 0.005 # The portion of Peasant buy packages that are added as state region consumption
+	dependent_wage = 0.75	# per year
 	unemployment = no
 
-	working_adult_ratio = very_high_workforce
+	working_adult_ratio = high_workforce
 
 	# 0% - 50% politically engaged	
 	political_engagement_base = 0.0

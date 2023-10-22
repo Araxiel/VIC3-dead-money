@@ -30,3 +30,10 @@
   concept_religious_traits: "Ideoligious Traits"
   concept_religious_trait_desc: "Aspects of a [concept_religion], such as its major Ideoligious group. The similarity between the $concept_religious_traits$ of a [Concept('concept_country','$concept_country_possessive$')] [concept_state_religion] and the $concept_religion$ adhered to by a [concept_pop], combined with the $concept_country$'s current [SelectLocalization(GetPlayer.IsValid,'concept_religious_trait_desc_added','Church and State')] [concept_law], determines whether the $concept_pop$ is [Concept('concept_discrimination','$concept_discriminated_against$')] or not."
   concept_religious_trait_desc_added: "[GetLawType('law_state_religion').GetGroup.GetName]"
+
+ # pops
+ aristocrats_no_icon: "Barons"
+ peasants_no_icon: "Wastelanders"
+ academics_no_icon: "Learned"
+ shopkeepers_no_icon: "Traders"
+ soldiers_no_icon: "Soldiers"

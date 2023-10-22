@@ -1,0 +1,8 @@
+﻿PRODUCTION_METHODS = {
+	c:NCR = {
+		activate_production_method = {
+			building_type = building_subsistence_salvage
+			production_method = pm_subsistence_salvaging_ownership_barons
+		}
+	}
+}
