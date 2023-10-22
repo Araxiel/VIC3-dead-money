@@ -1,0 +1,40 @@
+﻿## Subsistence 
+
+pmg_subistence_agri_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_subsistence_ownership_farming_barons
+		pm_subsistence_ownership_farming_independent
+		pm_subsistence_ownership_farming_private
+		pm_subsistence_ownership_government_run
+		pm_subsistence_ownership_order_run
+		pm_subsistence_ownership_church_run
+	}
+}
+
+pmg_subistence_farms_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_subistence_farming_base
+	}
+}
+
+pmg_subistence_farms_home_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_subistence_farming_no_workshops
+		pm_subistence_farming_home_workshops
+	}
+}
+
+pmg_subistence_farms_independence = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_subistence_farming_independence_free
+		pm_subistence_farming_independence_serfs
+	}
+}

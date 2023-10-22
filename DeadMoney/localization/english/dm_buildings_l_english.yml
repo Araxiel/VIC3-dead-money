@@ -1,17 +1,28 @@
 ﻿l_english: 
 
+  ## Common Strings
+
+  str_ownership: "Ownership"
+  str_local_barons: "Local Barons"
+  str_private_ownership: "Private Ownership"
+  str_public_trading: "Public Trading"
+  str_government_run: "Government Run"
+  str_order_run: "Order Run"
+  str_church_run: "Church Run"
+
+  #### Rural
   bg_rural: "Rural"
 
-  ## Common PMs
+  ### Common PMs
   pmg_ownership_common_rural: "Ownership"
 
-  pm_ownership_rural_barons: "Local Barons"
-  pm_ownership_rural_private: "Private Ownership"
-  pm_ownership_rural_public_trading: "Public Trading"
-  pm_ownership_rural_government_run: "Government Run"
+  pm_ownership_rural_barons: "$str_local_barons$"
+  pm_ownership_rural_private: "$str_private_ownership$"
+  pm_ownership_rural_public_trading: "$str_public_trading$"
+  pm_ownership_rural_government_run: "$str_government_run$"
   pm_ownership_rural_worker_cooperative_rural_industry: "Worker Cooperative"
-  pm_ownership_rural_order_run: "Order Run"
-  pm_ownership_rural_church_run: "Church Run"
+  pm_ownership_rural_order_run: "$str_order_run$"
+  pm_ownership_rural_church_run: "$str_church_run$"
 
   pmg_transport_common_rural: "Transport"
 
@@ -19,7 +30,7 @@
   pm_transportation_rural_basic: "Basic Transport"
   pm_transportation_rural_extensive_network: "Extensive Network"
 
-  ## Water
+  ### Water
 
   bg_water_facilities: "Water Facilities"
   bg_water_collectors: "Water Collectors"
@@ -86,6 +97,45 @@
   pm_water_desalination_automation_water_tube_boiler: "$pm_water_well_automation_water_tube_boiler$"
   pm_water_desalination_automation_modern_machines: "$pm_water_well_automation_modern_machines$"
 
+  ### Salvage
+  ## Subsistence
+  building_subsistence_salvage: "Subsistence Salvage"
+
+  pmg_subistence_salvaging_base: "Base"
+  pmg_subistence_salvaging_home_workshops: "Home Workshops"
+  pmg_subistence_salvaging_independence: "Freedom"
+  pmg_subistence_salvaging_ownership: "Ownership"
+
+  pm_subsistence_salvaging_ownership_independent: "Independent Scavvers"
+  pm_subsistence_salvaging_ownership_barons: "Subservient Scavvers"
+  pm_subsistence_salvaging_ownership_private: "Hired Scavvers"
+  pm_subsistence_ownership_government_run: "$str_government_run$"
+  pm_subsistence_ownership_order_run: "$str_order_run$"
+  pm_subsistence_ownership_church_run: "$str_church_run$"
+  pm_subistence_salvaging_base: "$pmg_subistence_salvaging_base$"
+  pm_subistence_salvaging_no_workshops: "No Workshops"
+  pm_subistence_salvaging_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
+  pm_subistence_salvaging_independence_free: "Free Scavengers"
+  pm_subistence_salvaging_independence_serfs: "Extorted Scavengers"
+
+  ### Agriculture
+  building_subsistence_farms: "Subsistence Farms"
+
+  pmg_subistence_farms_base: "$pmg_subistence_salvaging_base$"
+  pmg_subistence_farms_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
+  pmg_subistence_farms_independence: "$pmg_subistence_salvaging_independence$"
+  pmg_subistence_agri_ownership: "$pmg_subistence_salvaging_ownership$"
+
+  pm_subsistence_ownership_farming_independent: "Independent Peasants"
+  pm_subsistence_ownership_farming_barons: "Subservient Peasants"
+  pm_subsistence_ownership_farming_private: "Hired Peasants"
+  pm_subistence_farming_base: "$pmg_subistence_salvaging_base$"
+  pm_subistence_farming_no_workshops: "$pm_subistence_salvaging_no_workshops$"
+  pm_subistence_farming_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
+  pm_subistence_farming_independence_free: "Free Peasants"
+  pm_subistence_farming_independence_serfs: "Extorted Peasants"
+
+  #### Urban
   # Trade Center
   pm_trade_center_trading_barons: "Trading Barons"
   pm_trade_center_independent_traders: "Independent Traders"

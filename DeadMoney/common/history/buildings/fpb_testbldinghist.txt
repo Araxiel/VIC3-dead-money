@@ -3,22 +3,17 @@
 		region_state:NCR ={
 			create_building={
 				building="building_farm"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_water_well"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_water_collector"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_salvage_post"
-				level=3
+				level=1
 				reserves=1
 			}
 		}

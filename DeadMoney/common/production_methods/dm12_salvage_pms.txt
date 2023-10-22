@@ -1,0 +1,207 @@
+﻿##### Subsistence
+## TODO Laws, icons
+
+## Ownership
+
+pm_subsistence_salvaging_ownership_independent = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds" 
+
+	disallowing_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_peasants_add = 20
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}
+
+pm_subsistence_salvaging_ownership_barons = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_aristocrats_add = 5
+			building_employment_officers_add = 5
+			building_employment_soldiers_add = 10
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 8
+			building_aristocrats_shares_add = 2
+		}
+	}
+}
+
+pm_subsistence_salvaging_ownership_private = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+	
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_shopkeepers_add = 20
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_subsistence_ownership_government_run = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds" 
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = { 
+		level_scaled = {
+			building_employment_bureaucrats_add = 20
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+pm_subsistence_ownership_order_run = {
+	texture = "gfx/interface/icons/production_method_icons/state_atheism.dds" 
+
+	unlocking_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 10
+			building_employment_academics_add = 10
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_subsistence_ownership_church_run = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds" 
+
+	unlocking_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 20
+		}
+		unscaled = {
+			building_academics_shares_add = 5
+			building_government_shares_add = 1
+		}
+		workforce_scaled = {
+			goods_input_security_add = 5
+		}
+	}
+}
+
+## Production
+
+pm_subistence_salvaging_base = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_water_add = 0.2
+			goods_output_salvage_add = 0.75
+			goods_output_grain_add = 0.1
+			goods_output_services_add = 0.1
+			goods_output_wood_add = 0.1
+			goods_output_groceries_add = 0.1
+			goods_output_firearms_add = 0.05
+			goods_output_electrical_components_add = 0.05
+			goods_output_caps_add = 0.5
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 150
+		}
+		unscaled = {
+			building_subsistence_output_add = 25
+		}
+	}
+}
+
+pm_subistence_salvaging_no_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_salvage_add = 1
+			goods_output_fabric_add = 0.05
+			goods_output_wood_add = 0.05
+			goods_output_grain_add = 0.05
+			goods_output_tools_add = 0.05
+		}
+	}
+}
+
+pm_subistence_salvaging_home_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_clothes_add = 0.05
+			goods_output_furniture_add = 0.01
+			goods_output_services_add = 0.1
+			goods_output_liquor_add = 0.05
+			goods_output_firearms_add = 0.05
+			goods_output_ammunition_add = 0.01
+		}
+	}
+}
+
+pm_subistence_salvaging_independence_free = {
+	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
+
+	building_modifiers = {					
+		unscaled = {
+			building_subsistence_output_add = 30
+		}
+	}
+}
+
+pm_subistence_salvaging_independence_serfs = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+
+	building_modifiers = {					
+		unscaled = {
+			building_subsistence_output_add = 20
+		}
+
+		workforce_scaled = {
+			# output goods													
+			goods_output_salvage_add = 2
+			goods_output_caps_add = 0.5
+		}
+	}
+}

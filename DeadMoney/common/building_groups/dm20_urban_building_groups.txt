@@ -1,4 +1,4 @@
-## Overarching group for everything in the relative safety of Urban areas
+﻿## Overarching group for everything in the relative safety of Urban areas
 bg_urban = {
 	category = urban
 }

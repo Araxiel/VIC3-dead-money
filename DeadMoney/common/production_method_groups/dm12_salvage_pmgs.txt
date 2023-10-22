@@ -1,0 +1,41 @@
+﻿
+## Subsistence Salvaging
+
+pmg_subistence_salvaging_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_subsistence_salvaging_ownership_barons
+		pm_subsistence_salvaging_ownership_independent
+		pm_subsistence_salvaging_ownership_private
+		pm_subsistence_ownership_government_run
+		pm_subsistence_ownership_order_run
+		pm_subsistence_ownership_church_run
+	}
+}
+
+pmg_subistence_salvaging_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_subistence_salvaging_base
+	}
+}
+
+pmg_subistence_salvaging_home_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_subistence_salvaging_no_workshops
+		pm_subistence_salvaging_home_workshops
+	}
+}
+
+pmg_subistence_salvaging_independence = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_subistence_salvaging_independence_free
+		pm_subistence_salvaging_independence_serfs
+	}
+}
