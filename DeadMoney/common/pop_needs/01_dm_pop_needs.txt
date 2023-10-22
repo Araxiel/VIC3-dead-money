@@ -4,10 +4,22 @@
 # min_supply_share			If above 0, a minimum of this multiplier of the base weight will be applied to a good regardless of its market Sell Order share
 
 popneed_water = {
-	default = material
+	default = water
 
 	entry = {
 		goods = water
+		
+		weight = 1
+		max_supply_share = 1.0
+		min_supply_share = 0.9
+	}
+
+	entry = {
+		goods = nuka_cola
+		
+		weight = 0.8
+		max_supply_share = 0.3
+		min_supply_share = 0.0
 	}
 }
 
@@ -18,37 +30,32 @@ popneed_personal_safety = {
 		goods = services
 		
 		weight = 0.25
-		max_supply_share = 0.3
+		max_supply_share = 0.1
 		min_supply_share = 0.0
 	}
 
 	entry = {
 		goods = security
 		
-		weight = 1
-		max_supply_share = 1.0
-		min_supply_share = 0.2
-	}
-
-}
-
-popneed_security = {
-	default = security
-
-	entry = {
-		goods = services
-		
-		weight = 0.25
-		max_supply_share = 0.3
+		weight = 0.5
+		max_supply_share = 0.4
 		min_supply_share = 0.0
 	}
 
 	entry = {
-		goods = security
+		goods = firearms
 		
 		weight = 1
 		max_supply_share = 1.0
-		min_supply_share = 0.2
+		min_supply_share = 0.0
+	}
+
+	entry = {
+		goods = energy_weapons
+		
+		weight = 1
+		max_supply_share = 1.0
+		min_supply_share = 0.0
 	}
 
 }

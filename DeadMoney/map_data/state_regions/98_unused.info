@@ -1,7 +1,7 @@
 ﻿#
 #STATE_OUTSIDE = {
 #    id = 4000
-#    subsistence_building = "building_subsistence_farms"
+#    subsistence_building = "building_subsistence_salvage"
 #    provinces = { "x64BBA2" }
 #    city = "64BBA2"
 #    arable_land = 1

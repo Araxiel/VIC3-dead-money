@@ -2,20 +2,11 @@
 
 # combat_armor
 # power_armor
-# salvage
 # combustion_ships
 # nuclear_ships
 # nylon
-# machines
-# chemicals
-# robots
 # energy_cells
 # fusion_cells
-# electrical_components
-# vehicles
-# computers
-# caps
-# nuka_cola
 
    ## Firearms
   firearms: "Firearms"
@@ -149,6 +140,147 @@
   trade_route_export_lens_option_machines_tooltip: "Establish an $machines$ export trade route"
 
   ## Vehicles
+  vehicles: "Vehicles"
+
+  modifier_goods_output_vehicles_add: "@vehicles! $vehicles$ output per level"
+  modifier_goods_output_vehicles_add_desc: "The amount of @vehicles! $vehicles$ produced by buildings"
+  modifier_goods_input_vehicles_add: "@vehicles! $vehicles$ input per level"
+  modifier_goods_input_vehicles_add_desc: "The amount of @vehicles! $vehicles$ consumed by buildings"
+
+  goods_vehicles_output_mult: "$vehicles$ Goods Output"
+  goods_vehicles_output_mult_desc: "A bonus or penalty for the production of $vehicles$."
+  modifier_goods_output_vehicles_mult: "Building @vehicles! $vehicles$ output"
+  modifier_goods_output_vehicles_mult_desc: "A bonus or penalty to the amount of @vehicles! output produced by buildings"
+
+  trade_route_import_lens_option_vehicles_tooltip: "Establish an $vehicles$ import trade route"
+  trade_route_export_lens_option_vehicles_tooltip: "Establish an $vehicles$ export trade route"
+
+  ## Electrical Components
+  electrical_components: "Electrical Components"
+
+  modifier_goods_output_electrical_components_add: "@electrical_components! $electrical_components$ output per level"
+  modifier_goods_output_electrical_components_add_desc: "The amount of @electrical_components! $electrical_components$ produced by buildings"
+  modifier_goods_input_electrical_components_add: "@electrical_components! $electrical_components$ input per level"
+  modifier_goods_input_electrical_components_add_desc: "The amount of @electrical_components! $electrical_components$ consumed by buildings"
+
+  goods_electrical_components_output_mult: "$electrical_components$ Goods Output"
+  goods_electrical_components_output_mult_desc: "A bonus or penalty for the production of $electrical_components$."
+  modifier_goods_output_electrical_components_mult: "Building @electrical_components! $electrical_components$ output"
+  modifier_goods_output_electrical_components_mult_desc: "A bonus or penalty to the amount of @electrical_components! output produced by buildings"
+
+  trade_route_import_lens_option_electrical_components_tooltip: "Establish an $electrical_components$ import trade route"
+  trade_route_export_lens_option_electrical_components_tooltip: "Establish an $electrical_components$ export trade route"
+
+  ## Electrical Components
+  salvage: "Salvage"
+
+  modifier_goods_output_salvage_add: "@salvage! $salvage$ output per level"
+  modifier_goods_output_salvage_add_desc: "The amount of @salvage! $salvage$ produced by buildings"
+  modifier_goods_input_salvage_add: "@salvage! $salvage$ input per level"
+  modifier_goods_input_salvage_add_desc: "The amount of @salvage! $salvage$ consumed by buildings"
+
+  goods_salvage_output_mult: "$salvage$ Goods Output"
+  goods_salvage_output_mult_desc: "A bonus or penalty for the production of $salvage$."
+  modifier_goods_output_salvage_mult: "Building @salvage! $salvage$ output"
+  modifier_goods_output_salvage_mult_desc: "A bonus or penalty to the amount of @salvage! output produced by buildings"
+
+  trade_route_import_lens_option_salvage_tooltip: "Establish an $salvage$ import trade route"
+  trade_route_export_lens_option_salvage_tooltip: "Establish an $salvage$ export trade route"
+
+  ## Security
+  caps: "Caps"
+
+  modifier_goods_output_caps_add: "@caps! $caps$ output per level"
+  modifier_goods_output_caps_add_desc: "The amount of @caps! $caps$ produced by buildings"
+  modifier_goods_input_caps_add: "@caps! $caps$ input per level"
+  modifier_goods_input_caps_add_desc: "The amount of @caps! $caps$ consumed by buildings"
+
+  goods_caps_output_mult: "$caps$ Goods Output"
+  goods_caps_output_mult_desc: "A bonus or penalty for the production of $caps$."
+  modifier_goods_output_caps_mult: "Building @caps! $caps$ output"
+  modifier_goods_output_caps_mult_desc: "A bonus or penalty to the amount of @caps! output produced by buildings"
+
+  ## computers
+  computers: "Computers"
+
+  modifier_goods_output_computers_add: "@computers! $computers$ output per level"
+  modifier_goods_output_computers_add_desc: "The amount of @computers! $computers$ produced by buildings"
+  modifier_goods_input_computers_add: "@computers! $computers$ input per level"
+  modifier_goods_input_computers_add_desc: "The amount of @computers! $computers$ consumed by buildings"
+
+  goods_computers_output_mult: "$computers$ Goods Output"
+  goods_computers_output_mult_desc: "A bonus or penalty for the production of $computers$."
+  modifier_goods_output_computers_mult: "Building @computers! $computers$ output"
+  modifier_goods_output_computers_mult_desc: "A bonus or penalty to the amount of @computers! output produced by buildings"
+
+  trade_route_import_lens_option_computers_tooltip: "Establish an $computers$ import trade route"
+  trade_route_export_lens_option_computers_tooltip: "Establish an $computers$ export trade route"
+
+  ## robots
+  robots: "Robots"
+
+  modifier_goods_output_robots_add: "@robots! $robots$ output per level"
+  modifier_goods_output_robots_add_desc: "The amount of @robots! $robots$ produced by buildings"
+  modifier_goods_input_robots_add: "@robots! $robots$ input per level"
+  modifier_goods_input_robots_add_desc: "The amount of @robots! $robots$ consumed by buildings"
+
+  goods_robots_output_mult: "$robots$ Goods Output"
+  goods_robots_output_mult_desc: "A bonus or penalty for the production of $robots$."
+  modifier_goods_output_robots_mult: "Building @robots! $robots$ output"
+  modifier_goods_output_robots_mult_desc: "A bonus or penalty to the amount of @robots! output produced by buildings"
+
+  trade_route_import_lens_option_robots_tooltip: "Establish an $robots$ import trade route"
+  trade_route_export_lens_option_robots_tooltip: "Establish an $robots$ export trade route"
+
+  ## nuka_cola
+  nuka_cola: "Nuka Cola"
+
+  modifier_goods_output_nuka_cola_add: "@nuka_cola! $nuka_cola$ output per level"
+  modifier_goods_output_nuka_cola_add_desc: "The amount of @nuka_cola! $nuka_cola$ produced by buildings"
+  modifier_goods_input_nuka_cola_add: "@nuka_cola! $nuka_cola$ input per level"
+  modifier_goods_input_nuka_cola_add_desc: "The amount of @nuka_cola! $nuka_cola$ consumed by buildings"
+
+  goods_nuka_cola_output_mult: "$nuka_cola$ Goods Output"
+  goods_nuka_cola_output_mult_desc: "A bonus or penalty for the production of $nuka_cola$."
+  modifier_goods_output_nuka_cola_mult: "Building @nuka_cola! $nuka_cola$ output"
+  modifier_goods_output_nuka_cola_mult_desc: "A bonus or penalty to the amount of @nuka_cola! output produced by buildings"
+
+  trade_route_import_lens_option_nuka_cola_tooltip: "Establish an $nuka_cola$ import trade route"
+  trade_route_export_lens_option_nuka_cola_tooltip: "Establish an $nuka_cola$ export trade route"
+
+  ## machines
+  machines: "Machines"
+
+  modifier_goods_output_machines_add: "@machines! $machines$ output per level"
+  modifier_goods_output_machines_add_desc: "The amount of @machines! $machines$ produced by buildings"
+  modifier_goods_input_machines_add: "@machines! $machines$ input per level"
+  modifier_goods_input_machines_add_desc: "The amount of @machines! $machines$ consumed by buildings"
+
+  goods_machines_output_mult: "$machines$ Goods Output"
+  goods_machines_output_mult_desc: "A bonus or penalty for the production of $machines$."
+  modifier_goods_output_machines_mult: "Building @machines! $machines$ output"
+  modifier_goods_output_machines_mult_desc: "A bonus or penalty to the amount of @machines! output produced by buildings"
+
+  trade_route_import_lens_option_machines_tooltip: "Establish an $machines$ import trade route"
+  trade_route_export_lens_option_machines_tooltip: "Establish an $machines$ export trade route"
+
+  ## chemicals
+  chemicals: "Chemicals"
+
+  modifier_goods_output_chemicals_add: "@chemicals! $chemicals$ output per level"
+  modifier_goods_output_chemicals_add_desc: "The amount of @chemicals! $chemicals$ produced by buildings"
+  modifier_goods_input_chemicals_add: "@chemicals! $chemicals$ input per level"
+  modifier_goods_input_chemicals_add_desc: "The amount of @chemicals! $chemicals$ consumed by buildings"
+
+  goods_chemicals_output_mult: "$chemicals$ Goods Output"
+  goods_chemicals_output_mult_desc: "A bonus or penalty for the production of $chemicals$."
+  modifier_goods_output_chemicals_mult: "Building @chemicals! $chemicals$ output"
+  modifier_goods_output_chemicals_mult_desc: "A bonus or penalty to the amount of @chemicals! output produced by buildings"
+
+  trade_route_import_lens_option_chemicals_tooltip: "Establish an $chemicals$ import trade route"
+  trade_route_export_lens_option_chemicals_tooltip: "Establish an $chemicals$ export trade route"
+
+  ## vehicles
   vehicles: "Vehicles"
 
   modifier_goods_output_vehicles_add: "@vehicles! $vehicles$ output per level"

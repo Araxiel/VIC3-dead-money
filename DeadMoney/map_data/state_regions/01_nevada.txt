@@ -1,7 +1,7 @@
 ﻿# New Vegas 201
 STATE_LASVEGAS = {
     id = 201
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_salvage"
     provinces = { "x6EF4A0" "x79BA8D" "x7BC9A8" "x7CE398" "x7DA3C5" "x84A9DD" "x919A86" "x91BEBA" "x9387BA" "x93D5F9" "x96C58A" "x9AD5B8" "x9DE16C" "xA4BCE1" "xB2ED94" "xB4ACB9" "xB7A5E8" "xC5B4D1" "xCAB0AF" "xCC93C7" "xD08CF1" "xD5FBB2" "xDBCFA6" "xDD9584" "xEFF1E2" "xF5F4E5" "xF6C8DB" }
     city = "7ce398"
     farm = "6ef4a0"
@@ -17,7 +17,7 @@ STATE_LASVEGAS = {
 # Squatterland 202
 STATE_SQUATTERLAND = {
     id = 202
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_salvage"
     provinces = { "x829764" "x87CB89" "x8A81EE" "x8C7781" "x8D7175" "x948CEB" "x94ACC5" "xA7EB76" "xA8B665" "xB36E6B" "xB68D7E" "xBBEB82" "xC4FA72" "xCFAB94" "xD1BB94" "xD48EEC" "xD8DAE5" "xFAB1D5" }
     city = "a8b665"
     farm = "fab1d5"
@@ -33,7 +33,7 @@ STATE_SQUATTERLAND = {
 # Vault City 203
 STATE_VAULTCITY = {
     id = 203
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_salvage"
     provinces = { "x64DAB2" "x6FFBC0" "x7C66A9" "x8AFCB3" "x8BBC8C" "x8C87C7" "x948B89" "xA0799A" "xA278A3" "xA7F28D" "xB5EEB9" "xB7FE78" "xB9C08F" "xBC79CB" "xC8E786" "xD5B2A4" "xDAEBAF" "xE4CC86" "xE785D6" "xEC7DB6" "xF5B6FA" "xF77167" "xF8F9CD" "xF98F8F" "xF9F1EF" "xFAF9DB" "xFE68A7" "xFED79E" }
     city = "a8b665"
     farm = "fab1d5"
@@ -49,7 +49,7 @@ STATE_VAULTCITY = {
 # The Divide 204
 STATE_DIVIDE = {
     id = 204
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_salvage"
     provinces = { "x000000" "x6765A6" "x75E5C0" "x7FB5EF" "x7FB881" "x7FBEB9" "x808A9A" "x83C6E2" "x868176" "x8F77AB" "x91E178" "x91F0A0" "x939A6E" "x939DB4" "x9BADD7" "x9FCD7E" "xA47B86" "xA5E768" "xA5EFE8" "xA780BC" "xB0AB9C" "xB7A4BE" "xB86F90" "xBBCFCB" "xBDACC7" "xBDE597" "xC2E77C" "xC6A8A1" "xC9688D" "xD96CDD" "xD9E3BF" "xDBE0E6" "xDCE881" "xE18AA2" "xE2CCB8" "xE4E8B9" "xE6A2E9" "xE7AF80" "xEB6EBE" "xEDF9F8" "xF5FC6D" "xF74978" "xFCB170" "xFCFD76" }
     city = "a8b665"
     farm = "fab1d5"
@@ -65,7 +65,7 @@ STATE_DIVIDE = {
 # Broken Hills 205
 STATE_BROKENHILLS = {
     id = 205
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_salvage"
     provinces = { "x68ACB0" "x6CF579" "x77E2CB" "x92A8E9" "x946871" "x9670AB" "xA978D7" "xB4BC9F" "xB569F1" "xB7D3E2" "xC9DDBE" "xD189EF" "xD59587" "xE1BA85" "xE6BB85" "xE7A1E5" "xECC28B" "xEF7FCB" "xFAACA8" }
     city = "68ACB0"
     farm = "A978D7"
