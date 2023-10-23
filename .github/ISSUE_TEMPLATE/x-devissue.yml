@@ -1,0 +1,17 @@
+name: [Devs] New Issue
+description: Just for devs to quickly add some basic things to a new issue, an essentially blank template.
+labels:
+  - development 🛠️
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Just for devs to quickly add some basic things to a new issue.
+  - type: textarea
+    id: the-issue
+    attributes:
+      description: |
+        The New Issue
+      value: 
+    validations:
+      required: true
