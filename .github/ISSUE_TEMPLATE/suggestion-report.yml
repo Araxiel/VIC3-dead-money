@@ -1,0 +1,36 @@
+name: Suggestion
+description: Add a suggestion for a new feature or general ideas.
+title: "[Suggestion]: "
+labels:
+  - triage
+  - feedback
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: elevator-pitch
+    attributes:
+      label: Elevator Pitch
+      description: Give a one sentence elevator pitch of your suggestion.
+      placeholder: "Add Jacob to the game"
+    validations:
+      required: true
+  - type: textarea
+    id: longform
+    attributes:
+      label: Suggestion
+      description: Write out your suggestion.
+      value: "Jacob is a cool super mutant dude and he should be in the game"
+    validations:
+      required: true
+  - type: checkboxes
+    id: candoyourself
+    attributes:
+      label: Coding & Implementation
+      description: Is this a suggestion you want someone else to implement, or is this something you plan on adding yourself?
+      options:
+        - label: I plan on coding and implementing this myself.
+          required: false
