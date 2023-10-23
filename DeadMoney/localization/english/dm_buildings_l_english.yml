@@ -100,6 +100,7 @@
   ### Salvage
   ## Subsistence
   building_subsistence_salvage: "Subsistence Salvage"
+  bg_subsistence_salvage: "$building_subsistence_salvage$"
 
   pmg_subistence_salvaging_base: "Base"
   pmg_subistence_salvaging_home_workshops: "Home Workshops"

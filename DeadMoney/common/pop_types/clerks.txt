@@ -4,7 +4,7 @@
 	start_quality_of_life = 7
 	color = hsv{ 0.28 0.40 0.75 }
 	wage_weight = 1.5
-	literacy_target = 0.15
+	literacy_target = 0.4
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 

@@ -5,7 +5,7 @@
 	subsistence_income = yes
 	can_always_hire = yes
 	ignores_employment_proportionality = yes
-	start_quality_of_life = 3
+	start_quality_of_life = 2
 	wage_weight = 0.2
 	consumption_mult = 0.005 # The portion of Peasant buy packages that are added as state region consumption
 	dependent_wage = 0.75	# per year

@@ -1,13 +1,22 @@
 ﻿l_english: 
 
- modifier_building_group_bg_rural_laborers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $laborers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
- modifier_building_group_bg_rural_laborers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_rural_laborers_mortality_mult$"
+  modifier_building_group_bg_rural_laborers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $laborers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
+  modifier_building_group_bg_rural_laborers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_rural_laborers_mortality_mult$"
 
- modifier_building_group_bg_rural_soldiers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $soldiers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
- modifier_building_group_bg_rural_soldiers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_rural_soldiers_mortality_mult$"
+  modifier_building_group_bg_rural_soldiers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $soldiers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
+  modifier_building_group_bg_rural_soldiers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_rural_soldiers_mortality_mult$"
 
- modifier_building_group_bg_salvaging_laborers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $laborers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
- modifier_building_group_bg_salvaging_laborers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_salvaging_laborers_mortality_mult$"
+  modifier_building_group_bg_salvaging_laborers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $laborers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
+  modifier_building_group_bg_salvaging_laborers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_salvaging_laborers_mortality_mult$"
 
- modifier_building_group_bg_salvaging_soldiers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $soldiers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
- modifier_building_group_bg_salvaging_soldiers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_salvaging_soldiers_mortality_mult$"
+  modifier_building_group_bg_salvaging_soldiers_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $soldiers$ employed in the [Concept('concept_wasteland', '$concept_wasteland_short$')]"
+  modifier_building_group_bg_salvaging_soldiers_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_salvaging_soldiers_mortality_mult$"
+
+  modifier_building_group_bg_subsistence_salvage_tax_mult: "$bg_subsistence_salvage$ Tax Income"
+  modifier_building_group_bg_subsistence_salvage_tax_mult_desc: "A bonus or penalty to tax income from $bg_subsistence_salvage$"
+  modifier_building_group_bg_subsistence_salvage_standard_of_living_add: "$bg_subsistence_salvage$ Employee [concept_sol]"
+  modifier_building_group_bg_subsistence_salvage_standard_of_living_add_desc: "A bonus or penalty to the [concept_sol] of employees in $bg_subsistence_salvage$"
+  modifier_building_group_bg_subsistence_agriculture_tax_mult: "$modifier_building_group_bg_subsistence_tax_mult$" 
+  modifier_building_group_bg_subsistence_agriculture_tax_mult_desc: "$modifier_building_group_bg_subsistence_tax_mult_desc$"
+  modifier_building_group_bg_subsistence_agriculture_standard_of_living_add: "$modifier_building_group_bg_subsistence_standard_of_living_add$"
+  modifier_building_group_bg_subsistence_agriculture_standard_of_living_add_desc: "$modifier_building_group_bg_subsistence_standard_of_living_add_desc$"

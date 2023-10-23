@@ -27,7 +27,7 @@ NEconomy = {
 	MINIMUM_EMPLOYEES = 2						# If a building has fewer employees than this, it will always attempt to hire	- Default: 10
 	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 3 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers 	- Default: 50
 
-	SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 750   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages	- Default: 150
+	SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 35   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages	- Default: 150
 }
 
 NMilitary = {
@@ -50,7 +50,7 @@ NPops = {
 
 	WORKING_ADULT_RATIO_BASE = 0.75				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
 
-	LITERACY_DIEOFF_BIAS = 0.8					# Percentage of literate pops who die of old age compared to the current literacy rate, the higher this value the faster the population becomes illiterate when literacy suffers
+	LITERACY_DIEOFF_BIAS = 0.7					# Percentage of literate pops who die of old age compared to the current literacy rate, the higher this value the faster the population becomes illiterate when literacy suffers	- Default: 0.7
 
 	DISCRIMINATION_BASE = 50					# The base value of discrimination for a discriminated pop; maps to the % pay cut they take and the level of Turmoil they get
 
