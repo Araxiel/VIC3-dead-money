@@ -1,7 +1,8 @@
 name: Bug Report
 description: File a bug report
-title: "[BUG]: "
-labels: ["bug", "triage"]
+labels:
+  - triage
+  - bug 🐛
 body:
   - type: markdown
     attributes:
@@ -15,7 +16,7 @@ body:
       options:
         - label: Dead Money is the only loaded mod.
   - type: input
-    id: version
+    id: vic3version
     attributes:
       label: Victoria 3 Version
       description: What version of Victoria 3 are you using?
@@ -23,7 +24,7 @@ body:
     validations:
       required: true
   - type: input
-    id: version
+    id: dmversion
     attributes:
       label: Dead Money Version
       description: What version of Dead Money are you using?
