@@ -16,8 +16,8 @@ body:
       label: Other Mods
       description: Is Dead Money the only mod?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
       default: 0
   - type: input
     id: vic3version

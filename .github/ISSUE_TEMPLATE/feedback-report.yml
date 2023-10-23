@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What's the problem?
+      label: What type of feedback do you want to share?
       description: |
         Write your feedback here.
       value: 
