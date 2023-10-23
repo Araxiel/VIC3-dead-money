@@ -11,7 +11,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: dropdown
-    id: version
+    id: othermods
     attributes:
       label: Other Mods
       description: Is Dead Money the only mod?
@@ -42,7 +42,7 @@ body:
       description: |
         Give a description of what is wrong
         Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
-      value: "A bug happened"
+      placeholder: "A bug happened"
     validations:
       required: true
   - type: textarea
@@ -51,7 +51,7 @@ body:
       label: What are you expecting to happen?
       description: |
         Also tell us, what did you expect to happen?
-      value: "Not that"
+      placeholder: "Not that"
     validations:
       required: false
   - type: textarea
@@ -60,7 +60,11 @@ body:
       label: Steps to Reproduce
       description: |
         If possible, write what steps to take to reproduce this problem.
-      value: Open all tabs and say Beetlejuice three times
+      value: |
+        1. Open all tabs
+        2. Say Beetlejuice three times
+        ...
+      render: bash
     validations:
       required: false
   - type: textarea
