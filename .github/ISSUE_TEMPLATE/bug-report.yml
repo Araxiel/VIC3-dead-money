@@ -11,7 +11,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: dropdown
-    id: othermods
+    id: version
     attributes:
       label: Other Mods
       description: Is Dead Money the only mod?
@@ -20,13 +20,15 @@ body:
         - 'No'
       default: 0
   - type: input
-    id: version
+    id: vic3version
     attributes:
       label: Victoria 3 Version
       description: What version of Victoria 3 are you using?
       placeholder: 1.5.4
     validations:
       required: true
+  - type: input
+    id: dmversion
     attributes:
       label: Dead Money Version
       description: What version of Dead Money are you using?
