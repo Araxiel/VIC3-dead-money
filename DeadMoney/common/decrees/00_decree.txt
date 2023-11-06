@@ -9,7 +9,8 @@
 decree_road_maintenance = {
 	texture = "gfx/interface/icons/decree/decree_road_maintenance.dds"
 	modifier = {
-		state_infrastructure_mult = 0.25
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
 		state_construction_mult = 0.10
 	}
 	unlocking_technologies = { 
@@ -300,8 +301,8 @@ decree_encourage_manufacturing_industry = {
 		}
 	}	
 	modifier = {
-		building_group_bg_manufacturing_throughput_mult = 0.2
-		building_group_bg_service_throughput_mult = 0.2
+		building_group_bg_manufacturing_throughput_add = 0.2
+		building_group_bg_service_throughput_add = 0.2
 	}
 	cost = 100
 	
@@ -356,9 +357,9 @@ decree_encourage_agricultural_industry = {
 		}
 	}		
 	modifier = {
-		building_group_bg_agriculture_throughput_mult = 0.2
-		building_group_bg_ranching_throughput_mult = 0.2
-		building_group_bg_plantations_throughput_mult = 0.2
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+		building_group_bg_ranching_throughput_add = 0.2
 	}
 	cost = 100
 	
@@ -428,11 +429,12 @@ decree_encourage_resource_industry = {
 		}
 	}		
 	modifier = {
-		building_group_bg_mining_throughput_mult = 0.2
-		building_group_bg_logging_throughput_mult = 0.2
-		building_group_bg_fishing_throughput_mult = 0.2
-		building_group_bg_whaling_throughput_mult = 0.2
-		building_group_bg_oil_extraction_throughput_mult = 0.2
+		building_group_bg_mining_throughput_add = 0.2
+		building_group_bg_logging_throughput_add = 0.2
+		building_group_bg_fishing_throughput_add = 0.2
+		building_group_bg_whaling_throughput_add = 0.2
+		building_group_bg_oil_extraction_throughput_add = 0.2
+		building_group_bg_rubber_throughput_add = 0.2
 	}
 	cost = 100
 	
