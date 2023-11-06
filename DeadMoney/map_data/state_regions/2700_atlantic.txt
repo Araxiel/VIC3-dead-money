@@ -1,0 +1,70 @@
+﻿## These are "temp" states, just so there's less error messages
+## TODO
+
+STATE_BERMUDA = {
+    id = 2701
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x000000" }
+    city = "X9A88C2"
+    farm = "XEBA875"
+    mine = "XE87BE4"
+    port = "XD8C173"
+    wood = "X9FE973"
+    arable_land = 15
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_water_wells = 1
+        bg_water_desalination = 15
+    }
+}
+
+STATE_ICELAND = {
+    id = 2702
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x000000" }
+    city = "X9A88C2"
+    farm = "XEBA875"
+    mine = "XE87BE4"
+    port = "XD8C173"
+    wood = "X9FE973"
+    arable_land = 50
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_water_wells = 5
+        bg_water_desalination = 15
+    }
+}
+
+STATE_GREENLAND = {
+    id = 2703
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x000000" }
+    city = "X9A88C2"
+    farm = "XEBA875"
+    mine = "XE87BE4"
+    port = "XD8C173"
+    wood = "X9FE973"
+    arable_land = 50
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_water_wells = 5
+        bg_water_desalination = 15
+    }
+}
+
+STATE_AZORES = {
+    id = 2704
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x000000" }
+    city = "X9A88C2"
+    farm = "XEBA875"
+    mine = "XE87BE4"
+    port = "XD8C173"
+    wood = "X9FE973"
+    arable_land = 30
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_water_wells = 5
+        bg_water_desalination = 15
+    }
+}

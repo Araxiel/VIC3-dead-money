@@ -1,4 +1,4 @@
-﻿# Strategic Regions in North America
+﻿# Strategic Regions on the West Coast
 
 region_california = {
 	capital_province = xb67c74

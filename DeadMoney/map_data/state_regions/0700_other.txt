@@ -1,0 +1,17 @@
+﻿# Hawaii 701
+STATE_HAWAII = {
+    id = 701
+    subsistence_building = "building_subsistence_salvage"
+    provinces = { "x72BEC4" "x74F774" "x796AD1" "x7CCCD0" "x7F8FFB" "x94E986" "x9CB7CB" "xA365E1" "xA8CCB4" "xAB8EDF" "xBCD8DA" "xC1F0E6" "xC4D170" "xED99F7" "xEFD477" }
+    city = "X74F774"
+    farm = "XA8CCB4"
+    mine = "XA365E1"
+    port = "XEFD477"
+    wood = "X72BEC4"
+    arable_land = 20
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 5
+        bg_water_wells = 3
+    }
+}

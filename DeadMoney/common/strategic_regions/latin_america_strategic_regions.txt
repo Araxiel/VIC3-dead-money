@@ -1,0 +1,7 @@
+﻿# Strategic Regions in North America
+
+region_latin_america = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_MEXICO STATE_CENTRALAMERICA STATE_SOUTHAMERICA STATE_CARIBBEAN }
+}

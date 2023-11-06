@@ -1,0 +1,25 @@
+﻿# Strategic Regions in North America
+
+region_alaska = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_ALASKA STATE_ALEUTIAN }
+}
+
+region_west_canada = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_WEST_CANADA }
+}
+
+region_middle_canada = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_ONTARIO STATE_CENTRAL_CANADA }
+}
+
+region_east_canada = {
+	capital_province = x73AFC0
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_CANADA_QUEBEC STATE_CANADA_EAST_COAST }
+}

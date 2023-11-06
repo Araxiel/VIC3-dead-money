@@ -67,3 +67,39 @@ THB = {
 
 	is_named_from_capital = yes
 }
+
+# Hawaii Haven
+HWH = {
+	color = { 39 255 0 } 
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { hawaiian }
+	capital = STATE_HAWAII
+}
+
+# Honolulu Raiders
+HWR = {
+	color = { 255 142 0 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hawaiian }
+	capital = STATE_HAWAII
+}
+
+# Pearl Trinity
+HWT = {
+	color = { 0 28 59 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { hawaiian }
+	capital = STATE_HAWAII
+}
