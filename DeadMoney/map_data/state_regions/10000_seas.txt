@@ -1,6 +1,6 @@
 ﻿STATE_DEFAULTSEA = {
     id = 10001
-    provinces = { "x000001" }
+    provinces = { "x0F062A" }
 }
 
 STATE_CALIFORNIASEA = {

@@ -1,0 +1,18 @@
+﻿STATES = {
+    s:STATE_HAWAII = {
+		create_state = {
+			country = c:HWH
+			owned_provinces = { "X94E986" "XA365E1" "X72BEC4" "XA8CCB4" }
+		}
+		create_state = {
+			country = c:HWR
+			owned_provinces = { "XC1F0E6" "X9CB7CB" "X74F774" "XED99F7" }
+		}
+		create_state = {
+			country = c:HWT
+			owned_provinces = { "XAB8EDF" "XC4D170" "XBCD8DA" "XEFD477" }
+		}
+		
+		add_homeland = hawaiian
+	}
+}
