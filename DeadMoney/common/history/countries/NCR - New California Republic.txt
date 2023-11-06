@@ -1,16 +1,10 @@
 ﻿COUNTRIES = {
 	c:NCR = {
 		effect_starting_technology_debug = yes
+		# effect_starting_technology_tier_3_tech = yes
 		
-		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_no_schools
-		activate_law = law_type:law_no_police
+		effect_starting_politics_egalitarian_settlers = yes
+		activate_law = law_type:law_agrarianism
 		
 		set_tariffs_import_priority = g:heavy_weapons
 		set_tariffs_import_priority = g:small_arms		

@@ -12,6 +12,15 @@ effect_starting_technology_tier_1_tech = {
 effect_starting_technology_tier_2_tech = {
 	add_era_researched = era_1
 	add_era_researched = era_2
+
+	# Society
+	add_technology_researched = tech_central_archives
+	add_technology_researched = tech_internal_security
+	add_technology_researched = tech_alliances
+	add_technology_researched = tech_long_distance_communication
+	add_technology_researched = tech_power_projection
+	add_technology_researched = tech_sewage
+	add_technology_researched = tech_schooling
 }
 
 # Starting tech for post-war settled socities, e.g. NCR, Diamond City, New Reno
@@ -20,28 +29,60 @@ effect_starting_technology_tier_3_tech = {
 	add_era_researched = era_1
 
 	add_technology_researched = tech_water_treatment
+
+	# Society
+	add_technology_researched = tech_archives
+	add_technology_researched = tech_codified_laws
+	add_technology_researched = tech_envoys
+	add_technology_researched = tech_subjugation
+	add_technology_researched = tech_charters
+	add_technology_researched = tech_trade_restrictions
+	add_technology_researched = tech_expansion
+	add_technology_researched = tech_resource_pooling
+	add_technology_researched = tech_group_identity
+	add_technology_researched = tech_government_structure
+	add_technology_researched = tech_democracy
+	add_technology_researched = tech_rediscovery
 }
 
 # Decentralized post-war settled types, e.g. raiders, homesteaders
-effect_starting_technology_tier_4_tech = {	
+effect_starting_technology_tier_4_tech = {
+	add_era_researched = era_1
+
+	
 	# Economic
+	add_technology_researched = tech_water_treatment
 	add_technology_researched = enclosure
 	
 	# Military
 	add_technology_researched = standing_army
-	
-	# Cultural
-	add_technology_researched = urbanization
+
+	# Society
+	add_technology_researched = tech_envoys
+	add_technology_researched = tech_subjugation
+	add_technology_researched = tech_expansion
+	add_technology_researched = tech_resource_pooling
+	add_technology_researched = tech_group_identity
 }
 
 # Decentralized and centralized post-war tribals
 effect_starting_technology_tier_5_tech = {	
 	# Economic
 	add_technology_researched = enclosure
+
+	# Society
+	add_technology_researched = tech_tribal_living
+	add_technology_researched = tech_barter_trade
+	add_technology_researched = tech_communal_living
+	add_technology_researched = tech_leaders
+	add_technology_researched = tech_hierarchies
+	add_technology_researched = tech_tribalism
 }
 
 # Extremely behind post-war tribals or worse
 effect_starting_technology_tier_6_tech = {
+	add_technology_researched = tech_tribal_living
+	add_technology_researched = tech_leaders
 }
 
 ## everything for debuging purposes

@@ -1,0 +1,68 @@
+## Decentralized Tribals
+effect_starting_politics_tribal = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_speech_decentralized_society
+	activate_law = law_type:law_legacy_slavery
+	activate_law = law_type:law_individual_subsistence
+	activate_law = law_type:law_subsistence_trade
+	activate_law = law_type:law_wastelander_tax
+}
+
+## Decentralized Raiders
+effect_starting_politics_raiders = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_speech_decentralized_society
+	activate_law = law_type:law_slave_trade
+	activate_law = law_type:law_individual_subsistence
+	activate_law = law_type:law_subsistence_trade
+	activate_law = law_type:law_wastelander_tax
+}
+
+## Most "decent guy" settlers, like NCR, Mormons, Junktown, etc.
+effect_starting_politics_egalitarian_settlers = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_womens_suffrage
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_traditionalism
+	activate_law = law_type:law_wasteland_trade
+	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_limited_settlement
+}
+
+## Less scrupelous settlers, like New Reno
+effect_starting_politics_criminal_settlers = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_right_of_assembly
+	activate_law = law_type:law_debt_slavery
+	activate_law = law_type:law_laissez_faire
+	activate_law = law_type:law_wasteland_trade
+	activate_law = law_type:law_tenant_farmers
+	activate_law = law_type:law_limited_settlement
+}
+
+## Cults, like BoS and CoA
+effect_starting_politics_cult_settlers = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_outlawed_dissent
+	activate_law = law_type:law_legacy_slavery
+	activate_law = law_type:law_command_economy
+	activate_law = law_type:law_isolationism
+	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_limited_settlement
+	activate_law = law_type:law_religious_schools
+}
+
+## Used by everyone
+effect_starting_politics_default = {
+	activate_law = law_type:law_no_workers_rights
+	activate_law = law_type:law_child_labor_allowed
+	activate_law = law_type:law_women_in_the_workplace
+	activate_law = law_type:law_no_social_security
+	activate_law = law_type:law_migration_controls
+	activate_law = law_type:law_consumption_based_taxation
+	activate_law = law_type:law_homesteading
+	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_no_police
+	activate_law = law_type:law_no_schools
+}
