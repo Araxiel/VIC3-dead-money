@@ -1,0 +1,39 @@
+﻿## These are "temp" states, just so there's less error messages
+
+# Alaska 3200   ## TEMP
+STATE_ALASKA = {
+    id = 3200
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "XE3C577" "XEFA3DB" "X9BC6E1" "XA5C48B" "X9193B8" }
+    city = "XE3C577"
+    farm = "XEFA3DB"
+    mine = "X9BC6E1"
+    port = "XA5C48B"
+    wood = "X9193B8"
+    arable_land = 1000
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_treatment = 10
+        bg_water_wells = 10
+    }
+}
+
+# Aleutian Islands 3205 ## less temp, TODO hubs
+STATE_ALEUTIAN = {
+    id = 3205
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "XC387ED" "XE3F6BE" "X949BCD" "XA1ACC4" "X688E9F" }
+    city = "XC387ED"
+    farm = "XE3F6BE"
+    mine = "X949BCD"
+    port = "XA1ACC4"
+    wood = "X688E9F"
+    arable_land = 1000
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_treatment = 10
+        bg_water_wells = 10
+    }
+}

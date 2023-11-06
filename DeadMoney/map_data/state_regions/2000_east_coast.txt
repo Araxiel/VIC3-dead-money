@@ -1,0 +1,30 @@
+﻿#
+#STATE_OUTSIDE = {
+#    id = 4000
+#    subsistence_building = "building_subsistence_salvage"
+#    provinces = { "x64BBA2" }
+#    city = "64BBA2"
+#    arable_land = 1
+#    arable_resources = { "bg_wheat_farms" }
+#    capped_resources = {}
+#}
+#
+## These are "temp" states, just so there's less error messages
+
+STATE_EAST_COAST = {
+    id = 3000
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "X9A88C2" "XEBA875" "XE87BE4" "XD8C173" "X9FE973" }
+    city = "X9A88C2"
+    farm = "XEBA875"
+    mine = "XE87BE4"
+    port = "XD8C173"
+    wood = "X9FE973"
+    arable_land = 1000
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 10
+        bg_water_wells = 10
+        bg_water_treatment = 10
+    }
+}

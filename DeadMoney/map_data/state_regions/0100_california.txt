@@ -38,7 +38,7 @@ STATE_NEWRENO = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # Sierra 103
@@ -54,7 +54,7 @@ STATE_SIERRA = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # Mariposa 104
@@ -70,7 +70,7 @@ STATE_MARIPOSA = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # The Hub 105
@@ -86,7 +86,7 @@ STATE_THEHUB = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Navaro 106
@@ -102,7 +102,7 @@ STATE_NAVARO = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 5
-        bg_water_facilities = 5
+        bg_water_wells = 5
     }
 }
 # Jefferson 108
@@ -118,7 +118,7 @@ STATE_JEFFERSON = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # Baja 109
@@ -134,7 +134,7 @@ STATE_BAJA = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # Modoc 110
@@ -151,7 +151,7 @@ STATE_MODOC = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 5
-        bg_water_facilities = 5
+        bg_water_wells = 5
     }
 }
 # Redding 111
@@ -167,7 +167,7 @@ STATE_REDDING = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 5
-        bg_water_facilities = 5
+        bg_water_wells = 5
     }
 }
 # Sanfran 112
@@ -183,7 +183,7 @@ STATE_SANFRAN = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 6
-        bg_water_facilities = 7
+        bg_water_wells = 7
     }
 }
 # The Boneyard 113
@@ -200,7 +200,7 @@ STATE_BONEYARD = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Necropolis 114
@@ -216,7 +216,7 @@ STATE_NECROPOLIS = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Maxson 115
@@ -232,7 +232,7 @@ STATE_MAXSON = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Dayglow 116
@@ -248,7 +248,7 @@ STATE_DAYGLOW = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Aza-Borego  117
@@ -264,6 +264,6 @@ STATE_ANZABOREGO = {
     arable_resources = { "bg_wheat_farms" "bg_water_collectors" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }

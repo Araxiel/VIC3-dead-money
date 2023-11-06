@@ -1,19 +1,19 @@
 ﻿STATE_DEFAULTSEA = {
-    id = 3000
-    provinces = { "x000001" }
+    id = 10001
+    provinces = {}
 }
 
 STATE_CALIFORNIASEA = {
-    id = 3001
+    id = 10101
     provinces = {}
 }
 
 STATE_CALIFORNIANBAJASEA = {
-    id = 3002
+    id = 10102
     provinces = { "x0023dd" }
 }
 
 STATE_ATLANTIC = {
-    id = 4000
-    provinces = { "x040404" }
+    id = 12001
+    provinces = {}
 }

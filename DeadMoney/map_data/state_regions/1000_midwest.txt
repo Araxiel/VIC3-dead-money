@@ -1,0 +1,29 @@
+﻿#
+#STATE_OUTSIDE = {
+#    id = 4000
+#    subsistence_building = "building_subsistence_salvage"
+#    provinces = { "x64BBA2" }
+#    city = "64BBA2"
+#    arable_land = 1
+#    arable_resources = { "bg_wheat_farms" }
+#    capped_resources = {}
+#}
+#
+## These are "temp" states, just so there's less error messages
+
+STATE_MIDWEST = {
+    id = 3000
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "X92E6EE" "XBB9BE6" "XEEDBBD" "X81A1D3" }
+    city = "X92E6EE"
+    farm = "XBB9BE6"
+    mine = "XEEDBBD"
+    wood = "X81A1D3"
+    arable_land = 1000
+    arable_resources = { "bg_wheat_farms" }
+    capped_resources = {
+        bg_salvage_buildings = 6
+        bg_water_treatment = 10
+        bg_water_wells = 10
+    }
+}

@@ -11,7 +11,7 @@ STATE_THEDEN = {
     arable_resources = { "bg_wheat_farms" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Arroyo 302
@@ -27,7 +27,7 @@ STATE_ARROYO = {
     arable_resources = { "bg_wheat_farms" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 # Klamath 303
@@ -43,7 +43,7 @@ STATE_KLAMATH = {
     arable_resources = { "bg_wheat_farms" }
     capped_resources = {
         bg_salvage_buildings = 3
-        bg_water_facilities = 2
+        bg_water_wells = 2
     }
 }
 
