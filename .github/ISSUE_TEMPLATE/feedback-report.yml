@@ -1,0 +1,20 @@
+name: Feedback
+description: Give feedback in general, or a report on balancing problems or suggestions.
+title: "[Feedback]: "
+labels:
+  - triage
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feedback report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What type of feedback do you want to share?
+      description: |
+        Write your feedback here.
+      value: 
+    validations:
+      required: true
