@@ -1,0 +1,41 @@
+﻿COUNTRIES = {
+
+	c:THB = {
+		effect_starting_technology_tier_3_tech = yes
+
+		effect_starting_politics_criminal_settlers = yes
+		activate_law = law_type:law_legacy_slavery
+			
+	}
+
+	c:JKT = {
+		effect_starting_technology_tier_4_tech = yes	
+			
+		effect_starting_politics_criminal_settlers = yes
+		activate_law = law_type:law_slavery_banned
+	}
+
+	c:TBY = {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_egalitarian_settlers = yes
+		activate_law = law_type:law_agrarianism
+
+	}
+
+	c:SQT = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_decentralized_settlers = yes
+		activate_law = law_type:law_isolationism
+			
+	}
+
+	c:NEC = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_criminal_settlers = yes
+		activate_law = law_type:law_isolationism
+			
+	}
+}

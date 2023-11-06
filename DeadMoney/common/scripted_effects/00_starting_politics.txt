@@ -1,4 +1,4 @@
-## Decentralized Tribals
+﻿## Decentralized Tribals
 effect_starting_politics_tribal = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_speech_decentralized_society
@@ -12,7 +12,17 @@ effect_starting_politics_tribal = {
 effect_starting_politics_raiders = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_speech_decentralized_society
-	activate_law = law_type:law_slave_trade
+	activate_law = law_type:law_debt_slavery
+	activate_law = law_type:law_individual_subsistence
+	activate_law = law_type:law_subsistence_trade
+	activate_law = law_type:law_wastelander_tax
+}
+
+## Decentralized Settlers
+effect_starting_politics_decentralized_settlers = {
+	effect_starting_politics_default = yes
+	activate_law = law_type:law_speech_decentralized_society
+	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
@@ -34,7 +44,7 @@ effect_starting_politics_egalitarian_settlers = {
 effect_starting_politics_criminal_settlers = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_debt_slavery
+	activate_law = law_type:law_slave_trade
 	activate_law = law_type:law_laissez_faire
 	activate_law = law_type:law_wasteland_trade
 	activate_law = law_type:law_tenant_farmers

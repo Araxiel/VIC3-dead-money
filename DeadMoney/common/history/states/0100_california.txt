@@ -56,4 +56,23 @@ STATES = {
 		add_homeland = vaultdweller
 		add_homeland = californian
 	}
+
+    s:STATE_BONEYARD = {
+		create_state = {
+			country = c:TBY
+			owned_provinces = { "x27AC27" "x6BB0EC" "x868997" "xA1C98E" "xAC80BC" "xB39E72" "xBAA4DD" "xBDFC79" "xC5EF7B" "xD03087" "xF0A088" "xF0EFE0" }
+		}
+		
+		add_homeland = californian
+	}
+
+    s:STATE_NECROPOLIS = {
+		create_state = {
+			country = c:NEC
+			owned_provinces = { "x87E6E5" "x956DED" "x9AABB0" "x9C7688" "xA5C5CE" "xA9D095" "xAC70A4" "xB09BEA" "xD0F5C7" "xD5E6CF" "xDDA7E3" "xF6D878" "xF8C19F" "xFDBCEE" }
+		}
+		
+		add_homeland = californian	## ghouls
+	}
+	
 }

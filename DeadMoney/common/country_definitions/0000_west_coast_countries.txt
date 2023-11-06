@@ -68,23 +68,54 @@ THB = {
 	is_named_from_capital = yes
 }
 
-# Hawaii Haven
-HWH = {
-	color = { 39 255 0 } 
+# The Boneyard
+TBY = {
+	color = { 100 20 68 }
 	
 	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { californian }
+	capital = STATE_BONEYARD
 
-	tier = kingdom
+	is_named_from_capital = yes
+}
+
+# Necropolis
+NEC = {
+	color = { 6 30 80 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { californian }	## ghoul
+	capital = STATE_NECROPOLIS
+
+	is_named_from_capital = yes
+}
+
+
+# Hawaii Haven
+HWH = {
+	color = { 39 250 1 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
 	
 	cultures = { hawaiian }
 	capital = STATE_HAWAII
+
+	is_named_from_capital = yes
 }
 
 # Honolulu Raiders
 HWR = {
 	color = { 255 142 0 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -99,7 +130,7 @@ HWT = {
 	country_type = recognized
 	
 	tier = principality
-	
+
 	cultures = { hawaiian }
 	capital = STATE_HAWAII
 }

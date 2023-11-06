@@ -37,4 +37,22 @@
 			}
 		}
 	}
+
+	s:STATE_BONEYARD = {
+		region_state:TBY = {
+			create_pop = {
+				culture = californian
+				size = 3300
+			}
+		}
+	}
+
+	s:STATE_NECROPOLIS = {
+		region_state:NEC = {
+			create_pop = {
+				culture = californian	## ghouls
+				size = 3300
+			}
+		}
+	}
 }

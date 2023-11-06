@@ -7,7 +7,7 @@
 		activate_law = law_type:law_agrarianism
 		
 		set_tariffs_import_priority = g:heavy_weapons
-		set_tariffs_import_priority = g:small_arms		
+		set_tariffs_import_priority = g:firearms		
 
 	}
 }

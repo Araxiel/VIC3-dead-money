@@ -17,3 +17,9 @@ region_oregon = {
 	map_color = { 0.31 0.61 0.12 }
 	states = { STATE_THEDEN STATE_ARROYO STATE_KLAMATH }
 }
+
+region_pacific = {
+	capital_province = X94e986
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_HAWAII }
+} 

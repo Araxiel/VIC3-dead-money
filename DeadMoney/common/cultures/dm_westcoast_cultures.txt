@@ -522,11 +522,12 @@ tribal ={
 	}
 }
 
-hawaiian={ # 
+hawaiian = { # 
 	color= hsv{ 0.29 0.26 0.60 }
 	religion = religion_oldworldblues
-	traits = { polynesian_group indigenous_oceanic_heritage anglophone settled_trait wastelander_heritage}
-	male_noble_first_names = {
+	traits = { polynesian_group anglophone settled_trait wastelander_heritage }
+
+	male_regal_first_names = {
 		Alapa_imaloiki _Aikanaka
 		Eia
 		Ha_alo_u Ha_alelea
