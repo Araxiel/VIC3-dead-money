@@ -171,7 +171,7 @@
   trade_route_import_lens_option_electrical_components_tooltip: "Establish an $electrical_components$ import trade route"
   trade_route_export_lens_option_electrical_components_tooltip: "Establish an $electrical_components$ export trade route"
 
-  ## Electrical Components
+  ## Salvage
   salvage: "Salvage"
 
   modifier_goods_output_salvage_add: "@salvage! $salvage$ output per level"
@@ -187,7 +187,7 @@
   trade_route_import_lens_option_salvage_tooltip: "Establish an $salvage$ import trade route"
   trade_route_export_lens_option_salvage_tooltip: "Establish an $salvage$ export trade route"
 
-  ## Security
+  ## caps
   caps: "Caps"
 
   modifier_goods_output_caps_add: "@caps! $caps$ output per level"
@@ -247,51 +247,3 @@
 
   trade_route_import_lens_option_nuka_cola_tooltip: "Establish an $nuka_cola$ import trade route"
   trade_route_export_lens_option_nuka_cola_tooltip: "Establish an $nuka_cola$ export trade route"
-
-  ## machines
-  machines: "Machines"
-
-  modifier_goods_output_machines_add: "@machines! $machines$ output per level"
-  modifier_goods_output_machines_add_desc: "The amount of @machines! $machines$ produced by buildings"
-  modifier_goods_input_machines_add: "@machines! $machines$ input per level"
-  modifier_goods_input_machines_add_desc: "The amount of @machines! $machines$ consumed by buildings"
-
-  goods_machines_output_mult: "$machines$ Goods Output"
-  goods_machines_output_mult_desc: "A bonus or penalty for the production of $machines$."
-  modifier_goods_output_machines_mult: "Building @machines! $machines$ output"
-  modifier_goods_output_machines_mult_desc: "A bonus or penalty to the amount of @machines! output produced by buildings"
-
-  trade_route_import_lens_option_machines_tooltip: "Establish an $machines$ import trade route"
-  trade_route_export_lens_option_machines_tooltip: "Establish an $machines$ export trade route"
-
-  ## chemicals
-  chemicals: "Chemicals"
-
-  modifier_goods_output_chemicals_add: "@chemicals! $chemicals$ output per level"
-  modifier_goods_output_chemicals_add_desc: "The amount of @chemicals! $chemicals$ produced by buildings"
-  modifier_goods_input_chemicals_add: "@chemicals! $chemicals$ input per level"
-  modifier_goods_input_chemicals_add_desc: "The amount of @chemicals! $chemicals$ consumed by buildings"
-
-  goods_chemicals_output_mult: "$chemicals$ Goods Output"
-  goods_chemicals_output_mult_desc: "A bonus or penalty for the production of $chemicals$."
-  modifier_goods_output_chemicals_mult: "Building @chemicals! $chemicals$ output"
-  modifier_goods_output_chemicals_mult_desc: "A bonus or penalty to the amount of @chemicals! output produced by buildings"
-
-  trade_route_import_lens_option_chemicals_tooltip: "Establish an $chemicals$ import trade route"
-  trade_route_export_lens_option_chemicals_tooltip: "Establish an $chemicals$ export trade route"
-
-  ## vehicles
-  vehicles: "Vehicles"
-
-  modifier_goods_output_vehicles_add: "@vehicles! $vehicles$ output per level"
-  modifier_goods_output_vehicles_add_desc: "The amount of @vehicles! $vehicles$ produced by buildings"
-  modifier_goods_input_vehicles_add: "@vehicles! $vehicles$ input per level"
-  modifier_goods_input_vehicles_add_desc: "The amount of @vehicles! $vehicles$ consumed by buildings"
-
-  goods_vehicles_output_mult: "$vehicles$ Goods Output"
-  goods_vehicles_output_mult_desc: "A bonus or penalty for the production of $vehicles$."
-  modifier_goods_output_vehicles_mult: "Building @vehicles! $vehicles$ output"
-  modifier_goods_output_vehicles_mult_desc: "A bonus or penalty to the amount of @vehicles! output produced by buildings"
-
-  trade_route_import_lens_option_vehicles_tooltip: "Establish an $vehicles$ import trade route"
-  trade_route_export_lens_option_vehicles_tooltip: "Establish an $vehicles$ export trade route"

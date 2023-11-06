@@ -142,7 +142,7 @@ pm_water_well_automation_water_tube_boiler = {
 
 		level_scaled = {
 			building_employment_laborers_add = -30
-			building_employment_egineers_add = 5
+			building_employment_engineers_add = 5
 		}
 	}
 }
@@ -165,7 +165,7 @@ pm_water_well_automation_modern_machines = {
 		level_scaled = {
 			building_employment_laborers_add = -30
 			building_employment_machinists_add = 10
-			building_employment_egineers_add = 5
+			building_employment_engineers_add = 5
 		}
 	}
 
@@ -287,7 +287,7 @@ pm_water_collector_automation_water_tube_boiler = {
 
 		level_scaled = {
 			building_employment_laborers_add = -25
-			building_employment_egineers_add = 5
+			building_employment_engineers_add = 5
 		}
 	}
 }
@@ -306,7 +306,7 @@ pm_water_collector_automation_modern_machines = {
 		level_scaled = {
 			building_employment_laborers_add = -55
 			building_employment_machinists_add = 10
-			building_employment_egineers_add = 10
+			building_employment_engineers_add = 10
 		}
 	}
 
@@ -424,7 +424,7 @@ pm_water_treatment_automation_water_tube_boiler = {
 
 		level_scaled = {
 			building_employment_laborers_add = -20
-			building_employment_egineers_add = 5
+			building_employment_engineers_add = 5
 		}
 	}
 }
@@ -442,7 +442,7 @@ pm_water_treatment_automation_modern_machines = {
 
 		level_scaled = {
 			building_employment_laborers_add = -30
-			building_employment_egineers_add = 15
+			building_employment_engineers_add = 15
 		}
 	}
 
@@ -522,7 +522,7 @@ pm_water_desalination_automation_water_tube_boiler = {
 
 		level_scaled = {
 			building_employment_laborers_add = -20
-			building_employment_egineers_add = 5
+			building_employment_engineers_add = 5
 		}
 	}
 }
@@ -540,7 +540,7 @@ pm_water_desalination_automation_modern_machines = {
 
 		level_scaled = {
 			building_employment_laborers_add = -30
-			building_employment_egineers_add = 15
+			building_employment_engineers_add = 15
 		}
 	}
 
