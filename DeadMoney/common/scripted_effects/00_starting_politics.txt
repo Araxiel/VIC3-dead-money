@@ -9,7 +9,7 @@ effect_starting_politics_tribal = {
 }
 
 ## Decentralized Raiders
-effect_starting_politics_raiders = {
+effect_starting_politics_decentralized_raiders = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_speech_decentralized_society
 	activate_law = law_type:law_debt_slavery

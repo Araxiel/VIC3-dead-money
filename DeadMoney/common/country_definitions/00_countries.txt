@@ -19,3 +19,183 @@
 #}
 
 #####################
+
+## Debug Pacific Northwest
+DPacificNorthwest = {
+	color = { 15 45 21 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_PACIFIC_NORTHWEST
+}
+
+## Debug Midwest
+DMidwest = {
+	color = { 255 142 0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_MIDWEST
+}
+
+## Debug Rockies
+DRockies = {
+	color = { 6 200 50 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_ROCKIES
+}
+
+## Debug East Coast
+DEastCoast ={
+	color = { 80 65 100 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_ROCKIES
+}
+
+## Debug Ontario
+DOntario = {
+	color = { 200 65 230 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_ONTARIO
+}
+
+## Debug Central Canada
+DCentralCanada = {
+	color = { 200 20 30 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_CENTRAL_CANADA
+}
+
+## Debug Quebec
+DQuebec = {
+	color = { 20 20 200 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_CANADA_QUEBEC
+}
+
+## Debug Canada Atlantic
+DCanadaAtlantic = {
+	color = { 90 80 153 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_CANADA_EAST_COAST
+}
+
+## Debug West Canada
+DWestCanada = {
+	color = { 6 3 50 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_WEST_CANADA
+}
+
+## Debug North Canada
+DNorthCanada = {
+	color = { 50 60 00 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_NORTH_CANADA
+}
+
+## Debug Alaska
+DAlaska = {
+	color = { 20 130 180 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_ALASKA
+}
+
+## Debug Aleutian
+DAU = {
+	color = { 20 105 100 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_ALEUTIAN
+}
+
+## Debug South
+DSO = {
+	color = { 60 20 65 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_SOUTH
+}
+
+## Debug Texas
+DTX = {
+	color = { 32 230 180 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_TEXAS
+}
+
+## Debug Florida
+DFLORIDA = {
+	color = { 50 190 120 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_FLORIDA
+}

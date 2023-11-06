@@ -121,7 +121,7 @@
 	ethnicities = {
 		8 = caucasian
 		2 = black
-		2 = south_american
+		4 = south_american
 		1 = asian
 		1 = polynesian
 		1 = arab
@@ -383,7 +383,7 @@ vaultdweller ={
 	ethnicities = {
 		8 = caucasian
 		2 = black
-		2 = south_american
+		3 = south_american
 		1 = asian
 		1 = polynesian
 		1 = arab

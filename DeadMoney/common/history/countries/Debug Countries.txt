@@ -1,0 +1,78 @@
+COUNTRIES = {
+
+	c:DPacificNorthwest = {
+		effect_starting_technology_tier_5_tech = yes
+		effect_starting_politics_tribal = yes	
+	}
+
+	c:DMidwest = {
+		effect_starting_technology_tier_5_tech = yes
+		effect_starting_politics_tribal = yes	
+	}
+
+	c:DRockies = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_tribal = yes
+	}
+
+	c:DEastCoast ={
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DOntario = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DCentralCanada = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DQuebec = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DCanadaAtlantic = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DWestCanada = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DNorthCanada = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DAlaska = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DAU = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DSO = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DTX = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DFLORIDA = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+}
