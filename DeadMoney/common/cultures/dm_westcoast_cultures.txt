@@ -119,7 +119,13 @@
 
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		8 = caucasian
+		2 = black
+		4 = south_american
+		1 = asian
+		1 = polynesian
+		1 = arab
+		1 = indian
 	}
 }
 
@@ -244,7 +250,13 @@ oldworldamerican ={
 
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		15 = caucasian	# old america was more racist, and enclave was primarly rich people
+		2 = black
+		2 = south_american
+		1 = asian
+		1 = polynesian
+		1 = arab
+		1 = indian
 	}
 }
 
@@ -369,7 +381,13 @@ vaultdweller ={
 
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		8 = caucasian
+		2 = black
+		3 = south_american
+		1 = asian
+		1 = polynesian
+		1 = arab
+		1 = indian
 	}
 }
 
@@ -494,6 +512,173 @@ tribal ={
 
 	graphics = european
 	ethnicities = {
-		1 = caucasian
+		8 = caucasian
+		2 = black
+		2 = south_american
+		1 = asian
+		1 = polynesian
+		1 = arab
+		1 = indian
 	}
+}
+
+hawaiian = { # 
+	color= hsv{ 0.29 0.26 0.60 }
+	religion = religion_oldworldblues
+	traits = { polynesian_group anglophone settled_trait wastelander_heritage }
+
+	male_regal_first_names = {
+		Alapa_imaloiki _Aikanaka
+		Eia
+		Ha_alo_u Ha_alelea
+		Kuhio Kala_imamahu Keaweamahi Kalaniulumoku Koakanu Kekaulike Kauakahiakua Kehahana Kiwala_o Kauhane Kaiakea Kahanamoku Ka_opuiki Kaisera Kamaunu
+		Lunalilo
+		Maile
+		Nahili Namaile Noukana Nahi_ole_a
+		Paoa
+		Zorobabela
+	}
+	male_common_first_names={
+		Aberahama _Alika _Anederea
+		Beniamina
+		Dani_ela
+		_Enoka Ehu
+		Hekekia Hairama Hugo 
+		Iosepa Ioane Iona Iosua Io_ela Ieremia Isaac
+		Kawika Keoni Kepano Keoki Kimo Kolomona
+		Lewi Luka Lakalo
+		Mika_ele Mareko Mataio Mose Makini
+		Noah
+		Paulo Petero Pilipo
+		Samuel
+		Timoteo Toma
+		Zakaria
+		## American
+		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Alonzo Ansel Amos
+		Benjamin Byron Benedict Barnabas Bildad
+		Charles Cyrus Chester Cassius Calvin Cornelius Conrad Caleb Cephas Clarence Colcord
+		Daniel David Dwight
+		Ezekiel Enoch Elihu Edward Eugene_2 Eustace Edwin Elam Ezra Ebenezer Elijah Emory Ephraim Erasmus Elton
+		Franklin Francis Frederick
+		Grenville George Gregory Grover Gabriel Gorham Gordon
+		Henry Hannibal Hugh Harold Hector
+		Isaac Irving
+		Joshua Joseph John James Jacob Jesse Joel Jeffrey Jonas Jedediah Jonathan Josiah
+		Kermit Kenner
+		Lemuel Lysander Lawrence Lewis Lorenzo Leland Levi Leonard_2 Lucius
+		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton 
+		Nicholas Noah Nathaniel Newton Nelson
+		Oswald Orson Orville Oscar Otis Oliver Orrin Owen Ormsby
+		Peter Paul Patrick Philip Phineas Philemon
+		Quentin Quincy
+		Rutherford Richard Robert Rufus Roger
+		Stephen Silas Samuel Seth Simon Sidney Sylvester Shubael Steven
+		Thomas Theodore_2 Thaddeus
+		Upton
+		Victor Valentine_2
+		William Walter Winfield Wesley Wendell
+	}
+	female_common_first_names = {
+		Abigail Ahia Ana Analea
+		Elizabeth
+		Haupa Hana Haleloke 
+		Inaina
+		Kala Kina_u Kaliko Kamamalu Kamaikui Kekahili Kekelaokalani Kauwahine Kalukuna Kipa Kahiliopua Kauwa Kaha
+		Lucy Laura Lanihau
+		Maria Miriama Mareta Maile Mele
+		Naomi Namahana Namokuelua Na_awa
+		Pane Pauahi Papapaunauapu
+		Rahela
+		## American
+		Amanda Anna Alice Adaline Augusta Alida Addie Ariel Ada Agnes Agatha Almira
+		Catharine Charlotte Clara Cynthia Charity Cordelia Cornelia
+		Delia Deborah Delima
+		Elizabeth Evelina Emily Esther Eliza Ellen Emma Estelle Eudora Eleanor Ella Eleura Elnora Edith Ethel Ethelinda Eva
+		Frances Florence Faith Florena
+		Gertrude Geraldine Grace
+		Hannah Henriette Helen Harriette
+		Isabella Ida
+		Jane Julia Judith Josephine
+		Karen
+		Lucy Louisa Lavilla Lydia Lilian Lucretia Luetta Leonora
+		Mabel Mary Mildred Melissa Minerva Martha Matilda Marjorie Malvina
+		Nancy Nellie
+		Olive
+		Phoebe Pamela Puella
+		Roxana Ruth Rebecca Rosa Rachel
+		Susannah Satronia Sylvia
+		Ursula
+		Zara
+	}	
+	noble_last_names = {
+		Aholo
+		Hua Hoapili
+		Keliimaikai Kalakaua Kalaniana_ole Kamehameha Kawananakoa Keoua Kaneakua Ka_auwai Keawe Kalakaua Kanoa Kapeau Kina_u Kanehoa Kekaaniau Kamamali Ka_eo
+		La_anui Loeau Leleiohoku 
+		Moehonua Maheha Mahoe
+		Nakuina Nohomualani Namakeha Naea
+		Olohana
+		Pi_ikoi Peleioholani Palekaluhi Papaiahiahi Pahulemu 
+		# American
+		Adams Armstrong Akerman
+		Bradlee
+		Cabot Cushing
+		Delano Dudley
+		Emerson Endicott Emmet
+		Forbes
+		Gillett
+		Holmes
+		Lowell
+		Minot McCallum
+		Norcross
+		Peabody
+		Quincy
+		Roosevelt
+		Saltonstall Sears Schuyler Smith
+	}
+	common_last_names={
+		Akaka Apoliona Aki Akina Apaka Alapai
+		Boyd Bipikane
+		Hanaike Hakuole Hiwauli Ho_opi_i Haili Hohopa
+		Iaukea _I_i
+		Kahanawai Kahanamoku Kanahele Kekumano Kawelo Kapena Kapaa Kamauoha Kamakau Kapahu Kaunamano Koahou Kaluna Kauhi Kaai Kekuku Kalama Kahauolopua Kaapana Kamakahi
+		Lilikalani Lahilahi 
+		Muolo Maikai Momoa Mahealani Makalua Malo
+		Nawahi Nowlein Napuaelua Nahakuelua Nahinu Nahaolelua Nainoa
+		Piianaia Pua Pukui Punahoa Pavao
+		Ukeke
+		Waiamau Waipuilani Waipa
+		## American
+		Arthur Abbot Abercrombie Allen Andrews Armstrong Akerman Aldrich Atherton Alger
+		Brown Buchanan Buford Black Baldwin Butler Blair Bryan Blaine Barker Bell Bennett Briggs Buckingham Brinsmade Brodhead Ballou Blinn Beeman Boyce Berger Burleigh
+		Cooper Carpenter Clay Cass Chamberlain Clark Colfax Cleveland Clarkson Chandler Cortelyou Claflin Cameron Campbell Coffey Carr Catlin Casey Cobb Coburn Cook Cox Craig Crittenden Crocker Custer Chetwood Cambreleng Coffinberry Childs Croman Coyle Culver Conk Corbin Crouch Claggett Clevenger
+		Daniels Dayton Dumont Douglas Depre Davies Dana Doolittle Doubleday Dyer Dunn Draper Dodge Doty Dornblaser Dewel Dussean
+		Everett English Eaton Egan Elliott
+		Fillmore Floyd Fairbanks Fess Fletcher Fairchild Farnsworth Fraser Foster Fry Fuller French Fowler Fiske Fitts Foss Fesler Faxon
+		Grant Green Garrison Granger Greeley Garfield Garcelon Gilbert Gibbs Griffin Gurney Goldsborough Glascock Grannis Grinstead Gould Goldrick Goodwin Grimes Gooding
+		Halleck Hall Hancock Harrison Hendricks Hobart Hanna Hitchcock Hooker Hackleman Harris Hawkins Hawley Heckman Humphreys Hunt Hunter Hayes Hollingsworth Hammatt Hoag Hodgeman Hammer Holden Heffernan Huldy Hamblen Herrick Hurlbutt Hazeltine
+		Ingalls Irion
+		Johnson Jewell Jackson Jones Judkins
+		King Kern Kearny Kelley Kane Kilpatrick Kiddoo Keyes Kimball Kinnard Kirk Kennon Knowlton Kneeland Kittredge
+		Lightner Logan Lacey Lane Leggett Lightburn Littlejohn Lockwood Lytle Long Lasaliere Livermore Leavitt Loverin
+		McClellan Merritt Miller Marsh Mansfield Manson Martindale McArthur McCall McClernand McIntosh McPherson Meade Meigs Meredith Miles Morris Morton Murray McKinley McKeon McLaren McMahon Macomber Mattingly Meloon Meacham
+		Norris Negley Neill Nickerson Noyes Nugen Newkirk Napire Nowlin Niquette Nudd
+		Oglesby Orme Osborn Owen Olds Oglevee Ochiltree
+		Pierce Peterson Prince Pendleton Pershing Parker Pomerene Payne Pingree Palmer Parsons Pearson Peck Pennypacker Pile Porter Potter Prentiss Price Phillips Prindle Philbrick Penhallow Pettengill
+		Quay Quinby Quiner
+		Reid Rosewater Ransom Rawlins Ramsay Reynolds Rice Richardson Ricketts Ripley Ross Russell Raiser Rafferty Rix
+		Sherman Sheridan Stanton Stanford Stevens Stevenson Sewall Sabin Sinclair Sanborn Scammon Saxton Sedgwick Seward Shackelford Shepard Shields Sickles Slocum Stannard Sturgis Sykes Stanley Shepley Schenck Shinn Semple Sadler Suddaby Seaver Seitz Snodgrass Sissons Stolworthy
+		Troucey Thompson Tilden Turner Taylor Todd Thruston Torbert Totten Tuttle Turchin Tyndale Tallmadge Thatcher Tubbs Thorndike Truesdale Tandy
+		Ullman
+		Vanderveer Van_Buren Viele Vandever Vincent Vogdes Vogel
+		Whitman Webster Woodward Wheeler Weaver Wood Ward Willcox Wad Wadsworth Walker Wallace Washburn Webb Weber Weed Wells West Wheaton Whipple Winkler Woodbury Woodbridge Whittlesey Wingate Walley Wenk Whitcomb Wibird
+		Young
+	}
+	ethnicities = {
+		9 = polynesian
+		6 = caucasian
+		4 = asian
+		1 = black
+	}
+	graphics = decentralised_americas
 }

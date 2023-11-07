@@ -1,0 +1,13 @@
+﻿# Strategic Regions in North America
+
+region_east_coast = {
+	capital_province = x8A4471
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_EAST_COAST }
+}
+
+region_atlantic_islands = {
+	capital_province = x9AB197
+	map_color = { 0.31 0.61 0.12 }
+	states = {  STATE_AZORES STATE_BERMUDA STATE_GREENLAND STATE_ICELAND }
+}

@@ -432,7 +432,7 @@ on_yearly_pulse_country = {
 		#20 = communism.9
 		#20 = communism.7
 
-		#psychology
+    #psychology
 		#20 = psychology_events.1					## TODO readd
 		#20 = psychology_events.2
 		#20 = psychology_events.3
@@ -505,6 +505,7 @@ on_yearly_pulse_country = {
 	}
 
 	# Exiles
+
 	random_events = {						## TODO readd
 		200 = 0
 		#10 = exiles_events.1
@@ -1303,6 +1304,16 @@ on_country_released_as_overlord_subject = {
 				}
 				ig:ig_devout = {
 					set_interest_group_name = ig_vajrayana_monks
+					remove_ideology = ideology_moralist
+					add_ideology = ideology_buddhist_moralist
+				}
+			}
+			if = {
+				limit = {
+					country_has_state_religion = rel:mahayana
+				}
+				ig:ig_devout = {
+					set_interest_group_name = ig_mahayana_monks
 					remove_ideology = ideology_moralist
 					add_ideology = ideology_buddhist_moralist
 				}

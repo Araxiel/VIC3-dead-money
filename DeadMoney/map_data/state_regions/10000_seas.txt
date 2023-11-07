@@ -1,0 +1,19 @@
+﻿STATE_DEFAULTSEA = {
+    id = 10001
+    provinces = { "x0F062A" }
+}
+
+STATE_CALIFORNIASEA = {
+    id = 10101
+    provinces = { "x0023B8" }
+}
+
+STATE_CALIFORNIANBAJASEA = {
+    id = 10102
+    provinces = { "x0023DD" }
+}
+
+STATE_ATLANTIC = {
+    id = 12001
+    provinces = { "x040404" }
+}

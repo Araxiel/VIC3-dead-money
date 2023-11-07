@@ -1,17 +1,59 @@
 ﻿l_english: 
 
 
-  # Countries
+  # California
   NCR: "New California Republic"
   NCR_ADJ: "New Californian"
-  NRN: "New Reno"
-  NRN_ADJ: "New Renonian"
+  NRN: "$STATE_NEWRENO$"
+  NRN_ADJ: "$NRN$"
   JKT: "Junktown"
   JKT_ADJ: "Junktownian"
-  THB: "The Hub"
-  THB_ADJ: "Hubian"
+  THB: "$STATE_THEHUB$"
+  THB_nt: "$STATE_THEHUB_nt$"
+  THB_ADJ: "Hub"
   SQT: "The Squat"
+  SQT_nt: "Squat"
   SQT_ADJ: "Squatter"
+  TBY_nt: "$STATE_BONEYARD_nt$"
+  TBY: "$STATE_BONEYARD$"
+  TBY_ADJ: "$STATE_BONEYARD_nt$"
+  NEC: "$STATE_NECROPOLIS$"
+  NEC_ADJ: "$NEC$"
+  RED: "Red Hills"
+  RED_ADJ: "$RED$"
+  DAY: "$STATE_DAYGLOW$"
+  DAY_ADJ: "$DAY$"
+
+  ANZ: "$STATE_ANZABOREGO$"
+  ANZ_ADJ: "$ANZ$"
+  BAJ: "Baja"
+  BAJ_ADJ: "Baja"
+
+  # Nevada
+  # Slither Kin (Omertas)
+  LSK: "Slither Kin"
+  LSK_ADJ: "Slither Kin"
+  # Mojave Boot-Riders (Chairmen)
+  LBR: "Mojave Boot-Riders"
+  LBR_ADJ: "Mojave Boot-Rider"
+  # Sawneys (BTS alt White Glove Society)
+  LSW: "Sawneys"
+  LSW_ADJ: "Sawney"
+  HPV: "Hopeville"
+  HPV_ADJ: "Hopeville"
+  VPS_nt: "Vipers"
+  VPS: "The Vipers"
+  VPS_ADJ: "Viper"
+
+
+  ## Hawaii
+
+  HWH: "Hawaii Haven"
+  HWH_ADJ: "Hawaiian"
+  HWR: "Honolulu Raiders"
+  HWR_ADJ: "Honolulu Raider"
+  HWT: "Pearl Trinity"
+  HWT_ADJ: "Pearl Trinity"
 
   # Characters
   Aradesh: "Aradesh"

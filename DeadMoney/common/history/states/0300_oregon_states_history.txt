@@ -1,0 +1,30 @@
+﻿###### EXAMPLE ######
+
+#STATES = {
+#	s:STATE_EXAMPLE = {
+#		create_state = { #To create a split state add another one of these entries with different IDs
+#			country = c:EXA #The tag for the country which controls these provinces within this state.
+#			owned_provinces = { "x000000" "x562129" "xAF3D4E" } #The provinces within this state.
+#		}
+#		create_state = { #This is now a split state with TES controlling these provinces.
+#			country = c:TES 
+#			owned_provinces = { "x548751" "x9A5DA8" "x42B0F5" } #Different provinces..
+#		}
+#		
+#		add_homeland = examplish #Sets the state to be a homeland for whatever culture you put here.
+#		add_homeland = testish #You can set multiple.
+#	}
+#}
+
+#####################
+STATES = {
+	s:STATE_PACIFIC_NORTHWEST = {
+		create_state = {
+			country = c:DPacificNorthwest
+			owned_provinces = { "x64B164" "x657BD0" "x66899A" "x66CF70" "x66F26C" "x6870D1" "x68EFDE" "x69DB75" "x69EFE7" "x6AA771" "x6C7969" "x6CD985" "x6DF0EC" "x6E89FB" "x6FA38E" "x6FB1D5" "x6FD7CA" "x718277" "x71E490" "x72E982" "x72EEFB" "x746598" "x74D1F0" "x75CD86" "x76ABCA" "x77ECEB" "x77F5E7" "x79A965" "x7A71A1" "x7AE26A" "x7BBB6D" "x7CC093" "x7D8E93" "x7DDAF3" "x7E7FCB" "x7E8899" "x7F6BBF" "x80B89D" "x80E2DD" "x817AB5" "x8295AD" "x82D68D" "x8387BB" "x8388FA" "x858D9F" "x85A09C" "x879C6D" "x87BED9" "x87C3B7" "x87C67D" "x87F5DB" "x88C0CE" "x88D1F2" "x8A8D9B" "x8AE37D" "x8BD765" "x8CE86B" "x8D64B3" "x8D848D" "x8D91A1" "x8DDABF" "x8E6992" "x8EA4C2" "x9096DB" "x90ABC5" "x9176AB" "x91B76A" "x91D39C" "x9475C5" "x94C977" "x95EB98" "x96A980" "x988978" "x98FEF2" "x99896C" "x9995BD" "x9A65DC" "x9AEBB3" "x9BA591" "x9C74BA" "x9CB589" "x9DD3C1" "x9EBDD8" "x9EFCEB" "x9FAC95" "x9FEA67" "xA08FB7" "xA181E3" "xA1E46B" "xA1FBB8" "xA3B6FC" "xA3D1C4" "xA4ED65" "xA67AA7" "xA6F2DF" "xA7816A" "xA7816D" "xA792DF" "xA7AC9C" "xA9B893" "xA9D9F5" "xAA6AA3" "xAA7BBF" "xAAB072" "xACEA93" "xAD67D5" "xAE91E7" "xAEFE6C" "xAFA879" "xAFADDD" "xAFB4A0" "xAFCAA7" "xB0AE9F" "xB0B7DD" "xB1F2F2" "xB26F94" "xB2756C" "xB2EA9C" "xB4B9F4" "xB4D1EF" "xB58BE5" "xB5D6C0" "xB675EA" "xB89D7E" "xB8A288" "xB8BD74" "xB8EBD2" "xB8F897" "xB98A65" "xB9F272" "xBA648C" "xBA9A8B" "xBAABAE" "xBAF8A7" "xBB6BDC" "xBC7DAC" "xBD7AED" "xBD9CAA" "xBF7C73" "xBFFE75" "xC2A982" "xC2FAAB" "xC49DCB" "xC593AA" "xC59AE8" "xC5D8DA" "xC69FA1" "xC7748F" "xC871DA" "xC8E7FC" "xCA6B92" "xCABEBF" "xCABFF0" "xCC7177" "xCCA4F6" "xCCC790" "xCCDDC9" "xCCDE73" "xCD8480" "xCD8F97" "xCE6AC6" "xCE9FEF" "xCF72F6" "xCFD296" "xCFD2D6" "xD07B8F" "xD09CD7" "xD0FCA6" "xD3C3C1" "xD3FD9C" "xD46A8E" "xD4816C" "xD4B1E5" "xD574EB" "xD5D397" "xD66FB8" "xD678EE" "xD6CEE4" "xD768C5" "xD871B1" "xD8796C" "xD9B2A5" "xD9B986" "xDA99B4" "xDB7874" "xDB8CAA" "xDB92C6" "xDBB967" "xDDEDF0" "xDE7D76" "xDE918F" "xDECE86" "xDF83AC" "xDFD676" "xE065F4" "xE068CD" "xE1806B" "xE1DD70" "xE1FBFA" "xE23BA1" "xE2E17D" "xE3BC7E" "xE4AFCA" "xE681A3" "xE697C2" "xE6F8DD" "xE7A5A8" "xE8A465" "xEAB791" "xEAF1E1" "xEC99F0" "xECE481" "xEEA8B2" "xEEBC94" "xEF8A87" "xEFD98F" "xF08FB6" "xF0CA9E" "xF0F0DA" "xF1889D" "xF28BB4" "xF28BC1" "xF2E06C" "xF36ECE" "xF39BB3" "xF3FB7C" "xF484AF" "xF4B1DC" "xF5D8C2" "xF5F3F6" "xF6A1BF" "xF968B9" "xF98F9A" "xF9D4CD" "xF9DBA4" "xF9FBCE" "xFBFB75" "xFCA397" "xFCD192" "xFCF376" "xFDCD90" "xFEAE7A" "xFEDA7B" }
+		}
+		
+		add_homeland = tribal
+	}
+	
+}

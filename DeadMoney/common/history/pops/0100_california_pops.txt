@@ -1,0 +1,94 @@
+﻿POPS = {
+	s:STATE_SHADYSANDS = {
+		region_state:NCR = {
+			create_pop = {
+				culture = californian
+				size = 3500
+			}
+		}
+	}
+	s:STATE_NEWRENO = {
+		region_state:NRN = {
+			create_pop = {
+				culture = californian
+				size = 4200
+			}
+		}
+	}
+	s:STATE_THEHUB = {
+		region_state:JKT = {
+			create_pop = {
+				culture = californian
+				size = 1850
+			}
+		}
+		region_state:THB = {
+			create_pop = {
+				culture = californian
+				size = 3300
+			}
+		}
+	}
+	s:STATE_SQUATTERLAND = {
+		region_state:SQT = {
+			create_pop = {
+				culture = vaultdweller
+				size = 860
+			}
+		}
+	}
+
+	s:STATE_BONEYARD = {
+		region_state:TBY = {
+			create_pop = {
+				culture = californian
+				size = 3300
+			}
+		}
+	}
+
+	s:STATE_NECROPOLIS = {
+		region_state:NEC = {
+			create_pop = {
+				culture = californian	## ghouls
+				size = 3300
+			}
+		}
+	}
+
+	s:STATE_REDHILLS = {
+		region_state:RED = {
+			create_pop = {
+				culture = tribal
+				size = 1900
+			}
+		}
+	}
+
+	s:STATE_DAYGLOW = {
+		region_state:DAY = {
+			create_pop = {
+				culture = californian	## some ghouls
+				size = 4200
+			}
+		}
+	}
+
+	s:STATE_ANZABOREGO = {
+		region_state:ANZ = {
+			create_pop = {
+				culture = californian	## some mexican
+				size = 2600
+			}
+		}
+	}
+
+	s:STATE_BAJA = {
+		region_state:BAJ = {
+			create_pop = {
+				culture = tribal	## mexican
+				size = 2600
+			}
+		}
+	}
+}

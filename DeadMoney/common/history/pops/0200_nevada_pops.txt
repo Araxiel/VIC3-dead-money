@@ -1,0 +1,36 @@
+﻿POPS = {
+	s:STATE_LASVEGAS = {
+		region_state:LBR = {
+			create_pop = {
+				culture = tribal
+				size = 860
+			}
+		}
+		region_state:LSK = {
+			create_pop = {
+				culture = tribal
+				size = 700
+			}
+		}
+		region_state:LSW = {
+			create_pop = {
+				culture = tribal
+				size = 500
+			}
+		}
+	}
+	s:state_divide = {
+		region_state:HPV = {
+			create_pop = {
+				culture = californian
+				size = 2500
+			}
+		}
+		region_state:VPS = {
+			create_pop = {
+				culture = californian
+				size = 700
+			}
+		}
+	}
+}

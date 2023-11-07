@@ -25,6 +25,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
 
 	s:STATE_NEWRENO = {
@@ -34,6 +35,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
     s:STATE_THEHUB = {
 		create_state = {
@@ -46,6 +48,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
     s:STATE_SQUATTERLAND = {
 		create_state = {
@@ -55,5 +58,65 @@ STATES = {
 		
 		add_homeland = vaultdweller
 		add_homeland = californian
+		add_homeland = tribal
 	}
+
+    s:STATE_BONEYARD = {
+		create_state = {
+			country = c:TBY
+			owned_provinces = { "x27AC27" "x6BB0EC" "x868997" "xA1C98E" "xAC80BC" "xB39E72" "xBAA4DD" "xBDFC79" "xC5EF7B" "xD03087" "xF0A088" "xF0EFE0" }
+		}
+		
+		add_homeland = californian
+		add_homeland = tribal
+	}
+
+    s:STATE_NECROPOLIS = {
+		create_state = {
+			country = c:NEC
+			owned_provinces = { "x87E6E5" "x956DED" "x9AABB0" "x9C7688" "xA5C5CE" "xA9D095" "xAC70A4" "xB09BEA" "xD0F5C7" "xD5E6CF" "xDDA7E3" "xF6D878" "xF8C19F" "xFDBCEE" }
+		}
+		
+		add_homeland = californian	## TODO ghouls
+		add_homeland = tribal
+	}
+
+    s:STATE_REDHILLS = {
+		create_state = {
+			country = c:RED
+			owned_provinces =  { "x6AA79E" "x74906A" "x78A27D" "x88F2A3" "xA572F5" "xA5BAC4" "xB3A9A8" "xB4D07A" "xB594ED" "xC9BA6F" "xCFA9CD" "xCFB777" "xFD7F71" }
+		}
+		
+		add_homeland = tribal
+	}
+
+    s:STATE_DAYGLOW = {
+		create_state = {
+			country = c:DAY
+			owned_provinces =  { "x6A92EE" "x74CFFA" "x767DE7" "x987BE7" "x9A67BF" "xA0E29E" "xB7FCE8" "xBED39C" "xC1E9C9" "xD975A0" "xE0C468" "xE0C9CB" "xE6DCDC" "xE8BFEB" "xFDB3AD" }
+		}
+		
+		add_homeland = californian
+		add_homeland = tribal
+	}
+
+    s:STATE_ANZABOREGO = {
+		create_state = {
+			country = c:ANZ
+			owned_provinces =  { "x65DBA8" "x6BDCDC" "x6CB366" "x6F7262" "x7DEAF2" "x9CA7FE" "x9FBCE1" "xA375F2" "xADD8C8" "xB86DC3" "xB87AD4" "xBEB0A9" "xCC6BAC" "xCCB1AF" "xD2E471" "xD4E5AE" "xD89FAF" "xDD7CB3" "xDF6AF7" }
+		}
+		
+		add_homeland = californian
+		add_homeland = tribal
+	}
+
+    s:STATE_BAJA = {
+		create_state = {
+			country = c:BAJ
+			owned_provinces =  { "x72ACB6" "x7C648A" "x81C7BF" "x82CDF2" "x8CA9CA" "x8FCFEB" "x9D9F92" "x9DF1B7" "xA5B28D" "xA76DAF" "xAC8E8A" "xB57D77" "xBC6DF5" "xC5A585" "xCE8CA1" "xD2E9D3" "xD7D0A0" "xE5AB98" "xFDEDCA" }
+		}
+		
+		add_homeland = tribal	## tribal mexican
+	}
+	
 }
