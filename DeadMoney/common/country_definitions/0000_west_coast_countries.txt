@@ -110,6 +110,47 @@ RED = {
 
 }
 
+# Dayglow
+DAY = {
+	color = { 82 20 44 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { californian }
+	capital = STATE_DAYGLOW
+
+	is_named_from_capital = yes
+}
+
+
+# Anzaborego
+ANZ = {
+	color = { 225 221 26 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { californian }
+	capital = STATE_ANZABOREGO
+
+}
+
+# Baja
+BAJ = {
+	color = { 86 84 208 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_BAJA
+
+}
+
 
 
 

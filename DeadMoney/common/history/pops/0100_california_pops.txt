@@ -65,4 +65,30 @@
 		}
 	}
 
+	s:STATE_DAYGLOW = {
+		region_state:DAY = {
+			create_pop = {
+				culture = californian	## some ghouls
+				size = 4200
+			}
+		}
+	}
+
+	s:STATE_ANZABOREGO = {
+		region_state:ANZ = {
+			create_pop = {
+				culture = californian	## some mexican
+				size = 2600
+			}
+		}
+	}
+
+	s:STATE_BAJA = {
+		region_state:BAJ = {
+			create_pop = {
+				culture = tribal	## mexican
+				size = 2600
+			}
+		}
+	}
 }

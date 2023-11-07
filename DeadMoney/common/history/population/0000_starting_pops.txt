@@ -43,12 +43,21 @@
 		effect_starting_pop_literacy_middling = yes
 	}
 	
+	c:DAY = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
 	}
 	
-	c:NEC = {
-		
+	c:ANZ = {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_middling = yes
+	}
+
+	c:BAJ = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+
 		
 	}
 	## Hawaii

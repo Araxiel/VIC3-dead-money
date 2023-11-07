@@ -89,6 +89,34 @@ STATES = {
 		
 		add_homeland = tribal
 	}
+
+    s:STATE_DAYGLOW = {
+		create_state = {
+			country = c:DAY
+			owned_provinces =  { "x6A92EE" "x74CFFA" "x767DE7" "x987BE7" "x9A67BF" "xA0E29E" "xB7FCE8" "xBED39C" "xC1E9C9" "xD975A0" "xE0C468" "xE0C9CB" "xE6DCDC" "xE8BFEB" "xFDB3AD" }
+		}
+		
+		add_homeland = californian
+		add_homeland = tribal
+	}
+
+    s:STATE_ANZABOREGO = {
+		create_state = {
+			country = c:ANZ
+			owned_provinces =  { "x65DBA8" "x6BDCDC" "x6CB366" "x6F7262" "x7DEAF2" "x9CA7FE" "x9FBCE1" "xA375F2" "xADD8C8" "xB86DC3" "xB87AD4" "xBEB0A9" "xCC6BAC" "xCCB1AF" "xD2E471" "xD4E5AE" "xD89FAF" "xDD7CB3" "xDF6AF7" }
+		}
+		
+		add_homeland = californian
+		add_homeland = tribal
+	}
+
+    s:STATE_BAJA = {
+		create_state = {
+			country = c:BAJ
+			owned_provinces =  { "x72ACB6" "x7C648A" "x81C7BF" "x82CDF2" "x8CA9CA" "x8FCFEB" "x9D9F92" "x9DF1B7" "xA5B28D" "xA76DAF" "xAC8E8A" "xB57D77" "xBC6DF5" "xC5A585" "xCE8CA1" "xD2E9D3" "xD7D0A0" "xE5AB98" "xFDEDCA" }
+		}
+		
+		add_homeland = tribal	## tribal mexican
 	}
 	
 }

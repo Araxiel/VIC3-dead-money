@@ -4,6 +4,7 @@
 		effect_starting_technology_tier_3_tech = yes
 
 		effect_starting_politics_criminal_settlers = yes
+		effect_starting_politics_basic_society = yes
 		activate_law = law_type:law_legacy_slavery
 			
 	}
@@ -12,13 +13,15 @@
 		effect_starting_technology_tier_4_tech = yes	
 			
 		effect_starting_politics_criminal_settlers = yes
+		effect_starting_politics_basic_society = yes
 		activate_law = law_type:law_slavery_banned
 	}
 
 	c:TBY = {
 		effect_starting_technology_tier_3_tech = yes
 		
-		effect_starting_politics_egalitarian_settlers = yes
+		effect_starting_politics_decent_settlers = yes
+		effect_starting_politics_basic_society = yes
 		activate_law = law_type:law_agrarianism
 
 	}
@@ -26,7 +29,8 @@
 	c:SQT = {
 		effect_starting_technology_tier_4_tech = yes
 
-		effect_starting_politics_decentralized_settlers = yes
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
 		activate_law = law_type:law_isolationism
 			
 	}
@@ -34,9 +38,24 @@
 	c:NEC = {
 		effect_starting_technology_tier_4_tech = yes
 
-		effect_starting_politics_criminal_settlers = yes
-		activate_law = law_type:law_isolationism
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_ghoul_society = yes
 			
+	}
+
+	c:ANZ = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+	}
+
+	c:DAY = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_egalitarian_society = yes
+	}
 
 	c:RED = {
 		effect_starting_technology_tier_5_tech = yes
@@ -45,5 +64,10 @@
 		effect_starting_politics_basic_society = yes
 	}
 
+	c:BAJ = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
 	}
 }
