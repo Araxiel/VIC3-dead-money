@@ -1,7 +1,7 @@
 # Dead Money Alpha
-![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FAraxiel%2FDead_Money-Vicky3_Fallout%2Freadme-shield-update%2F.github%2Fshielddata.xml&query=%2F%2FcurrentVicVersion%5B1%5D&label=Victoria%203%20Version&color=orange)
+![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml?url=https://raw.githubusercontent.com/Araxiel/Dead_Money-Vicky3_Fallout/development/.github/shielddata.xml&query=%2F%2FcurrentVicVersion%5B1%5D&label=Victoria%203%20Version&color=orange)
  ![GitHub contributors](https://img.shields.io/github/contributors/araxiel/Dead_Money-Vicky3_Fallout) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/araxiel/Dead_Money-Vicky3_Fallout) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/araxiel/Dead_Money-Vicky3_Fallout) ![GitHub milestone details](https://img.shields.io/github/milestones/progress/araxiel/Dead_Money-Vicky3_Fallout/1) ![GitHub repo size](https://img.shields.io/github/repo-size/araxiel/Dead_Money-Vicky3_Fallout)
-
+ 
 This is the earliest version of a Fallout mod for Victoria 3.<br>
 This mod is stull extremely work in progress.
 
