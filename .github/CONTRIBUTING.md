@@ -22,7 +22,7 @@ To post suggestions on what the mod should or could add, create a new issue usin
 > Just be aware, that _"person that wants others to work on implementing their ideas"_ are a dime a dozen. The best way to see an idea implemented is to work on it yourself.
 
 ### :microscope: Testing
-Testing early builds and giving feedback can always be used. For general feedback see the [discussions](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/discussions) pages, and for balancing or bug feedback, create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose).
+Testing early builds and giving feedback can always be used. For general feedback see the [discussions](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/discussions) pages, and for balancing or bug feedback create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose).
 
 ### :earth_asia: Translations
 This mod is written in English. However, plenty of people might prefer to play Victoria 3 and Dead Money using their native tongue. People that want to take on the task to translate the mod are welcomed to do so and help out. Ongoing translation efforts are labelled with the [translation label](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/labels/translation).
@@ -30,13 +30,13 @@ This mod is written in English. However, plenty of people might prefer to play V
 ### :triangular_flag_on_post: Issues
 Progress on the mod is done through the creation and solving of [issues](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues).
 
-Issues can be anything from extremely specific things, like [Add Robots Good](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/67) to evergreen, overarching umbrella issues that always require work and are never closed, like the adding of [Country Flags](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/86). Issues can be the concept of [Adding More Events](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/29), to individual issues representing a specific event someone is working on.
+Issues can be anything from extremely specific things, like [Add Robots Good](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/67) to evergreen, overarching umbrella issues that always require work and are never closed, like the adding of [Country Flags](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/86). Issues can be the concept of [Adding More Events](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/29), to individual issues representing a [specific event](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/76) someone is working on.
 
-Issues are also the most straightforward way to contribute to the mod.
+Solving or creating issues the most straightforward way to contribute to the mod.
 
 #### Create a new issue
 
-If you spot or encounter a problem, [search if a similar issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). Alternatively, you can open a new issue using a relevant [issue form](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose).
+If you spot or encounter a problem, [search if a similar issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). Alternatively you can open a new issue using a relevant [issue form](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose), or if addressing something specific [open a blank issue](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new).
 
 #### Solve an existing issue
 
