@@ -25,6 +25,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
 
 	s:STATE_NEWRENO = {
@@ -34,6 +35,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
     s:STATE_THEHUB = {
 		create_state = {
@@ -46,6 +48,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
     s:STATE_SQUATTERLAND = {
 		create_state = {
@@ -55,6 +58,7 @@ STATES = {
 		
 		add_homeland = vaultdweller
 		add_homeland = californian
+		add_homeland = tribal
 	}
 
     s:STATE_BONEYARD = {
@@ -64,6 +68,7 @@ STATES = {
 		}
 		
 		add_homeland = californian
+		add_homeland = tribal
 	}
 
     s:STATE_NECROPOLIS = {
@@ -72,7 +77,18 @@ STATES = {
 			owned_provinces = { "x87E6E5" "x956DED" "x9AABB0" "x9C7688" "xA5C5CE" "xA9D095" "xAC70A4" "xB09BEA" "xD0F5C7" "xD5E6CF" "xDDA7E3" "xF6D878" "xF8C19F" "xFDBCEE" }
 		}
 		
-		add_homeland = californian	## ghouls
+		add_homeland = californian	## TODO ghouls
+		add_homeland = tribal
+	}
+
+    s:STATE_REDHILLS = {
+		create_state = {
+			country = c:RED
+			owned_provinces =  { "x6AA79E" "x74906A" "x78A27D" "x88F2A3" "xA572F5" "xA5BAC4" "xB3A9A8" "xB4D07A" "xB594ED" "xC9BA6F" "xCFA9CD" "xCFB777" "xFD7F71" }
+		}
+		
+		add_homeland = tribal
+	}
 	}
 	
 }

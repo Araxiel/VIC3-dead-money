@@ -6,6 +6,7 @@
 ## empire: "Empire"
 ## hegemony: "Hegemony"
 
+### California
 # New California Republic
 NCR = {
 	color = { 31 201 22 }
@@ -84,7 +85,7 @@ TBY = {
 
 # Necropolis
 NEC = {
-	color = { 6 30 80 }
+	color = { 20 82 23 }
 	
 	country_type = recognized
 	
@@ -94,6 +95,19 @@ NEC = {
 	capital = STATE_NECROPOLIS
 
 	is_named_from_capital = yes
+}
+
+# Red Hills
+RED = {
+	color = { 208 59 41 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_REDHILLS
+
 }
 
 

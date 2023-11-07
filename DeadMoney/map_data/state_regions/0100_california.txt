@@ -42,7 +42,7 @@ STATE_NEWRENO = {
     }
 }
 # Sierra 103
-STATE_SIERRA = {
+STATE_REDHILLS = {
     id = 103
     subsistence_building = "building_subsistence_salvage"
     provinces = { "x6AA79E" "x74906A" "x78A27D" "x88F2A3" "xA572F5" "xA5BAC4" "xB3A9A8" "xB4D07A" "xB594ED" "xC9BA6F" "xCFA9CD" "xCFB777" "xFD7F71" }

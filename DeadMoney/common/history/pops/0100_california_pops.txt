@@ -55,4 +55,14 @@
 			}
 		}
 	}
+
+	s:STATE_REDHILLS = {
+		region_state:RED = {
+			create_pop = {
+				culture = tribal
+				size = 1900
+			}
+		}
+	}
+
 }
