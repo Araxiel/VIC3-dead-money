@@ -14,7 +14,7 @@ effect_starting_politics_default = {
 }
 
 ## Decentralized Settlers
-effect_starting_politics_decentralized_settlers = {
+effect_starting_politics_settlers_decentralized = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_speech_decentralized_society
 	activate_law = law_type:law_slavery_banned
