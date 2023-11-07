@@ -16,10 +16,10 @@ Until a Discord server is set up, anyone is welcome to use the [discussions](htt
 If you encountered a bug in the mod, create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose).
 
 ### :postbox: Suggestions
-Suggestions on what the mod should or could add, create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose) or mention it in the [discussions](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/discussions).
+To post suggestions on what the mod should or could add, create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose) or mention it in the [discussions](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/discussions).
 
 > [!NOTE]
-> Just be aware, that _"person that wants others to work on implementing their ideas"_ are a dime a dozen. The best way to see an idea implemented, is to work on it yourself.
+> Just be aware, that _"person that wants others to work on implementing their ideas"_ are a dime a dozen. The best way to see an idea implemented is to work on it yourself.
 
 ### :microscope: Testing
 Testing early builds and giving feedback can always be used. For general feedback see the [discussions](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/discussions) pages, and for balancing or bug feedback, create a new issue using the relevant [template](https://github.com/Araxiel/Dead_Money-Vicky3_Fallout/issues/new/choose).
