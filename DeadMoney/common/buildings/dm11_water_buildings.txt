@@ -1,9 +1,7 @@
-﻿
-
-## TODO Icon, Mesh
+﻿## TODO Icon, Mesh
 building_water_well = {
 	building_group = bg_water_wells
-	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	texture = "gfx/interface/icons/building_icons/water_well.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -25,7 +23,7 @@ building_water_well = {
 ## TODO Icon, Mesh
 building_water_collector = {
 	building_group = bg_water_collectors
-	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	texture = "gfx/interface/icons/building_icons/water_collection.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	required_construction = construction_cost_low
@@ -47,7 +45,7 @@ building_water_collector = {
 ## TODO Icon, Mesh
 building_water_treatment = {
 	building_group = bg_water_treatment
-	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	texture = "gfx/interface/icons/building_icons/water_pump.dds"
 	city_type = wood
 	levels_per_mesh = 5
 	required_construction = construction_cost_high
@@ -69,7 +67,7 @@ building_water_treatment = {
 ## TODO Icon, Mesh
 building_water_desalination = {
 	building_group = bg_water_desalination
-	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	texture = "gfx/interface/icons/building_icons/water_desalination.dds"
 	city_type = port
 	levels_per_mesh = 5
 	required_construction = construction_cost_high

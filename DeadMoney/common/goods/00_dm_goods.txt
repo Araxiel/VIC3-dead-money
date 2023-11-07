@@ -227,7 +227,7 @@ electricity = {
 
 ## added
 salvage = {
-	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	texture = "gfx/interface/icons/goods_icons/salvage.dds"
 	cost = 20
 	category = staple
 	
@@ -241,7 +241,7 @@ salvage = {
 
 # added
 water = {
-	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	texture = "gfx/interface/icons/goods_icons/water.dds"
 	cost = 20
 	category = staple
 	
@@ -255,7 +255,7 @@ water = {
 
 # added
 security = {
-	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	texture = "gfx/interface/icons/goods_icons/security.dds"
 	cost = 30
 	category = staple
 	
@@ -474,7 +474,7 @@ fusion_cells = {
 
 ## added
 electrical_components = {
-	texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
+	texture = "gfx/interface/icons/goods_icons/electronic_component.dds"
 	cost = 60
 	category = industrial
 	
@@ -485,7 +485,7 @@ electrical_components = {
 
 ## replaces automobiles and moved to industry
 vehicles = {
-	texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+	texture = "gfx/interface/icons/goods_icons/vehicle_truck.dds"
 	cost = 100
 	category = industrial
 	
@@ -632,7 +632,7 @@ luxury_furniture = {
 
 ## replaces gold
 caps = {
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
 	cost = 100
 	category = luxury
 	tradeable = no
