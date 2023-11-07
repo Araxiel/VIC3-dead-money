@@ -153,7 +153,7 @@ DAlaska = {
 }
 
 ## Debug Aleutian
-DAU = {
+DAleutian = {
 	color = { 20 105 100 }
 	
 	country_type = decentralized
@@ -165,7 +165,7 @@ DAU = {
 }
 
 ## Debug South
-DSO = {
+DSouth = {
 	color = { 60 20 65 }
 	
 	country_type = decentralized
@@ -177,7 +177,7 @@ DSO = {
 }
 
 ## Debug Texas
-DTX = {
+DTexas = {
 	color = { 32 230 180 }
 	
 	country_type = decentralized
@@ -198,4 +198,52 @@ DFLORIDA = {
 	
 	cultures = { tribal }
 	capital = STATE_FLORIDA
+}
+
+## Debug Mexico
+DMexico = {
+	color = { 80 60 213 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_MEXICO
+}
+
+## Debug Central America
+DCentralAmerica = {
+	color = { 60 20 65 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_CENTRALAMERICA
+}
+
+## Debug South America
+DSouthAmerica = {
+	color = { 32 230 180 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_SOUTHAMERICA
+}
+
+## Debug Caribbean
+DCaribbean = {
+	color = { 50 190 120 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_CARIBBEAN
 }

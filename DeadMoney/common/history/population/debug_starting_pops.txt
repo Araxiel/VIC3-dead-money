@@ -54,7 +54,27 @@
 		effect_starting_pop_wealth_low = yes
 	}
 
-	c:DAU = {
+	c:DAleutian = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DMexico = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCentralAmerica = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DSouthAmerica = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCaribbean = {
 		effect_starting_pop_literacy_very_low = yes
 		effect_starting_pop_wealth_low = yes
 	}

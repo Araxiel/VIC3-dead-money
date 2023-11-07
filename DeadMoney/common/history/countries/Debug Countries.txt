@@ -55,22 +55,42 @@ COUNTRIES = {
 		effect_starting_politics_decentralized_raiders = yes
 	}
 
-	c:DAU = {
+	c:DAleutian = {
 		effect_starting_technology_tier_5_tech = yes	
 		effect_starting_politics_decentralized_raiders = yes
 	}
 
-	c:DSO = {
+	c:DSouth = {
 		effect_starting_technology_tier_5_tech = yes	
 		effect_starting_politics_decentralized_raiders = yes
 	}
 
-	c:DTX = {
+	c:DTexas = {
 		effect_starting_technology_tier_5_tech = yes	
 		effect_starting_politics_decentralized_raiders = yes
 	}
 
 	c:DFLORIDA = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DMexico = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DCentralAmerica = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DSouthAmerica = {
+		effect_starting_technology_tier_5_tech = yes	
+		effect_starting_politics_decentralized_raiders = yes
+	}
+
+	c:DCaribbean = {
 		effect_starting_technology_tier_5_tech = yes	
 		effect_starting_politics_decentralized_raiders = yes
 	}

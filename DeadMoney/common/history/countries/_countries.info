@@ -1,0 +1,3 @@
+In vanilla Vic3, every country has its very own file, that includes the tag and the spelled out name.
+While that might make sense for Vic3 devs' workflows, it seems like quite a hassle. 
+As such here in Dead Money, except a few "big ones", countries are bundled together into files.

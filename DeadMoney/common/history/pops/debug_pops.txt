@@ -90,7 +90,7 @@
 		}
 	}
 	s:STATE_ALEUTIAN = {
-		region_state:DAU = {
+		region_state:DAleutian = {
 			create_pop = {
 				culture = tribal
 				size = 6000
@@ -98,7 +98,7 @@
 		}
 	}
 	s:STATE_SOUTH = {
-		region_state:DSO = {
+		region_state:DSouth = {
 			create_pop = {
 				culture = tribal
 				size = 500000
@@ -106,7 +106,7 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:DTX = {
+		region_state:DTexas = {
 			create_pop = {
 				culture = tribal
 				size = 150000
@@ -118,6 +118,38 @@
 			create_pop = {
 				culture = tribal
 				size = 320000
+			}
+		}
+	}
+	s:STATE_MEXICO = {
+		region_state:DMexico = {
+			create_pop = {
+				culture = tribal
+				size = 336000
+			}
+		}
+	}
+	s:STATE_CENTRALAMERICA = {
+		region_state:DCentralAmerica = {
+			create_pop = {
+				culture = tribal
+				size = 350000
+			}
+		}
+	}
+	s:STATE_SOUTHAMERICA = {
+		region_state:DSouthAmerica = {
+			create_pop = {
+				culture = tribal
+				size = 600000
+			}
+		}
+	}
+	s:STATE_CARIBBEAN = {
+		region_state:DCaribbean = {
+			create_pop = {
+				culture = tribal
+				size = 105000
 			}
 		}
 	}
