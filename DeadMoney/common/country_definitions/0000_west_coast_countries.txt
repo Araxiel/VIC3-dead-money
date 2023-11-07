@@ -151,9 +151,79 @@ BAJ = {
 
 }
 
+### Nevada
+# Slither Kin (Omertas)
+LSK = {
+	color = { 107 140 86 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_LASVEGAS
+
+}
+# Mojave Boot-Riders (Chairmen)
+LBR = {
+	color = { 50 36 10 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_LASVEGAS
+}
+# Sawneys (BTS alt White Glove Society)
+LSW = {
+	color = { 208 213 205 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_LASVEGAS
+}
+
+# Sawneys (BTS alt White Glove Society)
+LSW = {
+	color = { 208 213 205 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tribal }
+	capital = STATE_LASVEGAS
+}
+
+# Hopeville
+HPV = {
+	color = { 53 237 192 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { californian }
+	capital = STATE_DIVIDE
+}
+# The Vipers
+VPS = {
+	color = { 79 89 75 }
+	
+	country_type = decentralized
+	
+	tier = city_state
+	
+	cultures = { californian }
+	capital = STATE_DIVIDE
+}
 
 
-
+#### Hawaii
 # Hawaii Haven
 HWH = {
 	color = { 39 250 1 }

@@ -1,0 +1,52 @@
+﻿###### EXAMPLE ######
+
+#STATES = {
+#	s:STATE_EXAMPLE = {
+#		create_state = { #To create a split state add another one of these entries with different IDs
+#			country = c:EXA #The tag for the country which controls these provinces within this state.
+#			owned_provinces = { "x000000" "x562129" "xAF3D4E" } #The provinces within this state.
+#		}
+#		create_state = { #This is now a split state with TES controlling these provinces.
+#			country = c:TES 
+#			owned_provinces = { "x548751" "x9A5DA8" "x42B0F5" } #Different provinces..
+#		}
+#		
+#		add_homeland = examplish #Sets the state to be a homeland for whatever culture you put here.
+#		add_homeland = testish #You can set multiple.
+#	}
+#}
+
+#####################
+STATES = {
+	s:STATE_LASVEGAS = {
+		create_state = {
+			country = c:LSK
+			owned_provinces = { "x6EF4A0" "x79BA8D" "x7BC9A8" "x7CE398" "x7DA3C5" "x84A9DD" "x919A86" "x91BEBA" "x9387BA" }
+		}
+		create_state = {
+			country = c:LBR
+			owned_provinces = { "x93D5F9" "x96C58A" "x9AD5B8" "x9DE16C" "xA4BCE1" "xB2ED94" "xB4ACB9" "xB7A5E8" "xC5B4D1" "xCAB0AF" }
+		}
+		create_state = {
+			country = c:LSW
+			owned_provinces = { "xCC93C7" "xD08CF1" "xD5FBB2" "xDBCFA6" "xDD9584" "xEFF1E2" "xF5F4E5" "xF6C8DB" }
+		}
+		
+		add_homeland = tribal
+	}
+
+	s:STATE_DIVIDE = {
+		create_state = {
+			country = c:HPV
+			owned_provinces = { "x6765A6" "x75E5C0" "x7FB5EF" "x7FB881" "x7FBEB9" "x808A9A" "x83C6E2" "x868176" "x8F77AB" "x91E178" "x91F0A0" "x939A6E" "x939DB4" "x9BADD7" "x9FCD7E" "xA47B86" "xA5E768" "xA5EFE8" "xA780BC" "xB0AB9C" "xB7A4BE" "xB86F90" "xBBCFCB" }
+		}
+		create_state = {
+			country = c:VPS
+			owned_provinces = { "xBDACC7" "xBDE597" "xC2E77C" "xC6A8A1" "xC9688D" "xD96CDD" "xD9E3BF" "xDBE0E6" "xDCE881" "xE18AA2" "xE2CCB8" "xE4E8B9" "xE6A2E9" "xE7AF80" "xEB6EBE" "xEDF9F8" "xF5FC6D" "xF74978" "xFCB170" "xFCFD76" }
+		}
+
+		add_homeland = tribal
+		add_homeland = californian
+	}
+	
+}
