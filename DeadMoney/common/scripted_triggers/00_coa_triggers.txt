@@ -63,7 +63,10 @@ coa_multicultural_trigger = {
 }
 
 coa_autocracy_trigger = {
+	OR = {
 	has_law = law_type:law_autocracy 
+		has_law = law_type:law_single_party_state  
+	}
 }
 
 coa_anarchy_trigger = {
@@ -78,7 +81,7 @@ coa_communist_trigger = {
 	#	}
 	#	any_interest_group = {
 	#		is_in_government = yes
-	#		has_ideology = ideology_proletarian
+	#		has_ideology = ideology:ideology_proletarian
 	#	}
 	#}
 }
@@ -90,13 +93,42 @@ coa_military_trigger = {
 	}
 }
 
+coa_controls_part_of_ireland = {
+	any_scope_state = {
+		state_region = {
+			is_homeland = irish
+		}
+	}
+}
+
+coa_controls_part_of_france = {
+	any_scope_state = {
+		state_region = {
+			is_homeland = french
+		}
+	}
+}
+
 coa_fascist_trigger = {
 	# A fascist can lead a monarchy or a theocracy without the government changing form. The Papal State should retain the same flag even if the Pope's a fascist, for example.
 	# A fascist can also lead a democracy without the democracy immediately becoming fascist. If the fascist successfully implements his wildest dreams and becomes a dictatorship, then sure the government will become Fascist, but while there's still voting the government shouldn't count as (fully) fascist yet.
 	coa_dictatorship_trigger = yes
 	any_scope_character = {
 		is_ruler = yes
-		has_ideology = ideology_fascist
+		has_ideology = ideology:ideology_fascist
+    }
+}
+
+coa_nihilist_trigger = {
+	has_law = law_type:law_state_atheism
+	NOR = {
+		has_law = law_type:law_theocracy
+		has_law = law_type:law_monarchy
+		has_law = law_type:law_council_republic
+	}
+	any_scope_character = {
+		has_ideology = ideology:ideology_atheist
+		is_ruler = yes
     }
 }
 
@@ -110,16 +142,21 @@ coa_secessionist_or_revolutionary_trigger = {
 ### scope is COUNTRY DEFINITION ###
 
 coa_def_independent_trigger = {
-	exists = scope:target
-	scope:target = { is_subject = no }
+	exists = scope:actor
+	scope:actor = { is_subject = no }
+}
+
+coa_def_subject_trigger = {
+	exists = scope:actor
+	scope:actor = { is_subject = yes }
 }
 
 coa_def_lesser_subject_trigger = {
 	OR = {
-		NOT = { exists = scope:target }
+		NOT = { exists = scope:actor }
 		AND = {
-			exists = scope:target
-			scope:target = { 
+			exists = scope:actor
+			scope:actor = { 
 				OR = {
 					is_subject_type = subject_type_puppet
 					is_subject_type = subject_type_vassal
@@ -206,6 +243,11 @@ coa_def_fascist_flag_trigger = {
 	scope:actor = { coa_fascist_trigger = yes }
 }
 
+coa_def_nihilist_flag_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_nihilist_trigger = yes }
+}
+
 # Overlord
 
 coa_def_ensign_trigger = {
@@ -219,6 +261,96 @@ coa_def_ensign_trigger = {
 			} 
 		}
 	}
+}
+
+# Cultural
+## comment out useless ones later
+
+coa_def_african_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = african_heritage
+    }
+}
+
+coa_def_west_african_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = african_heritage
+        has_discrimination_trait = west_african_culture_group		
+    }
+}
+
+coa_def_native_american_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = indigenous_american_heritage
+    }
+}
+
+coa_def_cross_trigger = {
+    religion = {
+    	has_discrimination_trait = christian
+    }
+}
+
+coa_def_crescent_trigger = {
+    religion = {
+		has_discrimination_trait = muslim
+    }
+}
+
+coa_def_buddhist_trigger = {
+    religion = {
+        has_discrimination_trait = buddhist
+    }
+}
+
+coa_def_nordic_cross_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = scandinavian_culture_group
+    }
+	coa_def_cross_trigger = yes
+}
+
+coa_def_oceanic_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = indigenous_oceanic_heritage
+    }
+}
+
+coa_def_german_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = german_speaking
+        has_discrimination_trait = european_heritage
+    }
+}
+
+coa_def_italian_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = italophone
+        has_discrimination_trait = european_heritage
+    }
+}
+
+coa_def_iberian_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = iberian_culture_group
+        has_discrimination_trait = european_heritage
+    }
+}
+
+coa_def_turkic_trigger = {
+    any_primary_culture = {
+        has_discrimination_trait = turkic
+    }
+}
+
+coa_def_hispanic_american_trigger = {
+    any_primary_culture = {
+    	has_discrimination_trait = hispanophone
+    	has_discrimination_trait = european_heritage
+	    NOT = {
+	    	has_discrimination_trait = iberian_culture_group
+	    }
+    }
 }
 
 coa_def_war_trigger = {
@@ -238,5 +370,12 @@ coa_def_secessionist_country_trigger = {
 	exists = scope:target
 	scope:target = {
 		is_secessionist = yes
+	}
+}
+
+coa_def_catholic_trigger = {
+	exists = scope:target
+	scope:target = {
+		country_has_state_religion = rel:catholic
 	}
 }

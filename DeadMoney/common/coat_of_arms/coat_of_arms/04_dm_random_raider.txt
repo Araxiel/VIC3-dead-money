@@ -1,0 +1,45 @@
+
+template = {
+	template_raiders_1 = {
+		pattern = list "pattern_raiders"
+		color1 = list "raider_colors_bg_dark"
+		color2 = list "raider_colors_bg_dark"
+		color3 = list "raider_colors_bg_dark"
+		color4 = list "raider_colors_bg_dark"
+		color5 = list "raider_colors_bg_dark"
+		colored_emblem = {
+			texture = list "raider_symbols"
+			color1 = list "raider_colors_emblem_red"
+			color2 = list "raider_colors_emblem_black"
+			color3 = "white"
+		}
+	}
+	template_raiders_2 = {
+		pattern = list "pattern_raiders"
+		color1 = list "raider_colors_bg_light"
+		color2 = list "raider_colors_bg_light"
+		color3 = list "raider_colors_bg_light"
+		color4 = list "raider_colors_bg_light"
+		color5 = list "raider_colors_bg_light"
+		colored_emblem = {
+			texture = list "raider_symbols"
+			color1 = list "raider_colors_emblem_black"
+			color2 = list "raider_colors_emblem_light"
+			color3 = "red"
+		}
+	}
+	template_raiders_3 = {
+		pattern = list "pattern_raiders"
+		color1 = list "raider_colors_bg_dark"
+		color2 = list "raider_colors_bg_dark"
+		color3 = list "raider_colors_bg_dark"
+		color4 = list "raider_colors_bg_dark"
+		color5 = list "raider_colors_bg_dark"
+		colored_emblem = {
+			texture = list "raider_symbols"
+			color1 = list "raider_colors_emblem_light"
+			color2 = list "raider_colors_emblem_black"
+			color3 = "red"
+		}
+	}
+}
