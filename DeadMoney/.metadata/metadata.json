@@ -2,7 +2,7 @@
   "name" : "Dead Money Repo",
   "id" : "",
   "version" : "0.0.2",
-  "supported_game_version": "1.5.4",
+  "supported_game_version": "1.5.5",
   "short_description" : "Bringing the (extremely early proof of concept) Fallout wasteland to Victoria 3",
   "tags" : [],
   "relationships" : [],
