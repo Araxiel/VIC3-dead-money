@@ -114,4 +114,10 @@ COUNTRIES = {
 		effect_starting_politics_basic_society = yes
 	}
 
+	c:DAtlantic = {
+		effect_starting_technology_tier_3_tech = yes	
+		effect_starting_politics_raiders_decentralized = yes
+		effect_starting_politics_egalitarian_society = yes
+	}
+
 }

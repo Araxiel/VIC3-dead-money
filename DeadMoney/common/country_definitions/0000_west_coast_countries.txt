@@ -151,6 +151,136 @@ BAJA= {
 
 }
 
+# Vault City
+VAUC = {
+	color = { 69 116 242 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { vaultdweller_american }
+	capital = STATE_VAULTCITY
+
+}
+
+# Modoc
+MODC = {
+	color = { 104 56 161 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_MODOC
+
+}
+
+# Redding
+REDD = {
+	color = { 193 34 36 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_REDDING
+
+}
+
+# Navaro Tribals
+NAVA = {
+	color = { 154 75 102 }
+	
+	country_type = decentralized
+	
+	tier = city_state
+	
+	cultures = { westcoast_tribal }
+	capital = STATE_NAVARO
+
+}
+
+# Enclave
+ENCL = {
+	color = { 28 28 28 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { westcoaster }
+	capital = STATE_NAVARO
+
+}
+
+# Jefferson
+JEFF = {
+	color = { 132 181 82 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_JEFFERSON
+
+}
+
+# Shi
+SHIS = {
+	color = { 113 193 242 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SANFRAN
+
+}
+
+# San Fran Tribals
+SANF = {
+	color = { 119 100 157 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { westcoast_tribal }
+	capital = STATE_SANFRAN
+
+}
+
+# Mariposa
+MARI = {
+	color = { 205 188 16 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { westcoast_tribal }
+	capital = STATE_MARIPOSA
+
+}
+
+# Maxson
+MAXS = {
+	color = { 108 90 47 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_MAXSON
+
+}
+
 ### Nevada
 # Slither Kin (Omertas)
 LVSK = {
@@ -220,6 +350,52 @@ VPS = {
 	
 	cultures = { westcoaster }
 	capital = STATE_DIVIDE
+}
+# Broken Hills
+BRKH = {
+	color = { 130 96 107 }
+	
+	country_type = decentralized
+	
+	tier = city_state
+	
+	cultures = { westcoaster }
+	capital = STATE_BROKENHILLS
+}
+
+#### Oregon
+# The Den
+TDEN = {
+	color = { 178 220 91 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_THEDEN
+}
+# Arroyo	## Try to make playable
+AROY = {
+	color = { 191 37 117 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { westcoast_tribal }
+	capital = STATE_ARROYO
+}
+# Klamath	
+KLAM = {
+	color = { 61 90 118 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { westcoaster }
+	capital = STATE_KLAMATH
 }
 
 

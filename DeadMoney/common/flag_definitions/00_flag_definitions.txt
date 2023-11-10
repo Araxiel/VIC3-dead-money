@@ -76,6 +76,26 @@ NCR = {
 		subject_canton = NCR					#If the game rule for modifying subject flags is on, this COA is added to the canton of this country's subjects, it does not need to match the main flag
 		allow_overlord_canton = no				#If the game rule for modifying subject flags is on, can another country's canton be added to this flag set
 		coa_with_overlord_canton = NCR			#If the game rule for modifying subject flags is on, alternate COA for adding the overlords canton, e.g. to move central emblems to one side
-		priority = 3000							#Highest, i.e. largest priority definition which passes its triggers is used
+		priority = 4000							#Highest, i.e. largest priority definition which passes its triggers is used
+	}
+}
+
+ENCL = {
+	flag_definition = {
+		coa = ENCL
+		subject_canton = ENCL
+		allow_overlord_canton = no
+		coa_with_overlord_canton = ENCL
+		priority = 4000
+	}
+}
+
+SHIS = {
+	flag_definition = {
+		coa = SHIS
+		subject_canton = SHIS
+		allow_overlord_canton = no
+		coa_with_overlord_canton = SHIS
+		priority = 4000
 	}
 }

@@ -8,4 +8,5 @@
 	red_bright		= hsv360 	{	358	97	90	}
 	blue_sky		= hsv360 	{	197	64	98	}
 	bubblegum_pink	= hsv360 	{	348	31	96	}
+	turquoise		= hsv360 	{	176	100	100	}
 }

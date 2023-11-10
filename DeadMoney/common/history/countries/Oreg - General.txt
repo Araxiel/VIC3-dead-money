@@ -1,0 +1,23 @@
+﻿COUNTRIES = {
+	c:TDEN = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+
+	}
+	c:AROY = {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+
+	}
+	c:KLAM = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+
+	}
+}

@@ -143,9 +143,122 @@
 			}
 		}
 	}
+
+	s:STATE_VAULTCITY = {
+		region_state:VAUC = {
 			create_pop = {
-				culture = tribal	## mexican
+				culture = vaultdweller_american
+				size = 1000
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 2500
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 900
+			}
+		}
+	}
+
+	s:STATE_MODOC = {
+		region_state:MODC = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1100
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 1600
+			}
+		}
+	}
+
+	s:STATE_REDDING = {
+		region_state:REDD = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1800
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 1000
+			}
+		}
+	}
+	s:STATE_NAVARO = {
+		region_state:ENCL = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 600
+			}
+			create_pop = {
+				culture = oldworldamerican
+				size = 1500
+			}
+		}
+		region_state:NAVA = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 2200
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 800
+			}
+		}
+	}
+	s:STATE_JEFFERSON = {
+		region_state:JEFF = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1000
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 1500
+			}
+		}
+	}
+	s:STATE_SANFRAN = {
+		region_state:SHIS = {
+			create_pop = {
+				culture = han
+				size = 1200
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 1500
+			}
+		}
+		region_state:SANF = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1300
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 800
+			}
+		}
+	}
+	s:STATE_MARIPOSA = {
+		region_state:MARI = {
+			create_pop = {
+				culture = westcoast_tribal
 				size = 2600
+			}
+		}
+	}
+	s:STATE_MAXSON = {
+		region_state:MAXS = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1200
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 2200
 			}
 		}
 	}

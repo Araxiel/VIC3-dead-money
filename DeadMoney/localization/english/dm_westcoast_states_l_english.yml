@@ -9,6 +9,7 @@
   # California
 
   REGION_CALIFORNIA: "California"
+  region_california: "$REGION_CALIFORNIA$"
 
   STATE_SHADYSANDS: "Shady Sands"
   HUB_NAME_STATE_SHADYSANDS_city: "Shady Sands"       ## Canon
@@ -111,6 +112,7 @@
   
   # Nevada
   REGION_NEVADA: "Nevada"
+  region_nevada: "$REGION_NEVADA$"
 
   STATE_LASVEGAS: "New Vegas"                     ## Canon  - Las Vegas
   HUB_NAME_STATE_LASVEGAS_city: "New Vegas"       ## Canon  - Las Vegas
@@ -140,6 +142,7 @@
 
   # Oregon
   REGION_OREGON: "Oregon"
+  region_oregon: "$REGION_OREGON$"
 
   STATE_THEDEN: "The Den"                       
   HUB_NAME_STATE_THEDEN_city: "The Den"         ## Canon
@@ -162,6 +165,7 @@
 
   # Pacific
   REGION_PACIFIC: "Pacific"
+  region_pacific: "$REGION_PACIFIC$"
 
   STATE_HAWAII: "Hawaii"                       
   HUB_NAME_STATE_HAWAII_city: "Hilo"           ## Hilo
@@ -169,4 +173,6 @@
   HUB_NAME_STATE_HAWAII_mine: "Honolulu"       ## Honolulu
   HUB_NAME_STATE_HAWAII_port: "REPLACE Port HAWAII"
   HUB_NAME_STATE_HAWAII_wood: "REPLACE Wood HAWAII"
+
+
 

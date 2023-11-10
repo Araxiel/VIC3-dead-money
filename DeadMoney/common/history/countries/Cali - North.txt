@@ -5,8 +5,36 @@
 		effect_starting_politics_criminal_settlers = yes
 		effect_starting_politics_basic_society = yes
 
+		activate_law = law_type:law_oligarchy 
+	}
+	c:VAUC = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_xenophobe_society = yes
+
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_technocracy
+	}
+	c:TDEN = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+
+	}
+	c:MODC = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+
+	}
+	c:REDD = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
 
 	}
 }

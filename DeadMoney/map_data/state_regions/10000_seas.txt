@@ -8,7 +8,7 @@ STATE_CALIFORNIASEA = {
     provinces = { "x0023B8" }
 }
 
-STATE_CALIFORNIANBAJASEA = {
+STATE_CALIFORNIABAJASEA = {
     id = 10102
     provinces = { "x0023DD" }
 }

@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 
-	c:THB = {
+	c:THUB= {
 		effect_starting_technology_tier_3_tech = yes
 
 		effect_starting_politics_criminal_settlers = yes
@@ -17,7 +17,7 @@
 		activate_law = law_type:law_slavery_banned
 	}
 
-	c:TBY = {
+	c:TBOY= {
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_decent_settlers = yes
@@ -35,7 +35,7 @@
 			
 	}
 
-	c:NEC = {
+	c:NECR= {
 		effect_starting_technology_tier_4_tech = yes
 
 		effect_starting_politics_basic_settlers = yes
@@ -43,31 +43,71 @@
 			
 	}
 
-	c:ANZ = {
+	c:ANZA= {
 		effect_starting_technology_tier_4_tech = yes
 
 		effect_starting_politics_basic_settlers = yes
 		effect_starting_politics_basic_society = yes
 	}
 
-	c:DAY = {
+	c:DAYG= {
 		effect_starting_technology_tier_4_tech = yes
 
 		effect_starting_politics_basic_settlers = yes
 		effect_starting_politics_egalitarian_society = yes
 	}
 
-	c:RED = {
+	c:REDH= {
 		effect_starting_technology_tier_5_tech = yes
 
 		effect_starting_politics_tribal_decentralized = yes
 		effect_starting_politics_basic_society = yes
 	}
 
-	c:BAJ = {
+	c:BAJA= {
 		effect_starting_technology_tier_5_tech = yes
 
 		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:BRKH = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:JEFF = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_basic_settlers = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:SHIS = {	## TODO Shi
+		effect_starting_technology_tier_3_tech = yes
+
+		effect_starting_politics_criminal_settlers = yes
+		effect_starting_politics_xenophobe_society = yes
+
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_technocracy
+		activate_law = law_type:law_monarchy
+	}
+	c:SANF = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:MARI = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:MAXS = {
+		effect_starting_technology_tier_4_tech = yes
+
+		effect_starting_politics_basic_settlers = yes
 		effect_starting_politics_basic_society = yes
 	}
 }

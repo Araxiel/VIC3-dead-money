@@ -1,0 +1,30 @@
+﻿POPS = {
+	s:STATE_THEDEN = {
+		region_state:TDEN = {
+			create_pop = {
+				culture = westcoaster
+				size = 2200
+			}
+		}
+	}
+	s:STATE_ARROYO = {
+		region_state:AROY = {
+			create_pop = {
+				culture = westcoast_tribal	
+				size = 1800
+			}
+		}
+	}
+	s:STATE_KLAMATH = {
+		region_state:KLAM = {
+			create_pop = {
+				culture = westcoaster
+				size = 1800
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1000
+			}
+		}
+	}
+}
