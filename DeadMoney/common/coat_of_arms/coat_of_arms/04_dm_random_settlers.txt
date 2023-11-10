@@ -1,0 +1,32 @@
+
+template = {
+
+	template_neutral_settlers_1 = {
+		pattern = list "pattern_raiders_common"
+		color1 = list "raider_colors_bg_white"
+		color2 = list "raider_colors_bg_white"
+		color3 = list "raider_colors_bg_white"
+		color4 = list "raider_colors_bg_white"
+		color5 = list "raider_colors_bg_white"
+		colored_emblem = {
+			texture = list "settlers_logos_neutral"
+			color1 = list "raider_colors_emblem_light"
+			color2 = list "raider_colors_bg_dark"
+			color3 = "gunmetal"
+		}
+	}
+	template_neutral_settlers_2 = {
+		pattern = list "pattern_raiders_common"
+		color1 = list "raider_colors_bg_white"
+		color2 = list "raider_colors_bg_white"
+		color3 = list "raider_colors_bg_white"
+		color4 = list "raider_colors_bg_white"
+		color5 = list "raider_colors_bg_white"
+		colored_emblem = {
+			texture = list "settlers_logos_neutral"
+			color1 = list "raider_colors_emblem_not_red_not_light"
+			color2 = list "raider_colors_emblem_light"
+			color3 = "gunmetal"
+		}
+	}
+}

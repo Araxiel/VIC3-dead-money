@@ -61,4 +61,21 @@ DEFAULT = {
 			coa_def_anarchy_flag_trigger = yes
 		}
 	}
+	flag_definition = {
+		coa = list "raider"
+		priority = 1000
+		trigger = {
+			coa_def_raiders_flag_trigger = yes
+		}
+	}
+}
+
+NCR = {
+	flag_definition = {
+		coa = NCR
+		subject_canton = NCR					#If the game rule for modifying subject flags is on, this COA is added to the canton of this country's subjects, it does not need to match the main flag
+		allow_overlord_canton = no				#If the game rule for modifying subject flags is on, can another country's canton be added to this flag set
+		coa_with_overlord_canton = NCR			#If the game rule for modifying subject flags is on, alternate COA for adding the overlords canton, e.g. to move central emblems to one side
+		priority = 3000							#Highest, i.e. largest priority definition which passes its triggers is used
+	}
 }
