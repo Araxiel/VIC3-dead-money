@@ -88,11 +88,11 @@ gunsmithing = {
 	}
 }
 
-heavy_weapons = {
+artillery = {
 	# Unlocks heavy_weapons Production PM in Arms Industries
 	# Unlocks Cannon heavy_weapons PM in Barracks
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/heavy_weapons.dds"
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
 	category = military
 	
 	unlocking_technologies = {
@@ -503,7 +503,7 @@ breech_loading_heavy_weapons = {
 	# Unlocks Breech Loading heavy_weapons PM in Barracks
 	# Unlocks Railway Guns PM in Railways
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/breech_loading_heavy_weapons.dds"
+	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
 	category = military
 	
 	unlocking_technologies = {	
