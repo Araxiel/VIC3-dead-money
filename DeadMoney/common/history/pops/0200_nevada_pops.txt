@@ -2,19 +2,19 @@
 	s:STATE_LASVEGAS = {
 		region_state:LBR = {
 			create_pop = {
-				culture = tribal
+				culture = westcoast_tribal
 				size = 860
 			}
 		}
-		region_state:LSK = {
+		region_state:LVSK = {
 			create_pop = {
-				culture = tribal
+				culture = westcoast_tribal
 				size = 700
 			}
 		}
 		region_state:LSW = {
 			create_pop = {
-				culture = tribal
+				culture = westcoast_tribal
 				size = 500
 			}
 		}
@@ -22,15 +22,25 @@
 	s:STATE_DIVIDE = {
 		region_state:HPV = {
 			create_pop = {
-				culture = californian
-				size = 2500
+				culture = westcoaster
+				size = 2100
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 200
 			}
 		}
 		region_state:VPS = {
 			create_pop = {
-				culture = californian
+				culture = westcoaster
 				size = 700
 			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 300
+			}
+		}
+	}
 		}
 	}
 }

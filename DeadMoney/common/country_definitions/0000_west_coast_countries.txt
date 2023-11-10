@@ -15,7 +15,7 @@ NCR = {
 
 	tier = kingdom
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_SHADYSANDS
 }
 
@@ -27,7 +27,7 @@ NRN = {
 
 	tier = kingdom	
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_NEWRENO
 }
 
@@ -39,7 +39,7 @@ SQT = {
 	
 	tier = principality
 	
-	cultures = { californian }
+	cultures = { vaultdweller_american }
 	capital = STATE_SQUATTERLAND
 }
 
@@ -51,74 +51,74 @@ JKT = {
 	
 	tier = principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_THEHUB
 }
 
 # The Hub
-THB = {
+THUB= {
 	color = { 29 71 209 }
 	
 	country_type = recognized
 	
 	tier = grand_principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_THEHUB
 
 	is_named_from_capital = yes
 }
 
 # The Boneyard
-TBY = {
+TBOY= {
 	color = { 100 20 68 }
 	
 	country_type = recognized
 	
 	tier = principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_BONEYARD
 
 	is_named_from_capital = yes
 }
 
 # Necropolis
-NEC = {
+NECR= {
 	color = { 20 82 23 }
 	
 	country_type = recognized
 	
 	tier = grand_principality
 	
-	cultures = { californian }	## ghoul
+	cultures = { westcoast_ghoul }
 	capital = STATE_NECROPOLIS
 
 	is_named_from_capital = yes
 }
 
 # Red Hills
-RED = {
+REDH= {
 	color = { 208 59 41 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_REDHILLS
 
 }
 
 # Dayglow
-DAY = {
-	color = { 82 20 44 }
+DAYG= {
+	color = { 242 231 68 }
 	
 	country_type = unrecognized
 	
 	tier = principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_DAYGLOW
 
 	is_named_from_capital = yes
@@ -126,41 +126,41 @@ DAY = {
 
 
 # Anzaborego
-ANZ = {
+ANZA= {
 	color = { 225 221 26 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_ANZABOREGO
 
 }
 
 # Baja
-BAJ = {
+BAJA= {
 	color = { 86 84 208 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_BAJA
 
 }
 
 ### Nevada
 # Slither Kin (Omertas)
-LSK = {
+LVSK = {
 	color = { 107 140 86 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_LASVEGAS
 
 }
@@ -172,7 +172,7 @@ LBR = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_LASVEGAS
 }
 # Sawneys (BTS alt White Glove Society)
@@ -183,7 +183,7 @@ LSW = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_LASVEGAS
 }
 
@@ -195,7 +195,7 @@ LSW = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_LASVEGAS
 }
 
@@ -207,7 +207,7 @@ HPV = {
 	
 	tier = grand_principality
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_DIVIDE
 }
 # The Vipers
@@ -218,7 +218,7 @@ VPS = {
 	
 	tier = city_state
 	
-	cultures = { californian }
+	cultures = { westcoaster }
 	capital = STATE_DIVIDE
 }
 

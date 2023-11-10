@@ -17,13 +17,13 @@
 			goods = salvage
 			level = 3
 			direction = import
-			target = c:TBY.market
+			target = c:TBOY.market
 		}
 		create_trade_route = {
 			goods = water
 			level = 3
 			direction = import
-			target = c:THB.market
+			target = c:THUB.market
 		}
 	}
 }
