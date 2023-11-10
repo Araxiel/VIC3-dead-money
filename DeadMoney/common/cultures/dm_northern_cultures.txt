@@ -1,0 +1,1025 @@
+﻿alaskan ={
+	color=hsv{ 0.99 0.50 0.65 }
+	religion = religion_oldworldblues
+	traits = { anglophone settled_trait wastelander_heritage }
+	male_common_first_names = {
+		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
+		Benjamin Bartholomew Byron Benedict Barnabas Bildad
+		Charles Cyrus Chester Cassius Calvin Cornelius Conrad Caleb Cephas Clarence Colcord
+		Daniel David Dwight
+		Ezekiel Enoch Elihu Edward Eugene_2 Eustace Edwin Elam Ezra Ebenezer Elijah Emory Ephraim Erasmus Elton Erastus
+		Franklin Francis Frederick
+		Grenville George Gregory Grover Gabriel Gorham Gordon
+		Henry Hannibal Hugh Horatio Horace Hiram Harold Hazen Hector
+		Isaac Isaiah Irving Ichabod
+		Joshua Joseph John James Jacob Jesse Joel Jeremiah Jeffrey Judah Jonas Jedediah Jonathan Josiah
+		Kermit Kenner
+		Lemuel Lysander Lawrence Lewis Lorenzo Leland Levi Leonard_2 Lucius
+		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton 
+		Nicholas Noah Nathaniel Newton Nelson
+		Obadiah Othniel Oswald Orson Orville Oscar Otis Oliver Orrin Owen Ormsby
+		Peter Paul Patrick Philip Phineas Philemon Purley Palmetus Philetus
+		Quentin Quincy
+		Rutherford Richard Robert Rufus Roger
+		Stephen Silas Samuel Seth Simon Sidney Sylvester Shubael
+		Thomas Theodore_2 Thaddeus
+		Ulysses Upton
+		Victor Valentine_2
+		William Walter Winfield Wesley Wilbur Wendell
+		Zebulon Zachary Zalmon Zadok
+		
+	}
+	female_common_first_names = {
+		Amanda Anna Alice Adaline Adelaide Augusta Antoinette Alida Addie Ariel Ada Agnes Agatha Almira Arlevia Azubah
+		Catharine Charlotte Clara Cynthia Charity Cordelia Cornelia
+		Delia Deborah Delima
+		Elizabeth Evelina Emily Esther Eliza Ellen Eunice Emma Estelle Eudora Eleanor Ella Eleura Elnora Edith Ethel Ethelinda Euphemia Eva Elida
+		Frances Florence Faith Florena
+		Gertrude Geraldine Grace Graceanna Glathia
+		Hannah Henriette Helen Harriette Hephzibah Huldah
+		Isabella Ida
+		Jane Julia Judith Josephine
+		Lucy Louisa Lavilla Lydia Lilian Lucretia Luetta Leonora
+		Mabel Mary Mildred Melissa Minerva Martha Matilda Marjorie Malvina Mahala
+		Nancy Nellie
+		Olive
+		Phoebe Pamela Puella
+		Roxana Ruth Rebecca Rosa Rachel
+		Susannah Satronia Sylvia
+		Ursula
+		Winifred
+		Yda
+		Zara Zeruviah
+	}
+	noble_last_names = {
+		Adams Appleton
+		Boylston Bradlee
+		Cabot Choate Chaffee Crowninshield Cushing
+		Dana Delano Dudley
+		Emerson Endicott Emmet
+		Forbes
+		Gillett Goelet Glazier
+		Hallowell Holmes
+		Lodge Lowell
+		Minot McKune McCallum
+		Norcross
+		Otis
+		Peabody Putnam
+		Quincy
+		Roosevelt
+		Saltonstall Sears Sedgwick Schuyler
+		Tarbox Thayer Thorndike
+		Wigglesworth Winthrop Winslow
+	}
+	common_last_names = {
+		Arthur Abbot Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Atherton Alger
+		Brown Buchanan Buford Black Baldwin Butler Blair Bogy Bryan Blaine Barker Belknap Bell Bennett Barnum Boyle Briggs Buckingham Burling Burnside Brinsmade Brodhead Ballou Brushwiller Blinn Beeman Boyce Berger Burleigh Blodgett Bitgood
+		Cooper Carpenter Clay Cass Chamberlain Clark Colfax Cleveland Clarkson Chandler Cortelyou Claflin Cameron Campbell Coffey Carr Catlin Casey Cobb Coburn Cook Cox Craig Crittenden Crocker Custer Chetwood Cambreleng Coffinberry Childs Croman Coyle Culver Conk Corbin Crouch Claggett Clevenger
+		Daniels Dayton Dumont Douglas Depre Davies Dana Doolittle Doubleday Dyer Dunn Draper Dodge Doty Dornblaser Dewel Dussean
+		Everett English Eaton Egan Elliott Ewing
+		Fillmore Floyd Frelinghuysen Fairbanks Fess Fletcher Fairchild Farnsworth Fraser Foster Fry Fuller French Fowler Fiske Fitts Foss Fesler Faxon Fifield
+		Grant Green Garrison Granger Greeley Garfield Garcelon Gilbert Gibbs Griffin Gurney Goldsborough Glascock Grannis Grinstead Gould Goldrick Goodwin Grimes Gooding
+		Halleck Hall Hancock Harrison Hendricks Hobart Hanna Hitchcock Hooker Hackleman Harris Hawkins Hawley Heckman Humphreys Hunt Hunter Hayes Hollingsworth Hammatt Hoag Hammerslough Hodgeman Hutling Hammer Hagaman Holden Heffernan Huldy Hamblen Herrick Hurlbutt Hazeltine
+		Ingalls Irion Isbell
+		Johnson Jewell Jackson Jones Judkins
+		King Kern Kearny Kelley Kane Kilpatrick Kiddoo Keyes Kimball Kinnard Kirk Kennon Knowlton Kneeland Kittredge
+		Lightner Logan Lacey Lane Leggett Lightburn Littlejohn Lockwood Lytle Long Lasaliere Livermore Leavitt Loverin
+		McClellan Merritt Miller Marsh Mansfield Manson Martindale McArthur McCall McClernand McIntosh McPherson Meade Meigs Meredith Miles Morris Morton Murray McKinley McKeon McLaren McMahon Macomber Mattingly Meloon Meacham
+		Norris Nagle Naglee Negley Neill Nickerson Noyes Nugen Newkirk Napire Nowlin Niquette Nudd
+		Oglesby Orme Osborn Owen Olds Oglevee Ochiltree
+		Pierce Peterson Prince Pendleton Pershing Parker Pomerene Payne Pingree Palmer Parsons Pearson Peck Pennypacker Pile Porter Potter Prentiss Price Phillips Prindle Philbrick Penhallow Pettengill
+		Quay Quinby Quiner
+		Reid Rosewater Ransom Rawlins Ramsay Reynolds Rice Richardson Ricketts Ripley Ross Russell Raiser Rafferty Rix
+		Sherman Sheridan Stanton Stanford Stevens Stevenson Sewall Sabin Sinclair Sanborn Scammon Saxton Sedgwick Seward Shackelford Shepard Shields Sickles Slocum Stannard Sturgis Sykes Stanley Shepley Schenck Shinn Semple Sadler Suddaby Seaver Seitz Snodgrass Sissons Stolworthy
+		Troucey Thompson Tilden Turner Taylor Todd Thruston Torbert Totten Tuttle Turchin Tyndale Tallmadge Thatcher Tubbs Thorndike Truesdale Tandy
+		Ullman
+		Vanderveer Van_Buren Viele Vandever Vincent Vogdes Vogel
+		Whitman Webster Woodward Wheeler Weaver Wood Ward Willcox Wad Wadsworth Walker Wallace Washburn Webb Weber Weed Wells West Wheaton Whipple Winkler Woodbury Woodbridge Whittlesey Wingate Walley Wenk Whitcomb Wibird
+		Young
+		Zook
+	}
+	male_regal_first_names = {
+		Alexander
+		Benjamin
+		Charles
+		Franklin
+		George
+		Henry Hamilton
+		James Jefferson
+		Thomas
+		William Washington
+	}
+	female_regal_first_names = {
+		Caroline
+		Flora
+		Georgia
+		Martha Mary
+		Virginia
+	}
+
+	graphics = european
+	ethnicities = {
+		8 = caucasian
+		2 = black
+		3 = south_american
+		1 = asian
+		1 = polynesian
+		1 = arab
+		1 = indian
+		4 = circumpolar
+	}
+}
+
+alaskan_tribal = {
+	color= rgb{ 135 206 235 } # Sky Blue
+	religion = animist
+	traits = { anglophone nomadic_trait wastelander_heritage }
+	male_common_first_names = {
+		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
+		Benjamin Bartholomew Byron Benedict Barnabas Bildad
+		Charles Cyrus Chester Cassius Calvin Cornelius Conrad Caleb Cephas Clarence Colcord
+		Daniel David Dwight
+		Ezekiel Enoch Elihu Edward Eugene_2 Eustace Edwin Elam Ezra Ebenezer Elijah Emory Ephraim Erasmus Elton Erastus
+		Franklin Francis Frederick
+		Grenville George Gregory Grover Gabriel Gorham Gordon
+		Henry Hannibal Hugh Horatio Horace Hiram Harold Hazen Hector
+		Isaac Isaiah Irving Ichabod
+		Joshua Joseph John James Jacob Jesse Joel Jeremiah Jeffrey Judah Jonas Jedediah Jonathan Josiah
+		Kermit Kenner
+		Lemuel Lysander Lawrence Lewis Lorenzo Leland Levi Leonard_2 Lucius
+		Micah Marcellus Mark Michael Millard Matthew Matthias Montgomery Maxwell Milton 
+		Nicholas Noah Nathaniel Newton Nelson
+		Obadiah Othniel Oswald Orson Orville Oscar Otis Oliver Orrin Owen Ormsby
+		Peter Paul Patrick Philip Phineas Philemon Purley Palmetus Philetus
+		Quentin Quincy
+		Rutherford Richard Robert Rufus Roger
+		Stephen Silas Samuel Seth Simon Sidney Sylvester Shubael
+		Thomas Theodore_2 Thaddeus
+		Ulysses Upton
+		Victor Valentine_2
+		William Walter Winfield Wesley Wilbur Wendell
+		Zebulon Zachary Zalmon Zadok
+		
+	}
+	female_common_first_names = {
+		Amanda Anna Alice Adaline Adelaide Augusta Antoinette Alida Addie Ariel Ada Agnes Agatha Almira Arlevia Azubah
+		Catharine Charlotte Clara Cynthia Charity Cordelia Cornelia
+		Delia Deborah Delima
+		Elizabeth Evelina Emily Esther Eliza Ellen Eunice Emma Estelle Eudora Eleanor Ella Eleura Elnora Edith Ethel Ethelinda Euphemia Eva Elida
+		Frances Florence Faith Florena
+		Gertrude Geraldine Grace Graceanna Glathia
+		Hannah Henriette Helen Harriette Hephzibah Huldah
+		Isabella Ida
+		Jane Julia Judith Josephine
+		Lucy Louisa Lavilla Lydia Lilian Lucretia Luetta Leonora
+		Mabel Mary Mildred Melissa Minerva Martha Matilda Marjorie Malvina Mahala
+		Nancy Nellie
+		Olive
+		Phoebe Pamela Puella
+		Roxana Ruth Rebecca Rosa Rachel
+		Susannah Satronia Sylvia
+		Ursula
+		Winifred
+		Yda
+		Zara Zeruviah
+	}
+	noble_last_names = {
+		Adams Appleton
+		Boylston Bradlee
+		Cabot Choate Chaffee Crowninshield Cushing
+		Dana Delano Dudley
+		Emerson Endicott Emmet
+		Forbes
+		Gillett Goelet Glazier
+		Hallowell Holmes
+		Lodge Lowell
+		Minot McKune McCallum
+		Norcross
+		Otis
+		Peabody Putnam
+		Quincy
+		Roosevelt
+		Saltonstall Sears Sedgwick Schuyler
+		Tarbox Thayer Thorndike
+		Wigglesworth Winthrop Winslow
+	}
+	common_last_names = {
+		Arthur Abbot Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Atherton Alger
+		Brown Buchanan Buford Black Baldwin Butler Blair Bogy Bryan Blaine Barker Belknap Bell Bennett Barnum Boyle Briggs Buckingham Burling Burnside Brinsmade Brodhead Ballou Brushwiller Blinn Beeman Boyce Berger Burleigh Blodgett Bitgood
+		Cooper Carpenter Clay Cass Chamberlain Clark Colfax Cleveland Clarkson Chandler Cortelyou Claflin Cameron Campbell Coffey Carr Catlin Casey Cobb Coburn Cook Cox Craig Crittenden Crocker Custer Chetwood Cambreleng Coffinberry Childs Croman Coyle Culver Conk Corbin Crouch Claggett Clevenger
+		Daniels Dayton Dumont Douglas Depre Davies Dana Doolittle Doubleday Dyer Dunn Draper Dodge Doty Dornblaser Dewel Dussean
+		Everett English Eaton Egan Elliott Ewing
+		Fillmore Floyd Frelinghuysen Fairbanks Fess Fletcher Fairchild Farnsworth Fraser Foster Fry Fuller French Fowler Fiske Fitts Foss Fesler Faxon Fifield
+		Grant Green Garrison Granger Greeley Garfield Garcelon Gilbert Gibbs Griffin Gurney Goldsborough Glascock Grannis Grinstead Gould Goldrick Goodwin Grimes Gooding
+		Halleck Hall Hancock Harrison Hendricks Hobart Hanna Hitchcock Hooker Hackleman Harris Hawkins Hawley Heckman Humphreys Hunt Hunter Hayes Hollingsworth Hammatt Hoag Hammerslough Hodgeman Hutling Hammer Hagaman Holden Heffernan Huldy Hamblen Herrick Hurlbutt Hazeltine
+		Ingalls Irion Isbell
+		Johnson Jewell Jackson Jones Judkins
+		King Kern Kearny Kelley Kane Kilpatrick Kiddoo Keyes Kimball Kinnard Kirk Kennon Knowlton Kneeland Kittredge
+		Lightner Logan Lacey Lane Leggett Lightburn Littlejohn Lockwood Lytle Long Lasaliere Livermore Leavitt Loverin
+		McClellan Merritt Miller Marsh Mansfield Manson Martindale McArthur McCall McClernand McIntosh McPherson Meade Meigs Meredith Miles Morris Morton Murray McKinley McKeon McLaren McMahon Macomber Mattingly Meloon Meacham
+		Norris Nagle Naglee Negley Neill Nickerson Noyes Nugen Newkirk Napire Nowlin Niquette Nudd
+		Oglesby Orme Osborn Owen Olds Oglevee Ochiltree
+		Pierce Peterson Prince Pendleton Pershing Parker Pomerene Payne Pingree Palmer Parsons Pearson Peck Pennypacker Pile Porter Potter Prentiss Price Phillips Prindle Philbrick Penhallow Pettengill
+		Quay Quinby Quiner
+		Reid Rosewater Ransom Rawlins Ramsay Reynolds Rice Richardson Ricketts Ripley Ross Russell Raiser Rafferty Rix
+		Sherman Sheridan Stanton Stanford Stevens Stevenson Sewall Sabin Sinclair Sanborn Scammon Saxton Sedgwick Seward Shackelford Shepard Shields Sickles Slocum Stannard Sturgis Sykes Stanley Shepley Schenck Shinn Semple Sadler Suddaby Seaver Seitz Snodgrass Sissons Stolworthy
+		Troucey Thompson Tilden Turner Taylor Todd Thruston Torbert Totten Tuttle Turchin Tyndale Tallmadge Thatcher Tubbs Thorndike Truesdale Tandy
+		Ullman
+		Vanderveer Van_Buren Viele Vandever Vincent Vogdes Vogel
+		Whitman Webster Woodward Wheeler Weaver Wood Ward Willcox Wad Wadsworth Walker Wallace Washburn Webb Weber Weed Wells West Wheaton Whipple Winkler Woodbury Woodbridge Whittlesey Wingate Walley Wenk Whitcomb Wibird
+		Young
+		Zook
+	}
+	male_regal_first_names = {
+		Alexander
+		Benjamin
+		Charles
+		Franklin
+		George
+		Henry Hamilton
+		James Jefferson
+		Thomas
+		William Washington
+	}
+	female_regal_first_names = {
+		Caroline
+		Flora
+		Georgia
+		Martha Mary
+		Virginia
+	}
+	graphics = european
+	ethnicities = {
+		7 = caucasian
+		1 = black
+		1 = south_american
+		1 = asian
+		1 = arab
+		1 = indian
+		4 = circumpolar
+	}
+}
+
+anglo_canadian={
+	color= hsv{ 0.22 0.22 0.45 }
+	religion = religion_oldworldblues
+	traits = { anglophone canadian settled_trait wastelander_heritage }
+	male_common_first_names={
+		Albert
+		Alexander
+		Alfred
+		Angus
+		Archibald
+		Arthur
+		Charles
+		Christopher
+		Colin
+		David
+		Edmund
+		Frederick
+		George
+		Gordon
+		Hugh
+		James
+		John
+		Joseph
+		Mackenzie
+		Mark
+		Matthew
+		Michael
+		Nicholas
+		Norman
+		Patrick
+		Paul
+		Peter
+		Robert
+		Samuel
+		Simon
+		Sydney
+		Thomas
+		William
+	}
+	female_common_first_names = {
+		Agnes
+		Alice
+		Amelia
+		Anne
+		Berengera
+		Caroline
+		Charlotte
+		Clara
+		Clementina
+		Constance
+		Edith
+		Eleanor
+		Eliza
+		Ellen
+		Emily
+		Ethelwyn
+		Florence
+		Frances
+		Georgina
+		Grizelda
+		Harriet
+		Helena
+		Henriette
+		Hortense
+		Jane
+		Josephine
+		Julia
+		Katie
+		Lily
+		Louisa
+		Lucy
+		Margaret
+		Martha
+		Mary
+		Matilda
+		Pamelia
+		Pauline
+		Pearl
+		Rebecca
+		Rhoda
+		Rosanna
+		Sarah
+		Victoria
+		Virna
+	}	
+	noble_last_names = {
+		Abbott
+		Acheson
+		Bishop
+		Byng
+		Colborne
+		Hamilton-Temple-Blackwood
+		Kempt
+		Lambton
+		Lansdowne
+		Lennox
+		Lisgar
+		Lorne
+		Macdonald
+		Monck
+		Preston
+		Stanley
+		Thomson
+		Whitworth-Aylmer
+		Young
+	}
+	common_last_names={
+		Affleck
+		Armour
+		Bates
+		Beavan
+		Beckwith
+		Bernard
+		Bethune
+		Bishop
+		Blewett
+		Borden
+		Bowell
+		Bradford
+		Brown
+		Calder
+		Campbell
+		Caron
+		Churchill
+		Clark
+		Coleman
+		Conan
+		Corrigan
+		Crawford
+		Currie
+		Curzon
+		Cushing
+		Deeks
+		Dickey
+		Diggs
+		Dougall
+		Duncan
+		Field
+		Fleming
+		Garner
+		Graham
+		Guthrie
+		Harrison
+		Hayes
+		Herbert
+		Holmes
+		Hughes
+		Jennings
+		Jones
+		Katzmann
+		Kemp
+		Kennedy
+		King
+		Langton
+		Lawson
+		Lefevre
+		Leprohon
+		Mackenzie
+		MacNab
+		Maitland
+		McDonald
+		McIlwraith
+		McIsaac
+		McKellar
+		Merrick
+		Mewburn
+		Mitchell
+		Monthomery
+		Moodie
+		Morin
+		Mountcastle
+		Murray
+		Neil
+		Newhall
+		Panet
+		Parke
+		Patterson
+		Piers
+		Pope
+		Pottinger
+		Rae
+		Robertson
+		Rogers
+		Ross
+		Sedgewick
+		Shaw
+		Sheard
+		Sivell
+		Smith
+		Strong
+		Thompson
+		Tisdale
+		Tonge
+		Traill
+		Trenholme
+		Vail
+		Vining
+		Walker
+		Walshe
+		Wetherald
+	}
+	graphics = european
+	ethnicities = {
+		8 = caucasian
+		2 = black
+		1 = south_american
+		2 = asian
+		2 = arab
+		2 = indian
+		1 = circumpolar
+		1 = native_american
+	}
+}
+
+anglo_canadian_tribal={
+	color= hsv{ 0.22 0.22 0.45 }
+	religion = animist
+	traits = { anglophone canadian nomadic_trait wastelander_heritage }
+	male_common_first_names={
+		Albert
+		Alexander
+		Alfred
+		Angus
+		Archibald
+		Arthur
+		Charles
+		Christopher
+		Colin
+		David
+		Edmund
+		Frederick
+		George
+		Gordon
+		Hugh
+		James
+		John
+		Joseph
+		Mackenzie
+		Mark
+		Matthew
+		Michael
+		Nicholas
+		Norman
+		Patrick
+		Paul
+		Peter
+		Robert
+		Samuel
+		Simon
+		Sydney
+		Thomas
+		William
+	}
+	female_common_first_names = {
+		Agnes
+		Alice
+		Amelia
+		Anne
+		Berengera
+		Caroline
+		Charlotte
+		Clara
+		Clementina
+		Constance
+		Edith
+		Eleanor
+		Eliza
+		Ellen
+		Emily
+		Ethelwyn
+		Florence
+		Frances
+		Georgina
+		Grizelda
+		Harriet
+		Helena
+		Henriette
+		Hortense
+		Jane
+		Josephine
+		Julia
+		Katie
+		Lily
+		Louisa
+		Lucy
+		Margaret
+		Martha
+		Mary
+		Matilda
+		Pamelia
+		Pauline
+		Pearl
+		Rebecca
+		Rhoda
+		Rosanna
+		Sarah
+		Victoria
+		Virna
+	}	
+	noble_last_names = {
+		Abbott
+		Acheson
+		Bishop
+		Byng
+		Colborne
+		Hamilton-Temple-Blackwood
+		Kempt
+		Lambton
+		Lansdowne
+		Lennox
+		Lisgar
+		Lorne
+		Macdonald
+		Monck
+		Preston
+		Stanley
+		Thomson
+		Whitworth-Aylmer
+		Young
+	}
+	common_last_names={
+		Affleck
+		Armour
+		Bates
+		Beavan
+		Beckwith
+		Bernard
+		Bethune
+		Bishop
+		Blewett
+		Borden
+		Bowell
+		Bradford
+		Brown
+		Calder
+		Campbell
+		Caron
+		Churchill
+		Clark
+		Coleman
+		Conan
+		Corrigan
+		Crawford
+		Currie
+		Curzon
+		Cushing
+		Deeks
+		Dickey
+		Diggs
+		Dougall
+		Duncan
+		Field
+		Fleming
+		Garner
+		Graham
+		Guthrie
+		Harrison
+		Hayes
+		Herbert
+		Holmes
+		Hughes
+		Jennings
+		Jones
+		Katzmann
+		Kemp
+		Kennedy
+		King
+		Langton
+		Lawson
+		Lefevre
+		Leprohon
+		Mackenzie
+		MacNab
+		Maitland
+		McDonald
+		McIlwraith
+		McIsaac
+		McKellar
+		Merrick
+		Mewburn
+		Mitchell
+		Monthomery
+		Moodie
+		Morin
+		Mountcastle
+		Murray
+		Neil
+		Newhall
+		Panet
+		Parke
+		Patterson
+		Piers
+		Pope
+		Pottinger
+		Rae
+		Robertson
+		Rogers
+		Ross
+		Sedgewick
+		Shaw
+		Sheard
+		Sivell
+		Smith
+		Strong
+		Thompson
+		Tisdale
+		Tonge
+		Traill
+		Trenholme
+		Vail
+		Vining
+		Walker
+		Walshe
+		Wetherald
+	}
+	graphics = european
+	ethnicities = {
+		8 = caucasian
+		2 = black
+		1 = south_american
+		2 = asian
+		2 = arab
+		2 = indian
+		1 = circumpolar
+		1 = native_american
+	}
+}
+
+franco_canadian={
+	color= rgb{ 87 120 181 }
+	religion = catholic
+	traits = { francophone canadian settled_trait wastelander_heritage }
+	male_common_first_names={
+		Adolphe
+		Alain
+		Alphonse
+		Athanase
+		Auguste-Real
+		Charles
+		Charles-Seraphin
+		Denis-Benjamin
+		Dionel
+		Elzear
+		Etienne-Paschal
+		Francois-Edouard
+		George-Etienne
+		Georges
+		Gilles
+		Guillaume
+		Guillaume-Alphonse
+		Hector-Louis
+		Henri
+		Hermenegilde
+		Honore
+		Jacques
+		Jean
+		Jean-Baptiste
+		Jean-Docile
+		Jean-Paul
+		Joseph
+		Joseph-Oscar
+		Joseph-Remi
+		Laurent-Olivier
+		Leandre
+		Louis-Adelard
+		Louis-Joseph
+		Louis-Olivier
+		Louis-Philippe
+		Louis-Rodrigue
+		Marcel
+		Mathieu
+		Michel
+		Narcisse-Fortunat
+		Napoleon
+		Olivier
+		Olivier-Napoleon
+		Pierre
+		Pierre-Aurele
+		Pierre-Stanislas
+		RenE_-E_douard
+		Simon-Napoleon
+		Telesphore
+		Theodore
+		Theophile
+		Ulric-Joseph
+		Valmont
+	}
+	female_common_first_names = {
+		Andrea
+		Anne-Marie
+		Antonia
+		Antonine
+		Azelie
+		Blanche
+		Catherine
+		Charlotte
+		Cora
+		Denise
+		Dina
+		Edith_2
+		Elise
+		Elizabeth
+		Ellen
+		Elmire
+		Esther
+		Grace
+		Helene_2
+		Henriette
+		Isabelle
+		Jacqueline
+		Jeanne
+		Josephine
+		Julie
+		Louise
+		Marcia
+		Marie
+		Marie-Amable
+		Marie-Anne
+		Marie-Louise
+		Marinda
+		Marjolaine
+		Maxime
+		Pierrette
+		Philloma
+		Raymonde
+		Sophie
+		Yvette
+	}	
+	noble_last_names = {
+		Bedard
+		Bellemare
+		Cartier
+		David
+		Papineau
+		Surrette
+	}
+	common_last_names={
+		Alleyn
+		Angers
+		Asselin
+		Babineau
+		Belleau
+		Bourassa
+		Brosseau
+		Cauchon
+		Dumouchel
+		Duval
+		Faucher
+		Fremont
+		Gallant
+		Garneau
+		Hamel
+		Hebert
+		Jalbert
+		Langelier
+		Langevin
+		Laviolette
+		Leblanc
+		Lemesurier
+		Loughry
+		Marchand
+		Masson
+		Meloche
+		Mercier
+		Morrin
+		Nantel
+		Ouimet
+		Painchaud
+		Parent
+		Peladeau
+		Pellerin
+		Robitaille
+		Rodier
+		Ross
+		Senecal
+		Simard
+		Tache
+		Taillon
+		Tanguay
+		Tessier
+		Vallieres
+		Viger
+	}
+	graphics = european
+	ethnicities = {
+		8 = caucasian
+		2 = black
+		1 = south_american
+		1 = asian
+		2 = arab
+		1 = indian
+		1 = circumpolar
+		1 = native_american
+	}
+}
+
+franco_canadian_tribal={
+	color= rgb{ 87 120 181 }
+	religion = animist
+	traits = { francophone canadian nomadic_trait wastelander_heritage }
+	male_common_first_names={
+		Adolphe
+		Alain
+		Alphonse
+		Athanase
+		Auguste-Real
+		Charles
+		Charles-Seraphin
+		Denis-Benjamin
+		Dionel
+		Elzear
+		Etienne-Paschal
+		Francois-Edouard
+		George-Etienne
+		Georges
+		Gilles
+		Guillaume
+		Guillaume-Alphonse
+		Hector-Louis
+		Henri
+		Hermenegilde
+		Honore
+		Jacques
+		Jean
+		Jean-Baptiste
+		Jean-Docile
+		Jean-Paul
+		Joseph
+		Joseph-Oscar
+		Joseph-Remi
+		Laurent-Olivier
+		Leandre
+		Louis-Adelard
+		Louis-Joseph
+		Louis-Olivier
+		Louis-Philippe
+		Louis-Rodrigue
+		Marcel
+		Mathieu
+		Michel
+		Narcisse-Fortunat
+		Napoleon
+		Olivier
+		Olivier-Napoleon
+		Pierre
+		Pierre-Aurele
+		Pierre-Stanislas
+		RenE_-E_douard
+		Simon-Napoleon
+		Telesphore
+		Theodore
+		Theophile
+		Ulric-Joseph
+		Valmont
+	}
+	female_common_first_names = {
+		Andrea
+		Anne-Marie
+		Antonia
+		Antonine
+		Azelie
+		Blanche
+		Catherine
+		Charlotte
+		Cora
+		Denise
+		Dina
+		Edith_2
+		Elise
+		Elizabeth
+		Ellen
+		Elmire
+		Esther
+		Grace
+		Helene_2
+		Henriette
+		Isabelle
+		Jacqueline
+		Jeanne
+		Josephine
+		Julie
+		Louise
+		Marcia
+		Marie
+		Marie-Amable
+		Marie-Anne
+		Marie-Louise
+		Marinda
+		Marjolaine
+		Maxime
+		Pierrette
+		Philloma
+		Raymonde
+		Sophie
+		Yvette
+	}	
+	noble_last_names = {
+		Bedard
+		Bellemare
+		Cartier
+		David
+		Papineau
+		Surrette
+	}
+	common_last_names={
+		Alleyn
+		Angers
+		Asselin
+		Babineau
+		Belleau
+		Bourassa
+		Brosseau
+		Cauchon
+		Dumouchel
+		Duval
+		Faucher
+		Fremont
+		Gallant
+		Garneau
+		Hamel
+		Hebert
+		Jalbert
+		Langelier
+		Langevin
+		Laviolette
+		Leblanc
+		Lemesurier
+		Loughry
+		Marchand
+		Masson
+		Meloche
+		Mercier
+		Morrin
+		Nantel
+		Ouimet
+		Painchaud
+		Parent
+		Peladeau
+		Pellerin
+		Robitaille
+		Rodier
+		Ross
+		Senecal
+		Simard
+		Tache
+		Taillon
+		Tanguay
+		Tessier
+		Vallieres
+		Viger
+	}
+	graphics = european
+	ethnicities = {
+		8 = caucasian
+		2 = black
+		1 = south_american
+		1 = asian
+		2 = arab
+		1 = indian
+		1 = circumpolar
+		2 = native_american
+	}
+}
