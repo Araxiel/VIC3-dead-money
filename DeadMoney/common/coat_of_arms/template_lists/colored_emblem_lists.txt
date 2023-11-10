@@ -318,26 +318,27 @@
 			250 = "ce_hammer_sickle_star_cogwheel.dds"
 			250 = "ce_hammer_sickle_star_wreath.dds"
 			
-			special_selection = {
-				# SSRs
-				trigger = { 
-					coa_def_russian_ensign_trigger = yes
-				}
-				100000 = "ce_hammer_sickle_star_ussr.dds"
-			}			
+			#special_selection = {
+			#	# SSRs
+			#	trigger = { 
+			#		coa_def_russian_ensign_trigger = yes
+			#	}
+			#	100000 = "ce_hammer_sickle_star_ussr.dds"
+			#}			
 		}
 
-		special_selection = {
-			trigger = { 
-				coa_def_monarchy_flag_trigger = yes
-				any_primary_culture = {
-					has_discrimination_trait = european_heritage
-				}
-			}
-			10 = "ce_crown_simple.dds"
-			1 = "ce_crown_tudor.dds"
-			1 = "ce_crown_swedish.dds"
-		}
+		# TODO re-add
+		#special_selection = {
+		#	trigger = { 
+		#		coa_def_monarchy_flag_trigger = yes
+		#		any_primary_culture = {
+		#			has_discrimination_trait = european_heritage
+		#		}
+		#	}
+		#	10 = "ce_crown_simple.dds"
+		#	1 = "ce_crown_tudor.dds"
+		#	1 = "ce_crown_swedish.dds"
+		#}
 
 		special_selection = {
 			trigger = { 
@@ -361,29 +362,29 @@
 			25 = "ce_southern_cross_new_zealand.dds"						
 		}
 
-		special_selection = {
-			trigger = { 
-				coa_def_african_trigger = yes
-				coa_def_crescent_trigger = no
-				coa_def_cross_trigger = no
-			}
-			# Generic
-			100 = "ce_rising_sun.dds"			
-			20 = "ce_shield_african.dds"
-			
-			# Central & Eastern Africans with Bantu & Masai designs
-			100 = "ce_masai_shield.dds"
-			
-			# Western Africans, possibly some Adinkra symbols
-			20 = "ce_kanaga.dds"
-			
-			# Southern Africans with Zulu designs
-			100 = "ce_nguni_shield.dds"
-			100 = "ce_nguni_shield_02.dds"
-			100 = "ce_nguni_shield_03.dds"
-			100 = "ce_nguni_shield_04.dds"
-
-		}
+		#special_selection = {
+		#	trigger = { 
+		#		coa_def_african_trigger = yes
+		#		coa_def_crescent_trigger = no
+		#		coa_def_cross_trigger = no
+		#	}
+		#	# Generic
+		#	100 = "ce_rising_sun.dds"			
+		#	20 = "ce_shield_african.dds"
+		#	
+		#	# Central & Eastern Africans with Bantu & Masai designs
+		#	100 = "ce_masai_shield.dds"
+		#	
+		#	# Western Africans, possibly some Adinkra symbols
+		#	20 = "ce_kanaga.dds"
+		#	
+		#	# Southern Africans with Zulu designs
+		#	100 = "ce_nguni_shield.dds"
+		#	100 = "ce_nguni_shield_02.dds"
+		#	100 = "ce_nguni_shield_03.dds"
+		#	100 = "ce_nguni_shield_04.dds"
+		#
+		#}
 
 		special_selection = {
 			trigger = { 
@@ -425,12 +426,12 @@
 			50 = "ce_iron_cross.dds"
 		}
 
-		special_selection = {
-			trigger = { 
-				coa_def_turkic_trigger = yes
-			}
-			50 = "ce_tamga_tatar.dds"
-		}		
+		#special_selection = {
+		#	trigger = { 
+		#		coa_def_turkic_trigger = yes
+		#	}
+		#	50 = "ce_tamga_tatar.dds"
+		#}		
 	}
 	
 	ordinaries = {
@@ -468,13 +469,13 @@
 			2 = "ce_cross_england_fimbriated.dds"
 			1 = "ce_cross_burgundy.dds"	
 		}	
-		special_selection = {
-			trigger = {
-				coa_def_cross_trigger = yes
-				coa_def_italian_trigger = yes
-			}
-			10 = "ce_cross_sardinia.dds"
-		}		
+		#special_selection = {
+		#	trigger = {
+		#		coa_def_cross_trigger = yes
+		#		coa_def_italian_trigger = yes
+		#	}
+		#	10 = "ce_cross_sardinia.dds"
+		#}		
 		special_selection = {
 			trigger = {
 				coa_def_cross_trigger = yes
@@ -497,24 +498,24 @@
 			100 = "ce_cross_denmark.dds"
 			100 = "ce_cross_finland.dds"
 		}	
-		special_selection = {
-			trigger = { 
-				coa_def_african_trigger = yes
-			}
-			10 = "ce_bend_sinister_fimbriated.dds"
-			10 = "ce_bend_sinister.dds"
-			10 = "ce_bend_dexter.dds"
-			10 = "ce_bend_dexter_fimbriated.dds"
-			10 = "ce_saltire.dds"
-			10 = "ce_saltire_fimbriated.dds"	
-			1 = "ce_chevron.dds"			
-			
-			10 = "ce_tribar.dds"
-			10 = "ce_tricolor_doubled.dds"
-			10 = "ce_fess_fimbriated.dds"
-			# fess fimbriated (botswana), incl in tricolour (kenya, gambia)
-			# pb the two outline stripes are always white
-		}			
+		#special_selection = {
+		#	trigger = { 
+		#		coa_def_african_trigger = yes
+		#	}
+		#	10 = "ce_bend_sinister_fimbriated.dds"
+		#	10 = "ce_bend_sinister.dds"
+		#	10 = "ce_bend_dexter.dds"
+		#	10 = "ce_bend_dexter_fimbriated.dds"
+		#	10 = "ce_saltire.dds"
+		#	10 = "ce_saltire_fimbriated.dds"	
+		#	1 = "ce_chevron.dds"			
+		#	
+		#	10 = "ce_tribar.dds"
+		#	10 = "ce_tricolor_doubled.dds"
+		#	10 = "ce_fess_fimbriated.dds"
+		#	# fess fimbriated (botswana), incl in tricolour (kenya, gambia)
+		#	# pb the two outline stripes are always white
+		#}			
 		special_selection = {
 			trigger = { 
 				coa_def_crescent_trigger = yes
@@ -961,24 +962,24 @@
 			}
 			1000 = "ce_hammer_sickle_cogwheel_usa.dds"
 		}	
-		special_selection = {
-			# PCI
-			trigger = { 
-				coa_def_italian_trigger = yes
-			}
-			1000 = "ce_hammer_sickle_italy.dds"
-		}		
-		special_selection = {
-			trigger = { 
-				coa_def_african_trigger = yes
-			}
-			100 = "ce_cogwheel_machete_angola.dds"
-			300 = "ce_star_05.dds"
-			200 = "ce_star_05_hollow.dds"
-			100 = "ce_star_05_ring.dds"		
-			200 = "ce_hammer_hoe.dds"
-			50 = "ce_hammer_wheat.dds"
-		}	
+		#special_selection = {
+		#	# PCI
+		#	trigger = { 
+		#		coa_def_italian_trigger = yes
+		#	}
+		#	1000 = "ce_hammer_sickle_italy.dds"
+		#}		
+		#special_selection = {
+		#	trigger = { 
+		#		coa_def_african_trigger = yes
+		#	}
+		#	100 = "ce_cogwheel_machete_angola.dds"
+		#	300 = "ce_star_05.dds"
+		#	200 = "ce_star_05_hollow.dds"
+		#	100 = "ce_star_05_ring.dds"		
+		#	200 = "ce_hammer_hoe.dds"
+		#	50 = "ce_hammer_wheat.dds"
+		#}	
 		special_selection = {
 			trigger = { 
 				any_primary_culture = {
@@ -989,7 +990,7 @@
 			100 = "ce_hammer_sickle_india.dds"
 			100 = "ce_hammer_sickle_india_02.dds"
 			100 = "ce_corn_sickle.dds"
-		}			
+		}
 	}			
 	communist_stars = {
 		100 = "ce_star_05.dds"
@@ -1062,23 +1063,72 @@
 	}	
 
 	# Dead Money
-	raider_symbols = {
+	raider_logos = {
 		# Selected to fit within square. Pb Needs more diversity
 		
-		10 = "animal_skull1.dds"
-		3 = "bandit_skull1.dds"
-		3 = "bandit_skull2.dds"
-		2 = "evil_symbol1.dds"
-		1 = "humanskelletonhorse1.dds"
-		6 = "skull1.dds"
-		4 = "skull2.dds"
-		8 = "skull3.dds"
-		8 = "skull4.dds"
-		6 = "skull5.dds"
-		5 = "skull6.dds"
-		6 = "skull_snake1.dds"
-		4 = "skull_snake2.dds"
-		4 = "skull_gasmask1.dds"
+		10 	= "ce_animal_skull1.dds"
+		10	= "ce_bandit_skull2.dds"
+		20	= "ce_bloody_hand1.dds"
+		15	= "ce_bloody_hand2.dds"
+		10	= "ce_evil_symbol1.dds"
+		8	= "ce_gasmask1.dds"
+		10	= "ce_helstar.dds"
+		5	= "ce_humanskelletonhorse1.dds"
+		5	= "ce_skelleton_hand1.dds"
+		10	= "ce_skull_gasmask1.dds"
+		10	= "ce_skull_helmet1.dds"
+		10	= "ce_skull_snake1.dds"
+		10	= "ce_skull_snake2.dds"
+		10	= "ce_skull2.dds"
+		10	= "ce_skull3.dds"
+		10	= "ce_skull4.dds"
+		10	= "ce_skull5.dds"
+		10	= "ce_skull6.dds"
+
+		# vanilla
+		8	= "ce_star_pentagram.dds"
+		4	= "ce_hand.dds"
+		4	= "ce_cobra_coiled.dds"
+		5	= "ce_arrow_cross.dds"
+		5	= "ce_cross_mara.dds"
+		5	= "ce_lightning_bolt.dds"
+		4	= "ce_star_08.dds"
 	}	
+
+	raider_logos_thin = {
+		# Selected to fit within square. Pb Needs more diversity
+		
+		2 = "ce_bandit_skull1.dds"
+		1 = "ce_skull1.dds"
+
+	}
+
+	settlers_logos_neutral = {
+		# vanilla
+		2 = "ce_wagon.dds"
+		2 = "ce_horse_tribal.dds"
+		2 = "ce_horse.dds"
+		2 = "ce_hand_dreaming.dds"
+		1 = "ce_hand.dds"
+		1 = "ce_endless_knot.dds"
+		1 = "ce_cross_mara.dds"
+		1 = "ce_cobra_coiled.dds"
+		1 = "ce_cross_fleury.dds"
+		1 = "ce_cross_couped.dds"
+		1 = "ce_cross_celtic.dds"
+		1 = "ce_cross_auseklis.dds"
+		1 = "ce_coa_saf_wagon.dds"
+		1 = "ce_coa_saf_tree.dds"
+		1 = "ce_delta.dds"
+		1 = "ce_lightning_bolt.dds"
+		1 = "ce_morning_star.dds"
+		1 = "ce_rhombus.dds"
+		1 = "ce_rising_sun.dds"
+		1 = "ce_sol_de_mayo.dds"
+		1 = "ce_star_05.dds"
+		1 = "ce_star_04.dds"
+		1 = "ce_star_05_hollow.dds"
+		1 = "ce_sun_peru.dds"
+	}
 }
 
