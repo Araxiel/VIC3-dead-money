@@ -12,7 +12,7 @@
 		effect_starting_pop_literacy_middling = yes
 	}
 
-	c:THB = {
+	c:THUB= {
 		effect_starting_pop_wealth_high = yes
 		effect_starting_pop_literacy_middling = yes
 	}
@@ -27,33 +27,33 @@
 		effect_starting_pop_literacy_middling = yes
 	}
 	
-	c:TBY = {
+	c:TBOY= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_middling = yes
 		
 	}
 	
-	c:NEC = {
+	c:NECR= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_high = yes
 	}
 	
-	c:RED = {
+	c:REDH= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_middling = yes
 	}
 	
-	c:DAY = {
+	c:DAYG= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_high = yes
 	}
 	
-	c:ANZ = {
+	c:ANZA= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_middling = yes
 	}
 
-	c:BAJ = {
+	c:BAJA= {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_middling = yes
 	}
@@ -64,7 +64,7 @@
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}
-	c:LSK = {
+	c:LVSK = {
 		effect_starting_pop_wealth_low = yes
 		effect_starting_pop_literacy_low = yes
 	}
@@ -79,6 +79,64 @@
 	c:HPV = {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_high = yes
+	}
+	c:BRKH = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:VAUC = {
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:MODC = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:REDD = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:ENCL = {	## TODO Enclave
+		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_very_high = yes
+	}
+	c:NAVA = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:JEFF = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:SHIS = {	## TODO Shi
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:SANF = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MARI = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:MAXS = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+
+	## Oregon
+	c:TDEN = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+	c:AROY = {
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+	c:KLAM = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
 	}
 
 	## Hawaii

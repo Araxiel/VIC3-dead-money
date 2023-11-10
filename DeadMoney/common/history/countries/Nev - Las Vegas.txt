@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:LSK = {
+	c:LVSK = {
 		effect_starting_technology_tier_5_tech = yes
 
 		effect_starting_politics_tribal_decentralized = yes

@@ -15,7 +15,7 @@ COUNTRIES = {
 		effect_starting_technology_tier_4_tech = yes	
 	
 		effect_starting_politics_raiders_decentralized = yes
-		effect_starting_politics_ghoul_society = yes
+		effect_starting_politics_egalitarian_society = yes
 	}
 	
 	c:HWT = {

@@ -41,6 +41,12 @@
 			}
 		}
 	}
+	s:STATE_BROKENHILLS = {
+		region_state:BRKH = {
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1680
+			}
 		}
 	}
 }

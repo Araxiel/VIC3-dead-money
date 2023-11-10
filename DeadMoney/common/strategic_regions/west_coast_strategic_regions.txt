@@ -9,7 +9,7 @@ region_california = {
 region_nevada = {
 	capital_province = x7ce398
 	map_color = { 0.55 0.22 0.18 }
-	states = { STATE_LASVEGAS STATE_SQUATTERLAND STATE_VAULTCITY }
+	states = { STATE_LASVEGAS STATE_SQUATTERLAND STATE_VAULTCITY STATE_DIVIDE STATE_BROKENHILLS }
 }
 
 region_oregon = {

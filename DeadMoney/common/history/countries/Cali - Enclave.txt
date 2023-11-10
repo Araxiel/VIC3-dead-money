@@ -1,0 +1,16 @@
+﻿COUNTRIES = {
+	c:ENCL = {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_enclave = yes
+		activate_law = law_type:law_autocracy		
+		activate_law = law_type:law_isolationism		
+
+	}
+	c:NAVA = {
+		effect_starting_technology_tier_5_tech = yes
+		
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+}

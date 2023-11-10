@@ -152,3 +152,7 @@ effect_starting_politics_ghoul_society = {
 effect_starting_politics_xenophobe_society = {
 
 }
+
+effect_starting_politics_enclave = {
+	effect_starting_politics_military = yes ## TODO
+}

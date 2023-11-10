@@ -14,5 +14,6 @@
 		}
 		
 		add_homeland = hawaiian
+		add_homeland = westcoast_ghoul
 	}
 }
