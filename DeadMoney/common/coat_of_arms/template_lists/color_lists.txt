@@ -166,39 +166,65 @@
 	}
 
 	raider_colors_emblem_red = {
-		20 = "red"
+		50 = "blood"
+		30 = "red"
+		20 = "red_dark"
 		10 = "red_light"
-		30 = "red_dark"
+	}
+	raider_colors_emblem_not_red_not_light = {
+		10 = "blue"
+		10 = "green"
+		10 = "sickly_green"
+		10 = "yellow"
 	}
 	raider_colors_emblem_black = {
 		10 = "black"
-	}
-	raider_colors_emblem_not_red = {
-		10 = "blue"
-		10 = "green"
+		5 = "gunmetal"
 	}
 	raider_colors_emblem_light = {
-		10 = "yellow"
-		30 = "white"
-		10 = "tan"
+		20 = "bone"
+		13 = "white"
+		5 = "yellow"
 		10 = "pearl"
+		5 = "tan"
+		7 = "sickly_green"
+	}
+	raider_colors_emblem_not_light = {
+		10 = "black"
+		15 = "red"
+		10 = "red_dark"
+		15 = "gunmetal"
 	}
 	raider_colors_bg_dark = {
 		10 = "black"
 		10 = "brown"
 		10 = "grey"
-		20 = "green_dark"
-		10 = "red_faint"
+		10 = "green_dark"
+		12 = "black_light"
+		6 = "yellow_dark"
+		8 = "blue_dark"
+		15 = "gunmetal"
+		8 = "concrete"
 	}
 	raider_colors_bg_light = {
-		10 = "green"
-		10 = "brown"
+		25 = "concrete"
+		15 = "bone"
+		10 = "blue_light"
+		10 = "green_light"
+		10 = "red_light"
 		10 = "grey"
-		20 = "green_dark"
+		15 = "brown_light"
+		10 = "black_light"
+		10 = "yellow_light"
 		10 = "red_faint"
 	}
+	raider_colors_bg_white = {
+		5 = "concrete"
+		10 = "bone"
+	}
+	raider_colors_bg_just_dark = {
+		10 = "black"
+		10 = "blue_dark"
+		10 = "gunmetal"
+	}
 }
-
-
-
-

@@ -93,10 +93,23 @@
 		10 = "pattern_border_of_4.dds"
 	}
 	## Dead Money
-	pattern_raiders = {
-		50 = "pattern_solid.dds"
-		#5 = "pattern_circle.dds"
-		5 = "pattern_horizontal_split_01.dds"
-		5 = "pattern_vertical_split_01.dds"
+	pattern_raiders_basic = {
+		10 = "pattern_solid.tga"
+		#5 = "pattern_horizontal_split_01.tga"
+		#5 = "pattern_vertical_split_01.tga"
+	}
+	pattern_raiders_improved = {
+		1 = "pattern_solid.tga"
+		1 = "pattern_horizontal_split_01.tga"
+		1 = "pattern_vertical_split_01.tga"
+		1 = "pattern_circle.dds"
+		5 = "pattern_verical_bicolor_third.dds"
+	}
+	pattern_raiders_common = {
+		9 = "pattern_solid.tga"
+		1 = "pattern_horizontal_split_01.tga"
+		1 = "pattern_vertical_split_01.tga"
+		1 = "pattern_circle.dds"
+		4 = "pattern_verical_bicolor_third.dds"
 	}
 }

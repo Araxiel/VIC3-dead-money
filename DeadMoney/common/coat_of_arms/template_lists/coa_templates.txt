@@ -408,8 +408,12 @@
 		1500 = template_anarchy_4
 	}
 	raider = {
-		3000 = template_raiders_1
-		3000 = template_raiders_2
-		3000 = template_raiders_3
+		10 = template_raiders_1	# red on dark
+		10 = template_raiders_2	# red on light
+		10 = template_raiders_3	# red-other on dark
+		30 = template_raiders_4	# light on dark
+		10 = template_raiders_5	# black on light
+		10 = template_raiders_6	# thin light
+		10 = template_raiders_7	# thin red
 	}
 }

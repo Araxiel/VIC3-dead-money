@@ -70,7 +70,7 @@ DEFAULT = {
 	}
 }
 
-NCR = { # Algeria
+NCR = {
 	flag_definition = {
 		coa = NCR
 		subject_canton = NCR					#If the game rule for modifying subject flags is on, this COA is added to the canton of this country's subjects, it does not need to match the main flag
