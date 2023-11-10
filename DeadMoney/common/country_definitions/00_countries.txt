@@ -28,7 +28,7 @@ DPacificNorthwest = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { westcoast_tribal }
 	capital = STATE_PACIFIC_NORTHWEST
 }
 
@@ -40,7 +40,7 @@ DMidwest = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_MIDWEST
 }
 
@@ -52,7 +52,7 @@ DRockies = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_ROCKIES
 }
 
@@ -64,7 +64,7 @@ DEastCoast ={
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_ROCKIES
 }
 
@@ -76,7 +76,7 @@ DOntario = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { anglo_canadian_tribal }
 	capital = STATE_ONTARIO
 }
 
@@ -88,7 +88,7 @@ DCentralCanada = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { anglo_canadian_tribal }
 	capital = STATE_CENTRAL_CANADA
 }
 
@@ -100,7 +100,7 @@ DQuebec = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { franco_canadian_tribal }
 	capital = STATE_CANADA_QUEBEC
 }
 
@@ -112,7 +112,7 @@ DCanadaAtlantic = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { anglo_canadian_tribal }
 	capital = STATE_CANADA_EAST_COAST
 }
 
@@ -124,7 +124,7 @@ DWestCanada = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { anglo_canadian_tribal }
 	capital = STATE_WEST_CANADA
 }
 
@@ -136,7 +136,7 @@ DNorthCanada = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { anglo_canadian_tribal }
 	capital = STATE_NORTH_CANADA
 }
 
@@ -148,7 +148,7 @@ DAlaska = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { alaskan_tribal }
 	capital = STATE_ALASKA
 }
 
@@ -160,7 +160,7 @@ DAleutian = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { alaskan_tribal }
 	capital = STATE_ALEUTIAN
 }
 
@@ -172,7 +172,7 @@ DSouth = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_SOUTH
 }
 
@@ -184,7 +184,7 @@ DTexas = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_TEXAS
 }
 
@@ -196,7 +196,7 @@ DFLORIDA = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { american_tribal }
 	capital = STATE_FLORIDA
 }
 
@@ -208,7 +208,7 @@ DMexico = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { hispanic_tribal }
 	capital = STATE_MEXICO
 }
 
@@ -220,7 +220,7 @@ DCentralAmerica = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { hispanic_tribal }
 	capital = STATE_CENTRALAMERICA
 }
 
@@ -232,7 +232,7 @@ DSouthAmerica = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { hispanic_tribal }
 	capital = STATE_SOUTHAMERICA
 }
 
@@ -244,6 +244,18 @@ DCaribbean = {
 	
 	tier = principality
 	
-	cultures = { tribal }
+	cultures = { hispanic_tribal }	## not really
 	capital = STATE_CARIBBEAN
+}
+
+## Debug Atlantic
+DAtlantic = {
+	color = { 109 150 229 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { icelandic danish portuguese afro_caribbean }
+	capital = STATE_ICELAND
 }

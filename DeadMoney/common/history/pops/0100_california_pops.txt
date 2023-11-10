@@ -2,89 +2,147 @@
 	s:STATE_SHADYSANDS = {
 		region_state:NCR = {
 			create_pop = {
-				culture = californian
-				size = 3500
+				culture = westcoaster
+				size = 2900
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 700
 			}
 		}
 	}
 	s:STATE_NEWRENO = {
 		region_state:NRN = {
 			create_pop = {
-				culture = californian
-				size = 4200
+				culture = westcoaster
+				size = 3800
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 800
 			}
 		}
 	}
 	s:STATE_THEHUB = {
 		region_state:JKT = {
 			create_pop = {
-				culture = californian
-				size = 1850
+				culture = westcoaster
+				size = 1100
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 500
 			}
 		}
-		region_state:THB = {
+		region_state:THUB= {
 			create_pop = {
-				culture = californian
-				size = 3300
+				culture = westcoaster
+				size = 2900
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 600
 			}
 		}
 	}
 	s:STATE_SQUATTERLAND = {
 		region_state:SQT = {
 			create_pop = {
-				culture = vaultdweller
+				culture = vaultdweller_american
 				size = 860
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 350
 			}
 		}
 	}
 
 	s:STATE_BONEYARD = {
-		region_state:TBY = {
+		region_state:TBOY= {
 			create_pop = {
-				culture = californian
-				size = 3300
+				culture = westcoaster
+				size = 2800
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 700
 			}
 		}
 	}
 
 	s:STATE_NECROPOLIS = {
-		region_state:NEC = {
+		region_state:NECR= {
 			create_pop = {
-				culture = californian	## ghouls
-				size = 3300
+				culture = westcoast_ghoul	## ghouls
+				size = 3000
+			}
+			create_pop = {
+				culture = westcoaster
+				size = 600
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 300
 			}
 		}
 	}
 
 	s:STATE_REDHILLS = {
-		region_state:RED = {
+		region_state:REDH= {
 			create_pop = {
-				culture = tribal
+				culture = westcoast_tribal
 				size = 1900
 			}
 		}
 	}
 
 	s:STATE_DAYGLOW = {
-		region_state:DAY = {
+		region_state:DAYG= {
 			create_pop = {
-				culture = californian	## some ghouls
-				size = 4200
+				culture = westcoaster	## some ghouls
+				size = 4000
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 400
 			}
 		}
 	}
 
 	s:STATE_ANZABOREGO = {
-		region_state:ANZ = {
+		region_state:ANZA= {
 			create_pop = {
-				culture = californian	## some mexican
-				size = 2600
+				culture = westcoaster
+				size = 1600
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				size = 1000
+			}
+			create_pop = {
+				culture = hispanic_tribal
+				size = 700
+			}
+			create_pop = {
+				culture = mexican
+				size = 500
 			}
 		}
 	}
 
 	s:STATE_BAJA = {
-		region_state:BAJ = {
+		region_state:BAJA= {
+			create_pop = {
+				culture = hispanic_tribal
+				size = 2300
+			}
+			create_pop = {
+				culture = mexican
+				size = 500
+			}
+		}
+	}
 			create_pop = {
 				culture = tribal	## mexican
 				size = 2600
