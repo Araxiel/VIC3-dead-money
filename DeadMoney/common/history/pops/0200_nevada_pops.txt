@@ -19,7 +19,7 @@
 			}
 		}
 	}
-	s:state_divide = {
+	s:STATE_DIVIDE = {
 		region_state:HPV = {
 			create_pop = {
 				culture = californian
