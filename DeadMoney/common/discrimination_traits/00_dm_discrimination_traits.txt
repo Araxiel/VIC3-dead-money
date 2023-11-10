@@ -4,6 +4,10 @@
 oldworld_heritage = {
 	heritage = yes
 }
+ghoul_heritage = {
+	heritage = yes
+}
+
 settled_trait = {}
 nomadic_trait = {}
 canadian = {}
