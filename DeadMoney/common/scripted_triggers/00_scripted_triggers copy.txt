@@ -1,0 +1,1437 @@
+﻿#	Example:
+# 
+#	example_trigger = {
+#		x = 100
+#		y = 50
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_trigger = yes
+#	}
+#
+
+country_has_voting_franchise = {
+	OR = {
+		modifier:country_voting_power_base_add > 0
+		modifier:country_voting_power_from_literacy_add > 0
+		modifier:country_voting_power_wealth_threshold_add > 0
+		modifier:country_academics_voting_power_add > 0
+		modifier:country_aristocrats_voting_power_add > 0
+		modifier:country_bureaucrats_voting_power_add > 0
+		modifier:country_capitalists_voting_power_add > 0
+		modifier:country_clergymen_voting_power_add > 0
+		modifier:country_clerks_voting_power_add > 0
+		modifier:country_engineers_voting_power_add > 0
+		modifier:country_farmers_voting_power_add > 0
+		modifier:country_laborers_voting_power_add > 0
+		modifier:country_machinists_voting_power_add > 0
+		modifier:country_officers_voting_power_add > 0
+		modifier:country_peasants_voting_power_add > 0
+		modifier:country_shopkeepers_voting_power_add > 0
+		modifier:country_slaves_voting_power_add > 0
+		modifier:country_soldiers_voting_power_add > 0
+	}
+}
+
+country_has_education_system = {
+	OR = {
+		has_law = law_type:law_religious_schools
+		has_law = law_type:law_public_schools
+		has_law = law_type:law_private_schools
+	}
+}
+
+is_being_incorporated = {
+	incorporation_progress > 0
+   	incorporation_progress < 1
+}
+
+violate_sovereignty_war_check = {
+	save_temporary_scope_as = relevant_war
+
+	scope:target_country = {
+		any_scope_theater = {
+			is_land_theater = yes
+
+			save_temporary_scope_as = target_theater
+
+			scope:relevant_war.attacker_warleader = {
+				any_scope_theater = {
+					is_land_theater = yes
+
+					check_area = {
+						mode = adjacent
+						target = scope:target_theater
+					}
+				}
+			}
+
+			scope:relevant_war.defender_warleader = {
+				any_scope_theater = {
+					is_land_theater = yes
+
+					check_area = {
+						mode = adjacent
+						target = scope:target_theater
+					}
+				}
+			}
+		}
+	}
+}
+
+
+has_industrialized_pm = {
+	OR = {
+		# Textile Mills
+		is_production_method_active = {
+			building_type = building_textile_mills
+			production_method = pm_mechanized_looms
+		}
+		is_production_method_active = {
+			building_type = building_textile_mills
+			production_method = pm_automatic_power_looms
+		}
+		
+		# Furniture Manufacturies
+		is_production_method_active = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_mechanized_workshops
+		}
+		is_production_method_active = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_watertube_boiler_building_furniture_manufacturies
+		}
+		is_production_method_active = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_rotary_valve_engine_building_furniture_manufacturies
+		}
+		is_production_method_active = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_assembly_lines_building_furniture_manufacturies
+		}
+
+		# Tooling Workshops
+		is_production_method_active = {
+			building_type = building_tooling_workshops
+			production_method = pm_watertube_boiler_building_tooling_workshops
+		}
+		is_production_method_active = {
+			building_type = building_tooling_workshops
+			production_method = pm_rotary_valve_engine_building_tooling_workshops
+		}
+		is_production_method_active = {
+			building_type = building_tooling_workshops
+			production_method = pm_assembly_lines_building_tooling_workshops
+		}
+
+		# Paper Mills
+		is_production_method_active = {
+			building_type = building_paper_mills
+			production_method = pm_watertube_boiler_building_paper_mills
+		}
+		is_production_method_active = {
+			building_type = building_paper_mills
+			production_method = pm_rotary_valve_engine_building_paper_mills
+		}
+
+		# Steel Mills
+		is_production_method_active = {
+			building_type = building_steel_mills
+			production_method = pm_watertube_boiler_building_steel_mills
+		}
+		is_production_method_active = {
+			building_type = building_steel_mills
+			production_method = pm_rotary_valve_engine_building_steel_mills
+		}
+
+		# Motor Industries
+		is_production_method_active = {
+			building_type = building_motor_industry
+			production_method = pm_watertube_boiler_building_motor_industry
+		}
+		is_production_method_active = {
+			building_type = building_motor_industry
+			production_method = pm_rotary_valve_engine_building_motor_industry
+		}
+	}
+}
+
+using_watertube_boiler = {
+	OR = {
+		AND = {
+			has_building = building_furniture_manufacturies
+			is_production_method_active = { 
+				building_type = building_furniture_manufacturies 
+				production_method = pm_watertube_boiler_building_furniture_manufacturies
+			}
+		}
+		AND = {
+			has_building = building_tooling_workshops
+			is_production_method_active = { 
+				building_type = building_tooling_workshops 
+				production_method = pm_watertube_boiler_building_tooling_workshops
+			}
+		}
+		AND = {
+			has_building = building_paper_mills
+			is_production_method_active = { 
+				building_type = building_paper_mills
+				production_method = pm_watertube_boiler_building_paper_mills
+			}
+		}
+		AND = {
+			has_building = building_steel_mills
+			is_production_method_active = { 
+				building_type = building_steel_mills
+				production_method = pm_watertube_boiler_building_steel_mills
+			}
+		}
+		AND = {
+			has_building = building_motor_industry
+			is_production_method_active = { 
+				building_type = building_motor_industry
+				production_method = pm_watertube_boiler_building_motor_industry
+			}
+		}
+		AND = {
+			has_building = building_tooling_workshops
+			is_production_method_active = { 
+				building_type = building_tooling_workshops 
+				production_method = pm_watertube_boiler_building_tooling_workshops
+			}
+		}
+	}
+}
+
+countries_are_valid_rivals = {
+	has_overlapping_interests = scope:target_country
+	
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:great_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:great_power
+				country_rank = rank_value:major_power
+			}
+		}		
+	}
+	
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:major_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:great_power
+				country_rank = rank_value:major_power
+				country_rank = rank_value:minor_power
+			}
+		}		
+	}
+
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:minor_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:major_power
+				country_rank = rank_value:minor_power
+				country_rank = rank_value:insignificant_power
+			}
+		}		
+	}
+
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:insignificant_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:minor_power
+				country_rank = rank_value:insignificant_power
+			}
+		}		
+	}
+
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:unrecognized_major_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:unrecognized_major_power
+				country_rank = rank_value:unrecognized_regional_power
+			}
+		}		
+	}
+
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:unrecognized_regional_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:unrecognized_major_power
+				country_rank = rank_value:unrecognized_regional_power
+				country_rank = rank_value:unrecognized_power
+			}
+		}		
+	}
+
+	trigger_if = {
+		limit = {
+			country_rank = rank_value:unrecognized_power
+		}
+		scope:target_country = { 
+			OR = {
+				country_rank = rank_value:unrecognized_regional_power
+				country_rank = rank_value:unrecognized_power
+			}
+		}		
+	}			
+}
+
+in_earthquake_zone = {
+	OR = {
+		region = sr:region_central_america
+		region = sr:region_california
+	}
+}
+
+in_volcanic_zone = {
+	OR = {
+		state_region = s:STATE_ICELAND
+		state_region = s:STATE_HAWAII
+	}
+}
+
+on_river = {
+	OR = {
+		has_state_trait = state_trait_rhine_river
+		has_state_trait = state_trait_danube_river
+		has_state_trait = state_trait_drava_river
+		has_state_trait = state_trait_volga_river
+		has_state_trait = state_trait_elbe_river
+		has_state_trait = state_trait_oder_river
+		has_state_trait = state_trait_dnieper_river
+		has_state_trait = state_trait_rhone_river
+		has_state_trait = state_trait_loire_river
+		has_state_trait = state_trait_seine_river
+		has_state_trait = state_trait_nile_river
+		has_state_trait = state_trait_congo_river
+		has_state_trait = state_trait_niger_river
+		has_state_trait = state_trait_zambezi_river
+		has_state_trait = state_trait_yangtze_river
+		has_state_trait = state_trait_pearl_river
+		has_state_trait = state_trait_yellow_river
+		has_state_trait = state_trait_ganges_river
+		has_state_trait = state_trait_tigris_river
+		has_state_trait = state_trait_euphrates_river
+		has_state_trait = state_trait_indus_river
+		has_state_trait = state_trait_brahmaputra_river
+		has_state_trait = state_trait_mekong_river
+		has_state_trait = state_trait_ob_river
+		has_state_trait = state_trait_po_river
+		has_state_trait = state_trait_mississippi_river
+		has_state_trait = state_trait_ohio_river
+		has_state_trait = state_trait_columbia_river
+		has_state_trait = state_trait_orinoco_river
+		has_state_trait = state_trait_uruguay_river
+		has_state_trait = state_trait_parana_river
+		has_state_trait = state_trait_paraguay_river
+		has_state_trait = state_trait_amazon_river
+	}
+}
+
+has_government_building = {
+	OR = {
+		has_building = building_university
+		has_building = building_arts_academy
+	}
+}
+
+has_military_building = {
+	OR = {
+		has_building = building_barracks
+		has_building = building_naval_base
+	}
+}
+
+has_industry_building = {
+	OR = {
+		has_building = building_food_industry
+		has_building = building_textile_mills
+		has_building = building_furniture_manufacturies
+		has_building = building_glassworks
+		has_building = building_tooling_workshops
+		has_building = building_paper_mills
+	}
+}
+
+is_industry_building = {
+	OR = {
+		is_building_type = building_food_industry
+		is_building_type = building_textile_mills
+		is_building_type = building_furniture_manufacturies
+		is_building_type = building_glassworks
+		is_building_type = building_tooling_workshops
+		is_building_type = building_paper_mills
+	}
+}
+
+has_heavy_industry_building = {
+	OR = {
+		has_building = building_chemical_plants
+		has_building = building_synthetics_plants
+		has_building = building_steel_mills
+		has_building = building_motor_industry
+		has_building = building_war_machine_industry
+		has_building = building_electrics_industry
+		has_building = building_munition_plants
+		has_building = building_power_plant
+	}
+}
+
+is_heavy_industry_building = {
+	OR = {
+		is_building_type = building_chemical_plants
+		is_building_type = building_synthetics_plants
+		is_building_type = building_steel_mills
+		is_building_type = building_motor_industry
+		is_building_type = building_war_machine_industry
+		is_building_type = building_electrics_industry
+		is_building_type = building_munition_plants
+		is_building_type = building_power_plant
+	}
+}
+
+state_in_africa = {
+	custom_tooltip = {
+		text = state_in_africa_desc
+		always = no
+	}
+}
+
+has_subsistence_building = {
+	any_scope_building = {
+		is_subsistence_building = yes
+	}
+}
+
+owned_central_asia_region_states = {
+	always = no
+}
+
+owned_great_plains_region_states = {
+	always = no
+}
+
+owned_pacific_coast_region_states = {
+	always = no
+}
+
+french_treaty_ports = {
+	always = no
+}
+
+german_treaty_ports = {
+	always = no
+}
+
+british_treaty_ports = {
+	always = no
+}
+
+italian_treaty_ports = {
+	always = no
+}
+	
+iberian_treaty_ports = {
+	always = no
+}
+
+european_colonies_north_africa = {
+	always = no
+}
+
+european_colonies_west_africa = {
+	always = no
+}
+
+european_colonies_nile_basin = {
+	always = no
+}
+
+european_colonies_central_africa = {
+	always = no
+}
+
+european_colonies_east_africa = {
+	always = no
+}
+
+european_colonies_south_africa = {
+	always = no
+}
+
+owned_andes_region_states = {
+	always = no
+}
+
+owned_gran_colombia_region_states = {
+	always = no
+}
+
+owned_la_plata_region_states = {
+	always = no
+}
+
+is_farm_building = {
+	#or = {
+	#	is_building_type = building_rye_farm
+	#	is_building_type = building_wheat_farm
+	#	is_building_type = building_rice_farm
+	#	is_building_type = building_maize_farm
+	#	is_building_type = building_millet_farm
+	#	is_building_type = building_livestock_ranch
+	#}
+	# TODO could be added
+	always = no
+}
+
+has_farm_building = {
+	#OR = {
+	#	has_building = building_rye_farm
+	#	has_building = building_wheat_farm
+	#	has_building = building_rice_farm
+	#	has_building = building_maize_farm
+	#	has_building = building_millet_farm
+	#	has_building = building_livestock_ranch
+	#}
+	# TODO could be added
+	always = no
+}
+
+is_production_building = {
+	#or = {
+	#	is_building_type = building_coal_mine
+	#	is_building_type = building_iron_mine
+	#	is_building_type = building_lead_mine
+	#	is_building_type = building_sulfur_mine
+	#	is_building_type = building_logging_camp
+	#	is_building_type = building_oil_rig
+	#	is_building_type = building_coffee_plantation
+	#	is_building_type = building_cotton_plantation
+	#	is_building_type = building_dye_plantation
+	#	is_building_type = building_opium_plantation
+	#	is_building_type = building_tea_plantation
+	#	is_building_type = building_tobacco_plantation
+	#	is_building_type = building_sugar_plantation
+	#	is_building_type = building_rubber_plantation
+	#	is_building_type = building_banana_plantation
+	#	is_building_type = building_silk_plantation
+	#	is_building_type = building_whaling_station
+	#	is_building_type = building_livestock_ranch
+	#	is_building_type = building_maize_farm
+	#	is_building_type = building_millet_farm
+	#	is_building_type = building_rice_farm
+	#	is_building_type = building_wheat_farm
+	#	is_building_type = building_rye_farm
+	#	is_building_type = building_food_industry
+	#	is_building_type = building_textile_mills
+	#	is_building_type = building_furniture_manufacturies
+	#	is_building_type = building_glassworks
+	#	is_building_type = building_tooling_workshops
+	#	is_building_type = building_paper_mills
+	#	is_building_type = building_chemical_plants
+	#	is_building_type = building_synthetics_plants
+	#	is_building_type = building_steel_mills
+	#	is_building_type = building_motor_industry
+	#	is_building_type = building_shipyards
+	#	is_building_type = building_electrics_industry
+	#	is_building_type = building_war_machine_industry
+	#	is_building_type = building_arms_industry
+	#	is_building_type = building_artillery_foundries
+	#	is_building_type = building_munition_plants
+	#	is_building_type = building_power_plant
+	#	is_building_type = building_fishing_wharf
+	#}
+	# TODO could be added
+	always = no
+}
+
+
+will_be_accepted_culture = {
+    OR = {
+        AND = {
+            owner = { is_enacting_law = law_type:law_ethnostate }
+            culture = { is_primary_culture_of = root }
+        }
+        AND = {
+            owner = { is_enacting_law = law_type:law_national_supremacy }
+            AND = {
+				culture = { shares_heritage_trait_with_any_primary_culture = root }
+				culture = { shares_non_heritage_trait_with_any_primary_culture = root }
+			}
+        }
+        AND = {
+            owner = { is_enacting_law = law_type:law_racial_segregation }
+            culture = { shares_heritage_trait_with_any_primary_culture = root }
+        }
+        AND = {
+            owner = { is_enacting_law = law_type:law_cultural_exclusion }
+            culture = { shares_trait_with_any_primary_culture = root }
+        }
+        owner = { is_enacting_law = law_type:law_multicultural }
+    }
+}
+
+
+
+
+# used as a trigger in AI script to ensure the AI won't be mean to a player who's still getting their bearings
+is_still_learning = {
+	is_player = yes
+	#has_objective = objective_tutorial
+	#NOT = { has_completed_subgoal = sg_start_diplomatic_play }
+	always = no
+}
+
+law_can_hurt_minorities = {
+	OR = {
+		is_enacting_law = law_type:law_state_religion				
+		is_enacting_law = law_type:law_national_supremacy
+		is_enacting_law = law_type:law_racial_segregation
+		is_enacting_law = law_type:law_cultural_exclusion
+		is_enacting_law = law_type:law_traditionalism
+		is_enacting_law = law_type:law_isolationism
+		is_enacting_law = law_type:law_mercantilism
+		is_enacting_law = law_type:law_agrarianism
+		is_enacting_law = law_type:law_free_trade
+		is_enacting_law = law_type:law_command_economy
+		is_enacting_law = law_type:law_private_schools
+		is_enacting_law = law_type:law_religious_schools
+		is_enacting_law = law_type:law_censorship
+		is_enacting_law = law_type:law_graduated_taxation
+		is_enacting_law = law_type:law_proportional_taxation
+		is_enacting_law = law_type:law_secret_police
+		is_enacting_law = law_type:law_serfdom
+		is_enacting_law = law_type:law_no_migration_controls
+		is_enacting_law = law_type:law_migration_controls
+		is_enacting_law = law_type:law_closed_borders
+		is_enacting_law = law_type:law_no_social_security
+		is_enacting_law = law_type:law_debt_slavery
+		is_enacting_law = law_type:law_slave_trade
+	}
+}## TODO
+
+
+has_distillery = {
+	always = no
+	#any_scope_building = {
+	#	OR = {
+	#		has_active_production_method = pm_pot_stills
+	#		has_active_production_method = pm_patent_stills
+	#	}
+	#}
+}## TODO
+
+is_distillery = {
+	always = no
+	#OR = {
+	#	has_active_production_method = pm_pot_stills
+	#	has_active_production_method = pm_patent_stills
+	#}
+}## TODO
+
+is_raw_industries_building = {
+	#or = {
+	#	is_building_type = building_coal_mine
+	#	is_building_type = building_iron_mine
+	#	is_building_type = building_lead_mine
+	#	is_building_type = building_sulfur_mine
+	#	is_building_type = building_logging_camp
+	#	is_building_type = building_whaling_station
+	#}
+	always = no
+}## TODO
+is_plantation_building = {
+	#or = {
+	#	is_building_type = building_coffee_plantation
+	#	is_building_type = building_cotton_plantation
+	#	is_building_type = building_dye_plantation
+	#	is_building_type = building_opium_plantation
+	#	is_building_type = building_tea_plantation
+	#	is_building_type = building_tobacco_plantation
+	#	is_building_type = building_sugar_plantation
+	#	is_building_type = building_rubber_plantation
+	#	is_building_type = building_banana_plantation
+	#	is_building_type = building_silk_plantation
+	#	is_building_type = building_vineyard_plantation
+	#}
+	always = no
+}## TODO
+
+is_economic_objective_building = {
+	#or = {
+	#	is_building_type = building_coal_mine
+	#	is_building_type = building_iron_mine
+	#}
+}## TODO
+
+is_non_customs_union_subject = {
+	is_subject = yes
+	NOT = { is_subject_type = subject_type_customs_union }
+}
+
+has_addiction = {
+	OR = {
+		has_trait = alcoholic
+		has_trait = opium_addiction
+		has_trait = cocaine_addiction
+	}
+}	## TODO
+
+is_commander = {
+	OR = {
+		has_role = general
+		has_role = admiral
+	}
+}
+
+is_on_front = {
+	OR = {
+		has_commander_order = advance
+		has_commander_order = defend
+	}
+}
+
+has_colonial_growth = {
+	colonial_growth_per_colony > 0
+}
+
+language_accepted = {
+	always = yes
+}
+ 
+default_auto_expand_rule = { 
+	cash_reserves_ratio > 0.95
+	state.market_access >= 0.95
+}
+
+is_in_civil_war = {
+	custom_tooltip = {
+		text = is_in_civil_war_tt
+		any_diplomatic_play = {
+			any_scope_play_involved = {
+				this = root
+			}
+			initiator = {
+				NOT = { this = ROOT }
+				country_definition = root.country_definition
+			}
+		}
+	}
+}
+
+# IG scope
+has_paternalist_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_paternalistic
+		has_ideology = ideology:ideology_scholar_paternalistic
+		has_ideology = ideology:ideology_junker_paternalistic
+		has_ideology = ideology:ideology_papal_paternalistic
+	}
+}
+
+can_reach_target_country = {
+	has_diplomatic_relevance = scope:target_country
+	OR = {
+		has_strategic_adjacency = scope:target_country
+		AND = {
+			navy_size >= 10
+			has_port = yes
+			scope:target_country = { has_port = yes }
+		}
+	}
+}
+
+can_reach_target_state = {
+	has_diplomatic_relevance = scope:target_state.owner
+	OR = {
+		has_strategic_adjacency = scope:target_state
+		AND = {
+			navy_size >= 10
+			has_port = yes
+			scope:target_state = { is_coastal = yes }
+		}
+	}
+}
+
+is_peasant_under_serfdom = {
+	is_pop_type = peasants
+	owner = {
+		has_law = law_type:law_serfdom
+	}
+}
+
+has_radical_leftist_government = {
+	has_law = law_type:law_council_republic	
+}
+
+has_radical_leftist_economy = {
+	OR = {
+		has_law = law_type:law_command_economy	
+		has_law = law_type:law_cooperative_ownership
+	}
+}
+
+any_revolution_ongoing = {
+	any_political_movement = {
+		is_revolutionary_movement = yes
+	}
+}
+
+socialist_revolution_ongoing = {
+	custom_tooltip = {
+		text = socialist_revolution_ongoing_tt
+		any_political_movement = {
+			is_revolutionary_movement = yes
+			OR = {
+				any_supporting_interest_group = {
+					law_stance = {
+						law = law_type:law_council_republic
+						value > neutral
+					}
+				}
+				any_supporting_character = {
+					has_role = agitator
+					law_stance = {
+						law = law_type:law_council_republic
+						value > neutral
+					}
+				}
+			}		
+		}	
+	}		
+}
+
+liberal_revolution_ongoing = {
+	custom_tooltip = {
+		text = liberal_revolution_ongoing_tt
+		any_political_movement = {
+			is_revolutionary_movement = yes
+			OR = {
+				any_supporting_interest_group = {
+					OR = {
+						has_ideology = ideology:ideology_republican
+						has_ideology = ideology:ideology_liberal
+						leader = {
+							OR = {
+								has_ideology = ideology:ideology_radical
+								has_ideology = ideology:ideology_republican_leader
+								has_ideology = ideology:ideology_social_democrat
+								has_ideology = ideology:ideology_humanitarian
+								has_ideology = ideology:ideology_feminist
+							}		
+						}
+						AND = {
+							law_stance = {
+								law = law_type:law_autocracy
+								value < neutral
+							}
+							law_stance = {
+								law = law_type:law_council_republic
+								value < neutral
+							}
+						}
+					}
+				}
+				any_supporting_character = {
+					has_role = agitator
+					OR = {
+						has_ideology = ideology:ideology_radical
+						has_ideology = ideology:ideology_republican_leader
+						has_ideology = ideology:ideology_social_democrat
+						has_ideology = ideology:ideology_humanitarian
+						has_ideology = ideology:ideology_feminist
+					}
+					AND = {
+						law_stance = {
+							law = law_type:law_autocracy
+							value < neutral
+						}
+						law_stance = {
+							law = law_type:law_council_republic
+							value < neutral
+						}
+					}
+				}
+			}		
+		}
+	}
+}
+
+reactionary_revolution_ongoing = {
+	custom_tooltip = {
+		text = reactionary_revolution_ongoing_tt
+		any_political_movement = {
+			is_revolutionary_movement = yes
+			OR = {
+				any_supporting_interest_group = {
+					OR = {
+						has_ideology = ideology:ideology_pro_slavery
+						has_ideology = ideology:ideology_paternalistic
+						leader = {
+							OR = {
+								has_ideology = ideology:ideology_slaver
+								has_ideology = ideology:ideology_fascist
+								has_ideology = ideology:ideology_royalist
+								has_ideology = ideology:ideology_orleanist
+								has_ideology = ideology:ideology_bonapartist
+								has_ideology = ideology:ideology_legitimist
+								has_ideology = ideology:ideology_theocrat
+								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_traditionalist
+							}
+						}
+						AND = {
+							law_stance = {
+								law = law_type:law_autocracy
+								value >= neutral
+							}
+							law_stance = {
+								law = law_type:law_council_republic
+								value < neutral
+							}
+						}
+					}
+				}
+				any_supporting_character = {
+					has_role = agitator
+					OR = {
+						has_ideology = ideology:ideology_slaver
+						has_ideology = ideology:ideology_fascist
+						has_ideology = ideology:ideology_royalist
+						has_ideology = ideology:ideology_orleanist
+						has_ideology = ideology:ideology_bonapartist
+						has_ideology = ideology:ideology_legitimist
+						has_ideology = ideology:ideology_theocrat
+						has_ideology = ideology:ideology_ethno_nationalist
+						has_ideology = ideology:ideology_traditionalist
+					}
+					AND = {
+						OR = {
+							law_stance = {
+								law = law_type:law_autocracy
+								value >= neutral
+							}
+							law_stance = {
+								law = law_type:law_national_supremacy
+								value >= neutral
+							}
+							law_stance = {
+								law = law_type:law_slavery_banned
+								value < neutral
+							}
+						}
+						law_stance = {
+							law = law_type:law_council_republic
+							value < neutral
+						}
+					}
+				}
+			}		
+		}
+	}	
+}
+
+ig_is_socialist = {
+	OR = {
+		has_ideology = ideology:ideology_socialist
+		leader = {
+			has_ideology = ideology:ideology_vanguardist
+		}
+		leader = {
+			has_ideology = ideology:ideology_atheist
+		}
+		leader = {
+			has_ideology = ideology:ideology_anarchist
+		}
+		leader = {
+			has_ideology = ideology:ideology_communist
+		}
+		law_stance = {
+			law = law_type:law_council_republic
+			value > neutral
+		}
+	}
+}
+
+ig_is_liberal = {
+	OR = {
+		has_ideology = ideology:ideology_republican
+		has_ideology = ideology:ideology_liberal
+		leader = {
+			has_ideology = ideology:ideology_radical
+		}
+		leader = {
+			has_ideology = ideology:ideology_republican_leader
+		}
+		leader = {
+			has_ideology = ideology:ideology_social_democrat
+		}
+		AND = {
+			law_stance = {
+				law = law_type:law_autocracy
+				value < neutral
+			}
+			law_stance = {
+				law = law_type:law_council_republic
+				value < neutral
+			}
+		}
+	}
+}
+
+ig_is_reactionary = {
+	OR = {
+		has_ideology = ideology:ideology_reactionary
+		has_ideology = ideology:ideology_pro_slavery
+		leader = {
+			OR = {
+				has_ideology = ideology:ideology_slaver
+				has_ideology = ideology:ideology_fascist
+				has_ideology = ideology:ideology_royalist
+				has_ideology = ideology:ideology_orleanist
+				has_ideology = ideology:ideology_bonapartist
+				has_ideology = ideology:ideology_legitimist
+				has_ideology = ideology:ideology_theocrat
+			}
+		}
+		AND = {
+			law_stance = {
+				law = law_type:law_autocracy
+				value >= neutral
+			}
+			law_stance = {
+				law = law_type:law_council_republic
+				value < neutral
+			}
+		}
+	}
+}
+
+revolution_progress_low = {
+	any_civil_war = {
+		civil_war_progress >= 0
+		NOT = {
+			civil_war_progress >= 0.34
+		}
+		is_civil_war_type = revolution
+	}
+}
+
+revolution_progress_medium = {
+	any_civil_war = {
+		civil_war_progress >= 0.34
+		NOT = {
+			civil_war_progress >= 0.67
+		}
+		is_civil_war_type = revolution
+	}
+}
+
+revolution_progress_high = {
+	any_civil_war = {
+		civil_war_progress >= 0.67
+		is_civil_war_type = revolution
+	}
+}
+
+government_ig_supports_enaction = {
+	any_interest_group = {
+		is_marginal = no
+		is_in_government = yes
+		law_stance = {
+			law = owner.currently_enacting_law.type
+			value > neutral
+		}
+	}
+}
+
+movement_supports_enaction = {
+	any_political_movement = {
+		OR = {	
+			is_political_movement_type = movement_to_enact
+			is_political_movement_type = movement_to_restore	
+		}
+		desired_law = root.currently_enacting_law.type
+	}
+}
+
+agitator_supports_enaction = {
+	any_scope_character = {
+		has_role = agitator
+		law_stance = {
+			law = owner.currently_enacting_law.type
+			value > neutral
+		}
+		NOT = {
+			law_stance = {
+				law = owner.currently_enacting_law.type
+				value > strongly_approve # Equals 'count'
+			}
+		}
+	}
+}
+
+government_ig_opposes_enaction = {
+	any_interest_group = {
+		is_marginal = no
+		is_in_government = yes
+		law_stance = {
+			law = owner.currently_enacting_law.type
+			value < neutral
+		}
+	}
+}
+
+movement_opposes_enaction = {
+	any_political_movement = {
+		is_political_movement_type = movement_to_preserve
+	}
+}
+
+agitator_opposes_enaction = {
+	any_scope_character = {
+		has_role = agitator
+		law_stance = {
+			law = owner.currently_enacting_law.type
+			value < neutral
+		}
+		NOT = {
+			law_stance = {
+				law = owner.currently_enacting_law.type
+				value > strongly_approve # Equals 'count'
+			}
+		}
+	}
+}
+
+government_ig_ambivalent_enaction = {
+	any_interest_group = {
+		is_marginal = no
+		is_in_government = yes
+		law_stance = {
+			law = owner.currently_enacting_law.type
+			value = neutral
+		}
+	}
+}
+ig_is_dreyfusard = {
+	OR = {
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_industrialists
+	}
+	OR = {
+		leader = {
+			has_ideology = ideology:ideology_vanguardist
+		}
+		leader = {
+			has_ideology = ideology:ideology_atheist
+		}
+		leader = {
+			has_ideology = ideology:ideology_anarchist
+		}
+		leader = {
+			has_ideology = ideology:ideology_communist
+		}
+		leader = {
+			has_ideology = ideology:ideology_republican_leader
+		}
+		leader = {
+			has_ideology = ideology:ideology_radical
+		}
+		leader = {
+			has_ideology = ideology:ideology_feminist
+		}
+		leader = {
+			has_ideology = ideology:ideology_abolitionist
+		}
+		leader = {
+			has_ideology = ideology:ideology_pacifist
+		}
+		leader = {
+			has_ideology = ideology:ideology_social_democrat
+		}
+		leader = {
+			has_ideology = ideology:ideology_humanitarian
+		}
+	}
+}
+
+ig_is_anti_dreyfusard = {
+	OR = {
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_industrialists
+	}
+	OR = {
+		leader = {
+			has_ideology = ideology:ideology_traditionalist
+		}
+		leader = {
+			has_ideology = ideology:ideology_slaver
+		}
+		leader = {
+			has_ideology = ideology:ideology_jingoist_leader
+		}
+		leader = {
+			has_ideology = ideology:ideology_fascist
+		}
+		leader = {
+			has_ideology = ideology:ideology_ethno_nationalist
+		}
+		leader = {
+			has_ideology = ideology:ideology_theocrat
+		}
+		leader = {
+			has_ideology = ideology:ideology_authoritarian
+		}
+		leader = {
+			has_ideology = ideology:ideology_legitimist
+		}
+		leader = {
+			has_ideology = ideology:ideology_bonapartist
+		}
+		leader = {
+			has_ideology = ideology:ideology_orleanist
+		}
+		leader = {
+			has_ideology = ideology:ideology_royalist
+		}
+	}
+}
+
+ig_type_matches_former = { #Temporary Workaround
+	save_temporary_scope_as = exile_temp
+	custom_tooltip = {
+		text = ig_type_matches_former_tt
+		OR = {
+			AND = {
+				is_interest_group_type = ig_armed_forces
+				scope:ex_ig = {
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_devout
+				scope:ex_ig = {
+					is_interest_group_type = ig_devout
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_industrialists
+				scope:ex_ig = {
+					is_interest_group_type = ig_industrialists
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_intelligentsia
+				scope:ex_ig = {
+					is_interest_group_type = ig_intelligentsia
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_landowners
+				scope:ex_ig = {
+					is_interest_group_type = ig_landowners
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_petty_bourgeoisie
+				scope:ex_ig = {
+					is_interest_group_type = ig_petty_bourgeoisie
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_rural_folk
+				scope:ex_ig = {
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+			AND = {
+				is_interest_group_type = ig_trade_unions
+				scope:ex_ig = {
+					is_interest_group_type = ig_trade_unions
+				}
+			}
+		}
+	}
+}	## TODO
+
+#It is intended that some of these categories overlap.
+# TODO
+has_liberal_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_republican_leader
+		has_ideology = ideology:ideology_radical
+		has_ideology = ideology:ideology_reformer
+		has_ideology = ideology:ideology_abolitionist
+		has_ideology = ideology:ideology_market_liberal
+	}
+}
+
+has_progressive_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_atheist
+		has_ideology = ideology:ideology_radical
+		has_ideology = ideology:ideology_feminist
+		has_ideology = ideology:ideology_pacifist
+		has_ideology = ideology:ideology_social_democrat
+		has_ideology = ideology:ideology_humanitarian
+	}
+}
+
+has_socialist_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_communist
+		has_ideology = ideology:ideology_vanguardist
+		has_ideology = ideology:ideology_anarchist
+	}
+}
+
+has_reactionary_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_traditionalist
+		has_ideology = ideology:ideology_fascist
+		has_ideology = ideology:ideology_ethno_nationalist
+		has_ideology = ideology:ideology_theocrat
+		has_ideology = ideology:ideology_legitimist
+		has_ideology = ideology:ideology_luddite
+	}
+}
+
+has_conservative_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_traditionalist
+		has_ideology = ideology:ideology_slaver
+		has_ideology = ideology:ideology_royalist
+		has_ideology = ideology:ideology_orleanist
+		has_ideology = ideology:ideology_bonapartist
+		has_ideology = ideology:ideology_theocrat
+	}
+}
+
+has_monarchist_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_royalist
+		has_ideology = ideology:ideology_orleanist
+		has_ideology = ideology:ideology_bonapartist
+		has_ideology = ideology:ideology_legitimist	
+	}
+}
+
+can_have_radical_leader = { # interest_group scope
+	leader = {
+		NOT = {
+			has_ideology = ideology:ideology_radical
+		}
+	}
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+is_major_unifier = {
+	always = no
+}
+
+wants_to_solve_schleswig_holstein = {
+	#has_journal_entry = je_schleswig_holstein_question 
+	#has_technology_researched = nationalism 
+	#country_rank >= rank_value:great_power
+	always = no
+}
+
+is_oppressor_of_schleswig_holstein = {
+	#NOR = {
+	#	country_has_primary_culture = cu:north_german
+	#	country_has_primary_culture = cu:south_german						
+	#}
+	#OR = {
+	#	any_scope_state = { state_region = s:STATE_SCHLESWIG_HOLSTEIN }
+	#	any_subject_or_below = {
+	#		any_scope_state = { state_region = s:STATE_SCHLESWIG_HOLSTEIN }
+	#	}
+	#}
+	always = no
+}
+
+is_active_in_diplomatic_play = {
+	OR = {
+		is_diplomatic_play_committed_participant = yes
+		is_diplomatic_play_initiator = yes
+		is_diplomatic_play_target = yes
+	}
+}
+
+budget_low_training_rate = {
+	modifier:building_training_rate_mult < 0
+	OR = {
+		is_active_in_diplomatic_play = yes
+		is_at_war = yes
+	}
+}
+
+diplomatic_play_has_no_relations_blockers = {
+	diplomatic_play_has_no_relations_blocker_with_target = yes
+	diplomatic_play_has_no_relations_blocker_with_overlord = yes
+}
+
+diplomatic_play_has_no_relations_blocker_with_target = {
+	custom_tooltip = {
+		text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER_NOT
+		scope:target_country.relations:root < relations_threshold:cordial
+	}		
+}
+
+diplomatic_play_has_no_relations_blocker_with_overlord = {
+	trigger_if = {
+		limit = { scope:target_country = { is_subject = yes } }
+		custom_tooltip = {
+			text = DIPLO_ACTION_OVERLORD_RELATIONS_CORDIAL_OR_GREATER_NOT
+			scope:target_country.overlord.relations:root < relations_threshold:cordial
+		}	
+	}
+	trigger_if = {
+		limit = { 
+			scope:target_country = { 
+				is_subject = yes 
+				NOT = { overlord = top_overlord }
+			} 		
+		}
+		custom_tooltip = {
+			text = DIPLO_ACTION_TOP_OVERLORD_RELATIONS_CORDIAL_OR_GREATER_NOT
+			scope:target_country.overlord.relations:root < relations_threshold:cordial
+		}	
+	}
+}
