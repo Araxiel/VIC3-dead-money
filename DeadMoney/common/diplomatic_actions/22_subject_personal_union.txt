@@ -1,10 +1,6 @@
 ﻿personal_union = {
 	can_select = no
 
-	unlocking_technologies = {
-		tech_subjugation
-	}
-
 	potential = { # Only created through diplomatic plays
 		always = no
 	}

@@ -1,1 +1,15 @@
-﻿
+﻿objective_hegemon = {
+	background = "gfx/interface/icons/objectives/hegemon_illu.dds"
+	icon = "gfx/interface/icons/objectives/hegemon.dds"
+	
+	recommended_tags = { NCR ENCL }	
+	
+	objective_subgoals = {
+
+	}
+	
+	final_subgoal = sg_the_hegemon
+	
+	on_start = {
+	}
+}
