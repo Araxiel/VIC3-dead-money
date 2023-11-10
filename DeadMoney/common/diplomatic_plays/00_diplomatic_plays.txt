@@ -11,6 +11,7 @@
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
 		}
+		has_technology_researched = tech_investment_opportunities
 	}
 
 	on_weekly_pulse = {}
@@ -33,6 +34,7 @@ dp_regime_change = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 		}	
+		has_technology_researched = tech_government_structure
 	}
 
 	on_weekly_pulse = {}
@@ -53,7 +55,8 @@ dp_ban_slavery = {
 		NOT = { is_subject_of = scope:target_country }	
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
-		}	
+		}
+		has_technology_researched = tech_human_rights
 	}
 
 	on_weekly_pulse = {}
@@ -77,6 +80,7 @@ dp_conquer_state = {
 			NOT = { is_subject_of = root }
 		}	
 		diplomatic_play_has_no_relations_blockers = yes		
+		has_technology_researched = tech_subjugation
 	}
 	
 	on_weekly_pulse = {}
