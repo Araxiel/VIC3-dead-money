@@ -5,5 +5,76 @@
 			type = customs_union
 		}
 		set_relations = { country = c:JKT value = 30 }
+		set_relations = { country = c:NECR value = 30 }
+		set_relations = { country = c:MAXS value = 30 }
+		set_relations = { country = c:DAYG value = 30 }
+	}
+	c:NRSA = {
+		create_diplomatic_pact = {
+			country = c:NRWR
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:NRWR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRMO
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:NRMO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRBH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:NRBH
+			type = rivalry
+		}
+	}
+	c:NRWR = {
+		create_diplomatic_pact = {
+			country = c:NRSA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRMO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRBH
+			type = rivalry
+		}
+	}
+	c:NRMO = {
+		create_diplomatic_pact = {
+			country = c:NRSA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRWR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRBH
+			type = rivalry
+		}
+	}
+	c:NRBH = {
+		create_diplomatic_pact = {
+			country = c:NRSA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRWR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NRMO
+			type = rivalry
+		}
 	}
 }

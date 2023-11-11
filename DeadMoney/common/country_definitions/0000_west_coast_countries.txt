@@ -19,13 +19,61 @@ NCR = {
 	capital = STATE_SHADYSANDS
 }
 
-# New Reno
-NRN = {
-	color = hsv{ 168 136 179 }
+# New Reno, hypothetical, unified, releasable
+NRNO = {
+	color = hsv{ 186 70 109 }
 
 	country_type = recognized
 
 	tier = kingdom	
+	
+	cultures = { westcoaster }
+	capital = STATE_NEWRENO
+}
+
+# New Reno Mordinos
+NRMO = {
+	color = hsv{ 130 159 68 }
+
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { westcoaster }
+	capital = STATE_NEWRENO
+}
+
+# New Reno Bishops
+NRBH = {
+	color = hsv{ 230 218 139 }
+
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { westcoaster }
+	capital = STATE_NEWRENO
+}
+
+# New Reno Wrights
+NRWR = {
+	color = hsv{ 95 90 96 }
+
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { westcoaster }
+	capital = STATE_NEWRENO
+}
+
+# New Reno Salvatores
+NRSA = {
+	color = hsv{ 116 69 85 }
+
+	country_type = recognized
+
+	tier = grand_principality
 	
 	cultures = { westcoaster }
 	capital = STATE_NEWRENO
@@ -211,7 +259,7 @@ ENCL = {
 	
 	tier = grand_principality
 	
-	cultures = { westcoaster }
+	cultures = { oldworldamerican }
 	capital = STATE_NAVARO
 
 }

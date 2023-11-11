@@ -12,14 +12,52 @@
 		}
 	}
 	s:STATE_NEWRENO = {
-		region_state:NRN = {
+		region_state:NRMO = {
 			create_pop = {
 				culture = westcoaster
-				size = 3800
+				religion = religion_oldworldblues
+				size = 1000
 			}
 			create_pop = {
 				culture = westcoast_tribal
-				size = 800
+				religion = animist
+				size = 500
+			}
+		}
+		region_state:NRBH = {
+			create_pop = {
+				culture = westcoaster
+				religion = religion_oldworldblues
+				size = 500
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				religion = animist
+				size = 1000
+			}
+		}
+		region_state:NRWR = {
+			create_pop = {
+				culture = westcoaster
+				religion = religion_oldworldblues
+				size = 1200
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				religion = animist
+				size = 200
+			}
+		}
+		region_state:NRSA = {
+			create_pop = {
+				culture = westcoaster
+				religion = religion_oldworldblues
+				size = 1600
+			}
+			create_pop = {
+				culture = westcoast_tribal
+				religion = animist
+				size = 200
 			}
 		}
 	}
