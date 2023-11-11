@@ -1,0 +1,32 @@
+﻿COUNTRIES = {
+	c:LVSK = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:LBR = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:LSW = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_tribal_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+	c:HPV = {
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_decent_settlers = yes
+		effect_starting_politics_egalitarian_society = yes
+	}
+	c:VPS = {
+		effect_starting_technology_tier_5_tech = yes
+
+		effect_starting_politics_raiders_decentralized = yes
+		effect_starting_politics_basic_society = yes
+	}
+}

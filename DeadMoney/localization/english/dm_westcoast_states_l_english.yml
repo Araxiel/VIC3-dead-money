@@ -1,0 +1,178 @@
+﻿l_english: 
+
+  # HUB_NAME_STATE_REPLACE_city: "REPLACE City"
+  # HUB_NAME_STATE_REPLACE_farm: "REPLACE Farm"
+  # HUB_NAME_STATE_REPLACE_mine: "REPLACE Mine"
+  # HUB_NAME_STATE_REPLACE_port: "REPLACE Port"
+  # HUB_NAME_STATE_REPLACE_wood: "REPLACE Wood"
+
+  # California
+
+  REGION_CALIFORNIA: "California"
+  region_california: "$REGION_CALIFORNIA$"
+
+  STATE_SHADYSANDS: "Shady Sands"
+  HUB_NAME_STATE_SHADYSANDS_city: "Shady Sands"       ## Canon
+  HUB_NAME_STATE_SHADYSANDS_farm: "Scrapheap"         ## Canon?
+  HUB_NAME_STATE_SHADYSANDS_mine: "Owens Valley"      ## ?
+  HUB_NAME_STATE_SHADYSANDS_port: "UNUSED Port Shady" 
+  HUB_NAME_STATE_SHADYSANDS_wood: "One Pine"          ## Canon?
+  STATE_NEWRENO: "New Reno"
+  HUB_NAME_STATE_NEWRENO_city: "New Reno"         ## Canon  - Reno
+  HUB_NAME_STATE_NEWRENO_farm: "Disloyalton"      ## IRL  Loyaltyon
+  HUB_NAME_STATE_NEWRENO_mine: "Iron Horse"       ## IRL  Iron Horse
+  HUB_NAME_STATE_NEWRENO_port: "UNUSED Port Reno"
+  HUB_NAME_STATE_NEWRENO_wood: "Oak Creek"        ## IRL  ?
+  STATE_REDHILLS: "Red Hills"                     
+  HUB_NAME_STATE_REDHILLS_city: "Red Hills"       ## IRL  Red Hills
+  HUB_NAME_STATE_REDHILLS_farm: "Malacought"      ## IRL  ?
+  HUB_NAME_STATE_REDHILLS_mine: "Slaughter's Bar" ## IRL  ?
+  HUB_NAME_STATE_REDHILLS_port: "UNUSED Port Redhills"
+  HUB_NAME_STATE_REDHILLS_wood: "Peaceful Pines"  ## IRL  Peaceful Pines
+  STATE_MARIPOSA: "Mariposa"
+  HUB_NAME_STATE_MARIPOSA_city: "Fresneo"         ## IRL  Fresno
+  HUB_NAME_STATE_MARIPOSA_farm: "Crow's Landing"  ## IRL  ?
+  HUB_NAME_STATE_MARIPOSA_mine: "Coarseuranium"   ## IRL  Coarsegold
+  HUB_NAME_STATE_MARIPOSA_port: "UNUSED Port Mariposa"
+  HUB_NAME_STATE_MARIPOSA_wood: "Mariposa"        ## Canon  - Mariposa
+  STATE_THEHUB_nt: "Hub"
+  STATE_THEHUB: "The $STATE_THEHUB_nt$"
+  HUB_NAME_STATE_THEHUB_city: "The Hub"           ## Canon  - ?
+  HUB_NAME_STATE_THEHUB_farm: "Junktown"          ## Canon  - ?
+  HUB_NAME_STATE_THEHUB_mine: "Barstow"           ## IRL  Barstow
+  HUB_NAME_STATE_THEHUB_port: "UNUSED Port Hub"
+  HUB_NAME_STATE_THEHUB_wood: "REPLACE Wood Hub"
+  STATE_NAVARO: "Navaro"
+  HUB_NAME_STATE_NAVARO_city: "Navaro"            ## Canon  - ?
+  HUB_NAME_STATE_NAVARO_farm: "REPLACE Farm NAVARO"
+  HUB_NAME_STATE_NAVARO_mine: "REPLACE Mine NAVARO"
+  HUB_NAME_STATE_NAVARO_port: "REPLACE Port NAVARO"
+  HUB_NAME_STATE_NAVARO_wood: "REPLACE Wood NAVARO"
+  STATE_JEFFERSON: "Jefferson"                  ##
+  HUB_NAME_STATE_JEFFERSON_city: "Sactown"      ## Canon  -  Sacramento
+  HUB_NAME_STATE_JEFFERSON_farm: "Stocktown"    ## IRL  Stocktow
+  HUB_NAME_STATE_JEFFERSON_mine: "Foresthill"   ## IRL  ?
+  HUB_NAME_STATE_JEFFERSON_port: "REPLACE Port JEFFERSON"
+  HUB_NAME_STATE_JEFFERSON_wood: "REPLACE Wood JEFFERSON"
+  STATE_BAJA: "Baja"
+  HUB_NAME_STATE_BAJA_city: "Ensenada"          ## IRL  Ensenada
+  HUB_NAME_STATE_BAJA_farm: "Agua Blanca"       ## IRL  Agua Blanca
+  HUB_NAME_STATE_BAJA_mine: "El Salto"          ## IRL  El Salto
+  HUB_NAME_STATE_BAJA_port: "Los Arbolitos"     ## IRL  Los Arbolitos
+  HUB_NAME_STATE_BAJA_wood: "UNUSED Wood Baja"
+  STATE_MODOC: "Modoc"
+  HUB_NAME_STATE_MODOC_city: "Modoc"            ## Canon  - Modoc
+  HUB_NAME_STATE_MODOC_farm: "Harper"           ## IRL  Harper
+  HUB_NAME_STATE_MODOC_mine: "White Horse"      ## IRL  White Horse
+  HUB_NAME_STATE_MODOC_port: "UNUSED Port MODOC"
+  HUB_NAME_STATE_MODOC_wood: "REPLACE Wood MODOC"
+  STATE_REDDING: "Redding"
+  HUB_NAME_STATE_REDDING_city: "Redding"        ## Canon  - Redding
+  HUB_NAME_STATE_REDDING_farm: "REPLACE Farm REDDING"
+  HUB_NAME_STATE_REDDING_mine: "REPLACE Mine REDDING"
+  HUB_NAME_STATE_REDDING_port: "UNUSED Port REDDING"
+  HUB_NAME_STATE_REDDING_wood: "REPLACE Wood REDDING"
+  STATE_SANFRAN: "San Fran"
+  HUB_NAME_STATE_SANFRAN_city: "San Fran"
+  HUB_NAME_STATE_SANFRAN_farm: "San Jose"
+  HUB_NAME_STATE_SANFRAN_mine: "Tamalpais"
+  HUB_NAME_STATE_SANFRAN_port: "Oakland"
+  HUB_NAME_STATE_SANFRAN_wood: "REPLACE Wood SANFRAN"
+  STATE_BONEYARD_nt: "Boneyard"
+  STATE_BONEYARD: "The $STATE_BONEYARD_nt$"
+  HUB_NAME_STATE_BONEYARD_city: "The Boneyard"
+  HUB_NAME_STATE_BONEYARD_farm: "REPLACE Farm"
+  HUB_NAME_STATE_BONEYARD_mine: "Anaheim"
+  HUB_NAME_STATE_BONEYARD_port: "San Onofre"
+  HUB_NAME_STATE_BONEYARD_wood: "REPLACE Wood BONEYARD"
+  STATE_NECROPOLIS: "Necropolis"
+  HUB_NAME_STATE_NECROPOLIS_city: "Necropolis"
+  HUB_NAME_STATE_NECROPOLIS_farm: "Mutfruit-Cotton Center"
+  HUB_NAME_STATE_NECROPOLIS_mine: "Bloodfish"
+  HUB_NAME_STATE_NECROPOLIS_port: "REPLACE Port NECROPOLIS"
+  HUB_NAME_STATE_NECROPOLIS_wood: "REPLACE Wood NECROPOLIS"
+  STATE_MAXSON: "Maxson"
+  HUB_NAME_STATE_MAXSON_city: "Maxson"
+  HUB_NAME_STATE_MAXSON_farm: "REPLACE Farm MAXSON"
+  HUB_NAME_STATE_MAXSON_mine: "REPLACE Mine MAXSON"
+  HUB_NAME_STATE_MAXSON_port: "Monterey"
+  HUB_NAME_STATE_MAXSON_wood: "REPLACE Wood MAXSON"
+  STATE_DAYGLOW: "Dayglow"
+  HUB_NAME_STATE_DAYGLOW_city: "Dayglow"
+  HUB_NAME_STATE_DAYGLOW_farm: "REPLACE Farm DAYGLOW"
+  HUB_NAME_STATE_DAYGLOW_mine: "REPLACE Mine DAYGLOW"
+  HUB_NAME_STATE_DAYGLOW_port: "REPLACE Port DAYGLOW"
+  HUB_NAME_STATE_DAYGLOW_wood: "REPLACE Wood DAYGLOW"
+  STATE_ANZABOREGO: "Anza-Borego"
+  HUB_NAME_STATE_ANZABOREGO_city: "Anza-Borego"
+  HUB_NAME_STATE_ANZABOREGO_farm: "REPLACE Farm ANZABOREGO"
+  HUB_NAME_STATE_ANZABOREGO_mine: "REPLACE Mine ANZABOREGO"
+  HUB_NAME_STATE_ANZABOREGO_port: "REPLACE Port ANZABOREGO"
+  HUB_NAME_STATE_ANZABOREGO_wood: "REPLACE Wood ANZABOREGO"
+  
+  # Nevada
+  REGION_NEVADA: "Nevada"
+  region_nevada: "$REGION_NEVADA$"
+
+  STATE_LASVEGAS: "New Vegas"                     ## Canon  - Las Vegas
+  HUB_NAME_STATE_LASVEGAS_city: "New Vegas"       ## Canon  - Las Vegas
+  HUB_NAME_STATE_LASVEGAS_farm: "REPLACE Farm LASVEGAS"
+  HUB_NAME_STATE_LASVEGAS_mine: "REPLACE Mine LASVEGAS"
+  HUB_NAME_STATE_LASVEGAS_port: "REPLACE Port LASVEGAS"
+  HUB_NAME_STATE_LASVEGAS_wood: "REPLACE Wood LASVEGAS"
+  STATE_SQUATTERLAND: "Squatterland"                ## Canon  - ?
+  HUB_NAME_STATE_SQUATTERLAND_city: "The Squat"     ## Canon  - ?
+  HUB_NAME_STATE_SQUATTERLAND_farm: "REPLACE Farm SQUATTERLAND"
+  HUB_NAME_STATE_SQUATTERLAND_mine: "REPLACE Mine SQUATTERLAND"
+  HUB_NAME_STATE_SQUATTERLAND_port: "REPLACE Port SQUATTERLAND"
+  HUB_NAME_STATE_SQUATTERLAND_wood: "REPLACE Wood SQUATTERLAND"
+  STATE_VAULTCITY: "Vault City"                     ## Canon  - ?
+  HUB_NAME_STATE_VAULTCITY_city: "Vault City"       ## Canon  - ?
+  HUB_NAME_STATE_VAULTCITY_farm: "REPLACE Farm VAULTCITY" 
+  HUB_NAME_STATE_VAULTCITY_mine: "REPLACE Mine VAULTCITY"
+  HUB_NAME_STATE_VAULTCITY_port: "REPLACE Port VAULTCITY"
+  HUB_NAME_STATE_VAULTCITY_wood: "REPLACE Wood VAULTCITY"
+  STATE_DIVIDE: "The Divide"                        ## Canon  - ?
+  HUB_NAME_STATE_DIVIDE_city: "Hopeville"           ## Canon  - ?
+  HUB_NAME_STATE_DIVIDE_farm: "REPLACE Farm DIVIDE"
+  HUB_NAME_STATE_DIVIDE_mine: "Ashton"              ## Canon  - ?
+  HUB_NAME_STATE_DIVIDE_port: "REPLACE Port DIVIDE"
+  HUB_NAME_STATE_DIVIDE_wood: "REPLACE Wood DIVIDE"
+  STATE_BROKENHILLS: "Broken Hills"                 ## Canon?  - ?
+
+  # Oregon
+  REGION_OREGON: "Oregon"
+  region_oregon: "$REGION_OREGON$"
+
+  STATE_THEDEN: "The Den"                       
+  HUB_NAME_STATE_THEDEN_city: "The Den"         ## Canon
+  HUB_NAME_STATE_THEDEN_farm: "REPLACE Farm THEDEN"
+  HUB_NAME_STATE_THEDEN_mine: "REPLACE Mine THEDEN"
+  HUB_NAME_STATE_THEDEN_port: "REPLACE Port THEDEN"
+  HUB_NAME_STATE_THEDEN_wood: "REPLACE Wood THEDEN"
+  STATE_ARROYO: "Arroyo"
+  HUB_NAME_STATE_ARROYO_city: "Arroyo"          ## Canon
+  HUB_NAME_STATE_ARROYO_farm: "REPLACE Farm ARROYO"
+  HUB_NAME_STATE_ARROYO_mine: "REPLACE Mine ARROYO"
+  HUB_NAME_STATE_ARROYO_port: "REPLACE Port ARROYO"
+  HUB_NAME_STATE_ARROYO_wood: "REPLACE Wood ARROYO"
+  STATE_KLAMATH: "Klamath"
+  HUB_NAME_STATE_KLAMATH_city: "Klamath"        ## Canon
+  HUB_NAME_STATE_KLAMATH_farm: "REPLACE Farm KLAMATH"
+  HUB_NAME_STATE_KLAMATH_mine: "REPLACE Mine KLAMATH"
+  HUB_NAME_STATE_KLAMATH_port: "REPLACE Port KLAMATH"
+  HUB_NAME_STATE_KLAMATH_wood: "REPLACE Wood KLAMATH"
+
+  # Pacific
+  REGION_PACIFIC: "Pacific"
+  region_pacific: "$REGION_PACIFIC$"
+
+  STATE_HAWAII: "Hawaii"                       
+  HUB_NAME_STATE_HAWAII_city: "Hilo"           ## Hilo
+  HUB_NAME_STATE_HAWAII_farm: "REPLACE Farm HAWAII"
+  HUB_NAME_STATE_HAWAII_mine: "Honolulu"       ## Honolulu
+  HUB_NAME_STATE_HAWAII_port: "REPLACE Port HAWAII"
+  HUB_NAME_STATE_HAWAII_wood: "REPLACE Wood HAWAII"
+
+
+

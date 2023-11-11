@@ -1,0 +1,14 @@
+﻿COUNTRIES = {
+	c:NCR = {
+		#effect_starting_technology_debug = yes
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_decent_settlers = yes
+		effect_starting_politics_basic_society = yes
+		activate_law = law_type:law_agrarianism
+		
+		set_tariffs_import_priority = g:heavy_weapons
+		set_tariffs_import_priority = g:firearms		
+
+	}
+}

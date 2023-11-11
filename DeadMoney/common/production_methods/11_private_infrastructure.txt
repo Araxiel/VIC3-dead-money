@@ -2,7 +2,6 @@
 
 pm_early_trains = {
 	texture = "gfx/interface/icons/production_method_icons/experimental_trains.dds"
-	pollution_generation = 15
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -20,13 +19,13 @@ pm_early_trains = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 20
+			state_pollution_generation_add = 25
 		}
 	}
 }
 
 pm_steam_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
-	pollution_generation = 15
 
 	unlocking_technologies = {
 		steel_railway_cars
@@ -48,13 +47,13 @@ pm_steam_trains = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 25
+			state_pollution_generation_add = 20
 		}
 	}
 }
 
 pm_electric_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
-	pollution_generation = 10
 	
 	unlocking_technologies = {
 		electric_railway
@@ -78,12 +77,12 @@ pm_electric_trains = {
 			state_infrastructure_add = 30
 		}
 	}
+
+	required_input_goods = electricity
 }
 
 pm_diesel_trains = {
-	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"
-	pollution_generation = 10
-	
+	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
 	unlocking_technologies = {
 		compression_ignition
 	}
@@ -104,6 +103,7 @@ pm_diesel_trains = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 40
+			state_pollution_generation_add = 15
 		}
 	}
 }
@@ -114,7 +114,6 @@ pm_no_passenger_trains = {
 
 pm_wooden_passenger_carriages = {
 	texture = "gfx/interface/icons/production_method_icons/passenger_trains.dds"
-	pollution_generation = 10
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -129,7 +128,6 @@ pm_wooden_passenger_carriages = {
 
 pm_steel_passenger_carriages = {
 	texture = "gfx/interface/icons/production_method_icons/passenger_carriages.dds"
-	pollution_generation = 10
 
 	unlocking_technologies = {
 		steel_railway_cars

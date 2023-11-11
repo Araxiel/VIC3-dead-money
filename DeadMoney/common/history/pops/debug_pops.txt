@@ -1,0 +1,188 @@
+﻿POPS = {
+	s:STATE_PACIFIC_NORTHWEST = {
+		region_state:DPacificNorthwest = {
+			create_pop = {
+				culture = american_tribal
+				size = 500000
+			}
+		}
+	}
+	s:STATE_MIDWEST = {
+		region_state:DMidwest = {
+			create_pop = {
+				culture = american_tribal
+				size = 500000
+			}
+		}
+	}
+	s:STATE_ROCKIES = {
+		region_state:DRockies = {
+			create_pop = {
+				culture = american_tribal
+				size = 500000
+			}
+		}
+	}
+
+	s:STATE_EAST_COAST = {
+		region_state:DEastCoast ={
+			create_pop = {
+				culture = american_tribal
+				size = 1000000
+			}
+		}
+	}
+
+	s:STATE_ONTARIO = {
+		region_state:DOntario = {
+			create_pop = {
+				culture = anglo_canadian_tribal
+				size = 500000
+			}
+		}
+	}
+	s:STATE_CENTRAL_CANADA = {
+		region_state:DCentralCanada = {
+			create_pop = {
+				culture = anglo_canadian_tribal
+				size = 90000
+			}
+		}
+	}
+	s:STATE_CANADA_QUEBEC = {
+		region_state:DQuebec = {
+			create_pop = {
+				culture = franco_canadian_tribal
+				size = 900000
+			}
+		}
+	}
+	s:STATE_CANADA_EAST_COAST = {
+		region_state:DCanadaAtlantic = {
+			create_pop = {
+				culture = anglo_canadian_tribal
+				size = 30000
+			}
+		}
+	}
+	s:STATE_WEST_CANADA = {
+		region_state:DWestCanada = {
+			create_pop = {
+				culture = anglo_canadian_tribal
+				size = 120000
+			}
+		}
+	}
+	s:STATE_NORTH_CANADA = {
+		region_state:DNorthCanada = {
+			create_pop = {
+				culture = anglo_canadian_tribal
+				size = 8000
+			}
+		}
+	}
+	s:STATE_ALASKA = {
+		region_state:DAlaska = {
+			create_pop = {
+				culture = alaskan_tribal
+				size = 96000
+			}
+		}
+	}
+	s:STATE_ALEUTIAN = {
+		region_state:DAleutian = {
+			create_pop = {
+				culture = alaskan_tribal
+				size = 6000
+			}
+		}
+	}
+	s:STATE_SOUTH = {
+		region_state:DSouth = {
+			create_pop = {
+				culture = american_tribal
+				size = 500000
+			}
+		}
+	}
+	s:STATE_TEXAS = {
+		region_state:DTexas = {
+			create_pop = {
+				culture = american_tribal
+				size = 150000
+			}
+		}
+	}
+	s:STATE_FLORIDA = {
+		region_state:DFLORIDA = {
+			create_pop = {
+				culture = american_tribal
+				size = 320000
+			}
+		}
+	}
+	s:STATE_MEXICO = {
+		region_state:DMexico = {
+			create_pop = {
+				culture = hispanic_tribal
+				size = 336000
+			}
+		}
+	}
+	s:STATE_CENTRALAMERICA = {
+		region_state:DCentralAmerica = {
+			create_pop = {
+				culture = hispanic_tribal
+				size = 350000
+			}
+		}
+	}
+	s:STATE_SOUTHAMERICA = {
+		region_state:DSouthAmerica = {
+			create_pop = {
+				culture = hispanic_tribal
+				size = 600000
+			}
+		}
+	}
+	s:STATE_CARIBBEAN = {
+		region_state:DCaribbean = {
+			create_pop = {
+				culture = hispanic_tribal
+				size = 105000
+			}
+		}
+	}
+	s:STATE_BERMUDA = {
+		region_state:DAtlantic = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 7000
+			}
+		}
+	}
+	s:STATE_ICELAND = {
+		region_state:DAtlantic = {
+			create_pop = {
+				culture = icelandic
+				size = 20000
+			}
+		}
+	}
+	s:STATE_GREENLAND = {
+		region_state:DAtlantic = {
+			create_pop = {
+				culture = danish
+				size = 4000
+			}
+		}
+	}
+	s:STATE_AZORES = {
+		region_state:DAtlantic = {
+			create_pop = {
+				culture = portuguese
+				size = 5000
+			}
+		}
+	}
+}

@@ -1,0 +1,608 @@
+﻿
+han={
+	color= rgb{ 190 80 48 }
+	religion = religion_communistchina
+	traits = { sinosphere settled_trait wastelander_heritage }
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+icelandic={
+	color= hsv{ 0.74 0.46 0.58 }
+	religion = religion_oldworldblues
+	traits = { wastelander_heritage european settled_trait }
+	male_common_first_names={
+		Agnar
+		Bjorn_2
+		Eidur
+		Einar
+		Emil
+		Geir
+		Gudmund
+		Gunnar
+		Hannes
+		Hermann
+		J_On
+		Kristjan
+		Magnus_2
+		Petur
+		Sigurdur
+		Stefan_2
+		Sveinn
+		Tryggvi
+		Asgeir
+		Olafur
+		Steingrimur
+		Hallgrimur
+	}
+	female_common_first_names = {
+		Agnes
+		Briet
+		Hansina
+		Regina
+		Rosa
+		Steinunn
+		Thorfhildur
+		Vilhelmina
+	}	
+	noble_last_names = {
+		Hielmstierne
+		Petursson
+		Sveinsson
+		Thorberg
+		Thordersen
+		Vidalin
+	}
+	common_last_names={
+		Arnorsson
+		Benediktsson
+		Bjarnasen
+		Bjornsson
+		Eggers
+		Eldjarn
+		Hafstein
+		Hansen
+		Hermannsson
+		Johanesson
+		Jonsson
+		Magnusson
+		Stefansson
+		Steinthosson
+		Thorlaksson
+		Thurs
+		Thordarson
+		Thorhallson
+		Asgeirsson
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+danish={
+	color= hsv{ 0 0.51 0.86 }
+	religion = religion_oldworldblues
+	traits = { wastelander_heritage european settled_trait }
+	male_common_first_names={
+		Aasmund
+		Aage
+		Adam
+		Alber
+		Anders
+		Axel
+		Carl
+		Christian
+		Edvard
+		Edvin
+		Erik
+		Folke
+		Frederik
+		Georg
+		Hannibal
+		Hans
+		Henrik
+		Herman
+		Hugo
+		Ivar
+		Jacob
+		Johan
+		Julius
+		Knud
+		Ludvig
+		Magnus
+		Michael
+		Niels
+		Olav
+		Otto
+		Peter
+		Poul
+		Sigurd
+		Sven
+		Tage
+		Thomas
+		Thorvald
+		Ukrik
+		Valdemar
+		Vilhelm
+	}
+	female_common_first_names = {
+		Amalie
+		Anna
+		Annestine
+		Caroline
+		Catharine
+		Charlotte
+		Dagmar
+		Dorothea
+		Eleonore
+		Elisabeth
+		Frederikke
+		Irene
+		Louise
+		Regine
+		Thyra
+		Ulrikke
+		Vilhelmine
+	}	
+	noble_last_names = {
+		af_Danneskiold-Samsoe
+		Barnekow
+		Bernstorff
+		de_Neergaard
+		Gyldenstierne 
+		Kaas
+		Reventlow
+		Rosenkrantz
+		Trampe
+		Treschow
+		Trolle
+		Valkendorf
+		von_Baudissin
+		von_Falkenskiold 
+		von_Holstein
+		von_Krogh
+		von_Oldenburg
+		von_Sievers
+		Wichfeld
+		Vogelius
+		Steenstrup
+		Brock
+
+	}
+	common_last_names={
+		Ahlefeldt
+		Asp-Persson
+		Bang
+		Berger
+		Bonde
+		Carlsen
+		Dannemand
+		Danneskjold-Samso
+		Eberlin
+		Falsen
+		Folsach
+		Gyldenfeldt
+		Guntelberg
+		Haack
+		Hambro
+		Haxthausen
+		Juul
+		Klauman
+		Krogh
+		Laessoe
+		Leuenbach
+		Lovenbalk
+		Michaelsen
+		Mylius
+		Neergaard
+		Obelitz
+		Oxholm
+		Schack-Schackenborg
+		Stemman
+		Suenson
+		Thygeson
+		Trampe
+		Urne
+		Wadenstierna
+		Wedel-Heinen
+		Zytphen-Adeler
+		de_Meza
+	}
+	male_regal_first_names = {
+		Christian
+		Frederik
+	}
+	female_regal_first_names = {
+		Alexandrine
+		Amalie
+		Charlotte_Frederica
+		Ingrid
+		Louise
+		Margrethe
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+		1 = circumpolar
+	}
+}
+
+portuguese={
+	color= hsv{ 0.21 0.56 0.86 }
+	religion = catholic
+	traits = { lusophone wastelander_heritage european settled_trait }
+	male_common_first_names={
+		Abel
+		Adriano
+		Afonso
+		Alberto
+		Alexandre
+		Alfredo
+		Andre
+		Antonio_2
+		Aquilino
+		Artur
+		Augusto
+		Bartolomeu
+		Bernardo
+		Bruno
+		Caetano
+		Carlos
+		Christovao
+		Claudio_2
+		Candido
+		Damiao
+		Daniel
+		David
+		Dinis
+		Diogo
+		Duarte
+		Ernesto
+		Estevao
+		Eugenio
+		Fernando
+		Filipe
+		Francisco
+		Francisco_Xavier
+		Gastao
+		Hermenegildo
+		Ignacio_2
+		Jeronimo
+		Joaquim
+		Jorge
+		Jose
+		Joao
+		Julio_2
+		Leopoldo
+		Luis_2
+		Manuel
+		Miguel
+		Mario_2
+		Nicolau
+		Nuno
+		Orlando
+		Pascoal
+		Paulo
+		Pedro
+		Rafael_2
+		Raul
+		Roberto
+		Rodrigo
+		Rui
+		Santiago
+		Sebastiao
+		Teodoro
+		Teofilo
+		Tiago
+		Tome
+		Urbano
+		Vasco
+		Vicente
+		Vitorino
+		Vitorio
+		Alvaro
+		Oscar_2
+	}
+	female_common_first_names = {
+		Adelgundes
+		Ana
+		Antonia_2
+		Avelina
+		Benedita
+		Bernardina
+		Carlota
+		Eulalia_2
+		Francisca
+		Gabriela
+		Isabel
+		Joana
+		Joaquina
+		Josefa
+		Leopoldina
+		Lourcenca
+		Maria
+		Micaela
+		Rafaela
+		Rita
+		Rosa
+		Sofia
+		Teresa
+	}	
+	noble_last_names = {
+		Correia_de_Sa
+		da_Costa
+		da_Cunha
+		da_Franca
+		da_Silva_Pereira
+		de_Albuquerque
+		de_Almada
+		de_Braganca
+		de_Braganca-Coburgo
+		de_Carvalho
+		de_Caula
+		de_Oliveira
+		de_Pinho
+		de_Queiros
+		de_Sousa
+		de_Sousa_Coutinho
+		de_Vasconcelos
+		dos_Anjos
+		Rangel
+		Rebelo
+		Vilela
+	}
+	common_last_names={
+		Amaral
+		Barreto
+		Bleck
+		Braga
+		Cabral
+		Capelo
+		Carmona
+		Coelho
+		Correia
+		Coutinho
+		Dias
+		Fernandes
+		Ferreira
+		Figueira
+		Freire_de_Andrade
+		Gago
+		Gil
+		Gomes
+		Herculano
+		Ivens
+		Keil
+		Lopes
+		Machado
+		Magalhaes
+		Mendes
+		Moniz
+		Mouzinho
+		Nogueira
+		Nunes
+		Ortigao
+		Pereira
+		Pinheiro
+		Pinto
+		Pires
+		Pomar
+		Pulido
+		Queiroz
+		Quintanilha
+		Ribeiro
+		Rodrigues
+		Salazar
+		Sampaio
+		Silveira
+		Sergio_2
+		Tavares
+		Teixeira
+		Vidigal
+		Vieira
+		da_Silva
+		de_Almeida
+		de_Arriaga
+		de_Castro
+		de_Gusmao
+		de_Lacerda
+		de_Mesquita
+		de_Moura
+		de_Noronha
+		de_Paiva
+		dos_Reis
+		dos_Santos
+	}
+	male_regal_first_names={
+		Carlos
+		Fernando
+		Joao Jose
+		Luis_2
+		Manuel Miguel
+		Pedro
+	}
+	female_regal_first_names={
+		Adelgundes
+		Maria Maria_Ana Maria_Teresa
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+afro_caribbean={
+	color= hsv{ 0.32 0.27 0.32 }
+	religion = religion_oldworldblues
+	traits = { anglophone wastelander_heritage european settled_trait }
+	male_common_first_names={
+		Anderson
+		Anselm
+		Arthur
+		Ben
+		Colville
+		Cuffee
+		Cyril
+		Earl
+		Edwin
+		Ellis
+		Eric
+		Geoffrey
+		George
+		Graham
+		Henry
+		Herbert
+		Hubert
+		Jeffrey
+		John
+		Josiah
+		Lennox
+		Lloyd
+		Malcolm
+		Mervyn
+		Nicholas
+		Rainford
+		Reginald
+		Robert
+		Stokely
+		William
+		Winston
+	}
+	female_common_first_names = {
+		Amy
+		Barbara
+		Carolyn
+		Christine
+		Cubah
+		Delores
+		Erna
+		Fanny
+		Hazel
+		Joanna
+		Louisa
+		Mary
+		Obeah
+		Sylvia
+		Vanessa
+		Vera
+		Violet
+	}	
+	noble_last_names = {
+		Cotton
+		Duperly
+		Eyre
+		Gordon
+		Hill
+		Jordon
+		Osborn
+		Sharpe
+	}
+	common_last_names={
+		Abbott
+		Best
+		Blaize
+		Brathwaite
+		Carmichael
+		Chambers
+		Clark
+		Douglas
+		Dymally
+		Findley
+		Goddard
+		Hall
+		Henson
+		Holder
+		James
+		Jones
+		Julian
+		Kilgour
+		Lassalle
+		Lovelace
+		McIntosh
+		Nurse
+		Perry
+		Roberts
+		Robinson
+		Shadd
+		Stollmeyer
+		Sylvester
+		Williams
+		Young
+	}
+	ethnicities = {
+		8 = african
+		1 = caucasian
+	}
+	graphics = african
+}

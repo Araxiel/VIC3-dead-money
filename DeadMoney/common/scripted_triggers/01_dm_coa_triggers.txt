@@ -1,0 +1,36 @@
+﻿#            | existing country | releasing a country | country formation |
+# |==========|==================|=====================|===================|
+# |root      | definition       | definition          | definition        |
+# |----------|------------------|---------------------|-------------------|
+# |target    | country          | N/A                 | N/A               |
+# |----------|------------------|---------------------|-------------------|
+# |initiator | N/A              | player              | player            |
+# |----------|------------------|---------------------|-------------------|
+# |actor     | country          | player              | player            |
+# |----------|------------------|---------------------|-------------------|
+# |          | country's        |                     | player's          |
+# |overlord  | direct overlord  | player              | direct overlord   |
+# |          | if it exists     |                     | if it exists      |
+# |----------|------------------|---------------------|-------------------|
+
+### scope is COUNTRY ###
+
+coa_raiders = {
+	OR = {	## adjust based on r2+ laws
+		has_law = law_type:law_speech_decentralized_society
+		has_law = law_type:law_debt_slavery
+		has_law = law_type:law_individual_subsistence
+		has_law = law_type:law_subsistence_trade
+		
+		
+		has_law = law_type:law_no_workers_rights	# just for testing
+	}
+}
+
+### scope is COUNTRY DEFINITION ###
+# Government
+
+coa_def_raiders_flag_trigger = {
+	exists = scope:actor
+	scope:actor = { coa_raiders = yes }
+}

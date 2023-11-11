@@ -1,0 +1,7 @@
+﻿# Strategic Regions in North America
+
+region_midwest = {
+	capital_province = xC8A467
+	map_color = { 0.31 0.61 0.12 }
+	states = { STATE_MIDWEST STATE_ROCKIES }
+}

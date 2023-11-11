@@ -1,33 +1,385 @@
-@semy = 0.25
-@third = @[1/3]
-@fifth = @[1/5]
-@sixth = @[1/6]
+@semy=0.25
+@third=@[1/3]
+@fifth=@[1/5]
+@sixth=@[1/6]
+@canton_scale_cross_x=@[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y=@[ ( 205 / 512 ) + 0.001 ]
+@canton_scale_sweden_x=@[ ( 255 / 768 ) + 0.001 ]
+@canton_scale_sweden_y=@[ ( 204 / 512 ) + 0.001 ]
+@usa_canton_width = 0.5
+@usa_canton_height = @[ 1 / 13 * 7 ]
+@uru_canton_height=0.556
+@NZL_coa_offset=@[3/16]
+0.3=0.16
 
-@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
-@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+NCR = {
+	pattern="pattern_solid.tga"
+	color1="white"
+	colored_emblem={
+		texture="ce_stripe_bottom_raised.dds"
+		color1="red_light"
+		instance={
+			scale={ 1 0.40 }
+			position={ 0.5 0.75 }
+		}
+	}
+	colored_emblem={
+		texture="ce_letter_n.dds"
+		color1="red_light"
+		instance={
+			scale={ 0.9 1.1 }
+			position={ 0.2 0.4 }
+		}
+	}
+	colored_emblem={
+		texture="ce_letter_c.dds"
+		color1="red_light"
+		instance={
+			scale={ 0.9 1.1 }
+			position={ 0.5 0.4 }
+		}
+	}
+	colored_emblem={
+		texture="ce_letter_r.dds"
+		color1="red_light"
+		instance={
+			scale={ 0.9 1.1 }
+			position={ 0.8 0.4 }
+		}
+	}
+	colored_emblem={
+		texture="ce_star_05.dds"
+		color1="red_dark"
+		instance={
+			scale={ 0.4 0.4 }
+			position={ 0.14 0.2 }
+		}
+	}
+	textured_emblem={
+		texture="NCR_bear.dds"
+		instance={
+			scale={ 0.96 0.96 }
+			position={ 0.5 0.45 }
+		}
+	}
+}
 
-@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
-@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
+NCR_new = {
+	pattern="pattern_solid.tga"
+	color1="white"
+	color2="red_bright"
+	color3="brown"
+	colored_emblem={
+		texture="ce_stripe_bottom.dds"
+		color1=color2
+		instance={
+			scale={ 1 1 }
+			position={ 0.5 0.57 }
+		}
+	}
+	colored_emblem={
+		texture="ce_ncr_text.dds"
+		color1=color3
+		instance={
+			scale={ 1 1 }
+			position={ 0.5 0.55 }
+		}
+	}
+	colored_emblem={
+		texture="ce_star_05.dds"
+		color1=color2
+		instance={
+			scale={ 0.5 0.5 }
+			position={ 0.15 0.23 }
+		}
+	}
+	textured_emblem={
+		texture="NCR_bear.dds"
+		instance={
+			scale={ 0.7 0.65 }
+			position={ 0.55 0.39 }
+		}
+	}
+}
 
-@uru_canton_height = 0.556
-@NZL_coa_offset = @[3/16] 
-0.3 = 0.16
+ENCL = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem={
+		texture = "ce_enclave_star_ring.dds"
+		color1 = color2
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_enclave_e.dds"
+		color1 = color2
+		color2 = color2
+		instance = {
+			scale = { 0.7 0.7 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
 
-###### EXAMPLE ######
+sub_ENCL_rwb = {
+	color1 = "red"
+	color2 = "white"
+	color3 = "blue"
+	colored_emblem={
+		texture = "ce_enclave_star_ring.dds"
+		color1 = color2
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_enclave_e.dds"
+		color1 = color1
+		color2 = color2
+		instance = {
+			scale = { 0.7 0.7 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
 
-#EXA = {
-#	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
-#	color1 = "white" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
-#	textured_emblem = { #Adds a textured emblem.
-#		texture = "te_coa_bahamas.dds" #From gfx\coat_of_arms\textured_emblems
-#		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-#	}
-#	colored_emblem = { #Adds a colored emblem.
-#		texture = "ce_coa_frame_costa_rica.dds" #From gfx\coat_of_arms\textured_emblems
-#		color1 = "red"
-#		color2 = color1 #You can tell it to just use the same base color1 (in this case "white").
-#		instance = { position = { 0.5 0.5 } scale = { 1 1 } }
-#	}
-#}
+ENCL_rwb = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	sub = { 
+		parent = "sub_ENCL_rwb" 
+	} 
+}
 
-#####################
+sub_ENCL_white = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem={
+		texture = "ce_enclave_star_ring.dds"
+		color1 = color2
+		instance = {
+			scale = { 1 1 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_enclave_e.dds"
+		color1 = color2
+		color2 = color2
+		instance = {
+			scale = { 0.7 0.7 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+sub_USA_stripes = {
+	colored_emblem = {
+		texture = "ce_stripes_13.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+
+ENCL_usa = { 
+	pattern = "pattern_solid.tga" 
+	color1 = "white" 
+
+	sub = { 
+		parent = "sub_USA_stripes" 
+	} 
+	sub = { 
+		parent = "sub_ENCL_white" 
+		instance = { scale = { @usa_canton_width @usa_canton_height } } 
+	} 
+}
+
+ENCL_ae = { 
+	pattern = "pattern_solid.tga" 
+	color1 = "white" 
+	color2 = "red" 
+	color3 = "blue" 
+	color4 = "black" 
+
+	colored_emblem = {
+		texture = "ce_stripes_13.dds"
+		color1 = color2
+		instance={
+			scale={ 1 1 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_bottom.dds"
+		color1 = color3
+		instance={
+			scale={ 1 0.33 }
+			position={ 0.5 0.84 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = color3
+		instance={
+			scale={ 1 0.33 }
+			position={ 0.5 0.035 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = color4
+		instance={
+			scale={ 1 0.31 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color4
+		instance={
+			scale={ 0.6 0.6 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color1
+		instance={
+			scale={ 0.38 0.38 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		texture = "ce_enclave_star_ring.dds"
+		color1 = color1
+		instance = {
+			scale = { 0.6 0.6 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_enclave_e.dds"
+		color1 = color4
+		color2 = color4
+		instance = {
+			scale = { 0.38 0.38 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+# yaaaaaas kweeeeen slaaay the degenerate mutants
+ENCL_trans = { 
+	pattern = "pattern_solid.tga" 
+	color1 = "bubblegum_pink" 
+	color2 = "white" 
+	color3 = "blue_sky" 
+	color4 = "white" 
+
+	colored_emblem = {
+		texture = "ce_stripes_13.dds"
+		color1 = color2
+		instance={
+			scale={ 1 1 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_bottom.dds"
+		color1 = color3
+		instance={
+			scale={ 1 0.33 }
+			position={ 0.5 0.84 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = color3
+		instance={
+			scale={ 1 0.33 }
+			position={ 0.5 0.035 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = color4
+		instance={
+			scale={ 1 0.31 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color4
+		instance={
+			scale={ 0.6 0.6 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color1
+		instance={
+			scale={ 0.38 0.38 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		texture = "ce_enclave_star_ring.dds"
+		color1 = color1
+		instance = {
+			scale = { 0.6 0.6 }
+			position = { 0.5 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_enclave_e.dds"
+		color1 = color4
+		color2 = color4
+		instance = {
+			scale = { 0.38 0.38 }
+			position = { 0.5 0.5 }
+		}
+	}
+}
+
+SHIS = {
+
+	@color3 = "yellow"
+
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated.dds"
+		color1 = color2
+		color2 = @color3
+        instance = { scale = { 1 1 } position = { 0.5 0.5 } }				
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = @color3
+		color2 = @color3
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "red"
+		color2 = "white"
+		color3 = "red_light"
+		instance = { scale = { 0.68 0.68 } position = { 0.50 0.51 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color2
+		color2 = color2
+		instance = { scale = { 0.12 0.12 } position = { 0.5 0.525 } }		
+	}		
+}

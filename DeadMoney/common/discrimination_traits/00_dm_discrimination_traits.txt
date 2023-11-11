@@ -1,11 +1,17 @@
 ﻿wastelander_heritage = {
 	heritage = yes
 }
-oldworldamerican_heritage = {
+oldworld_heritage = {
 	heritage = yes
 }
+ghoul_heritage = {
+	heritage = yes
+}
+
 settled_trait = {}
 nomadic_trait = {}
+canadian = {}
+european = {}
 
 postwar_religion = {
 	heritage = yes

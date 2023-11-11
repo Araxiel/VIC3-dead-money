@@ -1,0 +1,78 @@
+﻿###### EXAMPLE ######
+
+#STATES = {
+#	s:STATE_EXAMPLE = {
+#		create_state = { #To create a split state add another one of these entries with different IDs
+#			country = c:EXA #The tag for the country which controls these provinces within this state.
+#			owned_provinces = { "x000000" "x562129" "xAF3D4E" } #The provinces within this state.
+#		}
+#		create_state = { #This is now a split state with TES controlling these provinces.
+#			country = c:TES 
+#			owned_provinces = { "x548751" "x9A5DA8" "x42B0F5" } #Different provinces..
+#		}
+#		
+#		add_homeland = examplish #Sets the state to be a homeland for whatever culture you put here.
+#		add_homeland = testish #You can set multiple.
+#	}
+#}
+
+#####################
+STATES = {
+	s:STATE_LASVEGAS = {
+		create_state = {
+			country = c:LVSK
+			owned_provinces = { "xC5B4D1" "x9DE16C" "x96C58A" "x7DA3C5" "xB7A5E8" "x7BC9A8" "x84A9DD" "x93D5F9" "xA4BCE1" "x6EF4A0" "xD3DE8A" }
+		}
+		create_state = {
+			country = c:LBR
+			owned_provinces = { "x919A86" "x7CE398" "x79BA8D" "x9387BA" "xB2ED94" "xDCE881" "xD5FBB2" "xF6C8DB" }
+		}
+		create_state = {
+			country = c:LSW
+			owned_provinces = { "x91BEBA" "x9AD5B8"  "xB4ACB9" "xCAB0AF" "xCC93C7" "xD08CF1" "xDBCFA6" "xDD9584" "xEFF1E2" "xF5F4E5" }
+		}
+		
+		add_homeland = westcoast_tribal
+		add_homeland = westcoaster
+	}
+
+	s:STATE_DIVIDE = {
+		create_state = {
+			country = c:HPV
+			owned_provinces = { "x6765A6" "x75E5C0" "x7FB5EF" "x7FB881" "x7FBEB9" "x808A9A" "x83C6E2" "x91F0A0" "x939A6E" "x9BADD7" "x9FCD7E" "xA5EFE8" "xA780BC" "xB0AB9C" "xB7A4BE" "xB86F90" "xBBCFCB" "xBDE597" "xC9688D" "xD96CDD" "xFCB170" }
+		}
+		create_state = {
+			country = c:VPS
+			owned_provinces = { "x91E178" "xE6A2E9" "xEB6EBE" "xE4E8B9" "xC6A8A1" "xC2E77C" "xFCFD76" "xF74978" "xE7AF80" "xA5E768" "xDBE0E6" "xEDF9F8" "xBDACC7" "xA47B86" "xE18AA2" }
+		}
+		create_state = {
+			country = c:LBR
+			owned_provinces = { "xE2CCB8" "xD9E3BF" "x868176" "x8F77AB" "xF5FC6D" }
+		}
+
+		add_homeland = westcoast_tribal
+		add_homeland = westcoaster
+	}
+
+    s:STATE_SQUATTERLAND = {
+		create_state = {
+			country = c:SQT
+			owned_provinces = { "x6CF579" "x829764" "x87CB89" "x8A81EE" "x8C7781" "x8D7175" "xA1B874" "xA7EB76" "xB36E6B" "xB68D7E" "xB7D3E2" "xC4FA72" "xD1BB94" "xD48EEC" "xD8DAE5" "xE97BEF" "x939DB4" }
+		}
+		
+		add_homeland = vaultdweller_american		
+		add_homeland = westcoaster
+		add_homeland = westcoast_tribal
+	}
+
+	s:STATE_BROKENHILLS = {
+		create_state = {
+			country = c:BRKH
+			owned_provinces = { "x68ACB0" "x77E2CB" "x92A8E9" "x946871" "x9670AB" "xA978D7" "xB4BC9F" "xB569F1" "xC9DDBE" "xD189EF" "xD59587" "xE1BA85" "xE6BB85" "xE7A1E5" "xECC28B" "xEF7FCB" "xFAACA8" }
+		}
+
+		add_homeland = westcoast_tribal
+		add_homeland = westcoaster
+	}
+	
+}

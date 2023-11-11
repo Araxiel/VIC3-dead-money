@@ -1,0 +1,87 @@
+﻿POPULATION = {
+	c:DPacificNorthwest = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	
+	c:DMidwest = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DRockies = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DEastCoast ={
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DOntario = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCentralCanada = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DQuebec = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCanadaAtlantic = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DWestCanada = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DNorthCanada = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DAlaska = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DAleutian = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DMexico = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCentralAmerica = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DSouthAmerica = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DCaribbean = {
+		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_wealth_low = yes
+	}
+
+	c:DAtlantic = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_middling = yes
+	}
+
+}

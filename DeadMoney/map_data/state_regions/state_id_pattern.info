@@ -1,0 +1,31 @@
+State IDs are grouped following certain patterns.
+The 1000 is the larger, overall region.
+
+0000    West Coast
+1000    Midwest
+2000    East Coast
+3000    Canada & Alaska
+4000    American South & Caribbean
+5000    Latin America
+
+---
+The 100 is states and areas within that region. They tend to have their own text files.
+E.g.
+0100     California
+0300     Oregon
+3200     Alaska
+...         ...
+
+700 tends to be used for distant islands in the ocean
+
+---
+The 00s are the individual states within such an areas
+e.g.
+0101    Shady Sands
+0102    New Reno
+0302    Arroyo
+3205    Aleutian Islands
+...         ...
+
+---------------
+10000 are bodies of water

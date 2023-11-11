@@ -1,17 +1,88 @@
 ﻿l_english: 
 
 
-  # Countries
+  # California
   NCR: "New California Republic"
   NCR_ADJ: "New Californian"
-  NRN: "New Reno"
-  NRN_ADJ: "New Renonian"
+  NRN: "$STATE_NEWRENO$"
+  NRN_ADJ: "$NRN$"
   JKT: "Junktown"
   JKT_ADJ: "Junktownian"
-  THB: "The Hub"
-  THB_ADJ: "Hubian"
+  THUB: "$STATE_THEHUB$"
+  THUB_nt: "$STATE_THEHUB_nt$"
+  THUB_ADJ: "Hub"
   SQT: "The Squat"
+  SQT_nt: "Squat"
   SQT_ADJ: "Squatter"
+  TBY_nt: "$STATE_BONEYARD_nt$"
+  TBOY: "$STATE_BONEYARD$"
+  TBOY_ADJ: "$STATE_BONEYARD_nt$"
+  NECR: "$STATE_NECROPOLIS$"
+  NECR_ADJ: "$NECR"
+  REDH: "Red Hills"
+  REDH_ADJ: "$REDH"
+  DAYG: "$STATE_DAYGLOW$"
+  DAYG_ADJ: "$DAYG"
+  VAUC: "Vault City"
+  VAUC_ADJ: "$VAUC$"
+  NAVA: "Navaro"
+  NAVA_ADJ: "$NAVA$"
+  ENCL: "Enclave"
+  ENCL_ADJ: "$ENCL$"
+  JEFF: "Jefferson"
+  JEFF_ADJ: "$JEFF$"
+  SHIS: "Shi"
+  SHIS_ADJ: "$SHIS$"
+  SANF: "San Frans"
+  SANF_ADJ: "$SANF$"
+  MARI: "Mariposas"
+  MARI_ADJ: "Mariposa"
+  MAXS: "Maxson"
+  MAXS_ADJ: "$MAXS$"
+  MODC: "Modoc"
+  MODC_ADJ: "$MODC$"
+  REDD: "Redding"
+  REDD_ADJ: "$REDD$"
+  ANZA: "$STATE_ANZABOREGO$"
+  ANZA_ADJ: "$ANZA"
+  BAJA: "Baja"
+  BAJA_ADJ: "Baja"
+
+  # Nevada
+  # Slither Kin (Omertas)
+  LVSK: "Slither Kin"
+  LVSK_ADJ: "Slither Kin"
+  # Mojave Boot-Riders (Chairmen)
+  LBR: "Mojave Boot-Riders"
+  LBR_ADJ: "Mojave Boot-Rider"
+  # Sawneys (BTS alt White Glove Society)
+  LSW: "Sawneys"
+  LSW_ADJ: "Sawney"
+  HPV: "Hopeville"
+  HPV_ADJ: "Hopeville"
+  VPS_nt: "Vipers"
+  VPS: "The Vipers"
+  VPS_ADJ: "Viper"
+  BRKH: "Broken Hills"
+  BRKH_ADJ: "$BRKH$"
+
+  # Oregon
+  TDEN: "The Den"
+  TDEN_ADJ: "$TDEN$"
+  AROY: "Arroyo"
+  AROY_ADJ: "$AROY_ADJ$"
+  KLAM: "Klamath"
+  KLAM_ADJ: "$KLAM$"
+
+
+  ## Hawaii
+
+  HWH: "Hawaii Haven"
+  HWH_ADJ: "Hawaiian"
+  HWR: "Honolulu Raiders"
+  HWR_ADJ: "Honolulu Raider"
+  HWT: "Pearl Trinity"
+  HWT_ADJ: "Pearl Trinity"
 
   # Characters
   Aradesh: "Aradesh"

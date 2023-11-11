@@ -1,0 +1,29 @@
+﻿TRADE_ROUTES = {
+
+	c:NCR = {
+		create_trade_route = {
+			goods = salvage
+			level = 5
+			direction = import
+			target = c:NEC.market
+		}
+		create_trade_route = {
+			goods = water
+			level = 2
+			direction = export
+			target = c:NEC.market
+		}
+		create_trade_route = {
+			goods = salvage
+			level = 3
+			direction = import
+			target = c:TBOY.market
+		}
+		create_trade_route = {
+			goods = water
+			level = 3
+			direction = import
+			target = c:THUB.market
+		}
+	}
+}
