@@ -11,6 +11,8 @@ effect_starting_politics_default = {
 	activate_law = law_type:law_no_colonial_affairs
 	activate_law = law_type:law_no_police
 	activate_law = law_type:law_no_schools
+	activate_law = law_type:law_warrior_bands
+	activate_law = law_type:law_no_home_affairs
 }
 
 ## Decentralized Settlers
@@ -21,6 +23,9 @@ effect_starting_politics_settlers_decentralized = {
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_circumstancial_leader
+	activate_law = law_type:law_nongovernmental
+	activate_law = law_type:law_hereditary_bureaucrats
 }
 
 ## Decentralized Raiders
@@ -31,6 +36,9 @@ effect_starting_politics_raiders_decentralized = {
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_circumstancial_leader
+	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chosen_lackeys
 }
 
 ## Centralized Raiders
@@ -41,6 +49,9 @@ effect_starting_politics_raiders_settled = {
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_monocracy
+	activate_law = law_type:law_autocracy
+	activate_law = law_type:law_chosen_lackeys
 }
 
 ## Decentralized Tribals
@@ -51,6 +62,9 @@ effect_starting_politics_tribal_decentralized = {
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_circumstancial_leader
+	activate_law = law_type:law_elder_council
+	activate_law = law_type:law_appointed_bureaucrats
 }
 
 ## Centralized Tribals
@@ -61,6 +75,9 @@ effect_starting_politics_tribal_centralized = {
 	activate_law = law_type:law_individual_subsistence
 	activate_law = law_type:law_subsistence_trade
 	activate_law = law_type:law_wastelander_tax
+	activate_law = law_type:law_local_leader
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
 }
 
 ## Most "decent guy" settlers, like NCR, Mormons, etc.
@@ -72,8 +89,11 @@ effect_starting_politics_decent_settlers = {
 	activate_law = law_type:law_traditionalism
 	activate_law = law_type:law_wasteland_trade
 	activate_law = law_type:law_wastelander_tax
-	activate_law = law_type:law_limited_settlement
+	#activate_law = law_type:law_limited_settlement
 	activate_law = law_type:law_private_schools
+	activate_law = law_type:law_local_leader
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
 }
 
 ## Most basic settlers, Junktown, etc.
@@ -86,6 +106,9 @@ effect_starting_politics_basic_settlers = {
 	activate_law = law_type:law_wasteland_trade
 	activate_law = law_type:law_wastelander_tax
 	activate_law = law_type:law_no_colonial_affairs
+	activate_law = law_type:law_local_leader
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
 }
 
 ## Less scrupelous settlers, like New Reno
@@ -96,7 +119,10 @@ effect_starting_politics_criminal_settlers = {
 	activate_law = law_type:law_laissez_faire
 	activate_law = law_type:law_wasteland_trade
 	activate_law = law_type:law_tenant_farmers
-	activate_law = law_type:law_limited_settlement
+	#activate_law = law_type:law_limited_settlement
+	activate_law = law_type:law_monocracy
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_chosen_lackeys
 }
 
 ## Cults, like the Children of the Atom
@@ -109,6 +135,9 @@ effect_starting_politics_cult_settlers = {
 	activate_law = law_type:law_wastelander_tax
 	activate_law = law_type:law_limited_settlement
 	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_theocracy
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
 }
 
 ## Brotherhood of Steel
@@ -121,6 +150,10 @@ effect_starting_politics_military_order = {
 	activate_law = law_type:law_wastelander_tax
 	activate_law = law_type:law_no_colonial_affairs
 	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_theocracy
+	activate_law = law_type:law_technocracy ## either this, or oligarchy... or autocracy?
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_professional_army
 }
 
 ## Military Groups, not that nice, but not isolationist BoS and not quite raiders and not enclave. Nothing really like it in canon.
@@ -131,8 +164,12 @@ effect_starting_politics_military = {
 	activate_law = law_type:law_command_economy
 	activate_law = law_type:law_wasteland_trade
 	activate_law = law_type:law_wastelander_tax
-	activate_law = law_type:law_limited_settlement
+	#activate_law = law_type:law_limited_settlement
 	activate_law = law_type:law_religious_schools	## TODO some type of "military school"?
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_oligarchy	## either this or autocracy
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_professional_army
 }
 
 ###### Related to acceptance
@@ -153,6 +190,23 @@ effect_starting_politics_xenophobe_society = {
 
 }
 
+
+###### Specific nations or clusters
+
 effect_starting_politics_enclave = {
 	effect_starting_politics_military = yes ## TODO
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_professional_army
+
+}
+
+effect_starting_politics_institute = {
+	effect_starting_politics_military = yes ## TODO
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_oligarchy
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_professional_army
+
 }

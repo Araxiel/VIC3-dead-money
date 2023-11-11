@@ -44,7 +44,7 @@ law_national_guard = {
 	progressiveness = 25
 
 	unlocking_technologies = {
-		law_enforcement
+		tech_law_enforcement
 	}
 
 	institution = institution_home_affairs
@@ -117,7 +117,7 @@ law_secret_police = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
-		central_archives
+		tech_internal_security
 	}
 
 	modifier = {
@@ -161,6 +161,10 @@ law_guaranteed_liberties = {
 	unlocking_laws = {
 		law_right_of_assembly
 		law_protected_speech
+	}
+
+	unlocking_technologies = {
+		tech_human_rights
 	}
 	
 	modifier = {
