@@ -38,8 +38,20 @@ STATES = {
 
 	s:STATE_NEWRENO = {
 		create_state = {
-			country = c:NRN
-			owned_provinces = { "x69D4CD" "x7DBEA8" "x8F699F" "x98B97D" "xAE9A85" "xAEE6E4" "xB1DBB6" "xB8FB78" "xCFC9B9" "xD0BDE6" "xD397F5" "xF5DBD9" }
+			country = c:NRMO
+			owned_provinces = { "xAEE6E4" "x7DBEA8" "xAE9A85" }
+		}
+		create_state = {
+			country = c:NRBH
+			owned_provinces = { "xB1DBB6" "xCFC9B9" "x8F699F" }
+		}
+		create_state = {
+			country = c:NRWR
+			owned_provinces = { "xD0BDE6" "xD397F5" "xF5DBD9" }
+		}
+		create_state = {
+			country = c:NRSA
+			owned_provinces = { "x69D4CD" "x98B97D" "xB8FB78" }
 		}
 		
 		add_homeland = westcoaster
