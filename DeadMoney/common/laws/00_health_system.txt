@@ -41,7 +41,7 @@ law_shamans = {
 	progressiveness = 50
 	
 	unlocking_technologies = {
-		medical_degrees
+		tech_learned
 	}
 
 	institution = institution_health_system
@@ -104,7 +104,7 @@ law_frontier_doctors = {
 	progressiveness = 50
 	
 	unlocking_technologies = {
-		medical_degrees
+		tech_medicine
 	}	
 
 	institution = institution_health_system
@@ -167,7 +167,7 @@ law_private_health_insurance = {
 	progressiveness = 75
 	
 	unlocking_technologies = {
-		pharmaceuticals
+		tech_doctors
 	}
 	
 	modifier = {
@@ -220,7 +220,8 @@ law_public_health_insurance = {
 	progressiveness = 100
 	
 	unlocking_technologies = {
-		pharmaceuticals
+		tech_doctors
+		tech_human_rights
 	}
 	
 	modifier = {
