@@ -84,7 +84,6 @@ effect_starting_politics_tribal_centralized = {
 effect_starting_politics_decent_settlers = {
 	effect_starting_politics_default = yes
 	activate_law = law_type:law_right_of_assembly
-	activate_law = law_type:law_womens_suffrage
 	activate_law = law_type:law_slavery_banned
 	activate_law = law_type:law_traditionalism
 	activate_law = law_type:law_wasteland_trade
