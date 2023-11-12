@@ -3,18 +3,21 @@
 		region_state:HWH = {
 			create_pop = {
 				culture = hawaiian
+				religion = religion_oldworldblues
 				size = 10500
 			}
 		}
 		region_state:HWR = {
 			create_pop = {
 				culture = hawaiian
+				religion = religion_oldworldblues
 				size = 7000
 			}
 		}
 		region_state:HWT = {
 			create_pop = {
 				culture = hawaiian
+				religion = religion_oldworldblues
 				size = 5500
 			}
 		}

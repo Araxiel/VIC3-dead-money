@@ -3,18 +3,21 @@
 		region_state:LBR = {
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 860
 			}
 		}
 		region_state:LVSK = {
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 700
 			}
 		}
 		region_state:LSW = {
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 500
 			}
 		}
@@ -23,20 +26,24 @@
 		region_state:HPV = {
 			create_pop = {
 				culture = westcoaster
+				religion = religion_oldworldblues
 				size = 2100
 			}
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 200
 			}
 		}
 		region_state:VPS = {
 			create_pop = {
 				culture = westcoaster
+				religion = religion_oldworldblues
 				size = 700
 			}
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 300
 			}
 		}
@@ -45,6 +52,7 @@
 		region_state:BRKH = {
 			create_pop = {
 				culture = westcoast_tribal
+				religion = animist
 				size = 1680
 			}
 		}

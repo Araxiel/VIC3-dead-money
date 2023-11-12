@@ -3,6 +3,7 @@
 		region_state:TDEN = {
 			create_pop = {
 				culture = westcoaster
+				religion = religion_oldworldblues
 				size = 2200
 			}
 		}
@@ -11,6 +12,7 @@
 		region_state:AROY = {
 			create_pop = {
 				culture = westcoast_tribal	
+				religion = animist
 				size = 1800
 			}
 		}
@@ -19,6 +21,7 @@
 		region_state:KLAM = {
 			create_pop = {
 				culture = westcoaster
+				religion = religion_oldworldblues
 				size = 1800
 			}
 			create_pop = {
