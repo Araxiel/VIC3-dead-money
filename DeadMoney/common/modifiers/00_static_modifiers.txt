@@ -26,7 +26,7 @@ base_values = {
 	state_tax_capacity_add = 100
 	state_infrastructure_add = 3
 	
-	state_poor_expected_sol = 2
+	state_poor_expected_sol = 3
 	state_middle_expected_sol = 10
 	state_rich_expected_sol = 15
 	state_expected_sol_from_literacy = 10
@@ -38,13 +38,12 @@ base_values = {
 	
 	# To balance for unincorporated states not paying taxes
 	state_unincorporated_starting_wages_mult = -0.20
-	building_unincorporated_subsistence_output_mult = -0.20
+	#building_unincorporated_subsistence_output_mult = -0.20
 
 	## Subsistence Salvage is near untaxable
-	building_group_bg_subsistence_salvage_tax_mult = -0.5
-	building_group_bg_subsistence_salvage_standard_of_living_add = -1
-	building_group_bg_subsistence_agriculture_tax_mult = -0.5
-	building_group_bg_subsistence_agriculture_standard_of_living_add = -1
+	building_group_bg_subsistence_salvage_tax_mult = -0.85
+	#building_group_bg_subsistence_salvage_standard_of_living_add = -1
+	building_group_bg_rural_standard_of_living_add = -1
 		
 	country_construction_add = 10
 	
@@ -98,8 +97,10 @@ coastal_state = {
 
 working_conditions = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	building_group_bg_rural_laborers_mortality_mult = 0.15
-	building_group_bg_rural_soldiers_mortality_mult = 0.15
+	building_group_bg_rural_mortality_mult = 0.05
+	building_group_bg_rural_laborers_mortality_mult = 0.1
+	building_group_bg_rural_soldiers_mortality_mult = 0.1
+	building_group_bg_rural_peasants_mortality_mult = 0.1
 
 	building_group_bg_salvaging_laborers_mortality_mult = 0.10
 	building_group_bg_salvaging_soldiers_mortality_mult = 0.10

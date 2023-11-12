@@ -62,7 +62,7 @@ pm_subsistence_ownership_farming_private = {
 
 ## Production
 
-pm_subistence_farming_base = {
+pm_subsistance_farming_base = {
 	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
 
 	building_modifiers = {
@@ -81,7 +81,7 @@ pm_subistence_farming_base = {
 	}
 }
 
-pm_subistence_farming_no_workshops = {
+pm_subsistance_farming_no_workshops = {
 	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
 
 	building_modifiers = {
@@ -95,7 +95,7 @@ pm_subistence_farming_no_workshops = {
 	}
 }
 
-pm_subistence_farming_home_workshops = {
+pm_subsistance_farming_home_workshops = {
 	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
 
 	building_modifiers = {
@@ -110,7 +110,7 @@ pm_subistence_farming_home_workshops = {
 	}
 }
 
-pm_subistence_farming_independence_free = {
+pm_subsistance_farming_independence_free = {
 	texture = "gfx/interface/icons/production_method_icons/no_serfdom.dds"
 
 	building_modifiers = {					
@@ -120,7 +120,7 @@ pm_subistence_farming_independence_free = {
 	}
 }
 
-pm_subistence_farming_independence_serfs = {
+pm_subsistance_farming_independence_serfs = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 
 	building_modifiers = {					

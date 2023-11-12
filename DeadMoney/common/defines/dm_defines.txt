@@ -28,6 +28,9 @@ NEconomy = {
 	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 3 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers 	- Default: 50
 
 	SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 35   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages	- Default: 150
+
+	## testing
+	PEASANT_STARTING_WAGE_RATE_FACTOR = 5.0		# For the sake of calculating starting normal wages, treat peasants as having this pop type wage multiplier		- Default: 1.0
 }
 
 NMilitary = {
@@ -42,6 +45,10 @@ NDiplomacy = {
 }
 
 NPops = {
+
+	## test
+	QUALIFICATIONS_NUM_MONTHS_AT_START = 5				# How many months of qualifications should be seeded to pops at start of game?	- Default:	60
+	EXPECTED_SOL_FROM_LITERACY_SUBSISTENCE_MULT = 0.05		# Expected SoL from literacy is multiplied by this for Pops working in subsistence buildings	- Default:	0.25
 
 	LOYALTIES_GAIN_GRACE_PERIOD = "2188.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
 

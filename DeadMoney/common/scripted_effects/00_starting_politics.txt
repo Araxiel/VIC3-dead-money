@@ -26,6 +26,7 @@ effect_starting_politics_settlers_decentralized = {
 	activate_law = law_type:law_circumstancial_leader
 	activate_law = law_type:law_nongovernmental
 	activate_law = law_type:law_hereditary_bureaucrats
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Decentralized Raiders
@@ -39,6 +40,7 @@ effect_starting_politics_raiders_decentralized = {
 	activate_law = law_type:law_circumstancial_leader
 	activate_law = law_type:law_autocracy
 	activate_law = law_type:law_chosen_lackeys
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Centralized Raiders
@@ -52,6 +54,7 @@ effect_starting_politics_raiders_settled = {
 	activate_law = law_type:law_monocracy
 	activate_law = law_type:law_autocracy
 	activate_law = law_type:law_chosen_lackeys
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Decentralized Tribals
@@ -65,6 +68,7 @@ effect_starting_politics_tribal_decentralized = {
 	activate_law = law_type:law_circumstancial_leader
 	activate_law = law_type:law_elder_council
 	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Centralized Tribals
@@ -78,6 +82,7 @@ effect_starting_politics_tribal_centralized = {
 	activate_law = law_type:law_local_leader
 	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Most "decent guy" settlers, like NCR, Mormons, etc.
@@ -93,6 +98,7 @@ effect_starting_politics_decent_settlers = {
 	activate_law = law_type:law_local_leader
 	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_waster_trade
 }
 
 ## Most basic settlers, Junktown, etc.
@@ -108,6 +114,7 @@ effect_starting_politics_basic_settlers = {
 	activate_law = law_type:law_local_leader
 	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_waster_trade
 }
 
 ## Less scrupelous settlers, like New Reno
@@ -122,6 +129,7 @@ effect_starting_politics_criminal_settlers = {
 	activate_law = law_type:law_monocracy
 	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_chosen_lackeys
+	activate_law = law_type:law_waster_trade
 }
 
 ## Cults, like the Children of the Atom
@@ -137,6 +145,7 @@ effect_starting_politics_cult_settlers = {
 	activate_law = law_type:law_theocracy
 	activate_law = law_type:law_oligarchy
 	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_waster_trade
 }
 
 ## Brotherhood of Steel
@@ -153,6 +162,7 @@ effect_starting_politics_military_order = {
 	activate_law = law_type:law_technocracy ## either this, or oligarchy... or autocracy?
 	activate_law = law_type:law_appointed_bureaucrats
 	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_waster_isolation
 }
 
 ## Military Groups, not that nice, but not isolationist BoS and not quite raiders and not enclave. Nothing really like it in canon.
@@ -169,6 +179,7 @@ effect_starting_politics_military = {
 	activate_law = law_type:law_oligarchy	## either this or autocracy
 	activate_law = law_type:law_appointed_bureaucrats
 	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_waster_isolation
 }
 
 ###### Related to acceptance

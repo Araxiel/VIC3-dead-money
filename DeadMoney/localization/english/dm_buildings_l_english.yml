@@ -99,42 +99,34 @@
 
   ### Salvage
   ## Subsistence
+  bg_subsistence_buildings: "Subsistence"
   building_subsistence_salvage: "Subsistence Salvage"
   bg_subsistence_salvage: "$building_subsistence_salvage$"
 
-  pmg_subistence_salvaging_base: "Base"
-  pmg_subistence_salvaging_home_workshops: "Home Workshops"
-  pmg_subistence_salvaging_independence: "Freedom"
-  pmg_subistence_salvaging_ownership: "Ownership"
+  pmg_subsistance_salvaging_base: "Base"
+  pmg_subsistance_salvaging_interaction: "Waster Interactions"
 
-  pm_subsistence_salvaging_ownership_independent: "Independent Scavvers"
-  pm_subsistence_salvaging_ownership_barons: "Subservient Scavvers"
-  pm_subsistence_salvaging_ownership_private: "Hired Scavvers"
-  pm_subsistence_ownership_government_run: "$str_government_run$"
-  pm_subsistence_ownership_order_run: "$str_order_run$"
-  pm_subsistence_ownership_church_run: "$str_church_run$"
-  pm_subistence_salvaging_base: "$pmg_subistence_salvaging_base$"
-  pm_subistence_salvaging_no_workshops: "No Workshops"
-  pm_subistence_salvaging_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
-  pm_subistence_salvaging_independence_free: "Free Scavengers"
-  pm_subistence_salvaging_independence_serfs: "Extorted Scavengers"
+  pm_subsistance_salvaging_base: "$pmg_subsistance_salvaging_base$"
+  pm_subsistance_salvaging_isolation: "Isolation"
+  pm_subsistance_salvaging_trade: "Trade"
+  pm_subsistance_salvaging_taxation: "Taxation"
 
   ### Agriculture
   building_subsistence_farms: "Subsistence Farms"
 
-  pmg_subistence_farms_base: "$pmg_subistence_salvaging_base$"
-  pmg_subistence_farms_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
-  pmg_subistence_farms_independence: "$pmg_subistence_salvaging_independence$"
-  pmg_subistence_agri_ownership: "$pmg_subistence_salvaging_ownership$"
+  pmg_subsistance_farms_base: "$pmg_subsistance_salvaging_base$"
+  pmg_subsistance_farms_home_workshops: "$pmg_subsistance_salvaging_home_workshops$"
+  pmg_subsistance_farms_independence: "$pmg_subsistance_salvaging_independence$"
+  pmg_subsistance_agri_ownership: "$pmg_subsistance_salvaging_ownership$"
 
   pm_subsistence_ownership_farming_independent: "Independent Peasants"
   pm_subsistence_ownership_farming_barons: "Subservient Peasants"
   pm_subsistence_ownership_farming_private: "Hired Peasants"
-  pm_subistence_farming_base: "$pmg_subistence_salvaging_base$"
-  pm_subistence_farming_no_workshops: "$pm_subistence_salvaging_no_workshops$"
-  pm_subistence_farming_home_workshops: "$pmg_subistence_salvaging_home_workshops$"
-  pm_subistence_farming_independence_free: "Free Peasants"
-  pm_subistence_farming_independence_serfs: "Extorted Peasants"
+  pm_subsistance_farming_base: "$pmg_subsistance_salvaging_base$"
+  pm_subsistance_farming_no_workshops: "$pm_subsistance_salvaging_no_workshops$"
+  pm_subsistance_farming_home_workshops: "$pmg_subsistance_salvaging_home_workshops$"
+  pm_subsistance_farming_independence_free: "Free Peasants"
+  pm_subsistance_farming_independence_serfs: "Extorted Peasants"
 
   #### Urban
   # Trade Center

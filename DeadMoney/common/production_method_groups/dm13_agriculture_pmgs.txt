@@ -1,6 +1,6 @@
 ﻿## Subsistence 
 
-pmg_subistence_agri_ownership = {
+pmg_subsistance_agri_ownership = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 
 	production_methods = {
@@ -13,28 +13,28 @@ pmg_subistence_agri_ownership = {
 	}
 }
 
-pmg_subistence_farms_base = {
+pmg_subsistance_farms_base = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 
 	production_methods = {
-		pm_subistence_farming_base
+		pm_subsistance_farming_base
 	}
 }
 
-pmg_subistence_farms_home_workshops = {
+pmg_subsistance_farms_home_workshops = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 
 	production_methods = {
-		pm_subistence_farming_no_workshops
-		pm_subistence_farming_home_workshops
+		pm_subsistance_farming_no_workshops
+		pm_subsistance_farming_home_workshops
 	}
 }
 
-pmg_subistence_farms_independence = {
+pmg_subsistance_farms_independence = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 
 	production_methods = {
-		pm_subistence_farming_independence_free
-		pm_subistence_farming_independence_serfs
+		pm_subsistance_farming_independence_free
+		pm_subsistance_farming_independence_serfs
 	}
 }

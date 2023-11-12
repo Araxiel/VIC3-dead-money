@@ -1,14 +1,14 @@
 ﻿
 building_subsistence_farms = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_subsistence_buildings
 
 	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
 	production_method_groups = {
-		pmg_subistence_farms_base
-		pmg_subistence_farms_home_workshops
-		pmg_subistence_farms_independence
-		pmg_subistence_agri_ownership
+		pmg_subsistance_farms_base
+		pmg_subsistance_farms_home_workshops
+		pmg_subsistance_farms_independence
+		pmg_subsistance_agri_ownership
 	}
 	
 	buildable = no

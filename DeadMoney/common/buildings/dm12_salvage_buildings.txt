@@ -4,18 +4,16 @@ building_subsistence_salvage = {
 
 	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
-	economic_contribution = 0.2
+	#economic_contribution = 0.2
 
 	production_method_groups = {
-		pmg_subistence_salvaging_base
-		pmg_subistence_salvaging_home_workshops
-		pmg_subistence_salvaging_independence
-		pmg_subistence_salvaging_ownership
+		pmg_subsistance_salvaging_base
+		pmg_subsistance_salvaging_interaction
 	}
 	
 	buildable = no
 	expandable = no
 	downsizeable = no
-	min_raise_to_hire = 0.30
+	min_raise_to_hire = 0.20
 	slaves_role = peasants
 }

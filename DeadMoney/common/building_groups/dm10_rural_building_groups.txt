@@ -93,11 +93,23 @@ bg_salvaging = {
 	economy_of_scale_ai_factor = 2.0
 }
 
-bg_subsistence_salvage = {
-	parent_group = bg_salvaging
+## subsistence group
 
+bg_subsistence_buildings = {
+	parent_group = bg_rural
+
+	## taken from vanilla agriculture
 	land_usage = rural
 
+	lens = agriculture
+
+	economy_of_scale = yes
+
+	# used in vanilla agriculture, but shouldn't be used here 
+	# urbanization = 5
+	# infrastructure_usage_per_level = 1
+
+	# taken from vanilla subsistence agriculture
 	always_possible = yes
 	
 	auto_place_buildings = yes
@@ -111,7 +123,17 @@ bg_subsistence_salvage = {
 	hires_unemployed_only = yes
 	
 	ignores_productivity_when_hiring = yes
+
+	## new
+	can_use_slaves = no
 }
+
+bg_subsistence_salvage = {
+	parent_group = bg_subsistence_buildings
+
+	default_building = building_subsistence_salvage
+}
+
 
 ## Agriculture
 
@@ -135,22 +157,4 @@ bg_agriculture = {
 	}
 	
 	economy_of_scale_ai_factor = 1.5
-}
-
-bg_subsistence_agriculture = {
-	parent_group = bg_agriculture
-
-	always_possible = yes
-	
-	auto_place_buildings = yes
-
-	is_subsistence = yes
-	
-	default_building = building_subsistence_farms
-	
-	fired_pops_become_radical = no
-	
-	hires_unemployed_only = yes
-	
-	ignores_productivity_when_hiring = yes
 }
