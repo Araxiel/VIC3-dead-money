@@ -2,7 +2,7 @@
 
 Thank you for investing your time in contributing to the project and bring the Fallout Wasteland to Victoria 3!
 
-This guide will be split into three sections:
+This guide will be split into two sections:
 1. Types of contributions
 2. How to contribute as a Github newcomer
 
