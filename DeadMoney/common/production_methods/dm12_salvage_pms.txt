@@ -16,6 +16,7 @@ pm_subsistence_salvaging_ownership_independent = {
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
+			building_group_bg_subsistence_salvage_tax_mult = -0.8
 		}
 	}
 }
